@@ -758,35 +758,35 @@
     { id:'people_easy', title:'Names & People', tier:'Easy', type:'multiple', icon:'\ud83e\uddd1', cost:20,
       intro:{ ref:'Hebrews 11:1\u20132', verse:'By faith the people of old received their commendation.', note:'A quick tour of the most famous names in Scripture \u2014 great if you\u2019re just getting your feet under you.' },
       questions: [
-        { q:"Who was thrown into a lions' den for praying?", opts:["Daniel","Samson","David","Elijah"], correct:0, explain:"Daniel kept praying despite the king's decree, and God shut the lions' mouths." },
-        { q:"Who led the Israelites out of Egypt?", opts:["Joshua","Moses","Aaron","Noah"], correct:1, explain:"Moses confronted Pharaoh and led Israel through the Red Sea to freedom." },
-        { q:"Who was the first man, according to Genesis?", opts:["Noah","Abraham","Adam","Cain"], correct:2, explain:"Adam was formed from the dust and placed in the Garden of Eden." },
-        { q:"Who betrayed Jesus for 30 pieces of silver?", opts:["Peter","Judas Iscariot","Thomas","John"], correct:1, explain:"Judas identified Jesus to the authorities with a kiss." },
-        { q:"Who was known for his great strength and long hair?", opts:["Samson","Goliath","Gideon","Saul"], correct:0, explain:"Samson's strength was tied to a vow never to cut his hair." },
-        { q:"Who was swallowed by a great fish?", opts:["Elijah","Jonah","Peter","Job"], correct:1, explain:"Jonah spent three days inside the fish before being spit out onto dry land." },
-        { q:"Who was Jesus' mother?", opts:["Martha","Elizabeth","Mary","Anna"], correct:2, explain:"Mary was the young woman chosen to carry and raise Jesus." }
+        { q:"Who was thrown into a lions' den for praying?", opts:["Elijah","Samson","Daniel","David"], correct:2, explain:"Daniel kept praying despite the king's decree, and God shut the lions' mouths." },
+        { q:"Who led the Israelites out of Egypt?", opts:["Moses","Aaron","Noah","Joshua"], correct:0, explain:"Moses confronted Pharaoh and led Israel through the Red Sea to freedom." },
+        { q:"Who was the first man, according to Genesis?", opts:["Abraham","Noah","Cain","Adam"], correct:3, explain:"Adam was formed from the dust and placed in the Garden of Eden." },
+        { q:"Who betrayed Jesus for 30 pieces of silver?", opts:["John","Thomas","Peter","Judas Iscariot"], correct:3, explain:"Judas identified Jesus to the authorities with a kiss." },
+        { q:"Who was known for his great strength and long hair?", opts:["Gideon","Samson","Goliath","Saul"], correct:1, explain:"Samson's strength was tied to a vow never to cut his hair." },
+        { q:"Who was swallowed by a great fish?", opts:["Peter","Job","Elijah","Jonah"], correct:3, explain:"Jonah spent three days inside the fish before being spit out onto dry land." },
+        { q:"Who was Jesus' mother?", opts:["Elizabeth","Anna","Mary","Martha"], correct:2, explain:"Mary was the young woman chosen to carry and raise Jesus." }
       ] },
     { id:'numbers_medium', title:'Numbers in the Bible', tier:'Medium', type:'multiple', icon:'\ud83d\udd22', cost:35,
       intro:{ ref:'Deuteronomy 8:2', verse:'Remember the whole way that the LORD your God has led you these forty years in the wilderness.', note:'Scripture is full of specific numbers that carry real weight \u2014 this one rewards paying attention to the details.' },
       questions: [
-        { q:"How many days and nights did it rain during the flood?", opts:["7","40","100","3"], correct:1, explain:"Forty days and nights of rain flooded the earth in Noah's story." },
-        { q:"How many years did Jacob work for Laban before marrying both Leah and Rachel?", opts:["7","14","20","10"], correct:1, explain:"Seven years for Leah (after being deceived) and seven more for Rachel \u2014 fourteen total." },
-        { q:"How many disciples did Jesus choose?", opts:["7","10","12","20"], correct:2, explain:"Jesus chose twelve disciples to follow and learn from Him closely." },
-        { q:"How many years of famine did Joseph predict from Pharaoh's dream?", opts:["3","5","7","10"], correct:2, explain:"Seven years of plenty would be followed by seven years of famine." },
-        { q:"How many days was Jesus in the tomb before rising?", opts:["1","3","7","40"], correct:1, explain:"Jesus rose on the third day, a central claim of the Christian faith." },
-        { q:"How many plagues struck Egypt before Pharaoh let Israel go?", opts:["5","7","10","12"], correct:2, explain:"Ten plagues struck Egypt, ending with the death of the firstborn." },
-        { q:"How many years did Solomon take to build the temple?", opts:["3","7","12","20"], correct:1, explain:"The temple took seven years to complete." }
+        { q:"How many days and nights did it rain during the flood?", opts:["3","7","100","40"], correct:3, explain:"Forty days and nights of rain flooded the earth in Noah's story." },
+        { q:"How many years did Jacob work for Laban before marrying both Leah and Rachel?", opts:["14","20","7","10"], correct:0, explain:"Seven years for Leah (after being deceived) and seven more for Rachel \u2014 fourteen total." },
+        { q:"How many disciples did Jesus choose?", opts:["10","20","12","7"], correct:2, explain:"Jesus chose twelve disciples to follow and learn from Him closely." },
+        { q:"How many years of famine did Joseph predict from Pharaoh's dream?", opts:["10","3","5","7"], correct:3, explain:"Seven years of plenty would be followed by seven years of famine." },
+        { q:"How many days was Jesus in the tomb before rising?", opts:["40","3","7","1"], correct:1, explain:"Jesus rose on the third day, a central claim of the Christian faith." },
+        { q:"How many plagues struck Egypt before Pharaoh let Israel go?", opts:["12","10","5","7"], correct:1, explain:"Ten plagues struck Egypt, ending with the death of the firstborn." },
+        { q:"How many years did Solomon take to build the temple?", opts:["7","20","3","12"], correct:0, explain:"The temple took seven years to complete." }
       ] },
     { id:'books_hard', title:'Books of the Bible', tier:'Hard', type:'multiple', icon:'\ud83d\udcda', cost:50,
       intro:{ ref:'2 Timothy 3:16', verse:'All Scripture is God-breathed and is useful for teaching.', note:'This one goes past the basics \u2014 book order, structure, and a few genuinely obscure details.' },
       questions: [
-        { q:"Which Old Testament book never mentions God's name directly?", opts:["Ruth","Esther","Job","Nahum"], correct:1, explain:"Esther's story is famous for God working behind the scenes without being named outright." },
+        { q:"Which Old Testament book never mentions God's name directly?", opts:["Esther","Nahum","Job","Ruth"], correct:0, explain:"Esther's story is famous for God working behind the scenes without being named outright." },
         { q:"Which two Old Testament books are named after women?", opts:["Ruth and Esther","Naomi and Ruth","Sarah and Rebekah","Deborah and Ruth"], correct:0, explain:"Ruth and Esther are the only two Old Testament books named for their female protagonists." },
-        { q:"How many chapters does the book of Obadiah have?", opts:["1","3","5","12"], correct:0, explain:"Obadiah is the shortest book in the Old Testament \u2014 just one chapter, twenty-one verses." },
-        { q:"Which book comes immediately before the Gospels in most English Bibles?", opts:["Malachi","Zechariah","Daniel","Nehemiah"], correct:0, explain:"Malachi closes the Old Testament, followed by roughly four centuries of silence before Matthew opens the New." },
-        { q:"Which New Testament letter is addressed to a specific individual about a runaway slave?", opts:["Titus","Philemon","Jude","3 John"], correct:1, explain:"Paul wrote Philemon as a personal appeal on behalf of Onesimus." },
-        { q:"Which book of the Bible is traditionally attributed to an anonymous author, despite being included among Paul's letters in many old Bibles?", opts:["Galatians","Hebrews","Philippians","Titus"], correct:1, explain:"Hebrews never names its author, and its authorship has been debated since the early church." },
-        { q:"Which Old Testament book is entirely a poem structured as an acrostic, working through the Hebrew alphabet?", opts:["Nahum","Lamentations","Joel","Micah"], correct:1, explain:"Lamentations' poems are built letter by letter through the Hebrew alphabet as a structure for grief." }
+        { q:"How many chapters does the book of Obadiah have?", opts:["1","12","3","5"], correct:0, explain:"Obadiah is the shortest book in the Old Testament \u2014 just one chapter, twenty-one verses." },
+        { q:"Which book comes immediately before the Gospels in most English Bibles?", opts:["Nehemiah","Malachi","Zechariah","Daniel"], correct:1, explain:"Malachi closes the Old Testament, followed by roughly four centuries of silence before Matthew opens the New." },
+        { q:"Which New Testament letter is addressed to a specific individual about a runaway slave?", opts:["3 John","Titus","Jude","Philemon"], correct:3, explain:"Paul wrote Philemon as a personal appeal on behalf of Onesimus." },
+        { q:"Which book of the Bible is traditionally attributed to an anonymous author, despite being included among Paul's letters in many old Bibles?", opts:["Titus","Hebrews","Philippians","Galatians"], correct:1, explain:"Hebrews never names its author, and its authorship has been debated since the early church." },
+        { q:"Which Old Testament book is entirely a poem structured as an acrostic, working through the Hebrew alphabet?", opts:["Nahum","Joel","Lamentations","Micah"], correct:2, explain:"Lamentations' poems are built letter by letter through the Hebrew alphabet as a structure for grief." }
       ] },
     { id:'true_false_1', title:'True or False: Old Testament', tier:'Easy', type:'multiple', icon:'\ud83d\udd25', cost:20,
       intro:{ ref:'Psalm 119:160', verse:'The sum of your word is truth.', note:'Some of these sound true because they\u2019re famous \u2014 but a few are popular misquotes. Read carefully.' },
@@ -813,95 +813,95 @@
     { id:'miracles_medium', title:'Miracles of Jesus', tier:'Medium', type:'multiple', icon:'\u2728', cost:35,
       intro:{ ref:'John 20:30\u201331', verse:'Jesus did many other signs\u2026 but these are written so that you may believe.', note:'Every miracle in the Gospels pointed at something \u2014 see how well you know the details behind the wonder.' },
       questions: [
-        { q:"What was Jesus' first recorded miracle?", opts:["Turning water into wine", "Walking on water", "Healing a blind man", "Feeding the 5,000"], correct:0, explain:"This happened at a wedding in Cana, at His mother's request." },
-        { q:"How many people did Jesus feed with five loaves and two fish?", opts:["500", "5,000", "50", "50,000"], correct:1, explain:"This miracle, feeding 5,000, appears in all four Gospels." },
-        { q:"What did Jesus do for Lazarus?", opts:["Healed his blindness", "Raised him from the dead", "Cast out a demon", "Cured his leprosy"], correct:1, explain:"Lazarus had been dead four days when Jesus called him out of the tomb." },
-        { q:"How did Jesus calm a storm on the sea?", opts:["He rowed to shore", "He spoke and rebuked the wind and waves", "He prayed all night first", "He waited it out"], correct:1, explain:"His disciples were amazed that even the wind and waves obeyed Him." },
-        { q:"How many lepers did Jesus heal who then didn't return to thank Him, except one?", opts:["Ten", "Three", "Seven", "Twelve"], correct:0, explain:"Of the ten healed, only one, a Samaritan, came back to give thanks." },
-        { q:"What did Jesus do when Peter tried to walk on water and began to sink?", opts:["Let him struggle to learn a lesson", "Immediately reached out and caught him", "Called for the other disciples to help", "Told him to swim to the boat"], correct:1, explain:"Jesus reached out immediately, asking why Peter doubted." }
+        { q:"What was Jesus' first recorded miracle?", opts:["Walking on water","Turning water into wine","Feeding the 5,000","Healing a blind man"], correct:1, explain:"This happened at a wedding in Cana, at His mother's request." },
+        { q:"How many people did Jesus feed with five loaves and two fish?", opts:["50,000","5,000","50","500"], correct:1, explain:"This miracle, feeding 5,000, appears in all four Gospels." },
+        { q:"What did Jesus do for Lazarus?", opts:["Cast out a demon","Healed his blindness","Cured his leprosy","Raised him from the dead"], correct:3, explain:"Lazarus had been dead four days when Jesus called him out of the tomb." },
+        { q:"How did Jesus calm a storm on the sea?", opts:["He prayed all night first","He rowed to shore","He spoke and rebuked the wind and waves","He waited it out"], correct:2, explain:"His disciples were amazed that even the wind and waves obeyed Him." },
+        { q:"How many lepers did Jesus heal who then didn't return to thank Him, except one?", opts:["Twelve","Three","Seven","Ten"], correct:3, explain:"Of the ten healed, only one, a Samaritan, came back to give thanks." },
+        { q:"What did Jesus do when Peter tried to walk on water and began to sink?", opts:["Let him struggle to learn a lesson","Immediately reached out and caught him","Told him to swim to the boat","Called for the other disciples to help"], correct:1, explain:"Jesus reached out immediately, asking why Peter doubted." }
       ] },
     { id:'parables_medium', title:'Parables of Jesus', tier:'Medium', type:'multiple', icon:'\ud83c\udf3e', cost:35,
       intro:{ ref:'Matthew 13:34\u201335', verse:'All these things Jesus said to the crowds in parables.', note:'Jesus taught the deepest truths through ordinary stories \u2014 farmers, coins, sheep, and feasts.' },
       questions: [
-        { q:"In the Parable of the Prodigal Son, what does the father do when the son returns?", opts:["Turns him away", "Runs to him and celebrates", "Makes him work as a servant", "Ignores him"], correct:1, explain:"The father's joyful welcome is the heart of this well-known parable." },
-        { q:"In the Parable of the Good Samaritan, who stopped to help the injured man?", opts:["A priest", "A Levite", "A Samaritan", "A Pharisee"], correct:2, explain:"The Samaritan, someone the audience wouldn't expect, is the one who shows mercy." },
-        { q:"In the Parable of the Sower, what happened to seed that fell on rocky ground?", opts:["It grew into a large tree", "It sprang up quickly but withered", "It never grew at all", "Birds ate it immediately"], correct:1, explain:"Without deep roots, the plant couldn't survive when troubles came." },
-        { q:"In the Parable of the Lost Sheep, how many sheep did the shepherd leave to find the one?", opts:["9", "50", "99", "100"], correct:2, explain:"The shepherd leaves ninety-nine to go after the one that wandered off." },
-        { q:"In the Parable of the Talents, what happened to the servant who buried his talent?", opts:["He was praised for caution", "He was rebuked for not using it", "He was given more talents", "He was made a ruler"], correct:1, explain:"The parable praises those who put what they were given to use." },
-        { q:"In the Parable of the Ten Virgins, what separated the wise from the foolish?", opts:["Their wealth", "Whether they brought extra oil for their lamps", "Their age", "Where they stood in line"], correct:1, explain:"The wise virgins prepared with extra oil; the foolish ones ran out waiting for the bridegroom." }
+        { q:"In the Parable of the Prodigal Son, what does the father do when the son returns?", opts:["Turns him away","Runs to him and celebrates","Makes him work as a servant","Ignores him"], correct:1, explain:"The father's joyful welcome is the heart of this well-known parable." },
+        { q:"In the Parable of the Good Samaritan, who stopped to help the injured man?", opts:["A Samaritan","A Levite","A Pharisee","A priest"], correct:0, explain:"The Samaritan, someone the audience wouldn't expect, is the one who shows mercy." },
+        { q:"In the Parable of the Sower, what happened to seed that fell on rocky ground?", opts:["It sprang up quickly but withered","It grew into a large tree","It never grew at all","Birds ate it immediately"], correct:0, explain:"Without deep roots, the plant couldn't survive when troubles came." },
+        { q:"In the Parable of the Lost Sheep, how many sheep did the shepherd leave to find the one?", opts:["100","50","99","9"], correct:2, explain:"The shepherd leaves ninety-nine to go after the one that wandered off." },
+        { q:"In the Parable of the Talents, what happened to the servant who buried his talent?", opts:["He was praised for caution","He was given more talents","He was rebuked for not using it","He was made a ruler"], correct:2, explain:"The parable praises those who put what they were given to use." },
+        { q:"In the Parable of the Ten Virgins, what separated the wise from the foolish?", opts:["Where they stood in line","Whether they brought extra oil for their lamps","Their wealth","Their age"], correct:1, explain:"The wise virgins prepared with extra oil; the foolish ones ran out waiting for the bridegroom." }
       ] },
     { id:'prophets_hard', title:'Old Testament Prophets', tier:'Hard', type:'multiple', icon:'\ud83d\udcdc', cost:50,
       intro:{ ref:'Amos 3:7', verse:'Surely the Lord GOD does nothing without revealing his secret to his servants the prophets.', note:'This one leans into specific prophets and their less-famous moments \u2014 not just Elijah and Isaiah.' },
       questions: [
-        { q:"Which prophet was taken up to heaven in a whirlwind?", opts:["Elisha", "Elijah", "Isaiah", "Jeremiah"], correct:1, explain:"Elijah was taken up in a whirlwind, with Elisha watching, in 2 Kings." },
-        { q:"Which prophet confronted King David about his sin with Bathsheba?", opts:["Samuel", "Nathan", "Gad", "Elijah"], correct:1, explain:"Nathan told David a parable that exposed his own wrongdoing." },
-        { q:"Which prophet married a woman named Gomer at God's command, as a living picture of Israel's unfaithfulness?", opts:["Hosea", "Joel", "Amos", "Micah"], correct:0, explain:"Hosea's marriage became a lived-out sermon about God's persistent love." },
-        { q:"Which prophet saw a vision of dry bones coming to life?", opts:["Isaiah", "Ezekiel", "Amos", "Micah"], correct:1, explain:"Ezekiel's vision symbolized new life for a discouraged Israel." },
-        { q:"Which prophet was told to marry an unfaithful woman as an illustration of God's love for Israel?", opts:["Amos", "Hosea", "Habakkuk", "Zephaniah"], correct:1, explain:"Hosea's own marriage became the sermon \u2014 love that pursues even after betrayal." },
-        { q:"Which minor prophet's entire message is a single chapter directed at the nation of Edom?", opts:["Obadiah", "Nahum", "Habakkuk", "Haggai"], correct:0, explain:"Obadiah, the Bible's shortest Old Testament book, confronts Edom's pride and betrayal." },
-        { q:"Which prophet argued with God after being told he'd be sent to preach mercy to Nineveh, Israel's enemy?", opts:["Jonah", "Nahum", "Micah", "Joel"], correct:0, explain:"Jonah ran the opposite direction because he didn't want Nineveh to be spared." }
+        { q:"Which prophet was taken up to heaven in a whirlwind?", opts:["Elijah","Jeremiah","Elisha","Isaiah"], correct:0, explain:"Elijah was taken up in a whirlwind, with Elisha watching, in 2 Kings." },
+        { q:"Which prophet confronted King David about his sin with Bathsheba?", opts:["Nathan","Gad","Samuel","Elijah"], correct:0, explain:"Nathan told David a parable that exposed his own wrongdoing." },
+        { q:"Which prophet married a woman named Gomer at God's command, as a living picture of Israel's unfaithfulness?", opts:["Joel","Micah","Hosea","Amos"], correct:2, explain:"Hosea's marriage became a lived-out sermon about God's persistent love." },
+        { q:"Which prophet saw a vision of dry bones coming to life?", opts:["Isaiah","Amos","Ezekiel","Micah"], correct:2, explain:"Ezekiel's vision symbolized new life for a discouraged Israel." },
+        { q:"Which prophet was told to marry an unfaithful woman as an illustration of God's love for Israel?", opts:["Habakkuk","Hosea","Zephaniah","Amos"], correct:1, explain:"Hosea's own marriage became the sermon \u2014 love that pursues even after betrayal." },
+        { q:"Which minor prophet's entire message is a single chapter directed at the nation of Edom?", opts:["Obadiah","Nahum","Habakkuk","Haggai"], correct:0, explain:"Obadiah, the Bible's shortest Old Testament book, confronts Edom's pride and betrayal." },
+        { q:"Which prophet argued with God after being told he'd be sent to preach mercy to Nineveh, Israel's enemy?", opts:["Jonah","Micah","Joel","Nahum"], correct:0, explain:"Jonah ran the opposite direction because he didn't want Nineveh to be spared." }
       ] },
     { id:'kings_hard', title:'Kings of Israel', tier:'Hard', type:'multiple', icon:'\ud83d\udc51', cost:50,
       intro:{ ref:'1 Samuel 8:6\u20137', verse:'The people\u2019s request for a king displeased Samuel\u2026 for they have not rejected you, but they have rejected me.', note:'Every king in this test made real choices with real consequences \u2014 this test rewards knowing the specifics.' },
       questions: [
-        { q:"Who was Israel's first king?", opts:["David", "Saul", "Solomon", "Samuel"], correct:1, explain:"Saul was anointed Israel's first king, though he later lost God's favor." },
-        { q:"Which king was known for his wisdom and building the first temple?", opts:["David", "Solomon", "Saul", "Rehoboam"], correct:1, explain:"Solomon asked God for wisdom and used it to build the temple in Jerusalem." },
-        { q:"Which king's foolish response to his people's request for lighter labor caused the kingdom to split?", opts:["Solomon", "Rehoboam", "Jeroboam", "Saul"], correct:1, explain:"Rehoboam threatened even heavier burdens than his father Solomon, and ten tribes broke away." },
-        { q:"Which wicked king married Jezebel?", opts:["Ahab", "Saul", "Jeroboam", "Omri"], correct:0, explain:"Ahab and Jezebel led Israel deep into idol worship." },
-        { q:"Which king rediscovered the forgotten Book of the Law during temple repairs and led a sweeping national reform?", opts:["Hezekiah", "Josiah", "Jehoshaphat", "Uzziah"], correct:1, explain:"Josiah tore his robes in grief upon hearing the Law read and reformed the kingdom around it." },
-        { q:"Which king reigned the longest in Judah's history, despite a wicked start marked by idolatry and even child sacrifice?", opts:["Manasseh", "Ahaz", "Amon", "Joash"], correct:0, explain:"Manasseh reigned 55 years \u2014 the longest of any king of Judah \u2014 and later repented after being taken captive." },
-        { q:"After Solomon's reign, the kingdom split into Israel and what other kingdom?", opts:["Judah", "Egypt", "Babylon", "Assyria"], correct:0, explain:"The united kingdom split into Israel in the north and Judah in the south." }
+        { q:"Who was Israel's first king?", opts:["David","Solomon","Saul","Samuel"], correct:2, explain:"Saul was anointed Israel's first king, though he later lost God's favor." },
+        { q:"Which king was known for his wisdom and building the first temple?", opts:["Rehoboam","Saul","David","Solomon"], correct:3, explain:"Solomon asked God for wisdom and used it to build the temple in Jerusalem." },
+        { q:"Which king's foolish response to his people's request for lighter labor caused the kingdom to split?", opts:["Saul","Jeroboam","Solomon","Rehoboam"], correct:3, explain:"Rehoboam threatened even heavier burdens than his father Solomon, and ten tribes broke away." },
+        { q:"Which wicked king married Jezebel?", opts:["Jeroboam","Omri","Ahab","Saul"], correct:2, explain:"Ahab and Jezebel led Israel deep into idol worship." },
+        { q:"Which king rediscovered the forgotten Book of the Law during temple repairs and led a sweeping national reform?", opts:["Hezekiah","Jehoshaphat","Uzziah","Josiah"], correct:3, explain:"Josiah tore his robes in grief upon hearing the Law read and reformed the kingdom around it." },
+        { q:"Which king reigned the longest in Judah's history, despite a wicked start marked by idolatry and even child sacrifice?", opts:["Amon","Ahaz","Joash","Manasseh"], correct:3, explain:"Manasseh reigned 55 years \u2014 the longest of any king of Judah \u2014 and later repented after being taken captive." },
+        { q:"After Solomon's reign, the kingdom split into Israel and what other kingdom?", opts:["Judah","Egypt","Assyria","Babylon"], correct:0, explain:"The united kingdom split into Israel in the north and Judah in the south." }
       ] },
     { id:'geography_medium', title:'Bible Geography & Places', tier:'Medium', type:'multiple', icon:'\ud83d\uddfa\ufe0f', cost:35,
       intro:{ ref:'Acts 17:26', verse:'He determined allotted periods and the boundaries of their dwelling place.', note:'Places matter throughout Scripture \u2014 this test covers where the biggest moments actually happened.' },
       questions: [
-        { q:"In which river was Jesus baptized?", opts:["The Nile", "The Jordan River", "The Euphrates", "The Tigris"], correct:1, explain:"John baptized Jesus in the Jordan River, where the Spirit descended like a dove." },
-        { q:"Which city is known as the city of David and Israel's capital?", opts:["Bethlehem", "Jerusalem", "Nazareth", "Jericho"], correct:1, explain:"Jerusalem became the political and spiritual center of Israel under David." },
-        { q:"Where was Jesus born?", opts:["Nazareth", "Jerusalem", "Bethlehem", "Capernaum"], correct:2, explain:"Bethlehem fulfilled an Old Testament prophecy about the Messiah's birthplace." },
-        { q:"Which sea did the Israelites cross during the Exodus?", opts:["The Dead Sea", "The Red Sea", "The Mediterranean Sea", "The Sea of Galilee"], correct:1, explain:"God parted the Red Sea for Israel to cross on dry ground." },
-        { q:"Where did Jesus grow up?", opts:["Bethlehem", "Jerusalem", "Nazareth", "Capernaum"], correct:2, explain:"Jesus is often called \u201cJesus of Nazareth\u201d because that's where He was raised." },
-        { q:"On what mountain did Moses receive the Ten Commandments?", opts:["Mount Carmel", "Mount Sinai", "Mount Zion", "Mount of Olives"], correct:1, explain:"Sinai is where God gave Moses the Law after Israel left Egypt." },
-        { q:"On which mountain did Elijah confront the prophets of Baal?", opts:["Mount Sinai", "Mount Carmel", "Mount Nebo", "Mount Hermon"], correct:1, explain:"Elijah's contest with 450 prophets of Baal took place on Mount Carmel." }
+        { q:"In which river was Jesus baptized?", opts:["The Tigris","The Nile","The Euphrates","The Jordan River"], correct:3, explain:"John baptized Jesus in the Jordan River, where the Spirit descended like a dove." },
+        { q:"Which city is known as the city of David and Israel's capital?", opts:["Bethlehem","Jerusalem","Nazareth","Jericho"], correct:1, explain:"Jerusalem became the political and spiritual center of Israel under David." },
+        { q:"Where was Jesus born?", opts:["Nazareth","Bethlehem","Jerusalem","Capernaum"], correct:1, explain:"Bethlehem fulfilled an Old Testament prophecy about the Messiah's birthplace." },
+        { q:"Which sea did the Israelites cross during the Exodus?", opts:["The Sea of Galilee","The Mediterranean Sea","The Red Sea","The Dead Sea"], correct:2, explain:"God parted the Red Sea for Israel to cross on dry ground." },
+        { q:"Where did Jesus grow up?", opts:["Jerusalem","Nazareth","Capernaum","Bethlehem"], correct:1, explain:"Jesus is often called \u201cJesus of Nazareth\u201d because that's where He was raised." },
+        { q:"On what mountain did Moses receive the Ten Commandments?", opts:["Mount Zion","Mount Carmel","Mount of Olives","Mount Sinai"], correct:3, explain:"Sinai is where God gave Moses the Law after Israel left Egypt." },
+        { q:"On which mountain did Elijah confront the prophets of Baal?", opts:["Mount Nebo","Mount Hermon","Mount Carmel","Mount Sinai"], correct:2, explain:"Elijah's contest with 450 prophets of Baal took place on Mount Carmel." }
       ] },
     { id:'wisdom_easy', title:'Wisdom & Proverbs', tier:'Easy', type:'multiple', icon:'\ud83e\udd89', cost:20,
       intro:{ ref:'Proverbs 4:7', verse:'The beginning of wisdom is this: Get wisdom.', note:'The easiest, most widely known lines from Proverbs and the wisdom books \u2014 a gentle warm-up.' },
       questions: [
-        { q:"According to Proverbs, what should you trust with all your heart?", opts:["Yourself", "The Lord", "Your riches", "Your friends"], correct:1, explain:"\u201cTrust in the Lord with all your heart\u201d is one of Proverbs' best-known verses." },
-        { q:"Which book is known for wisdom sayings written largely by Solomon?", opts:["Psalms", "Proverbs", "Job", "Ecclesiastes"], correct:1, explain:"Proverbs is a collection of short, practical wisdom sayings." },
-        { q:"According to Proverbs, what does pride come before?", opts:["A blessing", "A fall or destruction", "A reward", "Wisdom"], correct:1, explain:"\u201cPride goeth before destruction\u201d warns against arrogance." },
-        { q:"Which book explores the suffering of a righteous man tested by hardship?", opts:["Job", "Ruth", "Esther", "Jonah"], correct:0, explain:"Job's story wrestles with why bad things happen to a faithful person." },
-        { q:"Proverbs describes wisdom as more valuable than what?", opts:["Rubies or gold", "Land", "Cattle", "Servants"], correct:0, explain:"Wisdom is repeatedly held up as more precious than any material wealth." },
-        { q:"According to Proverbs, what turns away wrath?", opts:["A gentle answer", "Silence", "Running away", "Money"], correct:0, explain:"\u201cA gentle answer turns away wrath, but a harsh word stirs up anger.\u201d" }
+        { q:"According to Proverbs, what should you trust with all your heart?", opts:["The Lord","Your riches","Your friends","Yourself"], correct:0, explain:"\u201cTrust in the Lord with all your heart\u201d is one of Proverbs' best-known verses." },
+        { q:"Which book is known for wisdom sayings written largely by Solomon?", opts:["Job","Ecclesiastes","Proverbs","Psalms"], correct:2, explain:"Proverbs is a collection of short, practical wisdom sayings." },
+        { q:"According to Proverbs, what does pride come before?", opts:["A reward","A fall or destruction","Wisdom","A blessing"], correct:1, explain:"\u201cPride goeth before destruction\u201d warns against arrogance." },
+        { q:"Which book explores the suffering of a righteous man tested by hardship?", opts:["Job","Jonah","Esther","Ruth"], correct:0, explain:"Job's story wrestles with why bad things happen to a faithful person." },
+        { q:"Proverbs describes wisdom as more valuable than what?", opts:["Rubies or gold","Land","Servants","Cattle"], correct:0, explain:"Wisdom is repeatedly held up as more precious than any material wealth." },
+        { q:"According to Proverbs, what turns away wrath?", opts:["Silence","Running away","A gentle answer","Money"], correct:2, explain:"\u201cA gentle answer turns away wrath, but a harsh word stirs up anger.\u201d" }
       ] },
     { id:'nt_basics_easy', title:'New Testament Basics', tier:'Easy', type:'multiple', icon:'\u2721\ufe0f', cost:20,
       intro:{ ref:'Mark 1:1', verse:'The beginning of the gospel of Jesus Christ, the Son of God.', note:'A friendly starting point covering the biggest, most familiar names and events in the New Testament.' },
       questions: [
-        { q:"What are the first four books of the New Testament called?", opts:["The Epistles", "The Gospels", "The Prophecies", "The Psalms"], correct:1, explain:"Matthew, Mark, Luke, and John are known as the four Gospels." },
-        { q:"Which book tells the story of the early church after Jesus?", opts:["Acts", "Romans", "Revelation", "Hebrews"], correct:0, explain:"Acts follows the apostles as the church spreads after Jesus' ascension." },
-        { q:"Who baptized Jesus?", opts:["Peter", "John the Baptist", "Paul", "Andrew"], correct:1, explain:"John the Baptist baptized Jesus in the Jordan River." },
-        { q:"Which apostle denied knowing Jesus three times?", opts:["Peter", "John", "James", "Thomas"], correct:0, explain:"Peter denied Jesus three times before the rooster crowed, just as Jesus predicted." },
-        { q:"Who is traditionally credited with writing the most New Testament letters?", opts:["Peter", "Paul", "John", "James"], correct:1, explain:"Paul wrote roughly half of the New Testament's books as letters to churches." },
-        { q:"On what day of the week did Jesus rise from the dead?", opts:["Friday", "Saturday", "Sunday", "Monday"], correct:2, explain:"The resurrection on Sunday is why Christians have historically gathered for worship on that day." }
+        { q:"What are the first four books of the New Testament called?", opts:["The Epistles","The Prophecies","The Gospels","The Psalms"], correct:2, explain:"Matthew, Mark, Luke, and John are known as the four Gospels." },
+        { q:"Which book tells the story of the early church after Jesus?", opts:["Revelation","Acts","Romans","Hebrews"], correct:1, explain:"Acts follows the apostles as the church spreads after Jesus' ascension." },
+        { q:"Who baptized Jesus?", opts:["Paul","Andrew","Peter","John the Baptist"], correct:3, explain:"John the Baptist baptized Jesus in the Jordan River." },
+        { q:"Which apostle denied knowing Jesus three times?", opts:["Thomas","Peter","John","James"], correct:1, explain:"Peter denied Jesus three times before the rooster crowed, just as Jesus predicted." },
+        { q:"Who is traditionally credited with writing the most New Testament letters?", opts:["John","Paul","James","Peter"], correct:1, explain:"Paul wrote roughly half of the New Testament's books as letters to churches." },
+        { q:"On what day of the week did Jesus rise from the dead?", opts:["Monday","Friday","Sunday","Saturday"], correct:2, explain:"The resurrection on Sunday is why Christians have historically gathered for worship on that day." }
       ] },
     { id:'women_medium', title:'Women of the Bible', tier:'Medium', type:'multiple', icon:'\ud83d\udc51', cost:35,
       intro:{ ref:'Proverbs 31:30', verse:'A woman who fears the LORD is to be praised.', note:'From queens to prophets to ordinary mothers, these women shaped the story in ways worth knowing well.' },
       questions: [
-        { q:"Which woman hid two Israelite spies in Jericho and was spared when the city fell?", opts:["Rahab", "Deborah", "Jael", "Ruth"], correct:0, explain:"Rahab's faith and courage are later celebrated in Hebrews 11 and James 2." },
-        { q:"Who was the only female judge of Israel, leading the nation to victory over a Canaanite army?", opts:["Miriam", "Deborah", "Huldah", "Abigail"], correct:1, explain:"Deborah judged Israel and led alongside the military commander Barak." },
-        { q:"Which queen risked her life by approaching the king unsummoned to save her people from genocide?", opts:["Esther", "Bathsheba", "Vashti", "Jezebel"], correct:0, explain:"Esther's courage \u2014 \u2018if I perish, I perish\u2019 \u2014 saved the Jewish people in Persia." },
-        { q:"Who was Naomi's loyal Moabite daughter-in-law who became King David's great-grandmother?", opts:["Orpah", "Ruth", "Leah", "Tamar"], correct:1, explain:"Ruth's line runs directly to David, and ultimately to Jesus." },
-        { q:"Which sister of Moses watched over him as a baby in the Nile and later led Israel in a song of victory?", opts:["Miriam", "Deborah", "Zipporah", "Rebekah"], correct:0, explain:"Miriam appears at both the beginning and a major turning point of the Exodus story." },
-        { q:"Which woman anointed Jesus' feet with expensive perfume and wiped them with her hair?", opts:["Martha", "Mary Magdalene", "A sinful woman in Simon's house (and separately, Mary of Bethany)", "Joanna"], correct:2, explain:"Two different Gospel accounts describe women anointing Jesus' feet this way, at different times." }
+        { q:"Which woman hid two Israelite spies in Jericho and was spared when the city fell?", opts:["Deborah","Rahab","Ruth","Jael"], correct:1, explain:"Rahab's faith and courage are later celebrated in Hebrews 11 and James 2." },
+        { q:"Who was the only female judge of Israel, leading the nation to victory over a Canaanite army?", opts:["Miriam","Deborah","Abigail","Huldah"], correct:1, explain:"Deborah judged Israel and led alongside the military commander Barak." },
+        { q:"Which queen risked her life by approaching the king unsummoned to save her people from genocide?", opts:["Vashti","Esther","Jezebel","Bathsheba"], correct:1, explain:"Esther's courage \u2014 \u2018if I perish, I perish\u2019 \u2014 saved the Jewish people in Persia." },
+        { q:"Who was Naomi's loyal Moabite daughter-in-law who became King David's great-grandmother?", opts:["Ruth","Orpah","Tamar","Leah"], correct:0, explain:"Ruth's line runs directly to David, and ultimately to Jesus." },
+        { q:"Which sister of Moses watched over him as a baby in the Nile and later led Israel in a song of victory?", opts:["Zipporah","Rebekah","Miriam","Deborah"], correct:2, explain:"Miriam appears at both the beginning and a major turning point of the Exodus story." },
+        { q:"Which woman anointed Jesus' feet with expensive perfume and wiped them with her hair?", opts:["A sinful woman in Simon's house (and separately, Mary of Bethany)","Joanna","Martha","Mary Magdalene"], correct:0, explain:"Two different Gospel accounts describe women anointing Jesus' feet this way, at different times." }
       ] },
     { id:'letters_hard', title:'Letters of Paul', tier:'Hard', type:'multiple', icon:'\u2709\ufe0f', cost:50,
       intro:{ ref:'2 Peter 3:15\u201316', verse:'Our beloved brother Paul also wrote to you\u2026 There are some things in them that are hard to understand.', note:'Paul wrote roughly half the New Testament \u2014 this test digs into the specifics of what, where, and to whom.' },
       questions: [
-        { q:"Which of Paul's letters was written to defend the gospel against teachers requiring circumcision and law-keeping for salvation?", opts:["Romans", "Galatians", "Ephesians", "Colossians"], correct:1, explain:"Galatians is Paul's sharpest defense of salvation by faith alone, apart from the works of the law." },
-        { q:"From which city was Paul writing when he wrote Philippians, Ephesians, Colossians, and Philemon \u2014 the so-called \u2018prison epistles\u2019?", opts:["Corinth", "Rome", "Ephesus", "Athens"], correct:1, explain:"Paul wrote these four letters under house arrest in Rome, awaiting trial before Caesar." },
-        { q:"In which letter does Paul confront a church for tolerating a man in an incestuous relationship and quarreling over which teacher they followed?", opts:["1 Corinthians", "Galatians", "1 Timothy", "Titus"], correct:0, explain:"1 Corinthians addresses a church with real spiritual gifts and real dysfunction." },
-        { q:"Which letter contains Paul's personal appeal for a runaway slave named Onesimus?", opts:["Titus", "Philemon", "2 Timothy", "1 Thessalonians"], correct:1, explain:"Paul asked Philemon to receive Onesimus back \u2018no longer as a slave, but as a dear brother.\u2019" },
-        { q:"Which letter was written to correct the false belief that the day of the Lord had already come, causing some believers to stop working?", opts:["1 Thessalonians", "2 Thessalonians", "1 Timothy", "Titus"], correct:1, explain:"Paul insisted that anticipating Christ's return should produce diligence, not idleness." },
-        { q:"In which letter does Paul write \u2018I have learned, in whatsoever state I am, therewith to be content\u2019?", opts:["Philippians", "Colossians", "1 Timothy", "Ephesians"], correct:0, explain:"Written from prison, Philippians is Paul's letter most focused on joy and contentment." }
+        { q:"Which of Paul's letters was written to defend the gospel against teachers requiring circumcision and law-keeping for salvation?", opts:["Galatians","Romans","Colossians","Ephesians"], correct:0, explain:"Galatians is Paul's sharpest defense of salvation by faith alone, apart from the works of the law." },
+        { q:"From which city was Paul writing when he wrote Philippians, Ephesians, Colossians, and Philemon \u2014 the so-called \u2018prison epistles\u2019?", opts:["Athens","Ephesus","Rome","Corinth"], correct:2, explain:"Paul wrote these four letters under house arrest in Rome, awaiting trial before Caesar." },
+        { q:"In which letter does Paul confront a church for tolerating a man in an incestuous relationship and quarreling over which teacher they followed?", opts:["Titus","Galatians","1 Corinthians","1 Timothy"], correct:2, explain:"1 Corinthians addresses a church with real spiritual gifts and real dysfunction." },
+        { q:"Which letter contains Paul's personal appeal for a runaway slave named Onesimus?", opts:["Titus","Philemon","2 Timothy","1 Thessalonians"], correct:1, explain:"Paul asked Philemon to receive Onesimus back \u2018no longer as a slave, but as a dear brother.\u2019" },
+        { q:"Which letter was written to correct the false belief that the day of the Lord had already come, causing some believers to stop working?", opts:["2 Thessalonians","Titus","1 Thessalonians","1 Timothy"], correct:0, explain:"Paul insisted that anticipating Christ's return should produce diligence, not idleness." },
+        { q:"In which letter does Paul write \u2018I have learned, in whatsoever state I am, therewith to be content\u2019?", opts:["1 Timothy","Colossians","Ephesians","Philippians"], correct:3, explain:"Written from prison, Philippians is Paul's letter most focused on joy and contentment." }
       ] },
     { id:'verse_fill_2', title:'Complete the Verse II', tier:'Hard', type:'fill', icon:'\ud83d\udcd6', cost:30,
       intro:{ ref:'Colossians 3:16', verse:'Let the word of Christ dwell in you richly.', note:'A tougher round \u2014 these verses are well-loved but less universally memorized word-for-word.' },
@@ -916,14 +916,145 @@
     { id:'bible_iq', title:'Bible IQ Challenge', tier:'Hard', type:'multiple', icon:'\ud83e\udde0', cost:60,
       intro:{ ref:'Proverbs 25:2', verse:'It is the glory of God to conceal things, but the glory of kings is to search things out.', note:'The hardest test in the app \u2014 obscure details, minor figures, and questions that reward real Bible reading.' },
       questions: [
-        { q:"What is commonly cited as the shortest verse in the Bible?", opts:["\u201cJesus wept\u201d", "\u201cIn the beginning\u201d", "\u201cThe Lord is my shepherd\u201d", "\u201cLet there be light\u201d"], correct:0, explain:"John 11:35, just two words in most English translations." },
-        { q:"Which Old Testament figure interpreted dreams for Pharaoh?", opts:["Daniel", "Joseph", "Moses", "Solomon"], correct:1, explain:"Joseph's gift for interpreting dreams led to his rise in Egypt." },
-        { q:"Which short New Testament letter is a personal appeal about a runaway slave?", opts:["Philemon", "Titus", "Jude", "3 John"], correct:0, explain:"Paul wrote Philemon on behalf of Onesimus, appealing for mercy and reconciliation." },
-        { q:"Which disciple is remembered as \u201cdoubting\u201d for questioning Jesus' resurrection?", opts:["Thomas", "Philip", "Bartholomew", "Matthew"], correct:0, explain:"Thomas wanted to see and touch Jesus' wounds before he'd believe." },
-        { q:"What was the final plague that convinced Pharaoh to free Israel?", opts:["Locusts", "Darkness", "Death of the firstborn", "Hail"], correct:2, explain:"This tenth and final plague broke Pharaoh's resistance for good." },
-        { q:"Which obscure figure blessed Abraham and received a tithe from him, later used in Hebrews to argue for Christ's priesthood?", opts:["Melchizedek", "Lot", "Eliezer", "Jethro"], correct:0, explain:"This mysterious priest-king appears briefly in Genesis 14 and becomes central to the argument of Hebrews 7." },
-        { q:"Which prophet's book ends the Old Testament by promising a messenger like Elijah before four centuries of prophetic silence?", opts:["Zechariah", "Malachi", "Haggai", "Micah"], correct:1, explain:"Malachi's closing words set up the long wait that ends with John the Baptist." },
-        { q:"Which New Testament book is traditionally the only one attributed to a physician?", opts:["Luke", "Mark", "James", "Jude"], correct:0, explain:"Luke, described by Paul as \u2018the beloved physician,\u2019 wrote both Luke and Acts." }
+        { q:"What is commonly cited as the shortest verse in the Bible?", opts:["\u201cThe Lord is my shepherd\u201d","\u201cJesus wept\u201d","\u201cLet there be light\u201d","\u201cIn the beginning\u201d"], correct:1, explain:"John 11:35, just two words in most English translations." },
+        { q:"Which Old Testament figure interpreted dreams for Pharaoh?", opts:["Joseph","Daniel","Moses","Solomon"], correct:0, explain:"Joseph's gift for interpreting dreams led to his rise in Egypt." },
+        { q:"Which short New Testament letter is a personal appeal about a runaway slave?", opts:["Philemon","Titus","Jude","3 John"], correct:0, explain:"Paul wrote Philemon on behalf of Onesimus, appealing for mercy and reconciliation." },
+        { q:"Which disciple is remembered as \u201cdoubting\u201d for questioning Jesus' resurrection?", opts:["Philip","Matthew","Bartholomew","Thomas"], correct:3, explain:"Thomas wanted to see and touch Jesus' wounds before he'd believe." },
+        { q:"What was the final plague that convinced Pharaoh to free Israel?", opts:["Darkness","Locusts","Death of the firstborn","Hail"], correct:2, explain:"This tenth and final plague broke Pharaoh's resistance for good." },
+        { q:"Which obscure figure blessed Abraham and received a tithe from him, later used in Hebrews to argue for Christ's priesthood?", opts:["Eliezer","Lot","Melchizedek","Jethro"], correct:2, explain:"This mysterious priest-king appears briefly in Genesis 14 and becomes central to the argument of Hebrews 7." },
+        { q:"Which prophet's book ends the Old Testament by promising a messenger like Elijah before four centuries of prophetic silence?", opts:["Micah","Malachi","Zechariah","Haggai"], correct:1, explain:"Malachi's closing words set up the long wait that ends with John the Baptist." },
+        { q:"Which New Testament book is traditionally the only one attributed to a physician?", opts:["James","Luke","Mark","Jude"], correct:1, explain:"Luke, described by Paul as \u2018the beloved physician,\u2019 wrote both Luke and Acts." }
+      ] },
+    { id:'creation_easy', title:'In the Beginning', tier:'Easy', type:'multiple', icon:'\ud83c\udf0d', cost:20,
+      intro:{ ref:'Genesis 1:1', verse:'In the beginning God created the heavens and the earth.', note:'The opening chapters of Genesis \u2014 where everything starts.' },
+      questions: [
+        { q:'What did God create on the very first day?', opts:['Dry land','Animals','Light','The sun'], correct:2, explain:'Light came first. The sun and moon were not made until day four \u2014 which is a detail worth noticing.' },
+        { q:'What was Adam told to do with the animals?', opts:['Count them','Herd them','Sacrifice them','Name them'], correct:3, explain:'God brought the animals to Adam to see what he would call them, and whatever he called them, that was their name.' },
+        { q:'Which tree were Adam and Eve told not to eat from?', opts:['The tree of the knowledge of good and evil','The olive tree','The fig tree','The tree of life'], correct:0, explain:'Every tree was permitted except that one. The tree of life was not forbidden until after the fall.' },
+        { q:'What did God say after most days of creation?', opts:['It is finished','Rest now','It was good','Let there be more'], correct:2, explain:'The refrain runs through the chapter, and after humanity it becomes very good.' },
+        { q:'Who was Adam and Eve\u2019s third son, born after Cain and Abel?', opts:['Enoch','Noah','Lamech','Seth'], correct:3, explain:'Seth was born after Abel\u2019s death, and Scripture traces the godly line through him.' },
+        { q:'How many days did creation take before God rested?', opts:['Seven','Six','Twelve','Three'], correct:1, explain:'Six days of forming and filling, then rest on the seventh \u2014 which became the pattern for the Sabbath.' }
+      ] },
+
+    { id:'jesus_words_medium', title:'The Words of Jesus', tier:'Medium', type:'multiple', icon:'\ud83d\udcac', cost:30,
+      intro:{ ref:'John 6:68', verse:'Lord, to whom shall we go? You have the words of eternal life.', note:'Things Jesus actually said \u2014 and what He meant by them.' },
+      questions: [
+        { q:'\u201cI am the way, the truth, and the ___.\u201d', opts:['Door','Vine','Life','Light'], correct:2, explain:'Spoken to Thomas, who had just admitted he had no idea where Jesus was going.' },
+        { q:'Who did Jesus say the poor in spirit are blessed for?', opts:['They will inherit the earth','Theirs is the kingdom of heaven','They will see God','They will be comforted'], correct:1, explain:'The Beatitudes open with it \u2014 and notice it is present tense, not future.' },
+        { q:'What did Jesus say was the greatest commandment?', opts:['Love God with all your heart','Honour your parents','Do not murder','Keep the Sabbath'], correct:0, explain:'And He immediately added the second \u2014 love your neighbour as yourself \u2014 without being asked.' },
+        { q:'What did Jesus tell Nicodemus a person must do?', opts:['Fast forty days','Memorise the Law','Be born again','Sell everything'], correct:2, explain:'Nicodemus took it literally and asked how a grown man could re-enter his mother\u2019s womb.' },
+        { q:'\u201cCome to me, all you who are weary and ___.\u201d', opts:['Burdened','Broken','Searching','Lost'], correct:0, explain:'The only qualification listed is being tired. That is the whole entry requirement.' },
+        { q:'What were Jesus\u2019 last words from the cross in John\u2019s account?', opts:['Why have you forsaken me','It is finished','Into your hands','Father, forgive them'], correct:1, explain:'One word in Greek \u2014 tetelestai \u2014 used on receipts to mean paid in full.' }
+      ] },
+
+    { id:'psalms_medium', title:'Songs & Psalms', tier:'Medium', type:'multiple', icon:'\ud83c\udfb5', cost:30,
+      intro:{ ref:'Psalm 42:8', verse:'By day the LORD directs his love, at night his song is with me.', note:'Israel\u2019s hymn book \u2014 written from caves, palaces, and everything between.' },
+      questions: [
+        { q:'\u201cThe LORD is my shepherd, I shall not ___.\u201d', opts:['Fall','Wander','Fear','Want'], correct:3, explain:'Psalm 23, written by a man who had actually kept sheep and knew what a shepherd does.' },
+        { q:'Which psalm did David write after Nathan confronted him?', opts:['Psalm 23','Psalm 1','Psalm 119','Psalm 51'], correct:3, explain:'The rawest confession in Scripture \u2014 and he published it as a song for the nation to sing.' },
+        { q:'What is the longest chapter in the Bible?', opts:['Isaiah 53','Psalm 119','Genesis 1','Psalm 23'], correct:1, explain:'176 verses, structured as an acrostic, every section celebrating God\u2019s word.' },
+        { q:'\u201cBe still, and know that I am ___.\u201d', opts:['With you','Coming','Holy','God'], correct:3, explain:'Psalm 46 \u2014 and the surrounding verses describe mountains falling into the sea. It is not a calm-day verse.' },
+        { q:'Which psalm begins \u201cMy God, my God, why have you forsaken me?\u201d', opts:['Psalm 88','Psalm 42','Psalm 13','Psalm 22'], correct:3, explain:'Jesus quoted its opening line from the cross. The psalm ends in vindication.' },
+        { q:'What does the psalmist say God\u2019s word is a lamp to?', opts:['My eyes','My path only','My feet','My heart'], correct:2, explain:'A lamp to my feet and a light to my path \u2014 enough light for the next step, not the whole road.' }
+      ] },
+
+    { id:'exodus_medium', title:'Out of Egypt', tier:'Medium', type:'multiple', icon:'\ud83c\udf0a', cost:30,
+      intro:{ ref:'Exodus 14:14', verse:'The LORD will fight for you; you need only to be still.', note:'Plagues, a parted sea, and forty years of wandering.' },
+      questions: [
+        { q:'What was the final plague on Egypt?', opts:['Locusts','Darkness','Hail','Death of the firstborn'], correct:3, explain:'It is what gave Passover its name \u2014 the angel passed over homes marked with blood.' },
+        { q:'What did God provide for food in the wilderness?', opts:['Figs','Barley','Fish','Manna'], correct:3, explain:'It appeared each morning and rotted if hoarded \u2014 daily dependence, enforced.' },
+        { q:'What did Moses strike to bring water from a rock?', opts:['His hand','His staff','A stone','A sword'], correct:1, explain:'And the second time, he was told to speak to the rock instead. Striking it cost him the promised land.' },
+        { q:'What did the Israelites build while Moses was on Sinai?', opts:['A golden calf','A bronze serpent','A tabernacle','An altar of stones'], correct:0, explain:'Aaron made it, then claimed it had simply come out of the fire that way.' },
+        { q:'How many spies brought back a good report of Canaan?', opts:['Two','None','Twelve','Ten'], correct:0, explain:'Joshua and Caleb. The other ten focused on the giants, and a generation stayed in the desert.' },
+        { q:'Where did Moses die?', opts:['In Egypt','Mount Nebo','Jericho','Mount Sinai'], correct:1, explain:'He saw the whole land from the summit and never entered it. God buried him Himself.' }
+      ] },
+
+    { id:'acts_hard', title:'The Early Church', tier:'Hard', type:'multiple', icon:'\ud83d\udd25', cost:40,
+      intro:{ ref:'Acts 1:8', verse:'You will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.', note:'From an upper room to the Roman empire in one generation.' },
+      questions: [
+        { q:'What happened at Pentecost?', opts:['Paul was converted','Jesus ascended','The Spirit came with wind and fire','The temple fell'], correct:2, explain:'Everyone heard the message in their own language \u2014 a deliberate reversal of Babel.' },
+        { q:'Who was the first Christian martyr?', opts:['Peter','Stephen','James','Paul'], correct:1, explain:'He forgave his killers while they stoned him \u2014 and Saul was standing there holding their coats.' },
+        { q:'What did Peter see in his vision on the rooftop?', opts:['A burning altar','A sheet of unclean animals','An empty tomb','A ladder to heaven'], correct:1, explain:'Three times, to convince him that Gentiles were not unclean. He still argued.' },
+        { q:'Who was the first European convert recorded?', opts:['Lydia','Priscilla','Timothy','Cornelius'], correct:0, explain:'A dealer in purple cloth in Philippi. The church in Europe started in a businesswoman\u2019s house.' },
+        { q:'What happened to Paul and Silas in the Philippian jail?', opts:['Angels carried them out','They were released at dawn','They were executed','An earthquake opened the doors'], correct:3, explain:'They stayed put, and the jailer \u2014 who had been about to kill himself \u2014 asked how to be saved.' },
+        { q:'Where does the book of Acts end?', opts:['Jerusalem','Paul under house arrest in Rome','Antioch','Paul\u2019s execution'], correct:1, explain:'It ends mid-story, with Paul preaching unhindered. The ending is deliberately open.' }
+      ] },
+
+    { id:'genesis_people_medium', title:'Genesis Families', tier:'Medium', type:'multiple', icon:'\ud83d\udc6a', cost:30,
+      intro:{ ref:'Genesis 12:2', verse:'I will make you into a great nation, and I will bless you.', note:'The messy, favoured, deeply human families God chose to work through.' },
+      questions: [
+        { q:'What was Abraham\u2019s name before God changed it?', opts:['Terah','Nahor','Abram','Eber'], correct:2, explain:'Abram means exalted father. Abraham means father of many \u2014 given while he was still childless.' },
+        { q:'Which son did Jacob favour, causing his brothers to sell him?', opts:['Judah','Joseph','Reuben','Benjamin'], correct:1, explain:'The coat was the visible sign of a favouritism the whole family could see.' },
+        { q:'Who did Jacob work fourteen years to marry?', opts:['Rebekah','Dinah','Rachel','Leah'], correct:2, explain:'Seven years, then Laban swapped in Leah, so he worked seven more.' },
+        { q:'What did Esau trade his birthright for?', opts:['A bowl of stew','A flock','A field','Silver'], correct:0, explain:'He came in starving from hunting and treated the long-term thing as worthless in a short-term moment.' },
+        { q:'Who wrestled with God and was renamed Israel?', opts:['Jacob','Joseph','Laban','Isaac'], correct:0, explain:'He walked away limping, and the limp was permanent.' },
+        { q:'What did Joseph say to his brothers when he revealed himself?', opts:['You will serve me now','I forgive you, go home','Never speak of it','You meant evil, but God meant it for good'], correct:3, explain:'He wept loudly enough that the whole household heard it.' }
+      ] },
+
+    { id:'gospel_hard', title:'The Gospel Explained', tier:'Hard', type:'multiple', icon:'\u271d\ufe0f', cost:40,
+      intro:{ ref:'Romans 1:16', verse:'I am not ashamed of the gospel, because it is the power of God that brings salvation.', note:'The core of the message \u2014 and the theology behind it.' },
+      questions: [
+        { q:'According to Ephesians 2, what are we saved by?', opts:['Our own effort','Baptism alone','Works of the law','Grace, through faith'], correct:3, explain:'And the next line insists it is a gift, so no one can boast about it.' },
+        { q:'What does justification mean?', opts:['Becoming sinless','Being declared righteous before God','Doing enough good works','Earning forgiveness'], correct:1, explain:'A legal declaration, not a description of your performance. It happens all at once.' },
+        { q:'What does Romans 6:23 say the wages of sin are?', opts:['Death','Exile','Suffering','Judgment only'], correct:0, explain:'And the same verse contrasts wages with a gift \u2014 one is earned, one cannot be.' },
+        { q:'Who does Paul say Christ died for?', opts:['The righteous','Those who repented first','Israel only','Us, while we were still sinners'], correct:3, explain:'Romans 5:8 \u2014 the timing is the point. Not after we cleaned up.' },
+        { q:'What is sanctification?', opts:['Church membership','A one-time event','Confession of sin','The ongoing process of becoming more like Christ'], correct:3, explain:'Justification is instant; sanctification takes the rest of your life.' },
+        { q:'What did Jesus say must happen for someone to see the kingdom of God?', opts:['They must keep the law','They must fast','They must be born again','They must be circumcised'], correct:2, explain:'Said to Nicodemus, a Pharisee who had kept the law meticulously his whole life.' }
+      ] },
+
+    { id:'proverbs_easy', title:'Everyday Wisdom', tier:'Easy', type:'multiple', icon:'\ud83e\udd89', cost:20,
+      intro:{ ref:'Proverbs 3:5', verse:'Trust in the LORD with all your heart and lean not on your own understanding.', note:'Practical wisdom for ordinary days.' },
+      questions: [
+        { q:'\u201cA gentle answer turns away ___.\u201d', opts:['Trouble','Doubt','Wrath','Enemies'], correct:2, explain:'Escalation needs two people. When one refuses to supply heat, the fire runs out of fuel.' },
+        { q:'What does Proverbs say pride goes before?', opts:['Shame','Destruction','A fall only','Poverty'], correct:1, explain:'Pride goes before destruction, a haughty spirit before a fall \u2014 two lines, often merged.' },
+        { q:'\u201cAs iron sharpens iron, so one person sharpens ___.\u201d', opts:['Another','Themselves','The blade','Wisdom'], correct:0, explain:'Sharpening requires friction. Comfortable friendships rarely change anyone.' },
+        { q:'What does Proverbs say about the fear of the LORD?', opts:['It brings sorrow','It ends in judgment','It is unnecessary','It is the beginning of wisdom'], correct:3, explain:'Fear here means awe and reverence \u2014 the right posture to learn anything from.' },
+        { q:'Who does Proverbs say to speak up for?', opts:['Your household','Those who cannot speak for themselves','The wealthy','Your friends'], correct:1, explain:'Proverbs 31:8 \u2014 the passage is a mother\u2019s advice to a king about how to use power.' },
+        { q:'\u201cThe plans of the heart belong to man, but the answer of the tongue is from the ___.\u201d', opts:['Wise','Spirit','LORD','Elders'], correct:2, explain:'Plan freely \u2014 just hold the outcome loosely.' }
+      ] },
+
+    { id:'true_false_nt', title:'True or False: New Testament', tier:'Easy', type:'multiple', icon:'\u2705', cost:20,
+      intro:{ ref:'2 Timothy 3:16', verse:'All Scripture is God-breathed and is useful for teaching.', note:'Six quick calls \u2014 some are trickier than they look.' },
+      questions: [
+        { q:'True or False: Jesus was born in Nazareth.', opts:['False','True'], correct:0, explain:'Born in Bethlehem, raised in Nazareth. The census is why His parents were travelling.' },
+        { q:'True or False: There were exactly three wise men.', opts:['False','True'], correct:0, explain:'Scripture never gives a number. Three gifts are listed, and tradition did the rest.' },
+        { q:'True or False: Paul wrote most of the New Testament books.', opts:['True','False'], correct:0, explain:'Thirteen letters bear his name \u2014 more books than anyone else, though Luke wrote more words.' },
+        { q:'True or False: Jesus\u2019 first miracle was healing a blind man.', opts:['False','True'], correct:0, explain:'It was water into wine at a wedding in Cana, at His mother\u2019s prompting.' },
+        { q:'True or False: Judas was the only disciple who betrayed Jesus that night.', opts:['False','True'], correct:0, explain:'Peter denied Him three times, and all of them scattered. Judas is simply the one remembered for it.' },
+        { q:'True or False: Revelation is the last book of the Bible.', opts:['True','False'], correct:0, explain:'And it ends not with destruction but with a new city, a river, and no more tears.' }
+      ] },
+
+    { id:'verse_fill_3', title:'Complete the Verse III', tier:'Hard', type:'fill', icon:'\u270f\ufe0f', cost:40,
+      intro:{ ref:'Joshua 1:8', verse:'Keep this Book of the Law always on your lips; meditate on it day and night.', note:'Type the missing word. Spelling counts.' },
+      questions: [
+        { prompt:'For I know the ______ I have for you, declares the LORD.', ref:'Jeremiah 29:11', answer:'plans' },
+        { prompt:'I can do all things through Christ who ______ me.', ref:'Philippians 4:13', answer:'strengthens' },
+        { prompt:'The joy of the LORD is your ______.', ref:'Nehemiah 8:10', answer:'strength' },
+        { prompt:'Cast all your ______ on him because he cares for you.', ref:'1 Peter 5:7', answer:'anxiety' },
+        { prompt:'Faith is confidence in what we ______ for.', ref:'Hebrews 11:1', answer:'hope' },
+        { prompt:'Let us not become weary in doing ______.', ref:'Galatians 6:9', answer:'good' }
+      ] },
+
+    { id:'endtimes_hard', title:'Revelation & Prophecy', tier:'Hard', type:'multiple', icon:'\ud83d\udcdc', cost:40,
+      intro:{ ref:'Revelation 21:5', verse:'He who was seated on the throne said, \u201cI am making everything new!\u201d', note:'The last book \u2014 strange, symbolic, and ultimately hopeful.' },
+      questions: [
+        { q:'Where was John when he received the revelation?', opts:['In Jerusalem','In Ephesus','Exiled on Patmos','In Rome'], correct:2, explain:'A prison island. The most hopeful book in Scripture was written in exile.' },
+        { q:'How many churches receive letters at the start of Revelation?', opts:['Three','Ten','Twelve','Seven'], correct:3, explain:'Real churches in Asia Minor, each getting a specific commendation or correction.' },
+        { q:'What does Revelation say will be no more in the new creation?', opts:['Only death','Only sin','Death, mourning, crying and pain','Nations'], correct:2, explain:'And He wipes every tear personally \u2014 the image is intimate, not distant.' },
+        { q:'What is the Lamb a symbol of?', opts:['Israel','Jesus','The church','The Spirit'], correct:1, explain:'A Lamb looking as if it had been slain \u2014 wounds still visible in glory.' },
+        { q:'What flows through the city in Revelation 22?', opts:['Streets of gold','Fire','A sea of glass','The river of the water of life'], correct:3, explain:'With the tree of life on each side \u2014 the same tree from Genesis, back again.' },
+        { q:'What does Revelation say about the curse?', opts:['It doubles','It remains forever','It moves to the sea','There will no longer be any curse'], correct:3, explain:'The Bible opens with a curse entering the world and closes with it removed.' }
+      ] },
+
+    { id:'discipleship_medium', title:'Following Jesus', tier:'Medium', type:'multiple', icon:'\ud83d\udc63', cost:30,
+      intro:{ ref:'Luke 9:23', verse:'Whoever wants to be my disciple must deny themselves and take up their cross daily.', note:'What Jesus actually asked of the people who followed Him.' },
+      questions: [
+        { q:'What did Jesus tell the rich young ruler to do?', opts:['Pray more','Study the law','Fast','Sell his possessions and give to the poor'], correct:3, explain:'The man went away sad, and Jesus let him go. He did not chase him or soften it.' },
+        { q:'How many times did Jesus say to forgive?', opts:['Seventy-seven times','Seven times','Once','Three times'], correct:0, explain:'Peter offered seven, thinking he was being generous. Jesus multiplied it past counting.' },
+        { q:'What did Jesus wash on the night He was betrayed?', opts:['His disciples\u2019 feet','The table','The upper room floor','Their hands'], correct:0, explain:'The job of the lowest servant \u2014 including the feet of the man about to betray Him.' },
+        { q:'What did Jesus call the two greatest commandments?', opts:['Love God, and love your neighbour','Give and serve','Obey and repent','Pray and fast'], correct:0, explain:'He said everything in the Law and Prophets hangs on these two.' },
+        { q:'What did Jesus say His followers would be known by?', opts:['Their miracles','Their giving','Their knowledge','Their love for one another'], correct:3, explain:'John 13:35 \u2014 not doctrine, not numbers. How they treat each other.' },
+        { q:'What is the Great Commission?', opts:['Rebuild the temple','Keep the Sabbath','Wait in Jerusalem','Go and make disciples of all nations'], correct:3, explain:'And it ends with a promise \u2014 I am with you always, to the very end of the age.' }
       ] }
   ];
 
@@ -1427,6 +1558,22 @@
               body:'You will fail again. Saying so isn\u2019t permission \u2014 it\u2019s planning. Because what you do in the hour after a slip decides more than the slip does.\n\nThe usual pattern goes: fail, feel disgusted, decide you\u2019re a fraud, pull back from God because you feel filthy, stop talking to the person who knows, isolate \u2014 and isolation is the exact condition the whole thing runs on. That spiral does more damage over a month than the original failure did in twenty minutes.\n\nLamentations was written by a man watching his city burn, sitting in genuine ruin. He isn\u2019t being cheerful. And from there he says the mercies are new every morning. Not new every time you\u2019ve earned a clean week. New every morning \u2014 on a schedule that has nothing to do with your performance.\n\nSo build the recovery in advance. Tell the person, same day, before you can convince yourself to hide it. Don\u2019t restart the count as if the last month meant nothing \u2014 it didn\u2019t. Ask what happened in the hours before, because there\u2019s information in it. And then keep the next thing you were going to do anyway; showing up to church or to prayer the day after a failure is one of the most defiant things you can do.\n\nProgress here almost never looks like a clean break. It looks like the gaps getting longer, the recovery getting faster, and the grip getting weaker \u2014 over months. Measure it that way and you\u2019ll see movement you\u2019d otherwise miss.\n\nAnd the aim was never just stopping. It\u2019s becoming someone whose desires point somewhere real \u2014 who can love an actual person, be fully present, and not be quietly managing a secret. That\u2019s the thing worth walking toward.',
               reflect:'What\u2019s your plan for the hour after the next slip? Write it now, while you\u2019re thinking clearly \u2014 you won\u2019t be then.',
               prayer:'God, tomorrow morning your mercy is new whether I win tonight or not. Help me get up instead of hiding. Keep pulling me forward.'
+            },
+            {
+              id:'rf-p7',
+              title:'What it does to the way you see people',
+              scripture:{ ref:'Matthew 5:27\u201328', text:'You have heard that it was said, \u201cYou shall not commit adultery.\u201d But I tell you that anyone who looks at a woman lustfully has already committed adultery with her in his heart.' },
+              body:'This is the part almost nobody talks about, and it may be the part that costs you most.\n\nWhat you feed your eyes trains your eyes. Do it long enough and something shifts underneath: you start scanning. Not deciding to \u2014 scanning, automatically, before you have chosen anything. A person walks into a room and some part of you has already sorted them before you have registered their face.\n\nThat is not a moral failure in the moment. It is a groove you dug over years, and it does exactly what it was trained to do.\n\nNotice what Jesus is actually doing in this verse. People read it as tightening the rule \u2014 not only the act, now the thought too. But look closer. He is naming what the act grows from. He is not adding a burden; He is telling you where the root is, because roots are what you actually have to deal with.\n\nHere is the cost. You are training yourself to see people as things \u2014 as bodies to be evaluated rather than souls to be known. And that does not stay in the twenty minutes you gave it. It leaks into how you look at a colleague, a stranger, someone at church, eventually someone you love. It quietly makes you worse at the one thing you most want to be good at.\n\nAnd this is why \u201cit\u2019s private, it doesn\u2019t hurt anyone\u201d does not hold. It is forming you. Everything you do repeatedly is forming you.\n\nThe repair is slow and unglamorous: look away, then look again on purpose. See the whole person. Notice something true about them that has nothing to do with their body. It feels forced at first because it is \u2014 you are digging a new groove next to an old one, and the old one is deeper.',
+              reflect:'Be honest \u2014 has this changed the way you look at people day to day? Where have you noticed it?',
+              prayer:'God, I don\u2019t want to see people as things. Retrain my eyes. Help me see whole people, starting today.'
+            },
+            {
+              id:'rf-p8',
+              title:'If you\u2019re married, or want to be',
+              scripture:{ ref:'Song of Songs 8:6\u20137', text:'Place me like a seal over your heart, like a seal on your arm; for love is as strong as death\u2026 Many waters cannot quench love; rivers cannot sweep it away.' },
+              body:'There is a book in the Bible that is entirely about desire between a husband and wife, and it is not shy about it. God is not squeamish about sex. That matters, because shame will tell you He is.\n\nThe problem was never that you wanted something. It is that you were handed a counterfeit that trains you for the opposite of what you actually want.\n\nHere is the specific damage, said plainly. Pornography teaches you to be a consumer: something is performed for you, requires nothing of you, never has a bad day, and never says no. Real intimacy is the reverse of all four. It asks you to give, to be present, to keep going when someone is tired or hurting, to be known while you are unimpressive.\n\nSo the habit does not just compete with the real thing. It trains you for a different sport.\n\nIf you are married, you may have noticed this already \u2014 a distance you cannot quite explain, a preference you would not say out loud. That is not proof your marriage is wrong. It is evidence of what was being formed while nobody was looking.\n\nIf you are not married and hope to be, this is the most practical reason to fight now. You are shaping what you will bring to someone.\n\nAnd a word about telling a spouse, because people ask. This is worth doing with help \u2014 a counsellor, a pastor \u2014 rather than dropping it unplanned on a Tuesday night. Not to soften the truth, but because how it lands matters, and because they will need somewhere to put it too.\n\nWhat you are walking toward is worth the difficulty: being fully known by one person and not having to manage anything.',
+              reflect:'What kind of person do you want to be for someone \u2014 present, patient, unhurried? What is standing between you and that?',
+              prayer:'God, You made desire and You meant it for good. Undo what has been trained into me, and make me someone worth being known by.'
             }
           ]
         },
@@ -1475,6 +1622,14 @@
               body:'If the whole goal is stopping, you will white-knuckle for a while and then drift back, because you\u2019ll have removed something and put nothing in its place. Absence is not a life.\n\nSo aim at something instead.\n\nImagine yourself two years from now, on the other side of this. What\u2019s different? Probably not just the drinking. You\u2019re present in conversations instead of half-checked-out. You remember evenings. You wake up without doing the mental audit of what you said. You have money you didn\u2019t notice you were spending. You\u2019re someone people can rely on at 9pm, not just before six.\n\nThat person is the target. Not \u201csober.\u201d Him. Her.\n\nAnd here is the thing Paul insists on: that person is not a distant possibility you might earn. In Christ, the new creation has come \u2014 present tense, already begun. You are not building someone from scratch. You\u2019re catching up to something God has already declared true about you.\n\nThat changes the emotional weather of the whole fight. You are not auditioning for God\u2019s approval, one clean week at a time. You already have it. You\u2019re just learning to live like the person He says you now are.\n\nWhich also means the setbacks aren\u2019t verdicts. They\u2019re lag. Real, frustrating, worth learning from \u2014 but not proof that the new thing was fake.\n\nOne last practical word. Track months, not days. Notice the gaps stretching. Notice you handled a hard week differently than you would have last year. That\u2019s the actual shape of progress, and it\u2019s almost invisible up close. Look back far enough and you\u2019ll see it.',
               reflect:'Describe the version of you two years past this. Be specific. What does an ordinary Tuesday evening look like?',
               prayer:'God, you already call me new. Help me live into that instead of trying to earn it. Keep pulling me toward who you say I am.'
+            },
+            {
+              id:'rf-s6',
+              title:'Who you\u2019re drinking with',
+              scripture:{ ref:'1 Corinthians 15:33', text:'Do not be misled: \u201cBad company corrupts good character.\u201d' },
+              body:'This one is uncomfortable because it involves people you like.\n\nWhen you stop, you find out fast which friendships were built on the thing and which were built on you. That is a hard discovery and a clarifying one. Some people will be glad for you. Some will get strange about it \u2014 a bit mocking, a bit insistent, one more won\u2019t hurt.\n\nUnderstand what is happening there. Your change is holding a mirror up to them, and they did not ask for that. Most of the time it is not malice. It is discomfort.\n\nPaul is quoting a common saying here, which tells you it was obvious even to people outside the faith: you become like whoever you spend time around. Not because you are weak \u2014 because that is how humans work. We calibrate to the room.\n\nWhich means the honest question is not who is a bad person. It is: after an evening with this person, am I closer to who I want to be or further from it?\n\nYou do not have to cut anyone off. That is usually the wrong move and it is rarely necessary. But you can change the shape of it. See them earlier in the day. Suggest something that is not built around drinking. Be the person who orders something else first, before anyone else has decided \u2014 that alone changes a whole table more often than you would think.\n\nAnd you need at least one person going the same direction as you. One is enough. Someone who knows what you are doing and asks about it. Almost nobody does this alone, and the ones who try usually end up back where they started, quietly.',
+              reflect:'Who makes it harder? Who makes it easier? Have you told the second person what you\u2019re actually doing?',
+              prayer:'God, give me wisdom about who I spend my evenings with, and send me at least one person walking the same way.'
             }
           ]
         },
@@ -1523,6 +1678,14 @@
               body:'Here\u2019s something worth noticing about the fruit of the Spirit: gentleness is in it, and so is self-control, and they\u2019re listed alongside love and joy as if they belong in the same family. In Scripture, gentleness is not timidity. The same word describes a war horse under control \u2014 enormous power, responsive to the slightest signal. Strength with a hand on it.\n\nThat reframes the goal. You\u2019re not trying to become someone who feels less. You\u2019re trying to become someone whose force is under command.\n\nProverbs 15:1 is one of those verses that sounds like a nicety until you actually use it. A gentle answer genuinely does turn away wrath \u2014 it is almost mechanical. Escalation requires two people. When one of them doesn\u2019t supply the heat, the fire has nothing to burn.\n\nThe person who can stay level when someone is shouting at them is not the weak one in the room. Everyone present knows that.\n\nAnd this is where the whole module lands. You cannot manufacture gentleness by suppression \u2014 that just builds pressure until it blows somewhere worse. It grows, like fruit, from being someone whose deepest need is already met. It is very hard to threaten someone who isn\u2019t protecting anything fragile.\n\nWhich is why the answer to anger is finally not technique. It\u2019s security. The more settled you are in being loved by God, the less every slight has to be a battle for your worth.\n\nStart small. Pick one relationship this week where you\u2019re usually sharp, and answer gently once. Not passively \u2014 you can be completely honest, even firm. Just gently. Then notice what happens in the room, and notice what happens in you.',
               reflect:'Who gets the sharpest version of you? What would one gentle answer look like this week \u2014 what would you actually say?',
               prayer:'God, make me strong enough to be gentle. Settle me deep enough that I don\u2019t have to fight for my worth in every conversation.'
+            },
+            {
+              id:'rf-a6',
+              title:'When the anger is at God',
+              scripture:{ ref:'Psalm 13:1\u20132', text:'How long, LORD? Will you forget me forever? How long will you hide your face from me? How long must I wrestle with my thoughts and day after day have sorrow in my heart?' },
+              body:'Sometimes the person you are angry at is God. Almost nobody admits it, because it feels like the one thing you are not allowed to feel.\n\nSo let\u2019s deal with it directly.\n\nPsalm 13 is in the Bible. So is Psalm 88, which ends \u2014 genuinely ends \u2014 with the line that darkness is his closest friend. No resolution, no turn toward praise. Habakkuk opens by asking God how long he has to shout about violence before God does anything. Job says God has wronged him, and at the end God says Job spoke rightly about Him, while the friends who defended God did not.\n\nThat should reset something. God is not fragile. He is not managing His reputation. The people in Scripture who were angriest with Him are, remarkably often, the ones He commends.\n\nWhat He will not do is play along with pretending. The prayer that gets nowhere is the polite one where you say everything is fine while something is quietly rotting.\n\nSo say it. Out loud, in real words. I am angry that this happened. I asked and nothing came. I do not understand why You let it go on.\n\nHere is what usually happens next, and it is not what people expect. Not an answer \u2014 Job never got an explanation. What comes is presence. The sense, slowly, that you are not shouting into an empty room.\n\nAnd notice how Psalm 13 ends, after all that. He decides to trust anyway. Not because the situation resolved \u2014 it has not, in the psalm \u2014 but because he has been honest enough to actually be in the room with God.\n\nThat is the difference between anger that separates you and anger that gets carried in.',
+              reflect:'Is there something you\u2019ve never said to God because it felt too disrespectful? Say it today, plainly.',
+              prayer:'God, I\u2019ve been angry with You and afraid to say it. Here it is: ______. I\u2019m not walking away. I\u2019m bringing it to You.'
             }
           ]
         },
@@ -1571,6 +1734,14 @@
               body:'The final move against comparison isn\u2019t discipline. It\u2019s the opposite of what envy wants you to do.\n\nRejoice with those who rejoice. Not tolerate their good news. Not manage your face while they tell you. Actually be glad.\n\nThis is harder than mourning with people. Grief invites us in \u2014 we know how to show up for someone who\u2019s hurting. Someone else\u2019s success quietly indicts us, and the polite congratulations we offer often has something sour underneath it that we hope isn\u2019t visible.\n\nBut here\u2019s what happens when you push through and genuinely celebrate someone: the envy loses its grip. You cannot simultaneously resent someone and be glad for them. Actively choosing gladness starves the other thing.\n\nAnd it has to be active, because it will not arrive on its own. Send the message. Say the specific thing you admire. Show up to the thing. Ask them about it and actually listen. The feeling tends to follow the action rather than precede it.\n\nThere\u2019s something deeper here too. Comparison assumes a world of scarcity \u2014 that their portion diminishes yours, that there\u2019s a fixed amount of good and they took some of yours. The gospel says otherwise. Their good news costs you nothing. God is not running out.\n\nIf you believe that, you can be free in a way that\u2019s genuinely rare. You can be the person who is honestly, uncomplicatedly happy for other people. Those people are magnetic, and there are very few of them.\n\nSo pick someone. Ideally someone you\u2019ve felt that twinge about. And go be glad for them out loud, this week.',
               reflect:'Who have you struggled to celebrate? What is one specific thing you could genuinely tell them you admire?',
               prayer:'God, make me someone who is honestly glad when others are blessed. Take the scarcity out of how I see the world.'
+            },
+            {
+              id:'rf-c6',
+              title:'The person you\u2019re becoming online',
+              scripture:{ ref:'Luke 6:45', text:'A good man brings good things out of the good stored up in his heart, and an evil man brings evil things out of the evil stored up in his heart. For the mouth speaks what the heart is full of.' },
+              body:'There is a version of you that exists in comment sections and group chats, and it may not be the same person your friends know.\n\nSomething happens when a face is replaced by a screen. You get sharper. Quicker to assume the worst. Willing to say things you would never say across a table. And it is easy to tell yourself that is not the real you \u2014 that the real you is the one people meet in person.\n\nJesus says the opposite. What comes out is what was stored up. The overflow is the evidence, not the exception.\n\nWhich means the sarcastic reply, the pile-on, the quiet satisfaction when someone you dislike gets embarrassed \u2014 those are not glitches. They are readings. Uncomfortable, useful readings.\n\nAnd this is not only about being nasty. It is also about what you perform. Curating a version of yourself that is doing better than you are is exhausting, and it puts a wall between you and everyone who might otherwise have helped. You cannot be encouraged for something you are pretending about.\n\nA few honest questions. Would you say this to their face? Would the people who know you best recognise this version of you? Are you posting this to say something true or to be seen a certain way?\n\nOne practical habit, and it is the most useful thing here: leave the reply unsent. Write it if you need to \u2014 then close it. Almost nothing is lost by not saying it, and the impulse fades faster than you expect.\n\nAnd assume the person on the other end is real, tired, and carrying something you cannot see. Because they usually are.',
+              reflect:'Would the people closest to you recognise how you behave online? If not, which version is closer to true?',
+              prayer:'God, make me the same person everywhere. Guard what comes out of me when nobody is looking at my face.'
             }
           ]
         },
@@ -1619,6 +1790,14 @@
               body:'These are one sentence in the original, and the join changes everything.\n\nHumbling yourself and casting your anxiety are the same movement. Which tells you something uncomfortable and freeing: a lot of worry is pride. Not arrogance \u2014 the quieter kind, where you\u2019ve assumed a level of responsibility for the universe that was never assigned to you. Letting go of it is humility. It\u2019s admitting you are not the one holding this together, and never were.\n\nThe verb matters too. Cast is forceful \u2014 throw, fling off. It\u2019s the same word used for the cloaks thrown over the colt at the triumphal entry. Not setting your worry down gently beside you where you can pick it back up in four minutes. Throwing it.\n\nYou will pick it back up. Everyone does. The instruction is not to cast it once and be finished; it\u2019s a practice you\u2019ll repeat until you die. Some days hourly. That\u2019s normal, and it\u2019s not evidence the first time didn\u2019t work.\n\nAnd then the reason, which is the part to hold onto: because he cares for you. Not because worry is unproductive, true as that is. Not because faith should be stronger. Because He cares about you specifically.\n\nThat\u2019s an astonishing claim if you slow down on it. The God who holds galaxies is described as caring about the thing keeping you awake. Not tolerating it. Caring.\n\nWhich means the invitation isn\u2019t to be less bothered. It\u2019s to be bothered in company \u2014 to stop white-knuckling in private and hand it, repeatedly, to someone who is not overwhelmed by it and does not think you\u2019re weak for bringing it again.\n\nSo bring it again. That is the whole spiritual practice. Bring it again.',
               reflect:'What have you picked back up after handing it over? Throw it again \u2014 right now, out loud.',
               prayer:'God, I\u2019m taking my hands off this. I\u2019ll probably grab it again in an hour, and I\u2019ll give it back then too. Thank you that you actually care about it.'
+            },
+            {
+              id:'rf-x6',
+              title:'When it doesn\u2019t lift',
+              scripture:{ ref:'2 Corinthians 1:8\u20139', text:'We were under great pressure, far beyond our ability to endure, so that we despaired of life itself. Indeed, we felt we had received the sentence of death. But this happened that we might not rely on ourselves but on God, who raises the dead.' },
+              body:'Some anxiety does not respond to a devotional. You do the practices, you pray honestly, you take the way out when you see it \u2014 and it is still there in the morning.\n\nSo let\u2019s be clear about a few things.\n\nFirst, this is not a measure of your faith. Paul \u2014 who wrote most of the New Testament \u2014 says here that he despaired of life itself. Not was mildly discouraged. Despaired. If that is compatible with being Paul, it is compatible with being you.\n\nSecond, sometimes what you are dealing with is not primarily spiritual. Anxiety can be a medical condition with a physiological component, and treating it that way is not a lack of trust. Go to a doctor. Talk to a counsellor. If medication is part of what helps you function, that is not a spiritual compromise any more than glasses are. The church has been careless about this and people have been hurt by it, so I want to say it plainly.\n\nThird, notice what Paul says the purpose was: that we might not rely on ourselves. He does not say the pressure was good. He says something was learned in it that would not have been learned otherwise. Those are different claims, and the difference matters when someone tries to tell you your suffering is a gift.\n\nWhat do you do when it does not lift?\n\nYou get help \u2014 real, practical help. You keep showing up to the small things, badly, on the days you can. You let someone know instead of managing it alone. And you hold on to the description Paul uses of God at the end of that verse: the God who raises the dead. Not the God who prevents hard things. The God who is still working at the point where you have run out.\n\nSurviving a day you did not think you could survive is not nothing. Some seasons, that is the whole win.',
+              reflect:'What kind of help have you not asked for yet \u2014 and what\u2019s actually stopping you?',
+              prayer:'God, this hasn\u2019t lifted and I\u2019m tired. Give me courage to get real help, and hold on to me while I do.'
             }
           ]
         }
@@ -4412,6 +4591,105 @@
 
       tab === 'search' ? e('div', {className:'dl-daily-wrap', key:'search'}, [
         e('button', {className:'dl-topic-back', onClick:()=>setTab('library'), key:'bk'}, String.fromCodePoint(0x2190) + ' Library'),
+        exploreView === 'tracks' ? e('div', {key:'tracks'},
+          openLessonTrack ? (() => {
+            const tr = TRACKS.find(t => t.id === openTrack);
+            const mod = tr && tr.modules.find(m => m.id === openModule);
+            const les = mod && mod.lessons.find(l => l.id === openLessonTrack);
+            if (!les) return null;
+            const idx = mod.lessons.findIndex(l => l.id === openLessonTrack);
+            const done = (state.trackDone || []).includes(les.id);
+            return e('div', {key:'tl'}, [
+              e('button', {className:'dl-topic-back', onClick:()=>setOpenLessonTrack(null), key:'b'}, String.fromCodePoint(0x2190) + ' ' + mod.title),
+              e('div', {className:'dl-tl-step', key:'st'}, 'Lesson ' + (idx+1) + ' of ' + mod.lessons.length),
+              e('div', {className:'dl-tl-h', key:'h'}, les.title),
+              e('div', {className:'dl-tl-scripture', key:'sc'}, [
+                e('div', {className:'dl-tl-ref', key:'r'}, les.scripture.ref),
+                e('div', {className:'dl-tl-verse', key:'v'}, les.scripture.text)
+              ]),
+              e('button', {className:'dl-listen-inline' + (isSpeaking ? ' active' : ''), onClick:()=>toggleSpeak(les.scripture.text + '. ' + les.body), key:'ls'},
+                [String.fromCodePoint(isSpeaking ? 0x23F9 : 0x1F50A), ' ', isSpeaking ? 'Stop' : 'Listen']),
+              ...les.body.split('\n\n').map((para, pi) => e('p', {className:'dl-tl-body', key:'p'+pi}, para)),
+              e('div', {className:'dl-tl-reflect', key:'rf'}, [
+                e('div', {className:'dl-tl-reflect-h', key:'h'}, [String.fromCodePoint(0x1F4AD), ' Sit with this']),
+                e('div', {key:'t'}, les.reflect)
+              ]),
+              e('div', {className:'dl-tl-prayer', key:'pr'}, [
+                e('div', {className:'dl-tl-prayer-h', key:'h'}, [String.fromCodePoint(0x1F64F), ' A prayer']),
+                e('div', {key:'t'}, les.prayer)
+              ]),
+              e('button', {className:'dl-continue', style:{marginTop:'16px'}, onClick:()=>{
+                if (!done) {
+                  const list = state.trackDone || [];
+                  persist({ ...state, trackDone: [...list, les.id] });
+                }
+                const next = mod.lessons[idx+1];
+                if (next) setOpenLessonTrack(next.id); else setOpenLessonTrack(null);
+              }, key:'c'}, mod.lessons[idx+1] ? (done ? 'Next lesson' : 'Mark done \u00b7 Next') : (done ? 'Finish' : 'Mark done \u00b7 Finish'))
+            ]);
+          })()
+          : openModule ? (() => {
+            const tr = TRACKS.find(t => t.id === openTrack);
+            const mod = tr && tr.modules.find(m => m.id === openModule);
+            if (!mod) return null;
+            return e('div', {key:'mod'}, [
+              e('button', {className:'dl-topic-back', onClick:()=>setOpenModule(null), key:'b'}, String.fromCodePoint(0x2190) + ' ' + tr.name),
+              e('div', {className:'dl-mod-head', key:'h'}, [
+                e('div', {className:'dl-mod-icon', key:'i'}, mod.icon),
+                e('div', {className:'dl-mod-title', key:'t'}, mod.title),
+                e('div', {className:'dl-mod-sum', key:'s'}, mod.summary)
+              ]),
+              ...mod.lessons.map((l, li) => {
+                const d = (state.trackDone || []).includes(l.id);
+                return e('button', {className:'dl-modles' + (d ? ' done' : ''), onClick:()=>{ if (requireAccount('read track lessons')) return; setOpenLessonTrack(l.id); }, key:l.id}, [
+                  e('span', {className:'dl-modles-num', key:'n'}, d ? String.fromCodePoint(0x2713) : (li+1)),
+                  e('span', {style:{flex:1, minWidth:0}, key:'t'}, [
+                    e('div', {className:'dl-modles-title', key:'a'}, l.title),
+                    e('div', {className:'dl-modles-ref', key:'b'}, l.scripture.ref)
+                  ]),
+                  e('span', {className:'dl-group-arrow', key:'x'}, String.fromCodePoint(0x203A))
+                ]);
+              })
+            ]);
+          })()
+          : openTrack ? (() => {
+            const tr = TRACKS.find(t => t.id === openTrack);
+            if (!tr) return null;
+            return e('div', {key:'tk'}, [
+              e('button', {className:'dl-topic-back', onClick:()=>setOpenTrack(null), key:'b'}, String.fromCodePoint(0x2190) + ' All tracks'),
+              e('div', {className:'dl-track-head', key:'h'}, [
+                e('div', {className:'dl-track-icon', key:'i'}, tr.icon),
+                e('div', {className:'dl-track-name', key:'n'}, tr.name),
+                e('div', {className:'dl-track-blurb', key:'bl'}, tr.blurb),
+                tr.note ? e('div', {className:'dl-track-note', key:'nt'}, tr.note) : null
+              ]),
+              ...tr.modules.map(m => {
+                const total = m.lessons.length;
+                const doneN = m.lessons.filter(l => (state.trackDone || []).includes(l.id)).length;
+                return e('button', {className:'dl-modcard', onClick:()=>setOpenModule(m.id), key:m.id}, [
+                  e('span', {className:'dl-modcard-icon', key:'i'}, m.icon),
+                  e('span', {style:{flex:1, minWidth:0}, key:'t'}, [
+                    e('div', {className:'dl-modcard-title', key:'a'}, m.title),
+                    e('div', {className:'dl-modcard-sum', key:'b'}, m.summary),
+                    e('div', {className:'dl-modcard-prog', key:'c'}, doneN + ' of ' + total + ' done')
+                  ]),
+                  e('span', {className:'dl-group-arrow', key:'x'}, String.fromCodePoint(0x203A))
+                ]);
+              })
+            ]);
+          })()
+          : [
+            e('div', {className:'dl-empty-note', style:{marginBottom:'14px'}, key:'n'}, 'Real life, not book order. Pick whichever one fits where you actually are right now.'),
+            ...TRACKS.map(tr => e('button', {className:'dl-trackcard', onClick:()=>{ if (requireAccount('open guided tracks')) return; setOpenTrack(tr.id); }, key:tr.id}, [
+              e('div', {className:'dl-trackcard-icon', key:'i'}, tr.icon),
+              e('div', {className:'dl-trackcard-tag', key:'g'}, tr.tag),
+              e('div', {className:'dl-trackcard-name', key:'n'}, tr.name),
+              e('div', {className:'dl-trackcard-blurb', key:'b'}, tr.blurb),
+              !user ? e('div', {className:'dl-lockrow', key:'lk'}, [String.fromCodePoint(0x1F512), ' Sign up to open']) : null
+            ]))
+          ]
+        ) : null,
+
         exploreView === 'timeline' ? e('div', {key:'timeline'}, [
           e('div', {className:'dl-empty-note', style:{marginBottom:'16px'}, key:'n'}, 'The whole story in order, from creation to the church. Dates are approximate.'),
           ...TIMELINE.map((era, ei) => e('div', {className:'dl-era', key:'era'+ei}, [
@@ -4471,108 +4749,6 @@
               ])
             ))
           ]
-        ) : null,
-
-        exploreView === 'tracks' ? e('div', {key:'tracks'},
-          openLessonTrack ? (() => {
-            const tr = TRACKS.find(t => t.id === openTrack);
-            const mod = tr ? tr.modules.find(m => m.id === openModule) : null;
-            const les = mod ? mod.lessons.find(l => l.id === openLessonTrack) : null;
-            if (!les) return null;
-            const idx = mod.lessons.findIndex(l => l.id === les.id);
-            const done = (state.trackDone || []).includes(les.id);
-            const next = mod.lessons[idx + 1];
-            return e('div', {key:'lesson'}, [
-              e('button', {className:'dl-topic-back', onClick:()=>{ stopSpeaking(); setOpenLessonTrack(null); }, key:'back'}, String.fromCodePoint(0x2190) + ' ' + mod.title),
-              e('div', {className:'dl-tl-step', key:'st'}, 'Lesson ' + (idx + 1) + ' of ' + mod.lessons.length),
-              e('div', {className:'dl-tl-h', key:'h'}, les.title),
-              e('button', {className:'dl-listen-inline' + (isSpeaking ? ' active' : ''), onClick:()=>toggleSpeak(
-                les.title + '. ' + (les.scripture ? les.scripture.ref + '. ' + les.scripture.text + ' ' : '') + les.body
-              ), key:'listen'}, [String.fromCodePoint(isSpeaking ? 0x23F9 : 0x1F50A), ' ', isSpeaking ? 'Stop' : 'Listen']),
-              les.scripture ? e('div', {className:'dl-tl-scripture', key:'sc'}, [
-                e('div', {className:'dl-tl-ref', key:'r'}, les.scripture.ref),
-                e('div', {className:'dl-tl-verse', key:'v'}, les.scripture.text)
-              ]) : null,
-              ...String(les.body || '').split('\n\n').map((para, pi) =>
-                e('p', {className:'dl-tl-body', key:'p' + pi}, para)
-              ),
-              les.reflect ? e('div', {className:'dl-tl-reflect', key:'rf'}, [
-                e('div', {className:'dl-tl-reflect-h', key:'h'}, 'Sit with this'),
-                e('div', {key:'t'}, les.reflect)
-              ]) : null,
-              les.prayer ? e('div', {className:'dl-tl-prayer', key:'pr'}, [
-                e('div', {className:'dl-tl-prayer-h', key:'h'}, 'A prayer'),
-                e('div', {key:'t'}, les.prayer)
-              ]) : null,
-              e('button', {className:'dl-continue', style:{marginTop:'18px'}, onClick:()=>{
-                stopSpeaking();
-                const list = state.trackDone || [];
-                if (!list.includes(les.id)) persist({ ...state, trackDone: [...list, les.id] });
-                if (next) setOpenLessonTrack(next.id); else setOpenLessonTrack(null);
-              }, key:'done'}, next ? (done ? 'Next lesson' : 'Mark done \u00b7 Next lesson') : (done ? 'Back to lessons' : 'Mark done'))
-            ]);
-          })()
-
-          : openModule ? (() => {
-            const tr = TRACKS.find(t => t.id === openTrack);
-            const mod = tr ? tr.modules.find(m => m.id === openModule) : null;
-            if (!mod) return null;
-            return e('div', {key:'module'}, [
-              e('button', {className:'dl-topic-back', onClick:()=>setOpenModule(null), key:'back'}, String.fromCodePoint(0x2190) + ' ' + tr.name),
-              e('div', {className:'dl-mod-head', key:'head'}, [
-                e('div', {className:'dl-mod-icon', key:'i'}, mod.icon),
-                e('div', {className:'dl-mod-title', key:'t'}, mod.title),
-                e('div', {className:'dl-mod-sum', key:'s'}, mod.summary)
-              ]),
-              ...mod.lessons.map((l, li) => {
-                const isDone = (state.trackDone || []).includes(l.id);
-                return e('button', {className:'dl-modles' + (isDone ? ' done' : ''), onClick:()=>setOpenLessonTrack(l.id), key:l.id}, [
-                  e('span', {className:'dl-modles-num', key:'n'}, isDone ? String.fromCodePoint(0x2713) : (li + 1)),
-                  e('span', {style:{flex:1, minWidth:0}, key:'t'}, [
-                    e('div', {className:'dl-modles-title', key:'a'}, l.title),
-                    l.scripture ? e('div', {className:'dl-modles-ref', key:'b'}, l.scripture.ref) : null
-                  ])
-                ]);
-              })
-            ]);
-          })()
-
-          : openTrack ? (() => {
-            const tr = TRACKS.find(t => t.id === openTrack);
-            if (!tr) return null;
-            return e('div', {key:'track'}, [
-              e('button', {className:'dl-topic-back', onClick:()=>setOpenTrack(null), key:'back'}, String.fromCodePoint(0x2190) + ' All tracks'),
-              e('div', {className:'dl-track-head', key:'head'}, [
-                e('div', {className:'dl-track-icon', key:'i'}, tr.icon),
-                e('div', {className:'dl-track-name', key:'n'}, tr.name),
-                e('div', {className:'dl-track-blurb', key:'b'}, tr.blurb),
-                tr.note ? e('div', {className:'dl-track-note', key:'note'}, tr.note) : null
-              ]),
-              ...tr.modules.map(m => {
-                const total = m.lessons.length;
-                const doneN = m.lessons.filter(l => (state.trackDone || []).includes(l.id)).length;
-                return e('button', {className:'dl-modcard', onClick:()=>setOpenModule(m.id), key:m.id}, [
-                  e('span', {className:'dl-modcard-icon', key:'i'}, m.icon),
-                  e('span', {style:{flex:1, minWidth:0}, key:'t'}, [
-                    e('div', {className:'dl-modcard-title', key:'a'}, m.title),
-                    e('div', {className:'dl-modcard-sum', key:'b'}, m.summary),
-                    e('div', {className:'dl-modcard-prog', key:'c'}, doneN + ' of ' + total + ' done')
-                  ])
-                ]);
-              })
-            ]);
-          })()
-
-          : [
-              e('div', {className:'dl-empty-note', style:{marginBottom:'14px'}, key:'note'}, 'Guided studies for what people actually wrestle with. Pick the one that fits where you are.'),
-              ...TRACKS.map(tr => e('button', {className:'dl-trackcard', onClick:()=>{ if (requireAccount('open track studies')) return; setOpenTrack(tr.id); setOpenModule(null); setOpenLessonTrack(null); }, key:tr.id}, [
-                e('div', {className:'dl-trackcard-icon', key:'i'}, tr.icon),
-                e('div', {className:'dl-trackcard-tag', key:'g'}, tr.tag),
-                e('div', {className:'dl-trackcard-name', key:'n'}, tr.name),
-                e('div', {className:'dl-trackcard-blurb', key:'b'}, tr.blurb),
-                !user ? e('span', {className:'dl-lockdot', key:'lk'}, String.fromCodePoint(0x1F512)) : null
-              ]))
-            ]
         ) : null,
 
         exploreView === 'topics' ? e('div', {className:'dl-section-title', style:{marginTop:'4px'}, key:'lbl'}, [String.fromCodePoint(0x1F50D), ' How are you doing today?']) : null,
@@ -5051,42 +5227,6 @@
                         [String.fromCodePoint(0x2753), ' Ask'])
                     ])
                   : null,
-
-                composerMode === 'assign' ? e('div', {className:'dl-assign-box', key:'ab'}, [
-                  e('div', {className:'dl-manage-sub', style:{marginTop:0}, key:'l'}, assignBook ? assignBook : 'Pick a book'),
-                  !assignBook
-                    ? e('div', {key:'books'}, [
-                        e('input', {className:'dl-social-input', style:{width:'100%', marginBottom:'8px'}, value:assignSearch, placeholder:'Search books or lessons\u2026', onChange: ev=>setAssignSearch(ev.target.value), key:'s'}),
-                        e('div', {className:'dl-assign-list', key:'bl'},
-                          assignSearch.trim().length >= 2
-                            ? searchLessons(assignSearch).map(l => e('button', {className:'dl-assign-item', onClick:()=>assignLesson(g.id, l), key:l.id}, [
-                                e('span', {className:'dl-fav-book', key:'b'}, l.book),
-                                e('span', {className:'dl-fav-title', key:'t'}, l.title)
-                              ]))
-                            : [...new Set(LESSONS.map(l => l.book))].map(bk =>
-                                e('button', {className:'dl-assign-item', onClick:()=>setAssignBook(bk), key:bk}, [
-                                  e('span', {className:'dl-fav-title', key:'t'}, bk),
-                                  e('span', {className:'dl-fav-book', key:'c'}, LESSONS.filter(l=>l.book===bk).length + ' lessons')
-                                ])
-                              )
-                        )
-                      ])
-                    : e('div', {key:'lessons'}, [
-                        e('button', {className:'dl-topic-back', onClick:()=>setAssignBook(null), key:'bk'}, String.fromCodePoint(0x2190) + ' All books'),
-                        e('div', {className:'dl-assign-list', key:'ll'},
-                          LESSONS.filter(l => l.book === assignBook).map(l =>
-                            e('button', {className:'dl-assign-item', onClick:()=>assignLesson(g.id, l), key:l.id}, [
-                              e('span', {className:'dl-fav-title', key:'t'}, l.title)
-                            ])
-                          )
-                        )
-                      ]),
-                  e('div', {className:'dl-due-row', key:'due'}, [
-                    e('span', {className:'dl-due-label', key:'l'}, 'Due (optional)'),
-                    e('input', {type:'date', className:'dl-due-input', value:assignDue, onChange: ev=>setAssignDue(ev.target.value), key:'i'})
-                  ]),
-                  e('button', {className:'dl-gm-cancel', style:{width:'100%'}, onClick:()=>{setComposerMode(null); setAssignBook(null);}, key:'c'}, 'Cancel')
-                ]) : null,
 
                 (composerMode === 'prompt' || composerMode === 'ask') ? e('div', {className:'dl-assign-box', key:'pb'}, [
                   e('div', {className:'dl-manage-sub', style:{marginTop:0}, key:'l'},

@@ -8,9 +8,9 @@
         { ref: "Isaiah 14:13\u201314", text: "You said in your heart, \u2018I will ascend to the heavens; I will raise my throne above the stars of God\u2026 I will make myself like the Most High.\u2019" }
       ],
       questions: [
-        { q:"Who is this taunt originally directed at?", opts:["A demon", "A proud, oppressive Babylonian king", "Adam"], correct:1, explain:"The immediate target is a human ruler whose ambition and cruelty are being mocked in his downfall." },
-        { q:"What five \u2018I will\u2019 statements characterize his ambition?", opts:["Humility and service", "Ascending, raising his throne, sitting enthroned, rising above the clouds, making himself like the Most High", "Generosity toward others"], correct:1, explain:"A relentless upward reach, each phrase climbing higher than the last." },
-        { q:"Where does the ambition end?", opts:["At the throne he wanted", "Brought down to the depths of the pit", "Unresolved"], correct:1, explain:"The chapter's whole structure is the reversal of that upward reach into a downward fall." }
+        { q:"Who is this taunt originally directed at?", opts:["A demon","A proud, oppressive Babylonian king","Adam"], correct:1, explain:"The immediate target is a human ruler whose ambition and cruelty are being mocked in his downfall." },
+        { q:"What five \u2018I will\u2019 statements characterize his ambition?", opts:["Ascending, raising his throne, sitting enthroned, rising above the clouds, making himself like the Most High","Humility and service","Generosity toward others"], correct:0, explain:"A relentless upward reach, each phrase climbing higher than the last." },
+        { q:"Where does the ambition end?", opts:["At the throne he wanted","Unresolved","Brought down to the depths of the pit"], correct:2, explain:"The chapter's whole structure is the reversal of that upward reach into a downward fall." }
       ],
       deepDive: "This taunt song was composed for a specific proud king, but its imagery of overreaching ambition \u2014 wanting to sit above the stars, to be like the Most High \u2014 proved so vivid that later readers heard something larger echoing behind it. The escalating 'I will' statements trace the anatomy of pride generally: it always wants one rung higher than the last, until it demands the very throne of God. Whatever your read on its ultimate reference, the pattern it describes is universal and worth recognizing in yourself: ambition that starts reasonably and keeps climbing past every legitimate stopping point eventually demands what was never on offer, and the fall matches the height of the reach." },
     { id:400, book:"Isaiah", title:"Do not fear, I have redeemed you", side:"r",
@@ -19,9 +19,9 @@
         { ref: "Isaiah 44:2\u20133", text: "Do not be afraid\u2026 For I will pour water on the thirsty land, and streams on the dry ground; I will pour out my Spirit on your offspring." }
       ],
       questions: [
-        { q:"What's absurd about the idol-maker's actions?", opts:["Nothing", "He burns half the wood for warmth and worships the other half as a god", "The wood was too expensive"], correct:1, explain:"The same material serves both a fire and a deity, exposing the manufactured nature of the idol." },
-        { q:"What does God remind Israel he did before they existed?", opts:["Nothing", "Formed them in the womb, made them", "Waited for their permission"], correct:1, explain:"Their identity as his people preceded any choice or achievement of their own." },
-        { q:"What is promised alongside \u2018do not be afraid\u2019?", opts:["Wealth", "Water on thirsty land and the Spirit poured out", "Military victory"], correct:1, explain:"Physical and spiritual renewal promised together, addressed to dry, exhausted ground." }
+        { q:"What's absurd about the idol-maker's actions?", opts:["He burns half the wood for warmth and worships the other half as a god","Nothing","The wood was too expensive"], correct:0, explain:"The same material serves both a fire and a deity, exposing the manufactured nature of the idol." },
+        { q:"What does God remind Israel he did before they existed?", opts:["Waited for their permission","Nothing","Formed them in the womb, made them"], correct:2, explain:"Their identity as his people preceded any choice or achievement of their own." },
+        { q:"What is promised alongside \u2018do not be afraid\u2019?", opts:["Water on thirsty land and the Spirit poured out","Military victory","Wealth"], correct:0, explain:"Physical and spiritual renewal promised together, addressed to dry, exhausted ground." }
       ],
       deepDive: "Isaiah's satire of idol-making is some of Scripture's driest humor \u2014 a man burns half a tree to stay warm and cook dinner, then bows down to the other half and begs it to save him, apparently missing the fact that he built it himself that morning. The comedy has a serious point: anything you manufacture to worship has no more power than the material it's made from. Against that folly, God's word to Israel is entirely different in kind \u2014 he formed them, not the other way around, and he speaks not commands but comfort: do not be afraid. And the promise of water on thirsty ground alongside the Spirit poured out ties physical and spiritual restoration together, addressed to people who felt both kinds of dryness." },
     { id:189, book:"Jeremiah", title:"Before I formed you", side:"c",
@@ -30,9 +30,9 @@
         { ref: "Jeremiah 1:5", text: "Before I formed you in the womb I knew you, before you were born I set you apart." }
       ],
       questions: [
-        { q:"When did God's knowledge of Jeremiah begin?", opts:["At his calling", "Before he was formed in the womb", "When he became a prophet"], correct:1, explain:"The calling predates the man \u2014 identity assigned before any performance existed to earn it." },
-        { q:"What was Jeremiah's objection?", opts:["He was too busy", "\u2018I do not know how to speak; I am too young\u2019", "He didn't believe"], correct:1, explain:"Inadequacy, the same objection Moses made \u2014 and God answers it the same way: I am with you." },
-        { q:"What did God NOT promise him?", opts:["His presence", "An easy or successful ministry", "Rescue"], correct:1, explain:"He promised presence and rescue, not results \u2014 a distinction Jeremiah's whole life would test." }
+        { q:"When did God's knowledge of Jeremiah begin?", opts:["When he became a prophet","At his calling","Before he was formed in the womb"], correct:2, explain:"The calling predates the man \u2014 identity assigned before any performance existed to earn it." },
+        { q:"What was Jeremiah's objection?", opts:["\u2018I do not know how to speak; I am too young\u2019","He didn't believe","He was too busy"], correct:0, explain:"Inadequacy, the same objection Moses made \u2014 and God answers it the same way: I am with you." },
+        { q:"What did God NOT promise him?", opts:["An easy or successful ministry","His presence","Rescue"], correct:0, explain:"He promised presence and rescue, not results \u2014 a distinction Jeremiah's whole life would test." }
       ],
       deepDive: "Jeremiah's call has comforted people for millennia \u2014 known before formed, set apart before born \u2014 but it's worth reading with his biography in view. This man would preach for forty years, be beaten, imprisoned, thrown in a cistern, and watch his warnings ignored until the city burned exactly as he said. God's promise was never that it would go well; it was 'I am with you.' That reframes the verse's comfort: being known and appointed before birth doesn't guarantee an easy road, it guarantees you're not on it alone. If you've measured your calling by its reception, Jeremiah is the correction." },
     { id:190, book:"Jeremiah", title:"Broken cisterns", side:"l",
@@ -41,9 +41,9 @@
         { ref: "Jeremiah 2:13", text: "They have forsaken me, the spring of living water, and have dug their own cisterns, broken cisterns that cannot hold water." }
       ],
       questions: [
-        { q:"What are the two sins named?", opts:["Lying and stealing", "Forsaking the spring, and digging broken cisterns to replace it", "Idolatry alone"], correct:1, explain:"Leaving is the first; the substitute is the second \u2014 and the substitute is the tragedy." },
-        { q:"Why is the spring-versus-cistern contrast so sharp?", opts:["Cisterns are expensive", "A spring is living and endless; a cistern is hand-dug, limited, and this one leaks", "They're equivalent"], correct:1, explain:"Enormous labor spent to produce something vastly worse than what was free." },
-        { q:"What does the image say about idolatry generally?", opts:["It's satisfying", "It's exhausting work that can't hold what you put in it", "It's harmless"], correct:1, explain:"Whatever you substitute for God requires constant digging and still runs dry." }
+        { q:"What are the two sins named?", opts:["Lying and stealing","Idolatry alone","Forsaking the spring, and digging broken cisterns to replace it"], correct:2, explain:"Leaving is the first; the substitute is the second \u2014 and the substitute is the tragedy." },
+        { q:"Why is the spring-versus-cistern contrast so sharp?", opts:["A spring is living and endless; a cistern is hand-dug, limited, and this one leaks","They're equivalent","Cisterns are expensive"], correct:0, explain:"Enormous labor spent to produce something vastly worse than what was free." },
+        { q:"What does the image say about idolatry generally?", opts:["It's exhausting work that can't hold what you put in it","It's harmless","It's satisfying"], correct:0, explain:"Whatever you substitute for God requires constant digging and still runs dry." }
       ],
       deepDive: "This is one of Scripture's most useful images for anything that has quietly taken God's place. Notice what God grieves: not just the leaving, but the trade. A spring requires nothing of you and never stops; a cistern is a pit you carve out of rock by hand, that holds only what falls into it, and if it cracks it holds nothing. That's a precise description of how substitutes work \u2014 enormous effort, diminishing returns, chronic thirst. The honest question today: what am I currently digging that keeps not holding water?" },
     { id:191, book:"Jeremiah", title:"The potter's house", side:"r",
@@ -52,9 +52,9 @@
         { ref: "Jeremiah 18:6", text: "Like clay in the hand of the potter, so are you in my hand." }
       ],
       questions: [
-        { q:"What did the potter do with the marred pot?", opts:["Threw it away", "Reformed it into another pot", "Sold it damaged"], correct:1, explain:"The clay stayed on the wheel \u2014 marring led to remaking, not discarding." },
-        { q:"What does the image say about God's sovereignty?", opts:["It's arbitrary", "He has the right and skill to shape", "It doesn't apply to nations"], correct:1, explain:"The chapter explicitly ties His action to repentance: turn, and the announced disaster is relented." },
-        { q:"What is the hopeful edge of this image?", opts:["Ruined is final", "A marred vessel isn't a wasted one", "The potter gives up"], correct:1, explain:"For anyone who feels beyond repair, the potter's response is remaking, not the trash heap." }
+        { q:"What did the potter do with the marred pot?", opts:["Reformed it into another pot","Sold it damaged","Threw it away"], correct:0, explain:"The clay stayed on the wheel \u2014 marring led to remaking, not discarding." },
+        { q:"What does the image say about God's sovereignty?", opts:["It doesn't apply to nations","It's arbitrary","He has the right and skill to shape"], correct:2, explain:"The chapter explicitly ties His action to repentance: turn, and the announced disaster is relented." },
+        { q:"What is the hopeful edge of this image?", opts:["The potter gives up","A marred vessel isn't a wasted one","Ruined is final"], correct:1, explain:"For anyone who feels beyond repair, the potter's response is remaking, not the trash heap." }
       ],
       deepDive: "The potter image gets used to teach God's absolute rights over us, and it does teach that \u2014 but the scene Jeremiah actually watched is gentler than the sermon usually is. The pot was marred while being made, and the potter didn't discard it; he pressed it down and started again with the same clay. Then God ties the whole thing to response: warn a nation, and if it turns, He relents. Sovereignty and responsiveness held together. If something in your life feels ruined past use, the workshop's lesson is that the clay is still on the wheel and still in skilled hands." },
     { id:192, book:"Jeremiah", title:"Plans to give you hope", side:"c",
@@ -63,9 +63,9 @@
         { ref: "Jeremiah 29:11", text: "For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future." }
       ],
       questions: [
-        { q:"Who received this promise, and where?", opts:["Free people in Jerusalem", "Exiles in Babylon", "Kings"], correct:1, explain:"The most quoted comfort verse in the Bible was addressed to people whose situation would not improve for a lifetime." },
-        { q:"What did God tell the exiles to do meanwhile?", opts:["Wait passively", "Build, plant, marry, and seek the good of the city that held them", "Plan an escape"], correct:1, explain:"Live fully where you are \u2014 even a temporary place deserves your full presence." },
-        { q:"What does the context add to verse 11?", opts:["It weakens it", "It strengthens it", "Nothing"], correct:1, explain:"Not a promise of quick relief, but of a good ending that outlasts a long hard middle." }
+        { q:"Who received this promise, and where?", opts:["Kings","Free people in Jerusalem","Exiles in Babylon"], correct:2, explain:"The most quoted comfort verse in the Bible was addressed to people whose situation would not improve for a lifetime." },
+        { q:"What did God tell the exiles to do meanwhile?", opts:["Plan an escape","Build, plant, marry, and seek the good of the city that held them","Wait passively"], correct:1, explain:"Live fully where you are \u2014 even a temporary place deserves your full presence." },
+        { q:"What does the context add to verse 11?", opts:["Nothing","It strengthens it","It weakens it"], correct:1, explain:"Not a promise of quick relief, but of a good ending that outlasts a long hard middle." }
       ],
       deepDive: "Jeremiah 29:11 shows up on coffee mugs and graduation cards, usually stripped of everything that makes it powerful. It was written to people in a foreign capital, told plainly that they'd be there seventy years \u2014 most would die in exile \u2014 and instructed to build houses, plant gardens, and pray for the city that conquered them. That's the setting of 'plans to prosper you.' Read there, it stops being a promise of quick rescue and becomes something sturdier: God's good purposes run on timelines that outlast our patience, and the right response to a long middle is to live fully inside it." },
     { id:193, book:"Jeremiah", title:"Fire in my bones", side:"l",
@@ -74,9 +74,9 @@
         { ref: "Jeremiah 20:9", text: "His word is in my heart like a fire, a fire shut up in my bones. I am weary of holding it in; indeed, I cannot." }
       ],
       questions: [
-        { q:"What is remarkable about Jeremiah's complaint?", opts:["Its politeness", "Its rawness", "Its brevity"], correct:1, explain:"Like Job and the psalms of lament, the Bible keeps the unedited version of faithful anguish." },
-        { q:"Why couldn't he quit?", opts:["Contract obligations", "God's word burned in him like fire shut up in his bones", "Fear of punishment"], correct:1, explain:"Silence cost him more than speaking did \u2014 the calling wouldn't stay buried." },
-        { q:"What do the mood swings in this chapter show?", opts:["Instability disqualifying him", "That praise and despair can coexist in a faithful life", "That he lost his faith"], correct:1, explain:"Within a few verses: accusation, praise, and cursing his birthday \u2014 all preserved as honest faith." }
+        { q:"What is remarkable about Jeremiah's complaint?", opts:["Its brevity","Its rawness","Its politeness"], correct:1, explain:"Like Job and the psalms of lament, the Bible keeps the unedited version of faithful anguish." },
+        { q:"Why couldn't he quit?", opts:["Contract obligations","Fear of punishment","God's word burned in him like fire shut up in his bones"], correct:2, explain:"Silence cost him more than speaking did \u2014 the calling wouldn't stay buried." },
+        { q:"What do the mood swings in this chapter show?", opts:["That he lost his faith","That praise and despair can coexist in a faithful life","Instability disqualifying him"], correct:1, explain:"Within a few verses: accusation, praise, and cursing his birthday \u2014 all preserved as honest faith." }
       ],
       deepDive: "Jeremiah 20 is one of the most emotionally honest passages in Scripture. He accuses God of deceiving him, describes being mocked all day, tries to resign \u2014 and finds he can't, because the word burns. Then, astonishingly, he breaks into praise, and a few lines later curses the day he was born. No editor smoothed this out, which is itself the lesson: faith is not the absence of that turbulence. If you've ever felt both 'I can't do this anymore' and 'I can't walk away from this' in the same hour, Jeremiah wrote it down first." },
     { id:194, book:"Jeremiah", title:"A new covenant", side:"r",
@@ -85,9 +85,9 @@
         { ref: "Jeremiah 31:33", text: "I will put my law in their minds and write it on their hearts. I will be their God, and they will be my people." }
       ],
       questions: [
-        { q:"How is the new covenant different?", opts:["Stricter rules", "The law written on hearts, not tablets", "Fewer commands"], correct:1, explain:"The problem was never the law's content but the human heart's capacity \u2014 so God addresses the heart." },
-        { q:"What happens to sins under it?", opts:["They're tracked carefully", "Forgiven, and remembered no more", "Punished later"], correct:1, explain:"Deliberate forgetting by the One who forgets nothing accidentally \u2014 the strongest possible pardon." },
-        { q:"Where does the New Testament use this passage?", opts:["Nowhere", "Hebrews quotes it in full, and Jesus invokes it at the Last Supper", "Only in Revelation"], correct:1, explain:"\u2018This cup is the new covenant in my blood\u2019 \u2014 Jesus names this promise as arriving." }
+        { q:"How is the new covenant different?", opts:["Fewer commands","Stricter rules","The law written on hearts, not tablets"], correct:2, explain:"The problem was never the law's content but the human heart's capacity \u2014 so God addresses the heart." },
+        { q:"What happens to sins under it?", opts:["Punished later","They're tracked carefully","Forgiven, and remembered no more"], correct:2, explain:"Deliberate forgetting by the One who forgets nothing accidentally \u2014 the strongest possible pardon." },
+        { q:"Where does the New Testament use this passage?", opts:["Nowhere","Only in Revelation","Hebrews quotes it in full, and Jesus invokes it at the Last Supper"], correct:2, explain:"\u2018This cup is the new covenant in my blood\u2019 \u2014 Jesus names this promise as arriving." }
       ],
       deepDive: "This is the mountaintop of Jeremiah, and it comes from a prophet whose entire career was announcing collapse. The diagnosis behind it runs through the whole Old Testament: a law outside a person can direct but can't change them. So God promises to move it inside \u2014 written on hearts \u2014 along with universal knowledge of Him and forgiveness so complete He describes it as forgetting. Hebrews quotes this chapter at length, and Jesus reached for its language over a cup on the night before He died. Everything the Bible calls 'new covenant' starts as a promise spoken over a burning city." },
     { id:195, book:"Jeremiah", title:"The city falls", side:"c",
@@ -96,9 +96,9 @@
         { ref: "Jeremiah 39:18", text: "I will save you; you will not fall by the sword but will escape with your life, because you trust in me, declares the LORD." }
       ],
       questions: [
-        { q:"How did Jeremiah's forty years of preaching end?", opts:["National revival", "The exact judgment he warned about", "Him being honored"], correct:1, explain:"He was right, and it brought him no vindication he wanted \u2014 only the grief of being right." },
-        { q:"What did Jeremiah choose when offered comfort in Babylon?", opts:["He took it", "He stayed in the ruined land with the poorest who remained", "He fled to Egypt alone"], correct:1, explain:"Given an exit, the weeping prophet stayed with the people who had nothing." },
-        { q:"What does his life say about faithfulness?", opts:["It guarantees results", "It's measured by obedience, not by whether people listen", "It's easy"], correct:1, explain:"By any modern metric his ministry failed; by Scripture's, he is one of its great successes." }
+        { q:"How did Jeremiah's forty years of preaching end?", opts:["National revival","The exact judgment he warned about","Him being honored"], correct:1, explain:"He was right, and it brought him no vindication he wanted \u2014 only the grief of being right." },
+        { q:"What did Jeremiah choose when offered comfort in Babylon?", opts:["He fled to Egypt alone","He stayed in the ruined land with the poorest who remained","He took it"], correct:1, explain:"Given an exit, the weeping prophet stayed with the people who had nothing." },
+        { q:"What does his life say about faithfulness?", opts:["It's measured by obedience, not by whether people listen","It guarantees results","It's easy"], correct:0, explain:"By any modern metric his ministry failed; by Scripture's, he is one of its great successes." }
       ],
       deepDive: "Jeremiah is the Bible's hardest case study in faithfulness without visible results. Forty years of preaching, no national repentance, a burned city, and a prophet who wept over the very people who mocked him. The temptation is to read the fall as vindication \u2014 but the book won't let you; he grieved rather than gloated. What his life quietly asks is whether you can define faithfulness without reference to outcomes. If your only measure is response, Jeremiah's career is a failure. If the measure is obedience under sustained discouragement, he stands near the top of Scripture." },
     { id:196, book:"Lamentations", title:"How lonely sits the city", side:"l",
@@ -107,9 +107,9 @@
         { ref: "Lamentations 1:12", text: "Is it nothing to you, all you who pass by? Look around and see. Is any suffering like my suffering?" }
       ],
       questions: [
-        { q:"What is Lamentations?", opts:["A history", "Five poems of grief over Jerusalem's destruction", "A collection of laws"], correct:1, explain:"Scripture devotes a whole book to sustained mourning \u2014 no plot, no resolution, just honest lament." },
-        { q:"How does the book handle the pain?", opts:["Minimizes it", "Names it fully, in detail, without hurrying to comfort", "Blames the victims only"], correct:1, explain:"It refuses to shorten grief \u2014 which is why grieving people have found it trustworthy for millennia." },
-        { q:"Why does a book like this belong in the Bible?", opts:["To depress readers", "Because faith includes lament", "By accident"], correct:1, explain:"Scripture doesn't require you to feel fine before you speak to God." }
+        { q:"What is Lamentations?", opts:["A collection of laws","Five poems of grief over Jerusalem's destruction","A history"], correct:1, explain:"Scripture devotes a whole book to sustained mourning \u2014 no plot, no resolution, just honest lament." },
+        { q:"How does the book handle the pain?", opts:["Names it fully, in detail, without hurrying to comfort","Blames the victims only","Minimizes it"], correct:0, explain:"It refuses to shorten grief \u2014 which is why grieving people have found it trustworthy for millennia." },
+        { q:"Why does a book like this belong in the Bible?", opts:["To depress readers","Because faith includes lament","By accident"], correct:1, explain:"Scripture doesn't require you to feel fine before you speak to God." }
       ],
       deepDive: "Lamentations exists because Scripture takes grief seriously enough to give it structure. The poems are acrostics \u2014 each stanza starting with successive Hebrew letters \u2014 which sounds academic until you consider what it means: grief so overwhelming it needed a form to hold it, A to Z, all of it. Nothing here is rushed. There's no 'everything happens for a reason,' no early comfort, no minimizing. For anyone who has been handed a tidy explanation while their world was still burning, this book is the Bible's answer: sit down, say all of it, take as long as you need." },
     { id:197, book:"Lamentations", title:"Great is your faithfulness", side:"r",
@@ -118,9 +118,9 @@
         { ref: "Lamentations 3:22\u201323", text: "Because of the LORD\u2019s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness." }
       ],
       questions: [
-        { q:"Where does this famous passage sit?", opts:["At the happy ending", "At the center of the book", "In an appendix"], correct:1, explain:"Hope appears inside the lament, not after it \u2014 the ruins are still smoking on both sides of it." },
-        { q:"How does hope arrive here?", opts:["As a feeling", "By deliberate recall", "Through circumstances improving"], correct:1, explain:"He chooses what to remember when he can't choose what to feel." },
-        { q:"How often are God's mercies renewed?", opts:["Yearly", "Every morning", "Once for all"], correct:1, explain:"A fresh supply daily \u2014 yesterday's failures don't carry over into today's mercy." }
+        { q:"Where does this famous passage sit?", opts:["At the center of the book","In an appendix","At the happy ending"], correct:0, explain:"Hope appears inside the lament, not after it \u2014 the ruins are still smoking on both sides of it." },
+        { q:"How does hope arrive here?", opts:["Through circumstances improving","As a feeling","By deliberate recall"], correct:2, explain:"He chooses what to remember when he can't choose what to feel." },
+        { q:"How often are God's mercies renewed?", opts:["Yearly","Once for all","Every morning"], correct:2, explain:"A fresh supply daily \u2014 yesterday's failures don't carry over into today's mercy." }
       ],
       deepDive: "The most famous hymn line in this passage \u2014 great is your faithfulness \u2014 was written by a man who two verses earlier said his splendor was gone and his hope had perished. That's what makes it trustworthy. The mechanism is worth copying exactly: 'yet this I call to mind and therefore I have hope.' He doesn't wait to feel hopeful; he deliberately recalls something true and lets hope follow. And the promise is sized for exactly this kind of season \u2014 not a one-time rescue but mercies renewed each morning, enough for one day, arriving again tomorrow." },
     { id:198, book:"Lamentations", title:"Restore us to yourself", side:"c",
@@ -129,9 +129,9 @@
         { ref: "Lamentations 5:21", text: "Restore us to yourself, LORD, that we may return; renew our days as of old." }
       ],
       questions: [
-        { q:"How does the book end?", opts:["With full resolution", "With an unresolved plea", "With a celebration"], correct:1, explain:"Scripture allows a book to end in the middle of waiting \u2014 because sometimes life does." },
-        { q:"What's the direction of the request in 5:21?", opts:["Restore our fortunes", "Restore us to YOURSELF", "Restore the buildings"], correct:1, explain:"The deepest loss named isn't the city but the closeness \u2014 and that's what's asked for first." },
-        { q:"What do they affirm even while complaining?", opts:["Nothing", "\u2018You, LORD, reign forever\u2019", "That they deserved better"], correct:1, explain:"Lament here holds two things: God still reigns, and this still hurts." }
+        { q:"How does the book end?", opts:["With a celebration","With an unresolved plea","With full resolution"], correct:1, explain:"Scripture allows a book to end in the middle of waiting \u2014 because sometimes life does." },
+        { q:"What's the direction of the request in 5:21?", opts:["Restore us to YOURSELF","Restore the buildings","Restore our fortunes"], correct:0, explain:"The deepest loss named isn't the city but the closeness \u2014 and that's what's asked for first." },
+        { q:"What do they affirm even while complaining?", opts:["Nothing","\u2018You, LORD, reign forever\u2019","That they deserved better"], correct:1, explain:"Lament here holds two things: God still reigns, and this still hurts." }
       ],
       deepDive: "It takes courage for a book of the Bible to end like this \u2014 no restoration scene, no epilogue, just a request and a shadow of doubt. But that honesty is a gift to anyone still waiting. Notice what they actually ask for: not the city back, not comfort, but restoration to God Himself \u2014 and even that request admits it requires His initiative first ('restore us... that we may return'). Lamentations leaves the door open rather than shutting it, which is exactly where a lot of real faith lives: still asking, not yet answered, and still addressing the God who reigns." },
     { id:199, book:"Daniel", title:"Resolved not to defile himself", side:"l",
@@ -140,9 +140,9 @@
         { ref: "Daniel 1:8", text: "But Daniel resolved not to defile himself with the royal food and wine." }
       ],
       questions: [
-        { q:"What did Babylon's program aim to do?", opts:["Educate fairly", "Remake their identity", "Punish them"], correct:1, explain:"Assimilation by immersion; Daniel accepted the education and drew a line at the table." },
-        { q:"How did Daniel handle his objection?", opts:["Public protest", "A respectful request and a proposed ten-day test", "Secret disobedience"], correct:1, explain:"Conviction delivered with courtesy \u2014 he neither compromised nor grandstanded." },
-        { q:"What's notable about where he drew the line?", opts:["He refused everything Babylonian", "He accepted much and drew a firm line at one specific point", "He drew no lines"], correct:1, explain:"Wisdom in exile: engage the culture deeply, and know precisely where you won't bend." }
+        { q:"What did Babylon's program aim to do?", opts:["Educate fairly","Punish them","Remake their identity"], correct:2, explain:"Assimilation by immersion; Daniel accepted the education and drew a line at the table." },
+        { q:"How did Daniel handle his objection?", opts:["Secret disobedience","A respectful request and a proposed ten-day test","Public protest"], correct:1, explain:"Conviction delivered with courtesy \u2014 he neither compromised nor grandstanded." },
+        { q:"What's notable about where he drew the line?", opts:["He drew no lines","He refused everything Babylonian","He accepted much and drew a firm line at one specific point"], correct:2, explain:"Wisdom in exile: engage the culture deeply, and know precisely where you won't bend." }
       ],
       deepDive: "Daniel 1 is a masterclass in living faithfully inside a culture that isn't yours. He learns the language, studies the literature, serves the government, and answers to a Babylonian name \u2014 and then draws one clear line and holds it without a speech. Notice the manner: he 'asked permission,' proposed a test, and made it easy for the official to say yes. Conviction without obnoxiousness is rarer than either compromise or grandstanding. And the line came early \u2014 decided before the pressure, which is why it held. Where's your line, and did you settle it in advance?" },
     { id:200, book:"Daniel", title:"The dream and the stone", side:"r",
@@ -151,9 +151,9 @@
         { ref: "Daniel 2:44", text: "The God of heaven will set up a kingdom that will never be destroyed... it will itself endure forever." }
       ],
       questions: [
-        { q:"What did Daniel do before interpreting?", opts:["Consulted astrologers", "Asked for time and gathered his friends to pray for mercy", "Guessed"], correct:1, explain:"The first move in a life-or-death crisis was a prayer meeting \u2014 and he credited God publicly after." },
-        { q:"What did the rock \u2018not cut by human hands\u2019 represent?", opts:["Another empire", "God's kingdom", "An earthquake"], correct:1, explain:"Every human kingdom in the statue eventually shatters; the one from outside human hands fills the earth." },
-        { q:"What comfort did this give exiles?", opts:["Babylon would last forever", "Empires rise and fall on a schedule God knows", "They'd rule Babylon"], correct:1, explain:"To captives of a superpower, the message was that even this empire was temporary." }
+        { q:"What did Daniel do before interpreting?", opts:["Guessed","Consulted astrologers","Asked for time and gathered his friends to pray for mercy"], correct:2, explain:"The first move in a life-or-death crisis was a prayer meeting \u2014 and he credited God publicly after." },
+        { q:"What did the rock \u2018not cut by human hands\u2019 represent?", opts:["God's kingdom","Another empire","An earthquake"], correct:0, explain:"Every human kingdom in the statue eventually shatters; the one from outside human hands fills the earth." },
+        { q:"What comfort did this give exiles?", opts:["Babylon would last forever","They'd rule Babylon","Empires rise and fall on a schedule God knows"], correct:2, explain:"To captives of a superpower, the message was that even this empire was temporary." }
       ],
       deepDive: "Daniel 2 is the political theology of the whole book: empires are real, powerful, and temporary. To exiles living under the world's dominant superpower, that was the most subversive message imaginable. The statue's descending materials \u2014 gold down to iron mixed with clay \u2014 picture kingdoms increasingly impressive and increasingly brittle, and the stone that ends them isn't quarried by anyone. Notice too how Daniel handled the crisis: prayer first, credit given publicly to God second, career advancement a distant third. He was elevated because he refused to take the credit." },
     { id:201, book:"Daniel", title:"But if not", side:"c",
@@ -162,9 +162,9 @@
         { ref: "Daniel 3:17\u201318", text: "The God we serve is able to deliver us... But even if he does not, we will not serve your gods." }
       ],
       questions: [
-        { q:"What makes \u2018but even if he does not\u2019 so important?", opts:["It shows doubt", "Their obedience didn't depend on being rescued", "It's a bargaining position"], correct:1, explain:"Faith that requires a guaranteed outcome isn't faith \u2014 they settled that before the furnace." },
-        { q:"What did the king see in the fire?", opts:["Three men burning", "Four men walking unbound", "Nothing"], correct:1, explain:"They weren't spared the fire; they were accompanied inside it." },
-        { q:"What burned in the story?", opts:["The three men", "Only the ropes that bound them", "The furnace itself"], correct:1, explain:"The fire consumed their restraints and nothing else \u2014 a detail the text points out." }
+        { q:"What makes \u2018but even if he does not\u2019 so important?", opts:["It shows doubt","Their obedience didn't depend on being rescued","It's a bargaining position"], correct:1, explain:"Faith that requires a guaranteed outcome isn't faith \u2014 they settled that before the furnace." },
+        { q:"What did the king see in the fire?", opts:["Nothing","Three men burning","Four men walking unbound"], correct:2, explain:"They weren't spared the fire; they were accompanied inside it." },
+        { q:"What burned in the story?", opts:["Only the ropes that bound them","The three men","The furnace itself"], correct:0, explain:"The fire consumed their restraints and nothing else \u2014 a detail the text points out." }
       ],
       deepDive: "Three words carry this chapter: 'but if not.' The men state their confidence that God can rescue them, and then refuse to make their obedience conditional on it. That's the difference between faith and a transaction. And the deliverance, when it comes, isn't what they asked for \u2014 they aren't kept out of the furnace, they're met inside it, and the only thing the fire destroys is what was binding them. If you're praying for rescue from something right now, this chapter offers both possibilities honestly, and insists the answer doesn't change what you owe God." },
     { id:202, book:"Daniel", title:"The king who became an animal", side:"l",
@@ -173,9 +173,9 @@
         { ref: "Daniel 4:37", text: "Those who walk in pride he is able to humble." }
       ],
       questions: [
-        { q:"What did Daniel urge the king to do?", opts:["Nothing", "Renounce his sins by doing right and showing mercy to the oppressed", "Abdicate"], correct:1, explain:"The prescribed repentance was practical justice, not merely private regret." },
-        { q:"What triggered the judgment?", opts:["A military defeat", "A boast", "A dream"], correct:1, explain:"Twelve months of grace passed first; the sentence fell mid-sentence of self-congratulation." },
-        { q:"How does the chapter end?", opts:["With the king's death", "With Nebuchadnezzar restored, praising God", "With Babylon destroyed"], correct:1, explain:"The most powerful man alive writes the chapter himself, ending with praise for the God who humbled him." }
+        { q:"What did Daniel urge the king to do?", opts:["Abdicate","Renounce his sins by doing right and showing mercy to the oppressed","Nothing"], correct:1, explain:"The prescribed repentance was practical justice, not merely private regret." },
+        { q:"What triggered the judgment?", opts:["A boast","A dream","A military defeat"], correct:0, explain:"Twelve months of grace passed first; the sentence fell mid-sentence of self-congratulation." },
+        { q:"How does the chapter end?", opts:["With the king's death","With Nebuchadnezzar restored, praising God","With Babylon destroyed"], correct:1, explain:"The most powerful man alive writes the chapter himself, ending with praise for the God who humbled him." }
       ],
       deepDive: "The strangest feature of Daniel 4 is its narrator: much of it is written in Nebuchadnezzar's own voice, a public royal testimony about losing his mind and finding God. Two details deserve attention. First, the twelve months of grace between the warning and the fall \u2014 judgment in Scripture is almost always slower than we expect. Second, Daniel's prescribed remedy: mercy to the oppressed. In the Bible, the cure for pride is rarely introspection; it's turning outward toward people you'd been overlooking. And the ending is genuinely startling \u2014 Babylon's emperor, restored, praising the God of his captives." },
     { id:203, book:"Daniel", title:"The writing on the wall", side:"r",
@@ -184,9 +184,9 @@
         { ref: "Daniel 5:27", text: "TEKEL: You have been weighed on the scales and found wanting." }
       ],
       questions: [
-        { q:"What made Belshazzar's feast an offense?", opts:["Its expense", "Drinking from the looted temple goblets while praising idols", "The guest list"], correct:1, explain:"Deliberate desecration \u2014 using holy things as props for mocking their God." },
-        { q:"What was the added charge against him?", opts:["Poor governance", "He knew Nebuchadnezzar's story and didn't humble himself", "Military failure"], correct:1, explain:"He had the lesson available in living memory and ignored it \u2014 knowledge without response." },
-        { q:"What did Daniel do about the offered rewards?", opts:["Demanded more", "Refused them before interpreting", "Accepted quietly"], correct:1, explain:"An old man now, Daniel makes clear his message isn't for sale." }
+        { q:"What made Belshazzar's feast an offense?", opts:["Drinking from the looted temple goblets while praising idols","The guest list","Its expense"], correct:0, explain:"Deliberate desecration \u2014 using holy things as props for mocking their God." },
+        { q:"What was the added charge against him?", opts:["Military failure","He knew Nebuchadnezzar's story and didn't humble himself","Poor governance"], correct:1, explain:"He had the lesson available in living memory and ignored it \u2014 knowledge without response." },
+        { q:"What did Daniel do about the offered rewards?", opts:["Accepted quietly","Demanded more","Refused them before interpreting"], correct:2, explain:"An old man now, Daniel makes clear his message isn't for sale." }
       ],
       deepDive: "'The writing on the wall' entered the English language from this chapter, and the phrase's meaning is right: a verdict that has already been rendered. What's sharpest here is the added charge in verse 22 \u2014 'you knew all this, but you did not humble yourself.' Belshazzar's problem wasn't ignorance; his grandfather's humiliation was family history. Available truth, unapplied, is its own indictment. And notice the aged Daniel refusing the purple robe and gold chain before speaking. Sixty years into exile, he still couldn't be bought." },
     { id:204, book:"Daniel", title:"The lions' den", side:"c",
@@ -195,9 +195,9 @@
         { ref: "Daniel 6:10", text: "Three times a day he got down on his knees and prayed, giving thanks to his God, just as he had done before." }
       ],
       questions: [
-        { q:"What could Daniel's enemies find against him?", opts:["Corruption and fraud", "Nothing", "Poor performance"], correct:1, explain:"Decades in politics under four rulers, and his opponents' research turned up a clean record." },
-        { q:"What phrase describes his response to the decree?", opts:["He prayed louder", "\u2018Just as he had done before\u2019", "He prayed secretly"], correct:1, explain:"He neither hid nor escalated \u2014 the habit built over decades simply continued." },
-        { q:"How did the king react?", opts:["He celebrated", "He was distressed all night, fasting, and rushed to the den at dawn", "He was indifferent"], correct:1, explain:"Trapped by his own law, the king spent the night sleepless over the man he'd condemned." }
+        { q:"What could Daniel's enemies find against him?", opts:["Corruption and fraud","Nothing","Poor performance"], correct:1, explain:"Decades in politics under four rulers, and his opponents' research turned up a clean record." },
+        { q:"What phrase describes his response to the decree?", opts:["\u2018Just as he had done before\u2019","He prayed secretly","He prayed louder"], correct:0, explain:"He neither hid nor escalated \u2014 the habit built over decades simply continued." },
+        { q:"How did the king react?", opts:["He was distressed all night, fasting, and rushed to the den at dawn","He celebrated","He was indifferent"], correct:0, explain:"Trapped by his own law, the king spent the night sleepless over the man he'd condemned." }
       ],
       deepDive: "Notice what the story doesn't say: Daniel didn't pray harder, or make a statement, or hide. He prayed 'just as he had done before' \u2014 the crisis revealed a habit rather than creating a decision. That's the chapter's quiet argument: what you'll do under pressure is mostly determined by what you were already doing without it. He was in his eighties, and the windows still opened toward Jerusalem, three times a day, decades after that city fell. And his enemies' investigation is its own testimony \u2014 a lifetime in a corrupt government with nothing to find." },
     { id:205, book:"Daniel", title:"One like a son of man", side:"l",
@@ -206,9 +206,9 @@
         { ref: "Daniel 7:14", text: "His dominion is an everlasting dominion that will not pass away, and his kingdom is one that will never be destroyed." }
       ],
       questions: [
-        { q:"How are the empires pictured?", opts:["As noble kings", "As beasts rising from the sea", "As gardens"], correct:1, explain:"Daniel 2 showed empires as an impressive statue; Daniel 7 shows what they look like from heaven's side." },
-        { q:"Who approaches the Ancient of Days?", opts:["An angel", "\u2018One like a son of man\u2019", "A prophet"], correct:1, explain:"A human figure receiving universal, eternal authority \u2014 unique in the Old Testament." },
-        { q:"Why does this title matter in the Gospels?", opts:["It doesn't", "\u2018Son of Man\u2019 was Jesus' most frequent self-designation", "It refers to Daniel"], correct:1, explain:"A title that sounds humble and quietly claims this throne room scene." }
+        { q:"How are the empires pictured?", opts:["As noble kings","As beasts rising from the sea","As gardens"], correct:1, explain:"Daniel 2 showed empires as an impressive statue; Daniel 7 shows what they look like from heaven's side." },
+        { q:"Who approaches the Ancient of Days?", opts:["\u2018One like a son of man\u2019","A prophet","An angel"], correct:0, explain:"A human figure receiving universal, eternal authority \u2014 unique in the Old Testament." },
+        { q:"Why does this title matter in the Gospels?", opts:["\u2018Son of Man\u2019 was Jesus' most frequent self-designation","It refers to Daniel","It doesn't"], correct:0, explain:"A title that sounds humble and quietly claims this throne room scene." }
       ],
       deepDive: "Daniel 7 pairs with Daniel 2 and reveals the difference in perspective: from the ground, empires look like a gleaming statue; from heaven, they look like beasts crawling out of the chaotic sea. Then the throne room, and a figure 'like a son of man' \u2014 human, in contrast to the beasts \u2014 receiving authority over every nation, forever. This is the passage behind Jesus' favorite name for Himself, and it's why the high priest tore his robes when Jesus quoted it at His trial: everyone in the room knew exactly which throne scene He was claiming." },
     { id:206, book:"Daniel", title:"Daniel's prayer", side:"r",
@@ -217,9 +217,9 @@
         { ref: "Daniel 9:18", text: "We do not make requests of you because we are righteous, but because of your great mercy." }
       ],
       questions: [
-        { q:"What prompted Daniel's prayer?", opts:["A vision", "Reading Jeremiah and realizing the seventy years were nearly complete", "A royal decree"], correct:1, explain:"Scripture reading led directly to prayer \u2014 and a promise near fulfillment made him pray more, not less." },
-        { q:"Whose sins does he confess?", opts:["Only the nation's, as an outsider", "\u2018We\u2019", "Only his own"], correct:1, explain:"One of Scripture's most upright men prays in the first person plural \u2014 identification, not accusation." },
-        { q:"On what basis does he ask?", opts:["Israel's obedience", "God's great mercy alone", "A bargain"], correct:1, explain:"He removes merit from the equation entirely, which is why the prayer has been a model ever since." }
+        { q:"What prompted Daniel's prayer?", opts:["Reading Jeremiah and realizing the seventy years were nearly complete","A vision","A royal decree"], correct:0, explain:"Scripture reading led directly to prayer \u2014 and a promise near fulfillment made him pray more, not less." },
+        { q:"Whose sins does he confess?", opts:["Only his own","Only the nation's, as an outsider","\u2018We\u2019"], correct:2, explain:"One of Scripture's most upright men prays in the first person plural \u2014 identification, not accusation." },
+        { q:"On what basis does he ask?", opts:["A bargain","Israel's obedience","God's great mercy alone"], correct:2, explain:"He removes merit from the equation entirely, which is why the prayer has been a model ever since." }
       ],
       deepDive: "Daniel 9 answers a question people still ask: if God has promised something, why pray about it? Daniel's example is the reply \u2014 discovering the promise was nearly due drove him into fasting and sackcloth. Promises invite participation rather than replacing it. And notice the pronouns: a man whose enemies couldn't find a flaw prays 'we have sinned, we have not listened,' standing with his people rather than above them. Finally, verse 18 strips away every basis but one \u2014 not because we are righteous, but because of your great mercy. That sentence is where prayer actually stands." }
 ,
@@ -229,9 +229,9 @@
         { ref: "Ezekiel 1:28", text: "This was the appearance of the likeness of the glory of the LORD. When I saw it, I fell facedown." }
       ],
       questions: [
-        { q:"Where was Ezekiel when he saw this vision?", opts:["In the temple", "In exile by a river in Babylon", "On Mount Sinai"], correct:1, explain:"A priest with no temple, in a foreign land \u2014 and God's throne showed up anyway." },
-        { q:"What's the significance of the wheels?", opts:["Decoration", "God's throne is mobile", "They represent chariots of war"], correct:1, explain:"For people convinced God stayed behind in Jerusalem, a rolling throne was the whole message." },
-        { q:"What was Ezekiel's response?", opts:["He took notes calmly", "He fell facedown", "He fled"], correct:1, explain:"Same reaction as Isaiah and John \u2014 seeing God's glory puts a person on the floor." }
+        { q:"Where was Ezekiel when he saw this vision?", opts:["In exile by a river in Babylon","On Mount Sinai","In the temple"], correct:0, explain:"A priest with no temple, in a foreign land \u2014 and God's throne showed up anyway." },
+        { q:"What's the significance of the wheels?", opts:["They represent chariots of war","Decoration","God's throne is mobile"], correct:2, explain:"For people convinced God stayed behind in Jerusalem, a rolling throne was the whole message." },
+        { q:"What was Ezekiel's response?", opts:["He took notes calmly","He fell facedown","He fled"], correct:1, explain:"Same reaction as Isaiah and John \u2014 seeing God's glory puts a person on the floor." }
       ],
       deepDive: "Ezekiel's opening vision is famously strange, and the strangeness is doing something. He was a priest, trained for a temple he'd never serve in, living among people who assumed their God had stayed behind in the ruins of Jerusalem. Then the heavens open in Babylon \u2014 of all places \u2014 and the throne he sees has wheels, moving in any direction without turning. The theology is simple under all the fire and eyes: God is not local, not defeated, and not absent from the place you were carried to against your will. Whatever exile you're in, this vision insists it isn't outside His range." },
     { id:208, book:"Ezekiel", title:"The watchman", side:"l",
@@ -240,9 +240,9 @@
         { ref: "Ezekiel 33:11", text: "I take no pleasure in the death of the wicked, but rather that they turn from their ways and live." }
       ],
       questions: [
-        { q:"What is a watchman's job?", opts:["To fight the enemy", "To see danger coming and sound the warning", "To rule the city"], correct:1, explain:"Not to force a response \u2014 only to make sure the warning was actually given." },
-        { q:"What happens if the watchman warns and no one listens?", opts:["He's responsible", "He has done his duty", "He must warn again forever"], correct:1, explain:"Faithfulness is measured by the warning given, not the response received." },
-        { q:"What does God say about His own attitude toward judgment?", opts:["He enjoys it", "He takes no pleasure in it", "He is indifferent"], correct:1, explain:"The most quoted line in Ezekiel, and the heart behind every warning in the book." }
+        { q:"What is a watchman's job?", opts:["To rule the city","To fight the enemy","To see danger coming and sound the warning"], correct:2, explain:"Not to force a response \u2014 only to make sure the warning was actually given." },
+        { q:"What happens if the watchman warns and no one listens?", opts:["He must warn again forever","He's responsible","He has done his duty"], correct:2, explain:"Faithfulness is measured by the warning given, not the response received." },
+        { q:"What does God say about His own attitude toward judgment?", opts:["He enjoys it","He takes no pleasure in it","He is indifferent"], correct:1, explain:"The most quoted line in Ezekiel, and the heart behind every warning in the book." }
       ],
       deepDive: "The watchman image has shaped how believers think about speaking hard truth for millennia, and it cuts both ways. It creates real responsibility \u2014 silence when you see danger isn't neutral \u2014 and it also sets a limit: the watchman controls the warning, never the response. That distinction has saved a lot of people from despair over those who wouldn't listen. And notice where God plants His own heart in the middle of a warning chapter: 'I take no pleasure in the death of the wicked.' The judgment in this book is real and reluctant. The invitation \u2014 turn and live \u2014 is the reason the warnings exist at all." },
     { id:209, book:"Ezekiel", title:"The valley of dry bones", side:"r",
@@ -251,9 +251,9 @@
         { ref: "Ezekiel 37:5", text: "This is what the Sovereign LORD says to these bones: I will make breath enter you, and you will come to life." }
       ],
       questions: [
-        { q:"What did the bones represent?", opts:["Literal graves", "Exiled Israel", "Enemy armies"], correct:1, explain:"The vision addresses the death of hope, not just physical death." },
-        { q:"How did Ezekiel answer \u2018can these bones live?\u2019", opts:["\u2018No\u2019", "\u2018Sovereign LORD, you alone know\u2019", "\u2018Of course\u2019"], correct:1, explain:"Honest faith \u2014 he wouldn't claim certainty, and he wouldn't rule God out." },
-        { q:"What was the two-stage process?", opts:["Bones assembled, then breath entered", "Breath first, then bones", "It happened instantly"], correct:0, explain:"Bodies were reassembled but lifeless until the breath came \u2014 structure isn't the same as life." }
+        { q:"What did the bones represent?", opts:["Exiled Israel","Literal graves","Enemy armies"], correct:0, explain:"The vision addresses the death of hope, not just physical death." },
+        { q:"How did Ezekiel answer \u2018can these bones live?\u2019", opts:["\u2018Of course\u2019","\u2018No\u2019","\u2018Sovereign LORD, you alone know\u2019"], correct:2, explain:"Honest faith \u2014 he wouldn't claim certainty, and he wouldn't rule God out." },
+        { q:"What was the two-stage process?", opts:["Breath first, then bones","It happened instantly","Bones assembled, then breath entered"], correct:2, explain:"Bodies were reassembled but lifeless until the breath came \u2014 structure isn't the same as life." }
       ],
       deepDive: "This is the Bible's greatest picture of hopelessness reversed. Note the detail: the bones were 'very dry' \u2014 not recently dead, long past any natural chance. And the diagnosis is quoted directly from the exiles' own mouths: 'our hope is gone; we are cut off.' God's response isn't a pep talk but a resurrection. The two stages matter too: bodies assembled but breathless, then the breath entering \u2014 the same word as spirit, and the same word from Genesis 2. Whatever in your life has been dead long enough to look permanent, this chapter's question is the one God asks: can these bones live? The honest answer is Ezekiel's \u2014 you alone know." },
     { id:210, book:"Ezekiel", title:"A new heart and a new spirit", side:"c",
@@ -262,9 +262,9 @@
         { ref: "Ezekiel 36:26", text: "I will give you a new heart and put a new spirit in you; I will remove from you your heart of stone and give you a heart of flesh." }
       ],
       questions: [
-        { q:"What is replaced in this promise?", opts:["Their circumstances only", "The heart itself", "Their leaders"], correct:1, explain:"God addresses the organ that kept failing, rather than issuing more instructions to a stone." },
-        { q:"Who does the work?", opts:["The people, through effort", "God", "A future king"], correct:1, explain:"Read the passage counting the \u2018I wills\u2019; human contribution isn't the mechanism here." },
-        { q:"What reason does God give?", opts:["Their repentance earned it", "For the sake of His own holy name", "Their suffering was enough"], correct:1, explain:"Grace anchored in God's character rather than their performance \u2014 which is why it holds." }
+        { q:"What is replaced in this promise?", opts:["Their leaders","Their circumstances only","The heart itself"], correct:2, explain:"God addresses the organ that kept failing, rather than issuing more instructions to a stone." },
+        { q:"Who does the work?", opts:["The people, through effort","A future king","God"], correct:2, explain:"Read the passage counting the \u2018I wills\u2019; human contribution isn't the mechanism here." },
+        { q:"What reason does God give?", opts:["Their repentance earned it","For the sake of His own holy name","Their suffering was enough"], correct:1, explain:"Grace anchored in God's character rather than their performance \u2014 which is why it holds." }
       ],
       deepDive: "Ezekiel 36 is the twin of Jeremiah 31, and together they're the Old Testament's clearest promise of what the New Testament calls being born again. The problem all along was never that the law was unclear; it was that a heart of stone can't respond no matter how clear the instruction. So God promises a transplant \u2014 and adds His own Spirit as the power to actually walk in it. The most freeing detail is the stated reason: 'for the sake of my holy name.' If the promise depended on their record, it would collapse; because it rests on His character, it doesn't. Jesus assumed Nicodemus should have known this passage when He said 'you must be born again.'" },
     { id:211, book:"Ezekiel", title:"The shepherds of Israel", side:"l",
@@ -273,9 +273,9 @@
         { ref: "Ezekiel 34:11", text: "I myself will search for my sheep and look after them." }
       ],
       questions: [
-        { q:"What was the shepherds' failure?", opts:["Poor teaching", "Caring for themselves instead of the flock", "Military weakness"], correct:1, explain:"The indictment is specific and practical: those needing the most care got the least." },
-        { q:"What does God do about it?", opts:["Appoints better shepherds only", "Takes the job Himself", "Abandons the flock"], correct:1, explain:"The failure of human leadership becomes the occasion for God's direct care." },
-        { q:"How does this connect to the New Testament?", opts:["It doesn't", "Jesus says \u2018I am the good shepherd\u2019", "It refers only to David"], correct:1, explain:"John 10 reads as a direct claim on Ezekiel 34 \u2014 the shepherd God promised, arrived." }
+        { q:"What was the shepherds' failure?", opts:["Poor teaching","Military weakness","Caring for themselves instead of the flock"], correct:2, explain:"The indictment is specific and practical: those needing the most care got the least." },
+        { q:"What does God do about it?", opts:["Appoints better shepherds only","Abandons the flock","Takes the job Himself"], correct:2, explain:"The failure of human leadership becomes the occasion for God's direct care." },
+        { q:"How does this connect to the New Testament?", opts:["It doesn't","It refers only to David","Jesus says \u2018I am the good shepherd\u2019"], correct:2, explain:"John 10 reads as a direct claim on Ezekiel 34 \u2014 the shepherd God promised, arrived." }
       ],
       deepDive: "Ezekiel 34 is one of Scripture's most searching passages on leadership, and its test is simple: who is being cared for, and who is being used? The shepherds ate well, wore wool, and left the injured untended \u2014 leadership as consumption. God's response is the turn everything depends on: if the shepherds won't, He will, personally. Jesus reaches for this exact chapter in John 10 \u2014 'I am the good shepherd' \u2014 and adds what Ezekiel didn't say: the good shepherd lays down his life for the sheep. If you lead anything, the diagnostic here is the weak, sick, injured, and straying: are they better off because you're in charge?" },
     { id:212, book:"Ezekiel", title:"The glory departs \u2014 and returns", side:"r",
@@ -284,9 +284,9 @@
         { ref: "Ezekiel 48:35", text: "And the name of the city from that time on will be: THE LORD IS THERE." }
       ],
       questions: [
-        { q:"How did the glory leave the temple?", opts:["Suddenly", "By stages", "It never left"], correct:1, explain:"The text lingers on each stop; even judgment moves slowly in Ezekiel." },
-        { q:"Why did the glory depart?", opts:["The building was too small", "The temple had been filled with idolatry", "The people asked Him to"], correct:1, explain:"Chapters 8\u201310 tour the idolatry hidden inside the temple itself before the glory withdraws." },
-        { q:"How does the book end?", opts:["In ruins", "With the glory returning and the city named \u2018THE LORD IS THERE\u2019", "In exile"], correct:1, explain:"Ezekiel's final word is presence restored \u2014 the whole point of everything that came before." }
+        { q:"How did the glory leave the temple?", opts:["By stages","It never left","Suddenly"], correct:0, explain:"The text lingers on each stop; even judgment moves slowly in Ezekiel." },
+        { q:"Why did the glory depart?", opts:["The people asked Him to","The building was too small","The temple had been filled with idolatry"], correct:2, explain:"Chapters 8\u201310 tour the idolatry hidden inside the temple itself before the glory withdraws." },
+        { q:"How does the book end?", opts:["With the glory returning and the city named \u2018THE LORD IS THERE\u2019","In exile","In ruins"], correct:0, explain:"Ezekiel's final word is presence restored \u2014 the whole point of everything that came before." }
       ],
       deepDive: "Ezekiel's structure is the departure and return of glory, and the pacing of the departure is the tell: God leaves in stages, pausing at the threshold, at the gate, at the mountain \u2014 as though reluctant at every step. That slowness is mercy shaped like hesitation. And the book's final sentence is one of the great endings in Scripture: the restored city's name is not a description of its walls or its wealth but of its resident \u2014 THE LORD IS THERE. Everything the prophets promise ultimately comes down to that: not better circumstances but restored presence. Revelation's last chapters borrow this vision almost wholesale." },
     { id:213, book:"Ezekiel", title:"The river from the temple", side:"c",
@@ -295,9 +295,9 @@
         { ref: "Ezekiel 47:9", text: "Where the river flows everything will live." }
       ],
       questions: [
-        { q:"How does the river change as it flows?", opts:["It shrinks", "It deepens", "It stays the same"], correct:1, explain:"A river deepening without tributaries \u2014 the source itself keeps supplying more." },
-        { q:"What happens where the river goes?", opts:["Nothing", "Everything lives", "It floods the land"], correct:1, explain:"Life follows the water, including into a sea famous for supporting nothing." },
-        { q:"Where does the river start?", opts:["A mountain spring", "From under the temple", "The Jordan"], correct:1, explain:"The source is presence; everything downstream is the effect of it." }
+        { q:"How does the river change as it flows?", opts:["It stays the same","It deepens","It shrinks"], correct:1, explain:"A river deepening without tributaries \u2014 the source itself keeps supplying more." },
+        { q:"What happens where the river goes?", opts:["Everything lives","It floods the land","Nothing"], correct:0, explain:"Life follows the water, including into a sea famous for supporting nothing." },
+        { q:"Where does the river start?", opts:["From under the temple","The Jordan","A mountain spring"], correct:0, explain:"The source is presence; everything downstream is the effect of it." }
       ],
       deepDive: "The measured wade into the river is one of Scripture's most quietly personal images: ankles, knees, waist, and then water you can't stand up in. Every stage is genuinely in the river, and every stage is deeper \u2014 which is a fair picture of a life with God, where 'in' isn't a single point but a going further. And the destination is the Dead Sea, the most lifeless water in the region, turned fresh. Revelation 22 takes this river, these trees, and these healing leaves and places them at the center of the new creation. Where the river flows, everything lives." },
     { id:214, book:"Hosea", title:"Go, marry an unfaithful wife", side:"l",
@@ -306,9 +306,9 @@
         { ref: "Hosea 3:1", text: "Go, show your love to your wife again... Love her as the LORD loves the Israelites." }
       ],
       questions: [
-        { q:"What was Hosea's assignment?", opts:["To preach in the temple", "To marry an unfaithful woman", "To write a history"], correct:1, explain:"The prophet's marriage became the sermon: his pain was a window into God's." },
-        { q:"What happened after Gomer left?", opts:["Hosea divorced her", "God told him to go get her back and love her again", "She was punished"], correct:1, explain:"The command wasn't tolerance \u2014 it was pursuit, at cost, of someone who had left." },
-        { q:"What did Hosea have to do to get her back?", opts:["Nothing", "Buy her", "Ask the king"], correct:1, explain:"Redemption pictured literally: paying to reclaim what was already his." }
+        { q:"What was Hosea's assignment?", opts:["To marry an unfaithful woman","To preach in the temple","To write a history"], correct:0, explain:"The prophet's marriage became the sermon: his pain was a window into God's." },
+        { q:"What happened after Gomer left?", opts:["God told him to go get her back and love her again","She was punished","Hosea divorced her"], correct:0, explain:"The command wasn't tolerance \u2014 it was pursuit, at cost, of someone who had left." },
+        { q:"What did Hosea have to do to get her back?", opts:["Ask the king","Nothing","Buy her"], correct:2, explain:"Redemption pictured literally: paying to reclaim what was already his." }
       ],
       deepDive: "Hosea is God saying, in effect: you want to know what this feels like from my side? Marry her. The prophet's ruined marriage becomes the most emotionally raw picture of God's love in the Old Testament \u2014 not the calm love of a distant deity but the grief of a betrayed spouse who goes and buys his wife back out of the situation she chose. Notice the price: fifteen shekels and barley, roughly the cost of a slave. That's the shape of redemption throughout Scripture \u2014 love that pays to reclaim what it already owns. If God's love has ever sounded abstract to you, this book makes it painfully concrete." },
     { id:215, book:"Hosea", title:"I desire mercy, not sacrifice", side:"r",
@@ -317,9 +317,9 @@
         { ref: "Hosea 6:6", text: "For I desire mercy, not sacrifice, and acknowledgment of God rather than burnt offerings." }
       ],
       questions: [
-        { q:"What image describes their loyalty?", opts:["A mountain", "Morning mist and early dew", "A river"], correct:1, explain:"Sincere while it lasts, and it doesn't last \u2014 a devastatingly accurate picture of shallow devotion." },
-        { q:"What does God prefer over sacrifice?", opts:["Longer prayers", "Mercy, and knowing Him", "Larger offerings"], correct:1, explain:"Ritual isn't rejected; ritual substituting for a changed heart and merciful life is." },
-        { q:"Where does Jesus quote this?", opts:["Nowhere", "Twice in Matthew", "Only at the cross"], correct:1, explain:"He tells the Pharisees twice: \u2018go and learn what this means.\u2019" }
+        { q:"What image describes their loyalty?", opts:["Morning mist and early dew","A river","A mountain"], correct:0, explain:"Sincere while it lasts, and it doesn't last \u2014 a devastatingly accurate picture of shallow devotion." },
+        { q:"What does God prefer over sacrifice?", opts:["Larger offerings","Longer prayers","Mercy, and knowing Him"], correct:2, explain:"Ritual isn't rejected; ritual substituting for a changed heart and merciful life is." },
+        { q:"Where does Jesus quote this?", opts:["Twice in Matthew","Nowhere","Only at the cross"], correct:0, explain:"He tells the Pharisees twice: \u2018go and learn what this means.\u2019" }
       ],
       deepDive: "'I desire mercy, not sacrifice' may be the most important sentence in the minor prophets for religious people specifically. It doesn't attack devotion; it attacks devotion that leaves you unmerciful. Jesus quoted it twice, both times to religious experts who were technically correct and relationally cruel \u2014 which suggests the temptation never went away. And Hosea's morning-mist line is the honest mirror alongside it: most of us have real devotion that burns off by mid-morning. The chapter's invitation is gentler than it deserves to be: come, let us return \u2014 and 'as surely as the sun rises, he will appear.'" },
     { id:216, book:"Hosea", title:"How can I give you up?", side:"c",
@@ -328,9 +328,9 @@
         { ref: "Hosea 11:8", text: "How can I give you up, Ephraim?... My heart is changed within me; all my compassion is aroused." }
       ],
       questions: [
-        { q:"What image describes God's early care for Israel?", opts:["A king and subjects", "A parent teaching a child to walk and bending down to feed them", "A general and army"], correct:1, explain:"One of the tenderest pictures of God in Scripture \u2014 stooping to feed a toddler." },
-        { q:"What happens at the moment judgment is deserved?", opts:["It falls immediately", "God's compassion overrules", "Israel repents first"], correct:1, explain:"The turn comes from God's heart, not from any change in their behavior." },
-        { q:"How does the book end?", opts:["In judgment", "\u2018I will heal their waywardness and love them freely\u2019", "Unresolved"], correct:1, explain:"Freely \u2014 the word rules out anything earned." }
+        { q:"What image describes God's early care for Israel?", opts:["A general and army","A parent teaching a child to walk and bending down to feed them","A king and subjects"], correct:1, explain:"One of the tenderest pictures of God in Scripture \u2014 stooping to feed a toddler." },
+        { q:"What happens at the moment judgment is deserved?", opts:["God's compassion overrules","Israel repents first","It falls immediately"], correct:0, explain:"The turn comes from God's heart, not from any change in their behavior." },
+        { q:"How does the book end?", opts:["In judgment","Unresolved","\u2018I will heal their waywardness and love them freely\u2019"], correct:2, explain:"Freely \u2014 the word rules out anything earned." }
       ],
       deepDive: "Hosea 11 is the emotional summit of the prophets. God remembers teaching a child to walk, and then \u2014 at exactly the moment justice is due \u2014 says something that shouldn't be possible for a judge: how can I give you up? My heart is changed within me. This isn't God being talked out of anything; it's God revealing what has been true underneath the whole confrontation. And the book's last chapter delivers the two words everything hangs on: 'love them freely.' Not because the waywardness was small, and not because they finally earned it. Freely. That's the word Hosea's whole ruined marriage was written to define." },
     { id:217, book:"Joel", title:"Return to me with all your heart", side:"l",
@@ -339,9 +339,9 @@
         { ref: "Joel 2:25", text: "I will repay you for the years the locusts have eaten." }
       ],
       questions: [
-        { q:"What does \u2018rend your heart and not your garments\u2019 mean?", opts:["Tear your clothes properly", "Real inward repentance rather than a public display", "Fast longer"], correct:1, explain:"Tearing clothes was the visible sign; God asks for the thing the sign was supposed to represent." },
-        { q:"What two words open the invitation?", opts:["\u2018Too late\u2019", "\u2018Even now\u2019", "\u2018Perhaps someday\u2019"], correct:1, explain:"The most hopeful phrase in the book, spoken over a stripped landscape." },
-        { q:"What does God promise about lost years?", opts:["They're gone forever", "\u2018I will repay you for the years the locusts have eaten\u2019", "They never mattered"], correct:1, explain:"Not merely forgiveness but restoration \u2014 God addressing the wasted time itself." }
+        { q:"What does \u2018rend your heart and not your garments\u2019 mean?", opts:["Tear your clothes properly","Fast longer","Real inward repentance rather than a public display"], correct:2, explain:"Tearing clothes was the visible sign; God asks for the thing the sign was supposed to represent." },
+        { q:"What two words open the invitation?", opts:["\u2018Even now\u2019","\u2018Too late\u2019","\u2018Perhaps someday\u2019"], correct:0, explain:"The most hopeful phrase in the book, spoken over a stripped landscape." },
+        { q:"What does God promise about lost years?", opts:["They never mattered","They're gone forever","\u2018I will repay you for the years the locusts have eaten\u2019"], correct:2, explain:"Not merely forgiveness but restoration \u2014 God addressing the wasted time itself." }
       ],
       deepDive: "Joel takes a natural disaster and reads it as a wake-up call, and his invitation contains two of the Bible's most quoted phrases. 'Rend your heart and not your garments' cuts at performed repentance \u2014 the visible signs are easier than the inward turn they're meant to represent. And 'I will repay you for the years the locusts have eaten' has carried people through the specific grief of wasted time: years lost to addiction, a bad decade, a season eaten by something. The promise doesn't rewind the calendar. It says God is able to make the outcome fuller than the loss." },
     { id:218, book:"Joel", title:"I will pour out my Spirit", side:"r",
@@ -350,9 +350,9 @@
         { ref: "Joel 2:28", text: "And afterward, I will pour out my Spirit on all people." }
       ],
       questions: [
-        { q:"Who receives the Spirit in this promise?", opts:["Only prophets and priests", "All people", "Only Israel's leaders"], correct:1, explain:"In an age when God's Spirit came on select individuals, this promised everyone." },
-        { q:"What does Peter do with this passage?", opts:["Ignores it", "Quotes it at Pentecost", "Argues against it"], correct:1, explain:"The church's first sermon is an exposition of Joel 2." },
-        { q:"What is the invitation attached to it?", opts:["Only the worthy may come", "\u2018Everyone who calls on the name of the LORD will be saved\u2019", "Wait for a sign"], correct:1, explain:"Paul quotes this same line in Romans 10 \u2014 the door is opened to anyone who calls." }
+        { q:"Who receives the Spirit in this promise?", opts:["All people","Only Israel's leaders","Only prophets and priests"], correct:0, explain:"In an age when God's Spirit came on select individuals, this promised everyone." },
+        { q:"What does Peter do with this passage?", opts:["Argues against it","Ignores it","Quotes it at Pentecost"], correct:2, explain:"The church's first sermon is an exposition of Joel 2." },
+        { q:"What is the invitation attached to it?", opts:["\u2018Everyone who calls on the name of the LORD will be saved\u2019","Only the worthy may come","Wait for a sign"], correct:0, explain:"Paul quotes this same line in Romans 10 \u2014 the door is opened to anyone who calls." }
       ],
       deepDive: "Joel 2:28 is one of the Old Testament's most radical promises. Under the old arrangement, God's Spirit came upon particular people for particular tasks \u2014 a judge, a king, a prophet. Joel announces a flood instead of a trickle, poured on 'all people,' explicitly including the categories that had the least standing: young, old, and servants of both sexes. Peter recognized it happening on the day the church was born and said so out loud. The last line is the door: everyone who calls on the name of the LORD will be saved. Everyone \u2014 which Paul later hammers home to make sure no one reads it narrowly." },
     { id:219, book:"Amos", title:"Judgment begins abroad \u2014 and comes home", side:"c",
@@ -361,9 +361,9 @@
         { ref: "Amos 2:6\u20137", text: "They sell the innocent for silver, and the needy for a pair of sandals. They trample on the heads of the poor." }
       ],
       questions: [
-        { q:"Who was Amos before he prophesied?", opts:["A priest", "A shepherd and fig farmer", "A royal official"], correct:1, explain:"An outsider with no professional stake, which is part of why he could speak so plainly." },
-        { q:"What's the rhetorical strategy of chapters 1\u20132?", opts:["Start with Israel", "Judge the neighbors first", "Praise everyone"], correct:1, explain:"They cheered through six oracles before the seventh landed on them." },
-        { q:"What specific sins does he name in Israel?", opts:["Wrong sacrifices", "Selling the needy, trampling the poor", "Foreign alliances"], correct:1, explain:"Amos's concern throughout is what prosperity was doing to the vulnerable." }
+        { q:"Who was Amos before he prophesied?", opts:["A priest","A royal official","A shepherd and fig farmer"], correct:2, explain:"An outsider with no professional stake, which is part of why he could speak so plainly." },
+        { q:"What's the rhetorical strategy of chapters 1\u20132?", opts:["Start with Israel","Judge the neighbors first","Praise everyone"], correct:1, explain:"They cheered through six oracles before the seventh landed on them." },
+        { q:"What specific sins does he name in Israel?", opts:["Selling the needy, trampling the poor","Wrong sacrifices","Foreign alliances"], correct:0, explain:"Amos's concern throughout is what prosperity was doing to the vulnerable." }
       ],
       deepDive: "Amos's opening is a masterpiece of preaching. Each oracle against a neighbor would have drawn applause \u2014 yes, judge Damascus, judge Gaza \u2014 and each one narrows the circle until the same standard lands on the people nodding along. That move is worth remembering whenever you find yourself enjoying a critique of someone else. And his charges are startlingly concrete: not vague unfaithfulness but selling people for silver and a pair of sandals. Amos was a farmer who saw what a booming economy was doing at the bottom, and he refused to call it prosperity." },
     { id:220, book:"Amos", title:"Let justice roll down", side:"l",
@@ -372,9 +372,9 @@
         { ref: "Amos 5:24", text: "But let justice roll on like a river, righteousness like a never-failing stream!" }
       ],
       questions: [
-        { q:"What is God rejecting here?", opts:["All worship forever", "Worship offered by people practicing injustice", "Only music"], correct:1, explain:"The festivals were correct; the society producing them was crushing the poor." },
-        { q:"What image describes the alternative?", opts:["A trickle", "A rolling river and a never-failing stream", "A rainstorm"], correct:1, explain:"Not an occasional charitable event \u2014 continuous, structural, unstoppable justice." },
-        { q:"Why does this verse still get quoted?", opts:["Its poetry alone", "Martin Luther King Jr. and generations of reformers built on it", "It's rarely quoted"], correct:1, explain:"It has anchored the church's justice tradition for centuries \u2014 famously in King's speeches." }
+        { q:"What is God rejecting here?", opts:["All worship forever","Only music","Worship offered by people practicing injustice"], correct:2, explain:"The festivals were correct; the society producing them was crushing the poor." },
+        { q:"What image describes the alternative?", opts:["A trickle","A rainstorm","A rolling river and a never-failing stream"], correct:2, explain:"Not an occasional charitable event \u2014 continuous, structural, unstoppable justice." },
+        { q:"Why does this verse still get quoted?", opts:["Martin Luther King Jr. and generations of reformers built on it","Its poetry alone","It's rarely quoted"], correct:0, explain:"It has anchored the church's justice tradition for centuries \u2014 famously in King's speeches." }
       ],
       deepDive: "Amos 5:24 is the verse the modern church quotes most often from the minor prophets, and its context sharpens it: God is not asking for justice in addition to worship, He is refusing worship that comes from an unjust life. That's an uncomfortable claim for anyone who has separated Sunday from the rest of the week. The image itself is worth sitting with \u2014 a never-failing stream, not a seasonal wadi that runs during the rainy season and dries up. Occasional generosity is a wadi. Amos wants a river." },
     { id:221, book:"Amos", title:"The plumb line", side:"r",
@@ -383,9 +383,9 @@
         { ref: "Amos 7:8", text: "Look, I am setting a plumb line among my people Israel; I will spare them no longer." }
       ],
       questions: [
-        { q:"What is a plumb line used for?", opts:["Measuring length", "Testing whether a wall is truly vertical", "Weighing goods"], correct:1, explain:"A weighted string \u2014 gravity's own standard, impossible to argue with." },
-        { q:"What does the image say about God's standard?", opts:["It shifts with culture", "It's fixed and objective", "It's unknowable"], correct:1, explain:"Walls can look straight until measured; so can lives and societies." },
-        { q:"How did the establishment respond to Amos?", opts:["Repentance", "Told him to go prophesy elsewhere", "Promoted him"], correct:1, explain:"When religion belongs to power, uncomfortable truth gets reassigned to another zip code." }
+        { q:"What is a plumb line used for?", opts:["Measuring length","Weighing goods","Testing whether a wall is truly vertical"], correct:2, explain:"A weighted string \u2014 gravity's own standard, impossible to argue with." },
+        { q:"What does the image say about God's standard?", opts:["It shifts with culture","It's unknowable","It's fixed and objective"], correct:2, explain:"Walls can look straight until measured; so can lives and societies." },
+        { q:"How did the establishment respond to Amos?", opts:["Promoted him","Told him to go prophesy elsewhere","Repentance"], correct:1, explain:"When religion belongs to power, uncomfortable truth gets reassigned to another zip code." }
       ],
       deepDive: "The plumb line is one of Scripture's most useful images for how God evaluates. A wall doesn't look crooked to the people living behind it; it looks normal, because their eyes adjusted years ago. Only an external standard \u2014 a weighted string obeying gravity \u2014 tells the truth. That's what Scripture does to a life or a society: it doesn't argue with your sense of normal, it just hangs straight beside it. And Amaziah's response is the timeless one: don't say that here, this is the king's sanctuary. Truth that threatens power always gets told to relocate." },
     { id:222, book:"Obadiah", title:"The pride of Edom", side:"c",
@@ -394,9 +394,9 @@
         { ref: "Obadiah 1:3", text: "The pride of your heart has deceived you, you who live in the clefts of the rocks and make your home on the heights." }
       ],
       questions: [
-        { q:"What was Edom's relationship to Israel?", opts:["Strangers", "Brothers", "Ancient allies"], correct:1, explain:"The betrayal is a family one, which is why the language is so sharp." },
-        { q:"What was Edom's sin?", opts:["Idolatry", "Gloating over a brother's disaster", "Breaking a treaty"], correct:1, explain:"Standing by, then looting: the sin of the bystander who becomes a participant." },
-        { q:"What deceived them?", opts:["False prophets", "The pride of their own hearts", "Foreign advisors"], correct:1, explain:"Their cliff fortresses felt untouchable, and safety became self-deception." }
+        { q:"What was Edom's relationship to Israel?", opts:["Ancient allies","Brothers","Strangers"], correct:1, explain:"The betrayal is a family one, which is why the language is so sharp." },
+        { q:"What was Edom's sin?", opts:["Gloating over a brother's disaster","Breaking a treaty","Idolatry"], correct:0, explain:"Standing by, then looting: the sin of the bystander who becomes a participant." },
+        { q:"What deceived them?", opts:["Foreign advisors","The pride of their own hearts","False prophets"], correct:1, explain:"Their cliff fortresses felt untouchable, and safety became self-deception." }
       ],
       deepDive: "Obadiah is one page long and lands two permanent points. First, God notices what you do when someone else is having their worst day \u2014 Edom didn't destroy Jerusalem, they just enjoyed it and took a share. Passive complicity gets a whole book. Second, the diagnosis of pride is precisely worded: 'the pride of your heart has deceived you.' Pride's danger isn't that it's unattractive but that it distorts perception \u2014 living high in the rocks, they genuinely could not imagine falling. The shortest book in the Old Testament exists to say that both of those things are visible from heaven." },
     { id:223, book:"Jonah", title:"Running the other way", side:"l",
@@ -405,9 +405,9 @@
         { ref: "Jonah 1:3", text: "But Jonah ran away from the LORD and headed for Tarshish." }
       ],
       questions: [
-        { q:"Why is Nineveh significant?", opts:["It was a friendly city", "It was the capital of Assyria", "It was uninhabited"], correct:1, explain:"Jonah wasn't afraid of Nineveh; he didn't want them spared, as chapter 4 admits outright." },
-        { q:"Who behaves better in chapter 1 \u2014 the prophet or the sailors?", opts:["The prophet", "The pagan sailors", "Neither"], correct:1, explain:"The book keeps making outsiders look better than the insider, on purpose." },
-        { q:"What was the fish?", opts:["A punishment only", "God's provision", "A coincidence"], correct:1, explain:"The same verb is used for the plant and the worm later \u2014 all of it arranged rescue." }
+        { q:"Why is Nineveh significant?", opts:["It was a friendly city","It was uninhabited","It was the capital of Assyria"], correct:2, explain:"Jonah wasn't afraid of Nineveh; he didn't want them spared, as chapter 4 admits outright." },
+        { q:"Who behaves better in chapter 1 \u2014 the prophet or the sailors?", opts:["The prophet","Neither","The pagan sailors"], correct:2, explain:"The book keeps making outsiders look better than the insider, on purpose." },
+        { q:"What was the fish?", opts:["God's provision","A coincidence","A punishment only"], correct:0, explain:"The same verb is used for the plant and the worm later \u2014 all of it arranged rescue." }
       ],
       deepDive: "Jonah is the only prophet who runs, and the book never lets you forget that the problem isn't fear \u2014 he says plainly in chapter 4 that he fled because he knew God was merciful and might spare his enemies. Notice the contrasts the author builds: pagan sailors praying while the prophet sleeps, and doing everything possible to avoid throwing him overboard. The outsiders keep out-behaving the insider. And the fish is called provision, not punishment \u2014 the first hint that this book is about a God who rescues people who don't want to be where He's sending them." },
     { id:224, book:"Jonah", title:"From inside the fish", side:"r",
@@ -416,9 +416,9 @@
         { ref: "Jonah 2:9", text: "What I have vowed I will make good. I will say, \u2018Salvation comes from the LORD.\u2019" }
       ],
       questions: [
-        { q:"What is Jonah's prayer largely made of?", opts:["New material", "Lines from the Psalms", "Complaints"], correct:1, explain:"What he had memorized in better days became his vocabulary at the bottom." },
-        { q:"Where does Jonah say he called from?", opts:["The ship", "\u2018Deep in the realm of the dead\u2019", "Nineveh"], correct:1, explain:"The prayer treats the fish as a grave from which God retrieved him." },
-        { q:"What's the prayer's conclusion?", opts:["\u2018I deserved better\u2019", "\u2018Salvation comes from the LORD\u2019", "\u2018Send someone else\u2019"], correct:1, explain:"The right theology, from a man who will still resent it being applied to his enemies." }
+        { q:"What is Jonah's prayer largely made of?", opts:["New material","Complaints","Lines from the Psalms"], correct:2, explain:"What he had memorized in better days became his vocabulary at the bottom." },
+        { q:"Where does Jonah say he called from?", opts:["\u2018Deep in the realm of the dead\u2019","The ship","Nineveh"], correct:0, explain:"The prayer treats the fish as a grave from which God retrieved him." },
+        { q:"What's the prayer's conclusion?", opts:["\u2018Salvation comes from the LORD\u2019","\u2018I deserved better\u2019","\u2018Send someone else\u2019"], correct:0, explain:"The right theology, from a man who will still resent it being applied to his enemies." }
       ],
       deepDive: "Two things stand out about this prayer. First, its raw material: Jonah is quoting psalms he clearly knew by heart, which is a quiet argument for filling your memory with Scripture before you need it. What's stored surfaces when you're too far gone to compose anything new. Second, the irony the book builds: Jonah declares 'salvation comes from the LORD' while being personally rescued \u2014 and then spends chapter 4 furious that the same salvation reached Nineveh. It's possible to have excellent theology about your own rescue and resent it being extended to someone you dislike." },
     { id:225, book:"Jonah", title:"Nineveh believes", side:"c",
@@ -427,9 +427,9 @@
         { ref: "Jonah 3:10", text: "When God saw what they did and how they turned from their evil ways, he relented." }
       ],
       questions: [
-        { q:"What was remarkable about Jonah's sermon?", opts:["Its eloquence", "Its brevity and bleakness", "Its length"], correct:1, explain:"The results plainly had nothing to do with the messenger's skill or enthusiasm." },
-        { q:"How far did the repentance reach?", opts:["A few citizens", "From the greatest to the least", "Only the priests"], correct:1, explain:"An entire enemy capital turning \u2014 the largest response to any prophet in the Bible." },
-        { q:"What did God do?", opts:["Destroyed them anyway", "Relented", "Waited forty more years"], correct:1, explain:"Exactly what Jonah feared, and exactly what the book exists to celebrate." }
+        { q:"What was remarkable about Jonah's sermon?", opts:["Its eloquence","Its length","Its brevity and bleakness"], correct:2, explain:"The results plainly had nothing to do with the messenger's skill or enthusiasm." },
+        { q:"How far did the repentance reach?", opts:["From the greatest to the least","A few citizens","Only the priests"], correct:0, explain:"An entire enemy capital turning \u2014 the largest response to any prophet in the Bible." },
+        { q:"What did God do?", opts:["Waited forty more years","Destroyed them anyway","Relented"], correct:2, explain:"Exactly what Jonah feared, and exactly what the book exists to celebrate." }
       ],
       deepDive: "The joke of Jonah 3 is that the worst sermon in Scripture produced its biggest revival. Eight words, delivered by a reluctant man who wanted them destroyed, and a whole city turns \u2014 which makes the point unmistakable: the power was never in the preacher. There's something freeing in that for anyone who has ever felt unqualified to say anything about God. And the king's proclamation contains one of the Bible's humblest lines: 'Who knows? God may yet relent.' No presumption, no bargaining \u2014 just turning, and hoping." },
     { id:226, book:"Jonah", title:"The worm and the question", side:"l",
@@ -438,9 +438,9 @@
         { ref: "Jonah 4:11", text: "And should I not have concern for the great city of Nineveh, in which there are more than a hundred and twenty thousand people?" }
       ],
       questions: [
-        { q:"Why did Jonah say he ran?", opts:["Fear of Nineveh", "Because he knew God was gracious and might spare them", "He doubted God existed"], correct:1, explain:"He didn't doubt God's mercy \u2014 he objected to it, which is a different problem entirely." },
-        { q:"What was the plant and worm for?", opts:["Comfort only", "To expose Jonah's misplaced compassion", "A punishment"], correct:1, explain:"God argues by experience: you cared about this; now consider what I care about." },
-        { q:"How does the book end?", opts:["Jonah repents", "With God's question hanging in the air, unanswered", "Nineveh is destroyed"], correct:1, explain:"The question is left for the reader \u2014 which is exactly why it still lands." }
+        { q:"Why did Jonah say he ran?", opts:["Fear of Nineveh","Because he knew God was gracious and might spare them","He doubted God existed"], correct:1, explain:"He didn't doubt God's mercy \u2014 he objected to it, which is a different problem entirely." },
+        { q:"What was the plant and worm for?", opts:["A punishment","To expose Jonah's misplaced compassion","Comfort only"], correct:1, explain:"God argues by experience: you cared about this; now consider what I care about." },
+        { q:"How does the book end?", opts:["Jonah repents","With God's question hanging in the air, unanswered","Nineveh is destroyed"], correct:1, explain:"The question is left for the reader \u2014 which is exactly why it still lands." }
       ],
       deepDive: "Jonah's last chapter reveals that the book was never about a fish. Jonah's complaint is that God is too merciful \u2014 he quotes God's own self-description from Exodus 34 as an accusation. Then the plant exposes him: he grieved a vine he didn't plant while resenting mercy toward 120,000 people. And the book simply stops on God's question, with no reply from Jonah. That silence is deliberate; the question is aimed past him at whoever is reading. Is there a group you'd be quietly disappointed to see God bless? Jonah is the book that asks it and refuses to answer for you." },
     { id:227, book:"Micah", title:"What does the LORD require?", side:"r",
@@ -449,9 +449,9 @@
         { ref: "Micah 6:8", text: "And what does the LORD require of you? To act justly and to love mercy and to walk humbly with your God." }
       ],
       questions: [
-        { q:"What were the people offering?", opts:["Nothing", "Escalating sacrifices", "Prayers only"], correct:1, explain:"They kept raising the price, assuming the problem was quantity." },
-        { q:"What does God actually require?", opts:["Larger offerings", "Act justly, love mercy, walk humbly", "Perfect record-keeping"], correct:1, explain:"Three phrases covering how you treat people and how you stand before God." },
-        { q:"What's the difference between the three?", opts:["They're identical", "Justice is what you do; mercy is what you love; humility is how you walk with God", "Only the first matters"], correct:1, explain:"Action, affection, and posture \u2014 covering behavior, heart, and relationship." }
+        { q:"What were the people offering?", opts:["Escalating sacrifices","Nothing","Prayers only"], correct:0, explain:"They kept raising the price, assuming the problem was quantity." },
+        { q:"What does God actually require?", opts:["Perfect record-keeping","Larger offerings","Act justly, love mercy, walk humbly"], correct:2, explain:"Three phrases covering how you treat people and how you stand before God." },
+        { q:"What's the difference between the three?", opts:["Only the first matters","They're identical","Justice is what you do; mercy is what you love; humility is how you walk with God"], correct:2, explain:"Action, affection, and posture \u2014 covering behavior, heart, and relationship." }
       ],
       deepDive: "Micah 6:8 is the Old Testament's most quoted summary of what God wants, and its power is in what it replaces. The people were bidding upward \u2014 more rams, more oil, ultimately a child \u2014 assuming God was expensive. The answer says the currency was wrong from the start. Notice the three verbs: act justly (behavior toward others), love mercy (not merely doing mercy but wanting to), and walk humbly with your God (a posture, ongoing, relational). It's simple enough to memorize in a minute and demanding enough to take a lifetime. If you want a single verse to test a week against, this is a strong candidate." },
     { id:228, book:"Micah", title:"But you, Bethlehem", side:"c",
@@ -460,9 +460,9 @@
         { ref: "Micah 5:2", text: "But you, Bethlehem Ephrathah, though you are small among the clans of Judah, out of you will come for me one who will be ruler over Israel." }
       ],
       questions: [
-        { q:"What's emphasized about Bethlehem?", opts:["Its power", "Its smallness", "Its wealth"], correct:1, explain:"God's pattern again: the significant thing comes out of the overlooked place." },
-        { q:"What's said about the ruler's origins?", opts:["Recent", "\u2018From of old, from ancient times\u2019", "Unknown"], correct:1, explain:"A phrase reaching back beyond any human genealogy \u2014 hinting at more than a local king." },
-        { q:"How is the ruler described?", opts:["A conqueror", "A shepherd", "A judge"], correct:1, explain:"Strength exercised as care, which is how the Bible keeps defining real kingship." }
+        { q:"What's emphasized about Bethlehem?", opts:["Its wealth","Its power","Its smallness"], correct:2, explain:"God's pattern again: the significant thing comes out of the overlooked place." },
+        { q:"What's said about the ruler's origins?", opts:["\u2018From of old, from ancient times\u2019","Unknown","Recent"], correct:0, explain:"A phrase reaching back beyond any human genealogy \u2014 hinting at more than a local king." },
+        { q:"How is the ruler described?", opts:["A conqueror","A shepherd","A judge"], correct:1, explain:"Strength exercised as care, which is how the Bible keeps defining real kingship." }
       ],
       deepDive: "Micah 5:2 is one of the most specific predictions in the Old Testament, and it was still common knowledge seven hundred years later \u2014 Herod's scribes quoted it without needing to look it up. What's most characteristic is the emphasis on smallness: not Jerusalem, not a capital, but a village too minor to be listed among Judah's clans. The Bible does this relentlessly \u2014 younger sons, barren women, minor towns \u2014 as if to make sure no one confuses God's work with human prominence. And the promised ruler's job description is shepherding, not conquering. He will be their peace." },
     { id:229, book:"Micah", title:"Who is a God like you?", side:"l",
@@ -471,9 +471,9 @@
         { ref: "Micah 7:18\u201319", text: "You do not stay angry forever but delight to show mercy... you will hurl all our iniquities into the depths of the sea." }
       ],
       questions: [
-        { q:"What does God \u2018delight\u2019 in?", opts:["Judgment", "Showing mercy", "Sacrifices"], correct:1, explain:"Not reluctant forgiveness but pleasure in it \u2014 mercy as God's preference, not His concession." },
-        { q:"What happens to the sins?", opts:["Recorded permanently", "Hurled into the depths of the sea", "Reduced"], correct:1, explain:"Thrown, deliberately, into the one place ancient people knew nothing returns from." },
-        { q:"What does the name \u2018Micah\u2019 mean?", opts:["Servant of God", "Who is like the LORD?", "God saves"], correct:1, explain:"The book closes by asking the question its author's name has been asking the whole time." }
+        { q:"What does God \u2018delight\u2019 in?", opts:["Showing mercy","Judgment","Sacrifices"], correct:0, explain:"Not reluctant forgiveness but pleasure in it \u2014 mercy as God's preference, not His concession." },
+        { q:"What happens to the sins?", opts:["Reduced","Hurled into the depths of the sea","Recorded permanently"], correct:1, explain:"Thrown, deliberately, into the one place ancient people knew nothing returns from." },
+        { q:"What does the name \u2018Micah\u2019 mean?", opts:["Servant of God","God saves","Who is like the LORD?"], correct:2, explain:"The book closes by asking the question its author's name has been asking the whole time." }
       ],
       deepDive: "Micah's ending is a small masterpiece. The prophet whose name asks 'who is like the LORD?' answers it not with power or knowledge but with mercy: this is a God who does not stay angry and actually delights in forgiving. The image of sins hurled into the depths of the sea is deliberately final \u2014 not filed, not reduced, not suspended, but thrown where nothing is recovered. Corrie ten Boom famously added that God then posts a sign: no fishing. If you are someone who keeps dredging up what God has already dealt with, this is the passage to memorize." },
     { id:230, book:"Nahum", title:"Slow to anger, great in power", side:"r",
@@ -482,9 +482,9 @@
         { ref: "Nahum 1:7", text: "The LORD is good, a refuge in times of trouble. He cares for those who trust in him." }
       ],
       questions: [
-        { q:"How does Nahum connect to Jonah?", opts:["No connection", "Same city", "Same prophet"], correct:1, explain:"Mercy received in one generation was not inherited by the next." },
-        { q:"What two things does 1:3 hold together?", opts:["Anger and indifference", "Slow to anger AND will not leave the guilty unpunished", "Power and distance"], correct:1, explain:"Patience is not the same as permission \u2014 both are true of God at once." },
-        { q:"Who was this book good news for?", opts:["Assyria", "The small nations Assyria had crushed for generations", "No one"], correct:1, explain:"Judgment on an empire reads very differently from underneath its boot." }
+        { q:"How does Nahum connect to Jonah?", opts:["Same prophet","Same city","No connection"], correct:1, explain:"Mercy received in one generation was not inherited by the next." },
+        { q:"What two things does 1:3 hold together?", opts:["Power and distance","Anger and indifference","Slow to anger AND will not leave the guilty unpunished"], correct:2, explain:"Patience is not the same as permission \u2014 both are true of God at once." },
+        { q:"Who was this book good news for?", opts:["Assyria","The small nations Assyria had crushed for generations","No one"], correct:1, explain:"Judgment on an empire reads very differently from underneath its boot." }
       ],
       deepDive: "Nahum is uncomfortable reading until you consider the audience. Assyria was the ancient world's most efficient terror state, famous for flaying prisoners and deporting whole populations, and this book announces to their victims that it ends. Read from that position, the judgment is not vengeance porn \u2014 it's the promise that evil has an expiration date. And verse 7 sits right in the middle of it: the LORD is good, a refuge in trouble, caring for those who take shelter in Him. The same chapter says God is slow to anger and will not let the guilty go. Both, at once, are what makes Him trustworthy." },
     { id:231, book:"Habakkuk", title:"How long, LORD?", side:"c",
@@ -493,9 +493,9 @@
         { ref: "Habakkuk 1:2", text: "How long, LORD, must I call for help, but you do not listen?" }
       ],
       questions: [
-        { q:"What's unusual about this book?", opts:["It's a history", "It's a prophet arguing with God rather than preaching to people", "It has no author"], correct:1, explain:"The whole book is a dialogue \u2014 complaint, answer, harder complaint, answer." },
-        { q:"What was God's first answer?", opts:["Immediate justice", "He was raising up Babylon", "Silence"], correct:1, explain:"The answer created a bigger problem than the question, which Habakkuk says out loud." },
-        { q:"How does Scripture treat his complaints?", opts:["As faithlessness", "As faith", "As unimportant"], correct:1, explain:"Like Job, honest wrestling directed at God is treated as legitimate prayer." }
+        { q:"What's unusual about this book?", opts:["It's a prophet arguing with God rather than preaching to people","It's a history","It has no author"], correct:0, explain:"The whole book is a dialogue \u2014 complaint, answer, harder complaint, answer." },
+        { q:"What was God's first answer?", opts:["Silence","Immediate justice","He was raising up Babylon"], correct:2, explain:"The answer created a bigger problem than the question, which Habakkuk says out loud." },
+        { q:"How does Scripture treat his complaints?", opts:["As faith","As faithlessness","As unimportant"], correct:0, explain:"Like Job, honest wrestling directed at God is treated as legitimate prayer." }
       ],
       deepDive: "Habakkuk is the book for anyone who has looked at the world and thought: how is God letting this continue? The prophet asks it directly, gets an answer he finds worse than the silence, and asks again \u2014 and none of it is treated as rebellion. That's the first gift of the book: your hardest question about God's apparent inaction has a chapter in the Bible. Notice also what he does with his complaint \u2014 he brings it to God rather than about God, and then, in chapter 2, he climbs the watchtower to wait for a reply. Complaint plus expectation is the posture the whole book models." },
     { id:232, book:"Habakkuk", title:"The righteous will live by faith", side:"l",
@@ -504,9 +504,9 @@
         { ref: "Habakkuk 2:4", text: "The righteous person will live by his faithfulness." }
       ],
       questions: [
-        { q:"What did Habakkuk do after complaining?", opts:["Left", "Stationed himself on the watchtower to wait for God's answer", "Complained louder"], correct:1, explain:"He expected a reply \u2014 complaint with expectation, not resignation." },
-        { q:"What does God say about the timing?", opts:["Immediate", "It awaits an appointed time", "Never"], correct:1, explain:"An answer certain in substance and slow in schedule \u2014 which is most of the Bible's answers." },
-        { q:"Why is 2:4 historically important?", opts:["It isn't", "Paul quotes it in Romans and Galatians; it shaped Luther and the Reformation", "Only Jews cite it"], correct:1, explain:"One line from a minor prophet became the backbone of the doctrine of justification by faith." }
+        { q:"What did Habakkuk do after complaining?", opts:["Stationed himself on the watchtower to wait for God's answer","Complained louder","Left"], correct:0, explain:"He expected a reply \u2014 complaint with expectation, not resignation." },
+        { q:"What does God say about the timing?", opts:["Never","Immediate","It awaits an appointed time"], correct:2, explain:"An answer certain in substance and slow in schedule \u2014 which is most of the Bible's answers." },
+        { q:"Why is 2:4 historically important?", opts:["Paul quotes it in Romans and Galatians; it shaped Luther and the Reformation","It isn't","Only Jews cite it"], correct:0, explain:"One line from a minor prophet became the backbone of the doctrine of justification by faith." }
       ],
       deepDive: "Habakkuk 2:4 is the most consequential sentence in the minor prophets. Paul quotes it in Romans and Galatians, the writer of Hebrews quotes it too, and Luther's rediscovery of it lit the fuse of the Reformation. In context it's the answer to 'how do I live while the wicked prosper and God seems slow?' \u2014 the righteous will live by faith, meaning steady trust when the evidence hasn't arrived. And notice God's instruction about the vision: write it plainly, because you'll need to read it during the wait. Whatever God has told you, get it in writing before the lingering starts." },
     { id:233, book:"Habakkuk", title:"Though the fig tree does not bud", side:"r",
@@ -515,9 +515,9 @@
         { ref: "Habakkuk 3:17\u201318", text: "Though the fig tree does not bud... yet I will rejoice in the LORD, I will be joyful in God my Savior." }
       ],
       questions: [
-        { q:"What has changed in Habakkuk's circumstances by the end?", opts:["Everything improved", "Nothing", "He moved away"], correct:1, explain:"The book's resolution is internal; the situation is unchanged." },
-        { q:"What's the force of the word \u2018yet\u2019?", opts:["Uncertainty", "Deliberate choice", "Denial"], correct:1, explain:"He lists every failure honestly and then plants a decision on the other side of them." },
-        { q:"Where is his joy located?", opts:["In the harvest", "In the LORD Himself", "In future crops"], correct:1, explain:"Joy anchored to a Person rather than to conditions is the only kind that survives conditions." }
+        { q:"What has changed in Habakkuk's circumstances by the end?", opts:["Nothing","He moved away","Everything improved"], correct:0, explain:"The book's resolution is internal; the situation is unchanged." },
+        { q:"What's the force of the word \u2018yet\u2019?", opts:["Uncertainty","Deliberate choice","Denial"], correct:1, explain:"He lists every failure honestly and then plants a decision on the other side of them." },
+        { q:"Where is his joy located?", opts:["In the LORD Himself","In future crops","In the harvest"], correct:0, explain:"Joy anchored to a Person rather than to conditions is the only kind that survives conditions." }
       ],
       deepDive: "Habakkuk's ending is one of the bravest sentences in Scripture, and it works only because of the honesty of the list preceding it. He doesn't say the crops will recover \u2014 he names each failure specifically: no figs, no grapes, no olives, no grain, no sheep, no cattle. Total agricultural collapse in an agricultural economy. And then: yet. That word is the whole Christian life in three letters. Joy here isn't a feeling produced by circumstances but a decision anchored in a Person, which is precisely why it can survive when the fields are empty." },
     { id:234, book:"Zephaniah", title:"The great day of the LORD", side:"c",
@@ -526,9 +526,9 @@
         { ref: "Zephaniah 2:3", text: "Seek the LORD, all you humble of the land... Seek righteousness, seek humility." }
       ],
       questions: [
-        { q:"What sin does Zephaniah single out?", opts:["Idolatry only", "Complacency", "Poverty"], correct:1, explain:"The \u2018wine left on its dregs\u2019 image: settled, thickened, unstirred indifference." },
-        { q:"Who is told to seek the LORD?", opts:["Kings", "The humble of the land", "Priests only"], correct:1, explain:"The invitation runs toward the overlooked rather than the powerful." },
-        { q:"What is the tone of \u2018perhaps you will be sheltered\u2019?", opts:["Cynical", "Humble hope", "Despairing"], correct:1, explain:"The same humility as Nineveh's king: \u2018who knows?\u2019 \u2014 seeking without demanding." }
+        { q:"What sin does Zephaniah single out?", opts:["Poverty","Complacency","Idolatry only"], correct:1, explain:"The \u2018wine left on its dregs\u2019 image: settled, thickened, unstirred indifference." },
+        { q:"Who is told to seek the LORD?", opts:["Priests only","The humble of the land","Kings"], correct:1, explain:"The invitation runs toward the overlooked rather than the powerful." },
+        { q:"What is the tone of \u2018perhaps you will be sheltered\u2019?", opts:["Cynical","Despairing","Humble hope"], correct:2, explain:"The same humility as Nineveh's king: \u2018who knows?\u2019 \u2014 seeking without demanding." }
       ],
       deepDive: "Zephaniah's most modern indictment is complacency \u2014 people who wouldn't call themselves rebellious, just unbothered: 'the LORD will do nothing, either good or bad.' Practical atheism, held by people still attending the festivals. His image is precise: wine left too long on its sediment, thickened and stale from never being stirred. Against that he calls the humble to actively seek \u2014 righteousness, humility \u2014 without any guarantee, only a 'perhaps.' There's integrity in that. The book asks whether your sense that God isn't going to act has quietly become the reason you've stopped moving." },
     { id:235, book:"Zephaniah", title:"He will rejoice over you with singing", side:"l",
@@ -537,9 +537,9 @@
         { ref: "Zephaniah 3:17", text: "The LORD your God is with you, the Mighty Warrior who saves. He will take great delight in you... he will rejoice over you with singing." }
       ],
       questions: [
-        { q:"What is God pictured doing?", opts:["Judging", "Delighting, quieting, and singing over His people", "Departing"], correct:1, explain:"One of only a few places in Scripture where God Himself is described as singing." },
-        { q:"What two titles sit side by side?", opts:["Judge and jury", "Mighty Warrior who saves", "King and priest"], correct:1, explain:"Power and tenderness in a single verse, neither cancelling the other." },
-        { q:"How does the placement of this verse matter?", opts:["It's unrelated to the judgment", "It comes after the judgment", "It opens the book"], correct:1, explain:"The tenderness isn't denial; it's what remains once the confrontation is finished." }
+        { q:"What is God pictured doing?", opts:["Judging","Delighting, quieting, and singing over His people","Departing"], correct:1, explain:"One of only a few places in Scripture where God Himself is described as singing." },
+        { q:"What two titles sit side by side?", opts:["Judge and jury","Mighty Warrior who saves","King and priest"], correct:1, explain:"Power and tenderness in a single verse, neither cancelling the other." },
+        { q:"How does the placement of this verse matter?", opts:["It's unrelated to the judgment","It opens the book","It comes after the judgment"], correct:2, explain:"The tenderness isn't denial; it's what remains once the confrontation is finished." }
       ],
       deepDive: "Zephaniah 3:17 catches people off guard, mostly because they've never read the two chapters before it. This is the same book that opened with 'I will sweep away everything' \u2014 and it ends with God delighting, quieting with His love, and singing over His people. That progression is the whole prophetic message in miniature: honest confrontation first, and joy on the other side of it. The picture is worth sitting with, because most people can imagine God tolerating them, and some can imagine Him forgiving them. Very few picture Him singing." },
     { id:236, book:"Haggai", title:"Give careful thought to your ways", side:"r",
@@ -548,9 +548,9 @@
         { ref: "Haggai 1:5", text: "Now this is what the LORD Almighty says: Give careful thought to your ways." }
       ],
       questions: [
-        { q:"What was the problem?", opts:["Persecution", "Misplaced priorities", "Lack of materials"], correct:1, explain:"Nobody decided to abandon the temple; it just kept not being the priority." },
-        { q:"What image describes their frustration?", opts:["An empty field", "Wages put in a purse with holes in it", "A broken plow"], correct:1, explain:"Effort producing nothing that stays \u2014 the felt experience of misordered priorities." },
-        { q:"How did the people respond to Haggai?", opts:["They ignored him", "They obeyed", "They exiled him"], correct:1, explain:"One of the few prophets in Scripture whose audience actually listened, and quickly." }
+        { q:"What was the problem?", opts:["Lack of materials","Misplaced priorities","Persecution"], correct:1, explain:"Nobody decided to abandon the temple; it just kept not being the priority." },
+        { q:"What image describes their frustration?", opts:["A broken plow","An empty field","Wages put in a purse with holes in it"], correct:2, explain:"Effort producing nothing that stays \u2014 the felt experience of misordered priorities." },
+        { q:"How did the people respond to Haggai?", opts:["They ignored him","They obeyed","They exiled him"], correct:1, explain:"One of the few prophets in Scripture whose audience actually listened, and quickly." }
       ],
       deepDive: "Haggai is short, practical, and uncomfortably relevant. Nobody in Jerusalem voted to abandon the temple \u2014 they just had legitimate things to do, and sixteen years passed. That's how priorities usually die: not by decision but by postponement. The purse with holes is the image that stings, because it names a real feeling \u2014 working hard and watching it evaporate. And the phrase repeated through the book, 'give careful thought to your ways,' is an invitation to audit rather than a condemnation. What have you postponed so long that the postponement has become the decision?" },
     { id:237, book:"Haggai", title:"The glory of this house", side:"c",
@@ -559,9 +559,9 @@
         { ref: "Haggai 2:9", text: "The glory of this present house will be greater than the glory of the former house, says the LORD Almighty." }
       ],
       questions: [
-        { q:"What discouraged the builders?", opts:["Enemy attacks", "Comparison", "Bad weather"], correct:1, explain:"The same grief as Ezra 3: those who remembered the former glory wept." },
-        { q:"What does God repeat three times?", opts:["\u2018Give more\u2019", "\u2018Be strong... and work. For I am with you\u2019", "\u2018Wait longer\u2019"], correct:1, explain:"Encouragement plus assignment plus presence \u2014 in that order, three times over." },
-        { q:"What's promised about the modest new house?", opts:["It will be rebuilt bigger", "Its glory will exceed the former", "It will be temporary"], correct:1, explain:"Glory measured by God's presence and purpose, not by square footage or gold." }
+        { q:"What discouraged the builders?", opts:["Bad weather","Comparison","Enemy attacks"], correct:1, explain:"The same grief as Ezra 3: those who remembered the former glory wept." },
+        { q:"What does God repeat three times?", opts:["\u2018Wait longer\u2019","\u2018Give more\u2019","\u2018Be strong... and work. For I am with you\u2019"], correct:2, explain:"Encouragement plus assignment plus presence \u2014 in that order, three times over." },
+        { q:"What's promised about the modest new house?", opts:["Its glory will exceed the former","It will be rebuilt bigger","It will be temporary"], correct:0, explain:"Glory measured by God's presence and purpose, not by square footage or gold." }
       ],
       deepDive: "Haggai 2 speaks precisely to the discouragement of building something that looks small next to what used to be. God doesn't dismiss the comparison \u2014 He names it out loud, twice \u2014 and then refuses to let it be the final word. The promise is that this modest house would hold a greater glory than Solomon's, which is a strange claim about a smaller building until you remember who eventually walked through its courts. Whatever you're rebuilding that feels like a downgrade from before, the instruction here is the one repeated three times: be strong, work, and remember who is with you." },
     { id:238, book:"Zechariah", title:"Not by might, nor by power", side:"l",
@@ -570,9 +570,9 @@
         { ref: "Zechariah 4:6", text: "Not by might nor by power, but by my Spirit, says the LORD Almighty." }
       ],
       questions: [
-        { q:"What does the lampstand vision picture?", opts:["Human effort", "A light with a continuous supply it doesn't generate itself", "A treasury"], correct:1, explain:"Oil flowing directly from the trees to the lamp \u2014 supply without human pumping." },
-        { q:"What does 4:6 rule out?", opts:["All effort", "Might and power as the source", "Prayer"], correct:1, explain:"Zerubbabel still built; the verse names what the building actually ran on." },
-        { q:"What does \u2018the day of small things\u2019 address?", opts:["Impatience with big projects", "Contempt for modest beginnings", "Poor planning"], correct:1, explain:"A direct word to anyone embarrassed by how small their start looks." }
+        { q:"What does the lampstand vision picture?", opts:["Human effort","A treasury","A light with a continuous supply it doesn't generate itself"], correct:2, explain:"Oil flowing directly from the trees to the lamp \u2014 supply without human pumping." },
+        { q:"What does 4:6 rule out?", opts:["Might and power as the source","Prayer","All effort"], correct:0, explain:"Zerubbabel still built; the verse names what the building actually ran on." },
+        { q:"What does \u2018the day of small things\u2019 address?", opts:["Impatience with big projects","Contempt for modest beginnings","Poor planning"], correct:1, explain:"A direct word to anyone embarrassed by how small their start looks." }
       ],
       deepDive: "Zechariah 4:6 is quoted constantly and usually detached from its setting, which is a shame, because the setting is the point: a discouraged governor trying to rebuild a temple with a fraction of the people and money the first one had. Into that, God says the work will run on His Spirit rather than on resources. And the follow-up line is for everyone who has felt embarrassed by the size of their start: 'who dares despise the day of small things?' God apparently enjoys small beginnings; most of the Bible's turning points are one. Do the small faithful thing, and stop measuring it against what you wish it were." },
     { id:239, book:"Zechariah", title:"Your king comes, riding a donkey", side:"r",
@@ -581,9 +581,9 @@
         { ref: "Zechariah 9:9", text: "See, your king comes to you, righteous and victorious, lowly and riding on a donkey." }
       ],
       questions: [
-        { q:"What's unusual about the king's arrival?", opts:["A war horse", "A donkey", "He walks"], correct:1, explain:"Conquerors rode horses; a donkey signaled peace, and everyone watching knew it." },
-        { q:"What does the king remove?", opts:["Taxes", "The war horses and battle bow", "The temple"], correct:1, explain:"His victory results in disarmament, not a bigger army." },
-        { q:"How did Jesus use this passage?", opts:["He avoided it", "He deliberately arranged a colt and rode it into Jerusalem", "He quoted it in a sermon only"], correct:1, explain:"A public, unmistakable claim to be this king \u2014 acted out rather than announced." }
+        { q:"What's unusual about the king's arrival?", opts:["A war horse","He walks","A donkey"], correct:2, explain:"Conquerors rode horses; a donkey signaled peace, and everyone watching knew it." },
+        { q:"What does the king remove?", opts:["The temple","Taxes","The war horses and battle bow"], correct:2, explain:"His victory results in disarmament, not a bigger army." },
+        { q:"How did Jesus use this passage?", opts:["He quoted it in a sermon only","He deliberately arranged a colt and rode it into Jerusalem","He avoided it"], correct:1, explain:"A public, unmistakable claim to be this king \u2014 acted out rather than announced." }
       ],
       deepDive: "Zechariah 9:9 is a portrait of the strangest kind of victory: a king who is righteous and victorious, and also 'lowly,' arriving on a donkey and disarming his own side. Everyone in Jerusalem knew the code \u2014 horses meant war, donkeys meant peace \u2014 which is why the triumphal entry was so charged. Jesus didn't stumble into that image; He sent disciples ahead specifically to arrange it. It's the clearest picture of how His kingdom differs from every other one: real authority, arriving without a weapon, proclaiming peace to the nations rather than conquering them." },
     { id:240, book:"Zechariah", title:"They will look on me", side:"c",
@@ -592,9 +592,9 @@
         { ref: "Zechariah 12:10", text: "They will look on me, the one they have pierced, and they will mourn for him as one mourns for an only child." }
       ],
       questions: [
-        { q:"What does the fountain represent?", opts:["Irrigation", "Cleansing from sin and impurity", "A water supply"], correct:1, explain:"A source made available; the imagery of washing runs throughout Zechariah's later chapters." },
-        { q:"Where do the Gospels quote 12:10?", opts:["At the resurrection", "At the crucifixion", "At the baptism"], correct:1, explain:"John quotes it directly; Revelation echoes it too." },
-        { q:"What does the ending say about ordinary objects?", opts:["They're worthless", "Even cooking pots will be \u2018HOLY TO THE LORD\u2019", "They'll be destroyed"], correct:1, explain:"Holiness spreading past the temple into ordinary kitchen equipment \u2014 the sacred/secular divide erased." }
+        { q:"What does the fountain represent?", opts:["Cleansing from sin and impurity","Irrigation","A water supply"], correct:0, explain:"A source made available; the imagery of washing runs throughout Zechariah's later chapters." },
+        { q:"Where do the Gospels quote 12:10?", opts:["At the resurrection","At the crucifixion","At the baptism"], correct:1, explain:"John quotes it directly; Revelation echoes it too." },
+        { q:"What does the ending say about ordinary objects?", opts:["They're worthless","Even cooking pots will be \u2018HOLY TO THE LORD\u2019","They'll be destroyed"], correct:1, explain:"Holiness spreading past the temple into ordinary kitchen equipment \u2014 the sacred/secular divide erased." }
       ],
       deepDive: "Zechariah's last chapters are dense and strange, and they contain some of the Old Testament's most startling anticipations \u2014 a struck shepherd, a pierced one mourned like an only child, a fountain opened for uncleanness. The New Testament reaches for these images repeatedly. But don't miss the ending, which is quietly one of the best in the prophets: on that day, the bells on the horses and the cooking pots in every house will be inscribed 'HOLY TO THE LORD.' The line between sacred and ordinary disappears entirely. Everything, down to the pans, belongs to God." },
     { id:241, book:"Malachi", title:"Where is the honor due me?", side:"l",
@@ -603,9 +603,9 @@
         { ref: "Malachi 1:6", text: "A son honors his father, and a slave his master. If I am a father, where is the honor due me?" }
       ],
       questions: [
-        { q:"What's the book's distinctive style?", opts:["Poetry", "Argument", "Narrative"], correct:1, explain:"Six disputes structure the book, each with the people's own defensive question quoted." },
-        { q:"What was wrong with their offerings?", opts:["Too small", "Blind, lame, and diseased animals", "The wrong species"], correct:1, explain:"They kept the good animals and gave God the ones nobody wanted." },
-        { q:"What test does God propose?", opts:["A sacrifice contest", "Offer it to your governor and see if he accepts it", "A fast"], correct:1, explain:"A devastating comparison: they showed more care for a human official than for God." }
+        { q:"What's the book's distinctive style?", opts:["Poetry","Narrative","Argument"], correct:2, explain:"Six disputes structure the book, each with the people's own defensive question quoted." },
+        { q:"What was wrong with their offerings?", opts:["The wrong species","Blind, lame, and diseased animals","Too small"], correct:1, explain:"They kept the good animals and gave God the ones nobody wanted." },
+        { q:"What test does God propose?", opts:["A sacrifice contest","A fast","Offer it to your governor and see if he accepts it"], correct:2, explain:"A devastating comparison: they showed more care for a human official than for God." }
       ],
       deepDive: "Malachi is a book of arguments, and the people's defensive questions \u2014 'how have you loved us?', 'how have we defiled you?' \u2014 make it feel unnervingly modern. The central charge isn't dramatic rebellion but cheapness: giving God what costs nothing, the animals they couldn't sell. God's test is brilliant and humiliating: try that with your governor. The application isn't about livestock. It's about whether God gets your leftover time, attention, and energy \u2014 the version of you nobody else would accept \u2014 while your best goes everywhere else." },
     { id:242, book:"Malachi", title:"Test me in this", side:"r",
@@ -614,9 +614,9 @@
         { ref: "Malachi 3:10", text: "Test me in this, says the LORD Almighty, and see if I will not throw open the floodgates of heaven." }
       ],
       questions: [
-        { q:"What makes this passage unique?", opts:["Its length", "God explicitly invites His people to test Him", "It's a parable"], correct:1, explain:"Elsewhere testing God is forbidden; here He opens the books on this one point." },
-        { q:"What was being withheld?", opts:["Prayers", "Tithes and offerings", "Attendance"], correct:1, explain:"The storehouse supported the temple and the vulnerable; withholding hurt both." },
-        { q:"What's the promised response?", opts:["A small return", "Floodgates opened", "Silence"], correct:1, explain:"The image is agricultural abundance, not a guaranteed financial scheme." }
+        { q:"What makes this passage unique?", opts:["God explicitly invites His people to test Him","Its length","It's a parable"], correct:0, explain:"Elsewhere testing God is forbidden; here He opens the books on this one point." },
+        { q:"What was being withheld?", opts:["Tithes and offerings","Prayers","Attendance"], correct:0, explain:"The storehouse supported the temple and the vulnerable; withholding hurt both." },
+        { q:"What's the promised response?", opts:["Silence","Floodgates opened","A small return"], correct:1, explain:"The image is agricultural abundance, not a guaranteed financial scheme." }
       ],
       deepDive: "This is the one place God says 'test me,' which is remarkable given how often Scripture forbids testing Him. The context is a community withholding what supported both worship and the poor, while wondering aloud why things felt dry. A caution worth stating plainly: this isn't a formula for guaranteed wealth, and reading it that way has done real damage. What it is, is an invitation to find out experimentally whether generosity toward God leaves you poorer. Generations have taken the test and reported back. The safest way to engage the passage is the way it's written \u2014 not as a calculation, but as a dare." },
     { id:243, book:"Malachi", title:"The sun of righteousness", side:"c",
@@ -625,9 +625,9 @@
         { ref: "Malachi 4:2", text: "But for you who revere my name, the sun of righteousness will rise with healing in its rays." }
       ],
       questions: [
-        { q:"What is the scroll of remembrance?", opts:["A record of sins", "A record of those who feared the LORD and honored His name", "A census"], correct:1, explain:"Faithfulness in a discouraging era isn't unnoticed \u2014 it's written down." },
-        { q:"What image ends the Old Testament?", opts:["A storm", "The sun of righteousness rising with healing in its rays", "A closed door"], correct:1, explain:"Sunrise \u2014 the last picture before four centuries of waiting." },
-        { q:"What follows Malachi historically?", opts:["Immediate fulfillment", "About four hundred years of prophetic silence", "Another prophet"], correct:1, explain:"The next voice is John the Baptist \u2014 the promised messenger who prepares the way." }
+        { q:"What is the scroll of remembrance?", opts:["A census","A record of sins","A record of those who feared the LORD and honored His name"], correct:2, explain:"Faithfulness in a discouraging era isn't unnoticed \u2014 it's written down." },
+        { q:"What image ends the Old Testament?", opts:["The sun of righteousness rising with healing in its rays","A storm","A closed door"], correct:0, explain:"Sunrise \u2014 the last picture before four centuries of waiting." },
+        { q:"What follows Malachi historically?", opts:["About four hundred years of prophetic silence","Immediate fulfillment","Another prophet"], correct:0, explain:"The next voice is John the Baptist \u2014 the promised messenger who prepares the way." }
       ],
       deepDive: "Malachi ends the Old Testament with sunrise and then silence. The scroll of remembrance is worth pausing on: in a discouraged, cynical era, people who still feared God talked with each other about it, and God had it written down. Faithfulness in a bad season is recorded even when it changes nothing visible. Then the final image \u2014 the sun of righteousness rising with healing in its rays \u2014 and four hundred years of nothing. That gap is part of the story: God's people waited across generations for a dawn they'd been promised. Then a priest named Zechariah met an angel in the temple, and the silence broke." }
 ,
@@ -637,9 +637,9 @@
         { ref: "Matthew 1:23", text: "The virgin will conceive and give birth to a son, and they will call him Immanuel (which means \u201cGod with us\u201d)." }
       ],
       questions: [
-        { q:"What's unusual about the women in the genealogy?", opts:["There are no women", "They include outsiders and people with scandalous histories", "They're all queens"], correct:1, explain:"Tamar, Rahab, Ruth, and Bathsheba \u2014 Matthew puts them in the family line on purpose." },
-        { q:"What does the name \u2018Jesus\u2019 mean?", opts:["King", "\u2018The LORD saves\u2019", "Teacher"], correct:1, explain:"The Greek form of Joshua; the angel gives both the name and its job description." },
-        { q:"What was Joseph planning before the angel came?", opts:["A public trial", "A quiet divorce", "To marry immediately"], correct:1, explain:"Even before he understood, his instinct was mercy \u2014 which is why he's called righteous." }
+        { q:"What's unusual about the women in the genealogy?", opts:["They include outsiders and people with scandalous histories","They're all queens","There are no women"], correct:0, explain:"Tamar, Rahab, Ruth, and Bathsheba \u2014 Matthew puts them in the family line on purpose." },
+        { q:"What does the name \u2018Jesus\u2019 mean?", opts:["King","\u2018The LORD saves\u2019","Teacher"], correct:1, explain:"The Greek form of Joshua; the angel gives both the name and its job description." },
+        { q:"What was Joseph planning before the angel came?", opts:["To marry immediately","A quiet divorce","A public trial"], correct:1, explain:"Even before he understood, his instinct was mercy \u2014 which is why he's called righteous." }
       ],
       deepDive: "Most readers skip the genealogy, which is a shame, because Matthew loaded it. Ancient family trees existed to prove respectability; this one includes a woman who tricked her father-in-law, a Canaanite prostitute, a Moabite widow, and a reference to adultery and murder that refuses to even say Bathsheba's name \u2014 it says \u2018Uriah's wife,\u2019 keeping the crime in the record. Matthew is establishing something before the story starts: this family line runs through scandal, foreigners, and failure, which tells you what kind of Savior is arriving and who He came for. And the two names bracket everything: Jesus, because He saves; Immanuel, because He came near to do it." },
     { id:245, book:"Matthew", title:"Wise men and a refugee child", side:"l",
@@ -648,9 +648,9 @@
         { ref: "Matthew 2:11", text: "They bowed down and worshiped him. Then they opened their treasures and presented him with gifts of gold, frankincense and myrrh." }
       ],
       questions: [
-        { q:"Who recognized the king \u2014 and who didn't?", opts:["Israel's leaders did", "Foreign stargazers came to worship; the capital's religious experts stayed home", "Nobody"], correct:1, explain:"The scribes knew the right verse and never made the six-mile trip \u2014 knowledge without response." },
-        { q:"How did Jesus' family survive Herod?", opts:["An army protected them", "They fled to Egypt as refugees", "Herod relented"], correct:1, explain:"The Savior's childhood included flight from political violence into a foreign land." },
-        { q:"What does Herod's reaction reveal?", opts:["Curiosity", "A king who would kill children rather than share a throne", "Faith"], correct:1, explain:"Power threatened by a rival infant \u2014 the first of many who found this King inconvenient." }
+        { q:"Who recognized the king \u2014 and who didn't?", opts:["Foreign stargazers came to worship; the capital's religious experts stayed home","Israel's leaders did","Nobody"], correct:0, explain:"The scribes knew the right verse and never made the six-mile trip \u2014 knowledge without response." },
+        { q:"How did Jesus' family survive Herod?", opts:["Herod relented","An army protected them","They fled to Egypt as refugees"], correct:2, explain:"The Savior's childhood included flight from political violence into a foreign land." },
+        { q:"What does Herod's reaction reveal?", opts:["Faith","A king who would kill children rather than share a throne","Curiosity"], correct:1, explain:"Power threatened by a rival infant \u2014 the first of many who found this King inconvenient." }
       ],
       deepDive: "Matthew 2 is full of uncomfortable contrasts. Pagan astrologers travel for months and fall on their faces; the chief priests, who could quote the prophecy from memory, don't walk six miles to check. Proximity to Scripture is not the same as response to it. And the chapter refuses to sentimentalize the nativity: there is a massacre in it, and a family running for the border at night. The gifts hint at what's coming \u2014 gold for a king, incense for worship, myrrh for burial \u2014 and the flight to Egypt means that before Jesus said a word about the suffering, He had already been a child whose family fled a violent ruler." },
     { id:246, book:"Matthew", title:"Baptized in the Jordan", side:"r",
@@ -659,9 +659,9 @@
         { ref: "Matthew 3:17", text: "And a voice from heaven said, \u201cThis is my Son, whom I love; with him I am well pleased.\u201d" }
       ],
       questions: [
-        { q:"Why did John object to baptizing Jesus?", opts:["Jesus was too young", "John knew the roles were backwards", "The crowd objected"], correct:1, explain:"A baptism of repentance made no sense for the sinless one \u2014 which is why John resisted." },
-        { q:"What did John warn about ancestry?", opts:["It guarantees standing", "Being descended from Abraham proves nothing without fruit", "It should be forgotten"], correct:1, explain:"Inherited religion is not the same as personal repentance \u2014 God can raise children from stones." },
-        { q:"When did the Father declare His pleasure?", opts:["After the miracles", "At the baptism", "At the crucifixion"], correct:1, explain:"The affirmation came before the ministry, not as a reward for it." }
+        { q:"Why did John object to baptizing Jesus?", opts:["John knew the roles were backwards","The crowd objected","Jesus was too young"], correct:0, explain:"A baptism of repentance made no sense for the sinless one \u2014 which is why John resisted." },
+        { q:"What did John warn about ancestry?", opts:["It guarantees standing","It should be forgotten","Being descended from Abraham proves nothing without fruit"], correct:2, explain:"Inherited religion is not the same as personal repentance \u2014 God can raise children from stones." },
+        { q:"When did the Father declare His pleasure?", opts:["After the miracles","At the crucifixion","At the baptism"], correct:2, explain:"The affirmation came before the ministry, not as a reward for it." }
       ],
       deepDive: "The baptism is the moment all three persons of the Trinity appear in one scene \u2014 the Son in the water, the Spirit descending, the Father speaking. But the detail worth carrying is the timing of the Father's words. \u2018This is my Son, whom I love; with him I am well pleased\u2019 is spoken before Jesus has preached a sermon, healed anyone, or gathered a disciple. The pleasure precedes the performance. For anyone who has quietly organized their spiritual life around earning approval, that sequence is the whole gospel in miniature \u2014 and it's about to be tested, because the very next scene is the wilderness." },
     { id:247, book:"Matthew", title:"Tested in the wilderness", side:"c",
@@ -670,9 +670,9 @@
         { ref: "Matthew 4:4", text: "Man shall not live on bread alone, but on every word that comes from the mouth of God." }
       ],
       questions: [
-        { q:"What phrase opens two of the temptations?", opts:["\u2018If you are hungry\u2019", "\u2018If you are the Son of God\u2019", "\u2018If you are willing\u2019"], correct:1, explain:"The attack targets the identity announced at the baptism days earlier." },
-        { q:"How did Jesus respond each time?", opts:["With miracles", "With Scripture", "With silence"], correct:1, explain:"He answered with what He had stored, not with displays of power." },
-        { q:"What was the third offer?", opts:["Wealth", "All the kingdoms of the world", "Long life"], correct:1, explain:"A shortcut to the throne that skipped the suffering \u2014 the real temptation underneath." }
+        { q:"What phrase opens two of the temptations?", opts:["\u2018If you are willing\u2019","\u2018If you are the Son of God\u2019","\u2018If you are hungry\u2019"], correct:1, explain:"The attack targets the identity announced at the baptism days earlier." },
+        { q:"How did Jesus respond each time?", opts:["With Scripture","With silence","With miracles"], correct:0, explain:"He answered with what He had stored, not with displays of power." },
+        { q:"What was the third offer?", opts:["All the kingdoms of the world","Long life","Wealth"], correct:0, explain:"A shortcut to the throne that skipped the suffering \u2014 the real temptation underneath." }
       ],
       deepDive: "The order of scenes matters: the Father says \u2018my Son, whom I love,\u2019 and immediately the wilderness voice says \u2018if you are the Son of God.\u2019 Temptation usually begins by questioning something God has already settled. Notice too that none of the three offers are obviously evil \u2014 bread when starving, a spectacular sign, the kingdoms He came to rule anyway. Each is a legitimate end reached by an illegitimate route, which is how temptation actually works for most people. And Jesus' defense wasn't power He obviously had; it was Scripture He had memorized, deployed while exhausted and hungry. That's an argument for filling your memory before the wilderness, not during it." },
     { id:248, book:"Matthew", title:"The Beatitudes", side:"l",
@@ -681,9 +681,9 @@
         { ref: "Matthew 5:3\u20134", text: "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they will be comforted." }
       ],
       questions: [
-        { q:"Who does Jesus call blessed?", opts:["The successful and admired", "The poor in spirit, mourning, meek, hungry, merciful, pure, peacemaking, persecuted", "The religious leaders"], correct:1, explain:"Every category inverts what any culture would rank as fortunate." },
-        { q:"What does \u2018poor in spirit\u2019 mean?", opts:["Depressed", "Spiritually bankrupt", "Financially poor only"], correct:1, explain:"The entry point to the kingdom is admitting you have no currency for it." },
-        { q:"What kind of statements are these?", opts:["Commands to achieve", "Announcements", "Predictions"], correct:1, explain:"Not eight steps to earn blessing but an announcement about who the kingdom belongs to." }
+        { q:"Who does Jesus call blessed?", opts:["The religious leaders","The successful and admired","The poor in spirit, mourning, meek, hungry, merciful, pure, peacemaking, persecuted"], correct:2, explain:"Every category inverts what any culture would rank as fortunate." },
+        { q:"What does \u2018poor in spirit\u2019 mean?", opts:["Financially poor only","Depressed","Spiritually bankrupt"], correct:2, explain:"The entry point to the kingdom is admitting you have no currency for it." },
+        { q:"What kind of statements are these?", opts:["Announcements","Commands to achieve","Predictions"], correct:0, explain:"Not eight steps to earn blessing but an announcement about who the kingdom belongs to." }
       ],
       deepDive: "The Beatitudes are not entry requirements or a personality test \u2014 they're an announcement, and a shocking one. In a world that assumed prosperity signaled God's favor, Jesus opens by pronouncing favor on the bankrupt, the grieving, and the powerless. Notice the first one especially: \u2018poor in spirit\u2019 describes someone with nothing to offer, and to them belongs the kingdom \u2014 present tense, already theirs. Everything else in the sermon assumes this foundation. You cannot start the Sermon on the Mount by trying harder; you start it by admitting you're empty. And the promises attached aren't vague: comfort, inheritance, satisfaction, mercy, seeing God." },
     { id:249, book:"Matthew", title:"Salt, light, and a deeper law", side:"r",
@@ -692,9 +692,9 @@
         { ref: "Matthew 5:44", text: "But I tell you, love your enemies and pray for those who persecute you." }
       ],
       questions: [
-        { q:"What does \u2018you are the light of the world\u2019 assume?", opts:["That you might become light someday", "That it's already true", "That only leaders shine"], correct:1, explain:"Not a goal but a description; the warning is about concealment, not capacity." },
-        { q:"How does Jesus handle the law?", opts:["He abolishes it", "He drives it inward", "He softens it"], correct:1, explain:"The standard gets harder, not easier: contempt is murder's root, lust adultery's." },
-        { q:"Why love enemies?", opts:["It's strategic", "\u2018That you may be children of your Father\u2019", "To avoid conflict"], correct:1, explain:"God sends sun and rain on the righteous and unrighteous alike; this is imitation." }
+        { q:"What does \u2018you are the light of the world\u2019 assume?", opts:["That only leaders shine","That it's already true","That you might become light someday"], correct:1, explain:"Not a goal but a description; the warning is about concealment, not capacity." },
+        { q:"How does Jesus handle the law?", opts:["He softens it","He abolishes it","He drives it inward"], correct:2, explain:"The standard gets harder, not easier: contempt is murder's root, lust adultery's." },
+        { q:"Why love enemies?", opts:["\u2018That you may be children of your Father\u2019","To avoid conflict","It's strategic"], correct:0, explain:"God sends sun and rain on the righteous and unrighteous alike; this is imitation." }
       ],
       deepDive: "This section makes the Sermon impossible on purpose. Jesus takes commands people were confident they'd kept and relocates them: you haven't murdered, but have you held someone in contempt? You haven't committed adultery, but what does your looking do? By the end, anyone honest has run out of clean categories \u2014 which is exactly why the sermon opened with \u2018blessed are the poor in spirit.\u2019 The impossibility isn't a design flaw; it's the reason grace is necessary. And the salt-and-light images are worth keeping: neither exists for itself. Salt that stays in the shaker and a lamp under a bowl are not modest \u2014 they're useless." },
     { id:250, book:"Matthew", title:"Pray like this", side:"c",
@@ -703,9 +703,9 @@
         { ref: "Matthew 6:9\u201310", text: "Our Father in heaven, hallowed be your name, your kingdom come, your will be done, on earth as it is in heaven." }
       ],
       questions: [
-        { q:"What's the problem with public religious display?", opts:["It's ineffective", "The applause IS the reward", "It's illegal"], correct:1, explain:"Jesus doesn't say it fails; He says it succeeds at the only thing it was aimed at." },
-        { q:"What comes first in the prayer?", opts:["Our needs", "God's name, kingdom, and will", "Confession"], correct:1, explain:"The order teaches perspective: God's concerns framed before ours are named." },
-        { q:"What clause carries a condition?", opts:["Daily bread", "Forgiveness", "Deliverance"], correct:1, explain:"Jesus adds a comment on exactly this line after the prayer \u2014 it's the one He returns to." }
+        { q:"What's the problem with public religious display?", opts:["It's ineffective","It's illegal","The applause IS the reward"], correct:2, explain:"Jesus doesn't say it fails; He says it succeeds at the only thing it was aimed at." },
+        { q:"What comes first in the prayer?", opts:["God's name, kingdom, and will","Our needs","Confession"], correct:0, explain:"The order teaches perspective: God's concerns framed before ours are named." },
+        { q:"What clause carries a condition?", opts:["Forgiveness","Daily bread","Deliverance"], correct:0, explain:"Jesus adds a comment on exactly this line after the prayer \u2014 it's the one He returns to." }
       ],
       deepDive: "The Lord's Prayer is short enough to say in twenty seconds and structured enough to reorganize a life. It begins with relationship (\u2018Our Father\u2019 \u2014 not \u2018my\u2019), moves through God's name, kingdom, and will, and only then reaches bread, forgiveness, and protection. Notice what it asks for materially: today's bread. Not the quarter's supply. And notice the one line Jesus circles back to comment on \u2014 forgiveness, tied to the forgiving we do. He isn't making mercy the price of pardon; He's saying an unforgiving heart is evidence that grace hasn't landed yet. The chapter ends where anxiety ends: look at the birds. Your Father feeds them, and He knows what you need." },
     { id:251, book:"Matthew", title:"The narrow gate and two houses", side:"l",
@@ -714,9 +714,9 @@
         { ref: "Matthew 7:24", text: "Everyone who hears these words of mine and puts them into practice is like a wise man who built his house on the rock." }
       ],
       questions: [
-        { q:"What distinguishes the two builders?", opts:["One heard the words, one didn't", "Both heard", "Their materials"], correct:1, explain:"The difference isn't information but obedience; hearing alone builds on sand." },
-        { q:"What happens to both houses?", opts:["Only one faces a storm", "The same storm hits both", "Neither is tested"], correct:1, explain:"Jesus doesn't promise the wise avoid storms, only that they stand in them." },
-        { q:"What does \u2018do not judge\u2019 mean in context?", opts:["Never assess anything", "Deal with your own plank before addressing someone's speck", "Ignore false teachers"], correct:1, explain:"The same chapter tells you to recognize false prophets by their fruit \u2014 the target is hypocrisy, not discernment." }
+        { q:"What distinguishes the two builders?", opts:["Their materials","One heard the words, one didn't","Both heard"], correct:2, explain:"The difference isn't information but obedience; hearing alone builds on sand." },
+        { q:"What happens to both houses?", opts:["Neither is tested","The same storm hits both","Only one faces a storm"], correct:1, explain:"Jesus doesn't promise the wise avoid storms, only that they stand in them." },
+        { q:"What does \u2018do not judge\u2019 mean in context?", opts:["Ignore false teachers","Deal with your own plank before addressing someone's speck","Never assess anything"], correct:1, explain:"The same chapter tells you to recognize false prophets by their fruit \u2014 the target is hypocrisy, not discernment." }
       ],
       deepDive: "Jesus ends the greatest sermon ever preached by warning that hearing it isn't enough. Both builders heard the same words; both houses looked fine on a clear day; the same storm hit both. Nothing distinguished them until the weather did, and by then the foundation was already set. That's an uncomfortable image for anyone who consumes a lot of spiritual content \u2014 sermons, podcasts, apps like this one \u2014 without much changing. The application is embarrassingly simple: pick one thing from this sermon you've heard many times and haven't done, and do it this week. That single act is what separates rock from sand." },
     { id:252, book:"Matthew", title:"Come to me, all who are weary", side:"r",
@@ -725,9 +725,9 @@
         { ref: "Matthew 11:28\u201329", text: "Come to me, all you who are weary and burdened, and I will give you rest... for I am gentle and humble in heart." }
       ],
       questions: [
-        { q:"Who is invited?", opts:["The qualified", "All who are weary and burdened", "Only disciples"], correct:1, explain:"Being worn out is not a disqualification here; it's the entry ticket." },
-        { q:"What is offered \u2014 rest from work, or a yoke?", opts:["Only rest", "A yoke", "Only work"], correct:1, explain:"A yoke joined two animals; the offer is shared load with an easier partner." },
-        { q:"What reason does Jesus give for coming to Him?", opts:["His power", "\u2018For I am gentle and humble in heart\u2019", "His authority"], correct:1, explain:"The only place in the Gospels where Jesus describes His own heart \u2014 and this is the word He chooses." }
+        { q:"Who is invited?", opts:["The qualified","All who are weary and burdened","Only disciples"], correct:1, explain:"Being worn out is not a disqualification here; it's the entry ticket." },
+        { q:"What is offered \u2014 rest from work, or a yoke?", opts:["A yoke","Only rest","Only work"], correct:0, explain:"A yoke joined two animals; the offer is shared load with an easier partner." },
+        { q:"What reason does Jesus give for coming to Him?", opts:["His power","His authority","\u2018For I am gentle and humble in heart\u2019"], correct:2, explain:"The only place in the Gospels where Jesus describes His own heart \u2014 and this is the word He chooses." }
       ],
       deepDive: "This is the only time in the Gospels Jesus tells us directly what His heart is like, and of every available word He picks gentle and humble. That matters enormously for anyone who believes in God's power but quietly suspects He's exasperated with them. Notice also the strangeness of the offer: rest arrives through a yoke, not through the absence of one. The burden isn't removed \u2014 the partner changes. Religious weariness usually comes from carrying alone a load meant to be shared, under a master who never says \u2018enough.\u2019 This one is gentle, and the yoke fits." },
     { id:253, book:"Matthew", title:"Parables of the kingdom", side:"c",
@@ -736,9 +736,9 @@
         { ref: "Matthew 13:44", text: "The kingdom of heaven is like treasure hidden in a field. When a man found it, he hid it again, and then in his joy went and sold all he had and bought that field." }
       ],
       questions: [
-        { q:"What varies in the parable of the sower?", opts:["The seed", "The soil", "The farmer"], correct:1, explain:"Identical seed, four outcomes \u2014 the variable is the ground receiving it." },
-        { q:"What choked the seed among thorns?", opts:["Drought", "The worries of life and the deceitfulness of wealth", "Birds"], correct:1, explain:"Not hostility but distraction \u2014 the most common way faith quietly dies." },
-        { q:"What motivated the man who sold everything?", opts:["Duty", "Joy", "Fear"], correct:1, explain:"Two words easy to miss: \u2018in his joy.\u2019 It wasn't sacrifice; it was a bargain he couldn't believe." }
+        { q:"What varies in the parable of the sower?", opts:["The seed","The farmer","The soil"], correct:2, explain:"Identical seed, four outcomes \u2014 the variable is the ground receiving it." },
+        { q:"What choked the seed among thorns?", opts:["The worries of life and the deceitfulness of wealth","Birds","Drought"], correct:0, explain:"Not hostility but distraction \u2014 the most common way faith quietly dies." },
+        { q:"What motivated the man who sold everything?", opts:["Joy","Fear","Duty"], correct:0, explain:"Two words easy to miss: \u2018in his joy.\u2019 It wasn't sacrifice; it was a bargain he couldn't believe." }
       ],
       deepDive: "The sower is the parable Jesus said unlocks the others, and its honesty is bracing: most of the seed doesn't produce. Notice the third soil especially \u2014 the plants aren't attacked, they're crowded. Worry and wealth don't announce themselves as enemies of faith; they just take up all the room. That is how most people lose their spiritual life, not through a crisis of belief but through a full calendar. And then the treasure parable answers the obvious objection about cost: yes, the man sold everything, and he did it \u2018in his joy.\u2019 Nobody who has actually seen the field feels robbed by the purchase." },
     { id:254, book:"Matthew", title:"\u201cWho do you say I am?\u201d", side:"l",
@@ -747,9 +747,9 @@
         { ref: "Matthew 16:24", text: "Whoever wants to be my disciple must deny themselves and take up their cross and follow me." }
       ],
       questions: [
-        { q:"What shifts in Jesus' question?", opts:["Nothing", "From what people say to what YOU say", "From past to future"], correct:1, explain:"The question that every reader eventually has to answer personally." },
-        { q:"Why was Peter rebuked minutes after being blessed?", opts:["He denied the Messiah", "He accepted the Messiah but rejected the cross", "He asked for power"], correct:1, explain:"Right about who Jesus was, wrong about what He came to do \u2014 a very common combination." },
-        { q:"What does \u2018take up your cross\u2019 mean to first-century ears?", opts:["Endure minor annoyances", "The road to execution", "Wear a symbol"], correct:1, explain:"They had seen people carry crossbeams to their deaths; the image was not decorative." }
+        { q:"What shifts in Jesus' question?", opts:["From past to future","Nothing","From what people say to what YOU say"], correct:2, explain:"The question that every reader eventually has to answer personally." },
+        { q:"Why was Peter rebuked minutes after being blessed?", opts:["He denied the Messiah","He asked for power","He accepted the Messiah but rejected the cross"], correct:2, explain:"Right about who Jesus was, wrong about what He came to do \u2014 a very common combination." },
+        { q:"What does \u2018take up your cross\u2019 mean to first-century ears?", opts:["Wear a symbol","Endure minor annoyances","The road to execution"], correct:2, explain:"They had seen people carry crossbeams to their deaths; the image was not decorative." }
       ],
       deepDive: "This chapter is the hinge of Matthew. Everything before builds toward Peter's confession; everything after moves toward Jerusalem. And the sequence is instructive: Peter gets the identity exactly right by revelation, then gets the mission exactly wrong within minutes. It's possible to believe the correct things about Jesus and still want a version of Him without a cross \u2014 for Him or for you. That's why the invitation that follows is worded the way it is. Deny yourself, take up your cross: not a call to be miserable, but a call to stop being the center. And attached to it is the strangest promise in the Gospels: whoever loses their life for His sake will find it." },
     { id:255, book:"Matthew", title:"The sheep and the goats", side:"r",
@@ -758,9 +758,9 @@
         { ref: "Matthew 25:40", text: "Truly I tell you, whatever you did for one of the least of these brothers and sisters of mine, you did for me." }
       ],
       questions: [
-        { q:"What surprises both groups?", opts:["The verdict's basis", "That they had encountered Jesus in the hungry, sick, and imprisoned without knowing it", "The location"], correct:1, explain:"Neither group recognized Him at the time \u2014 which rules out doing it for the credit." },
-        { q:"What are the acts named?", opts:["Religious ceremonies", "Food, drink, welcome, clothing, care in sickness, visits in prison", "Preaching and teaching"], correct:1, explain:"Ordinary, physical, unremarkable acts of practical mercy." },
-        { q:"What does Jesus call the recipients?", opts:["Strangers", "\u2018The least of these brothers and sisters of mine\u2019", "Servants"], correct:1, explain:"He doesn't say you served Him by proxy; He says you did it to Him." }
+        { q:"What surprises both groups?", opts:["The location","The verdict's basis","That they had encountered Jesus in the hungry, sick, and imprisoned without knowing it"], correct:2, explain:"Neither group recognized Him at the time \u2014 which rules out doing it for the credit." },
+        { q:"What are the acts named?", opts:["Preaching and teaching","Food, drink, welcome, clothing, care in sickness, visits in prison","Religious ceremonies"], correct:1, explain:"Ordinary, physical, unremarkable acts of practical mercy." },
+        { q:"What does Jesus call the recipients?", opts:["Servants","Strangers","\u2018The least of these brothers and sisters of mine\u2019"], correct:2, explain:"He doesn't say you served Him by proxy; He says you did it to Him." }
       ],
       deepDive: "This is Jesus' last teaching before the cross, and it settles what He considers evidence. Not doctrinal precision, not attendance, not visible spiritual achievement \u2014 food, water, welcome, clothes, presence in sickness and prison. And the mutual surprise is the detail that dismantles performance: neither group knew who they were serving. The sheep weren't building a portfolio; they just fed hungry people, and it turned out to be Him. That's the point worth carrying: Christ is encountered in ordinary need, and how you treat someone with nothing to offer you is treated by Him as how you treated Him." },
     { id:256, book:"Matthew", title:"Go and make disciples", side:"c",
@@ -769,9 +769,9 @@
         { ref: "Matthew 28:19\u201320", text: "Therefore go and make disciples of all nations... And surely I am with you always, to the very end of the age." }
       ],
       questions: [
-        { q:"What honest detail does Matthew include?", opts:["Everyone believed instantly", "\u2018But some doubted\u2019", "They all fled"], correct:1, explain:"The Great Commission is given to a group containing doubters, which is a mercy worth noticing." },
-        { q:"What grounds the command?", opts:["The disciples' readiness", "Jesus' authority", "Political opportunity"], correct:1, explain:"The \u2018therefore\u2019 is load-bearing: the mission rests on His authority, not their competence." },
-        { q:"How does Matthew's Gospel end?", opts:["With a departure", "With a promise of presence", "With a warning"], correct:1, explain:"The book opened with Immanuel, God with us, and closes with the same promise." }
+        { q:"What honest detail does Matthew include?", opts:["They all fled","\u2018But some doubted\u2019","Everyone believed instantly"], correct:1, explain:"The Great Commission is given to a group containing doubters, which is a mercy worth noticing." },
+        { q:"What grounds the command?", opts:["Jesus' authority","The disciples' readiness","Political opportunity"], correct:0, explain:"The \u2018therefore\u2019 is load-bearing: the mission rests on His authority, not their competence." },
+        { q:"How does Matthew's Gospel end?", opts:["With a warning","With a departure","With a promise of presence"], correct:2, explain:"The book opened with Immanuel, God with us, and closes with the same promise." }
       ],
       deepDive: "Matthew bookends his Gospel deliberately: it opens with a name, Immanuel \u2014 God with us \u2014 and ends with the risen Jesus saying \u2018I am with you always.\u2019 Everything between is the story of how that became possible. Two details reward attention. First, \u2018some doubted,\u2019 recorded without embarrassment and without disqualifying anyone; the commission goes to worshipers and waverers standing on the same hillside. Second, the task is making disciples \u2014 not converts, not attendees \u2014 people taught to actually obey what He commanded, which is the same distinction the two houses made back in chapter 7. And the whole thing is bracketed by authority at the front and presence at the back." },
     { id:257, book:"Mark", title:"The beginning \u2014 immediately", side:"l",
@@ -780,9 +780,9 @@
         { ref: "Mark 1:15", text: "The time has come. The kingdom of God has come near. Repent and believe the good news!" }
       ],
       questions: [
-        { q:"How does Mark begin his Gospel?", opts:["With a genealogy", "With no birth story at all", "With the resurrection"], correct:1, explain:"The shortest, fastest Gospel drops you into the action on the first page." },
-        { q:"What word drives Mark's pace?", opts:["\u2018Therefore\u2019", "\u2018Immediately\u2019", "\u2018Behold\u2019"], correct:1, explain:"The whole book moves at a run, which is part of its argument about urgency." },
-        { q:"How did the fishermen respond to the call?", opts:["They asked for time", "At once they left their nets", "They followed part-time"], correct:1, explain:"Mark reports it without explanation \u2014 the authority in the call is the point." }
+        { q:"How does Mark begin his Gospel?", opts:["With the resurrection","With no birth story at all","With a genealogy"], correct:1, explain:"The shortest, fastest Gospel drops you into the action on the first page." },
+        { q:"What word drives Mark's pace?", opts:["\u2018Immediately\u2019","\u2018Behold\u2019","\u2018Therefore\u2019"], correct:0, explain:"The whole book moves at a run, which is part of its argument about urgency." },
+        { q:"How did the fishermen respond to the call?", opts:["At once they left their nets","They asked for time","They followed part-time"], correct:0, explain:"Mark reports it without explanation \u2014 the authority in the call is the point." }
       ],
       deepDive: "Mark is the shortest and fastest Gospel, probably the first written, and traditionally connected to Peter's preaching \u2014 which explains its breathless quality and its unflattering portrayal of the disciples. There's no infancy narrative, no genealogy, no long sermons: just a man moving through Galilee with startling authority while everyone struggles to keep up. The summary of His message in 1:15 is worth memorizing because it's the compressed gospel: the time has come, the kingdom is near, repent and believe. Two announcements and two responses \u2014 and everything else in the book unpacks them." },
     { id:258, book:"Mark", title:"Through the roof", side:"r",
@@ -791,9 +791,9 @@
         { ref: "Mark 2:5", text: "When Jesus saw their faith, he said to the paralyzed man, \u201cSon, your sins are forgiven.\u201d" }
       ],
       questions: [
-        { q:"Whose faith does Mark mention?", opts:["The paralyzed man's only", "\u2018Their\u2019 faith", "The crowd's"], correct:1, explain:"Someone else's faith got him in front of Jesus \u2014 a striking detail about carrying people." },
-        { q:"What did Jesus address first?", opts:["The paralysis", "The man's sins", "The crowd"], correct:1, explain:"He came for a healing and received something he hadn't asked for first." },
-        { q:"Why did the healing matter to the argument?", opts:["It proved He was a doctor", "It made a visible claim verify an invisible one", "It ended the debate about Sabbath"], correct:1, explain:"Anyone can say \u2018forgiven\u2019; the walking man was the receipt." }
+        { q:"Whose faith does Mark mention?", opts:["The paralyzed man's only","\u2018Their\u2019 faith","The crowd's"], correct:1, explain:"Someone else's faith got him in front of Jesus \u2014 a striking detail about carrying people." },
+        { q:"What did Jesus address first?", opts:["The crowd","The paralysis","The man's sins"], correct:2, explain:"He came for a healing and received something he hadn't asked for first." },
+        { q:"Why did the healing matter to the argument?", opts:["It proved He was a doctor","It ended the debate about Sabbath","It made a visible claim verify an invisible one"], correct:2, explain:"Anyone can say \u2018forgiven\u2019; the walking man was the receipt." }
       ],
       deepDive: "Two things stand out. First, the friends: they destroyed someone's roof rather than accept that they couldn't get their man to Jesus, and Mark says Jesus saw \u2018their\u2019 faith. Some people arrive in God's presence carried by others \u2014 which is both an encouragement to keep interceding for someone and a permission to be carried when you can't manage it yourself. Second, Jesus reordered the man's priorities without asking. He came for legs and got forgiveness first, because the deepest paralysis wasn't the one everyone could see. The healing followed, but as evidence, not as the main event." },
     { id:259, book:"Mark", title:"Who is this?", side:"c",
@@ -802,9 +802,9 @@
         { ref: "Mark 4:41", text: "Who is this? Even the wind and the waves obey him!" }
       ],
       questions: [
-        { q:"What was the disciples' accusation?", opts:["\u2018You steered wrong\u2019", "\u2018Don't you care if we drown?\u2019", "\u2018Wake up and row\u2019"], correct:1, explain:"Under pressure their fear went straight to a question about His care, not His power." },
-        { q:"What were they more afraid of afterward?", opts:["The storm", "Jesus", "The dark"], correct:1, explain:"Mark notes the fear increased once they glimpsed who was in the boat." },
-        { q:"What had Jesus said before they set out?", opts:["Nothing", "\u2018Let us go over to the other side\u2019", "\u2018Stay near shore\u2019"], correct:1, explain:"They panicked inside a trip He had already declared would reach the far shore." }
+        { q:"What was the disciples' accusation?", opts:["\u2018Wake up and row\u2019","\u2018Don't you care if we drown?\u2019","\u2018You steered wrong\u2019"], correct:1, explain:"Under pressure their fear went straight to a question about His care, not His power." },
+        { q:"What were they more afraid of afterward?", opts:["The storm","The dark","Jesus"], correct:2, explain:"Mark notes the fear increased once they glimpsed who was in the boat." },
+        { q:"What had Jesus said before they set out?", opts:["\u2018Let us go over to the other side\u2019","Nothing","\u2018Stay near shore\u2019"], correct:0, explain:"They panicked inside a trip He had already declared would reach the far shore." }
       ],
       deepDive: "The disciples' question in the storm is the one most people actually ask: not \u2018can you?\u2019 but \u2018do you care?\u2019 Their fear translated His sleep into indifference, which is what fear usually does with God's silence. Notice also what they had already been given \u2014 \u2018let us go over to the other side\u2019 \u2014 a stated destination they had forgotten by the time the water came in. And notice the ending: the calm frightened them more than the squall. Meeting someone who commands weather is more unsettling than weather. The question they ask, \u2018who is this?\u2019, is the question Mark's whole Gospel is built to answer." },
     { id:260, book:"Mark", title:"A dying girl and a desperate woman", side:"l",
@@ -813,9 +813,9 @@
         { ref: "Mark 5:36", text: "Overhearing what they said, Jesus told him, \u201cDon\u2019t be afraid; just believe.\u201d" }
       ],
       questions: [
-        { q:"Why did Jesus stop to find the woman?", opts:["To rebuke her", "To turn a secret healing into a public restoration", "To reclaim power"], correct:1, explain:"Her illness made her ceremonially unclean and socially isolated; He restored her publicly, not just physically." },
-        { q:"What happened during the delay?", opts:["Nothing", "Jairus's daughter died", "The crowd left"], correct:1, explain:"Mark links the two stories with the number twelve: her years of bleeding, the girl's age." },
-        { q:"What did Jesus say when the news came?", opts:["\u2018It's too late\u2019", "\u2018Don't be afraid; just believe\u2019", "\u2018Bring the body\u2019"], correct:1, explain:"Spoken to a father who had just heard the worst sentence a parent can hear." }
+        { q:"Why did Jesus stop to find the woman?", opts:["To rebuke her","To reclaim power","To turn a secret healing into a public restoration"], correct:2, explain:"Her illness made her ceremonially unclean and socially isolated; He restored her publicly, not just physically." },
+        { q:"What happened during the delay?", opts:["Jairus's daughter died","The crowd left","Nothing"], correct:0, explain:"Mark links the two stories with the number twelve: her years of bleeding, the girl's age." },
+        { q:"What did Jesus say when the news came?", opts:["\u2018Don't be afraid; just believe\u2019","\u2018Bring the body\u2019","\u2018It's too late\u2019"], correct:0, explain:"Spoken to a father who had just heard the worst sentence a parent can hear." }
       ],
       deepDive: "Mark sandwiches these two stories on purpose, and the seams are the message. A respected synagogue ruler and an unnamed, unclean, bankrupt woman receive the same attention; Jesus is not more available to the important one. And the delay is agonizing \u2014 Jairus stands there while his daughter's life runs out so a stranger can be honored. If you've ever felt that God was attending to someone else while your window closed, this passage sits with you honestly. It also refuses to end there: the delay didn't cost the girl her life, and the woman got more than a cure. She got \u2018daughter.\u2019" },
     { id:261, book:"Mark", title:"Five loaves and two fish", side:"r",
@@ -824,9 +824,9 @@
         { ref: "Mark 6:34", text: "He had compassion on them, because they were like sheep without a shepherd." }
       ],
       questions: [
-        { q:"What moved Jesus about the crowd?", opts:["Their numbers", "Compassion", "Their generosity"], correct:1, explain:"The phrase reaches back to Ezekiel 34, where God promised to shepherd them Himself." },
-        { q:"What did Jesus tell the disciples to do?", opts:["Send them away", "\u2018You give them something to eat\u2019", "Wait for a miracle"], correct:1, explain:"He put the need in their hands first, and then supplied what they lacked." },
-        { q:"How much was left over?", opts:["Nothing", "Twelve basketfuls", "A few crumbs"], correct:1, explain:"One basket per disciple; the abundance was distributed to the ones who'd said it was impossible." }
+        { q:"What moved Jesus about the crowd?", opts:["Their numbers","Compassion","Their generosity"], correct:1, explain:"The phrase reaches back to Ezekiel 34, where God promised to shepherd them Himself." },
+        { q:"What did Jesus tell the disciples to do?", opts:["Send them away","Wait for a miracle","\u2018You give them something to eat\u2019"], correct:2, explain:"He put the need in their hands first, and then supplied what they lacked." },
+        { q:"How much was left over?", opts:["Twelve basketfuls","Nothing","A few crumbs"], correct:0, explain:"One basket per disciple; the abundance was distributed to the ones who'd said it was impossible." }
       ],
       deepDive: "Notice the sequence: Jesus doesn't produce bread out of nothing \u2014 He asks what they have, takes the small and inadequate thing, gives thanks for it, and breaks it. The multiplication happens in the distribution, in the disciples' hands, as they keep giving away what should have run out three rows in. That's a working picture of most Christian service. And the leftovers land pointedly: twelve baskets, one for each man who had just explained why this couldn't be done. God's provision tends to arrive in the middle of obedience rather than before it \u2014 which is precisely what makes it require faith." },
     { id:262, book:"Mark", title:"\u201cYou are the Messiah\u201d", side:"c",
@@ -835,9 +835,9 @@
         { ref: "Mark 8:35", text: "For whoever wants to save their life will lose it, but whoever loses their life for me and for the gospel will save it." }
       ],
       questions: [
-        { q:"How did Jesus speak about His death?", opts:["In riddles", "\u2018Plainly\u2019", "Only in private"], correct:1, explain:"After chapters of parables and secrecy, this is stated openly \u2014 and it's the thing they can't accept." },
-        { q:"Why the sharp rebuke of Peter?", opts:["He doubted the resurrection", "He was voicing a Messiah without a cross", "He spoke publicly"], correct:1, explain:"The same offer Jesus refused in the desert now came from a friend who loved Him." },
-        { q:"What paradox follows?", opts:["Save your life by protecting it", "Saving your life loses it; losing it for Christ saves it", "Neither saves"], correct:1, explain:"The central paradox of the Christian life, stated at the Gospel's midpoint." }
+        { q:"How did Jesus speak about His death?", opts:["Only in private","\u2018Plainly\u2019","In riddles"], correct:1, explain:"After chapters of parables and secrecy, this is stated openly \u2014 and it's the thing they can't accept." },
+        { q:"Why the sharp rebuke of Peter?", opts:["He doubted the resurrection","He was voicing a Messiah without a cross","He spoke publicly"], correct:1, explain:"The same offer Jesus refused in the desert now came from a friend who loved Him." },
+        { q:"What paradox follows?", opts:["Save your life by protecting it","Neither saves","Saving your life loses it; losing it for Christ saves it"], correct:2, explain:"The central paradox of the Christian life, stated at the Gospel's midpoint." }
       ],
       deepDive: "Mark 8 is the pivot of the book \u2014 the first half asks who Jesus is, the second half walks toward the cross. And the placement of Peter's rebuke is deliberate: the correct answer about Jesus' identity is given, and immediately misapplied. Peter's version of Messiah has all the glory and none of the suffering, which is why Jesus hears the desert voice in a friend's concern. Then comes the invitation, and it's costly by design: deny yourself, take up your cross, follow. The promise attached is the paradox that shapes everything after \u2014 grip your life and it slips away; spend it on Him and it comes back." },
     { id:263, book:"Mark", title:"The man who walked away", side:"l",
@@ -846,9 +846,9 @@
         { ref: "Mark 10:21", text: "Jesus looked at him and loved him. \u201cOne thing you lack,\u201d he said." }
       ],
       questions: [
-        { q:"What does Mark record about Jesus' feelings?", opts:["He was annoyed", "He looked at him and loved him", "He was indifferent"], correct:1, explain:"The demand came out of affection, not disapproval, which changes how to read it." },
-        { q:"What was the \u2018one thing\u2019?", opts:["More prayer", "Surrendering the wealth that actually held him", "Better theology"], correct:1, explain:"Jesus targeted the specific rival, not a general rule for everyone." },
-        { q:"How did the disciples react?", opts:["They agreed", "They were amazed", "They laughed"], correct:1, explain:"\u2018Who then can be saved?\u2019 \u2014 if the visibly blessed can't get in, nobody can. Which is the point." }
+        { q:"What does Mark record about Jesus' feelings?", opts:["He was annoyed","He looked at him and loved him","He was indifferent"], correct:1, explain:"The demand came out of affection, not disapproval, which changes how to read it." },
+        { q:"What was the \u2018one thing\u2019?", opts:["Better theology","Surrendering the wealth that actually held him","More prayer"], correct:1, explain:"Jesus targeted the specific rival, not a general rule for everyone." },
+        { q:"How did the disciples react?", opts:["They were amazed","They agreed","They laughed"], correct:0, explain:"\u2018Who then can be saved?\u2019 \u2014 if the visibly blessed can't get in, nobody can. Which is the point." }
       ],
       deepDive: "This is the only person in the Gospels who is invited to follow Jesus and declines, and Mark makes sure we know he was loved in the asking. That detail keeps the story from becoming a lecture about money. Jesus named the one rival to the man's heart \u2014 which for someone else would be a different thing entirely. The disciples' shock reveals their assumption that wealth was evidence of God's approval, and Jesus dismantles it: nobody enters on their own resources, rich or poor. The chapter's hope is in the last clause, and it's for everyone: with God, all things are possible." },
     { id:264, book:"Mark", title:"Not to be served, but to serve", side:"r",
@@ -857,9 +857,9 @@
         { ref: "Mark 10:45", text: "For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many." }
       ],
       questions: [
-        { q:"When was the request made?", opts:["Years earlier", "Immediately after Jesus predicted His torture and death", "After the resurrection"], correct:1, explain:"Mark's placement is merciless: He describes the cross, and they ask about seating." },
-        { q:"Why were the other ten angry?", opts:["The request was inappropriate", "They wanted the same positions", "They were protecting Jesus"], correct:1, explain:"Indignation as competition, not principle \u2014 which is why Jesus addresses all twelve." },
-        { q:"How does Jesus define greatness?", opts:["By authority held", "By service given", "By recognition"], correct:1, explain:"Then He points to Himself as the model: He came to serve and give His life as a ransom." }
+        { q:"When was the request made?", opts:["Immediately after Jesus predicted His torture and death","Years earlier","After the resurrection"], correct:0, explain:"Mark's placement is merciless: He describes the cross, and they ask about seating." },
+        { q:"Why were the other ten angry?", opts:["The request was inappropriate","They wanted the same positions","They were protecting Jesus"], correct:1, explain:"Indignation as competition, not principle \u2014 which is why Jesus addresses all twelve." },
+        { q:"How does Jesus define greatness?", opts:["By authority held","By service given","By recognition"], correct:1, explain:"Then He points to Himself as the model: He came to serve and give His life as a ransom." }
       ],
       deepDive: "Mark 10:45 is often called the key verse of the whole Gospel, and it arrives in the least flattering possible setting. Jesus has just described His execution in detail; the response is a request for cabinet positions. Rather than disqualifying them, He redefines the thing they want. Greatness isn't abolished \u2014 it's relocated to service, with Himself as the demonstration. And the word \u2018ransom\u2019 makes the cross explicit for the first time in Mark: not merely an example of service but a price paid to free people who couldn't free themselves. Ambition isn't the sin here; the direction of it is." },
     { id:265, book:"Mark", title:"Gethsemane", side:"c",
@@ -868,9 +868,9 @@
         { ref: "Mark 14:36", text: "Abba, Father, everything is possible for you. Take this cup from me. Yet not what I will, but what you will." }
       ],
       questions: [
-        { q:"How does Mark describe Jesus' state?", opts:["Calm and resolved", "Deeply distressed, troubled, overwhelmed to the point of death", "Angry"], correct:1, explain:"Mark uses the strongest available language; there is no stoicism in this scene." },
-        { q:"What did Jesus actually ask for?", opts:["Strength only", "That the cup be taken from Him", "Nothing"], correct:1, explain:"He asked, plainly, and then submitted. Both halves are in the prayer." },
-        { q:"What word does He use for God?", opts:["Lord", "\u2018Abba\u2019", "Almighty"], correct:1, explain:"At His worst moment, the address is not formal but familial." }
+        { q:"How does Mark describe Jesus' state?", opts:["Angry","Calm and resolved","Deeply distressed, troubled, overwhelmed to the point of death"], correct:2, explain:"Mark uses the strongest available language; there is no stoicism in this scene." },
+        { q:"What did Jesus actually ask for?", opts:["Strength only","Nothing","That the cup be taken from Him"], correct:2, explain:"He asked, plainly, and then submitted. Both halves are in the prayer." },
+        { q:"What word does He use for God?", opts:["Lord","\u2018Abba\u2019","Almighty"], correct:1, explain:"At His worst moment, the address is not formal but familial." }
       ],
       deepDive: "Gethsemane is the most emotionally exposed scene in the Gospels, and it dismantles the idea that faith means feeling fine. Jesus is horrified, honest, and repetitive \u2014 He asks the same thing three times. The prayer has two halves, and both matter: a real request for the cup to pass, and a real surrender to the Father's will. Most people collapse one into the other, either not daring to ask or asking without yielding. And the sleeping friends are part of the picture too: at the hour He most needed company, He got exhaustion and good intentions. He didn't stop loving them, and He didn't stop praying." },
     { id:266, book:"Mark", title:"The curtain and the empty tomb", side:"l",
@@ -879,9 +879,9 @@
         { ref: "Mark 15:38", text: "The curtain of the temple was torn in two from top to bottom." }
       ],
       questions: [
-        { q:"What did the torn curtain separate?", opts:["Nothing important", "The Most Holy Place", "The courtyard from the street"], correct:1, explain:"Torn from top to bottom: not opened from below, but from God's side." },
-        { q:"Who makes the confession at the cross?", opts:["A disciple", "The Roman centurion who executed Him", "The high priest"], correct:1, explain:"Mark's Gospel opened calling Jesus the Son of God; the first human to say it fully is a Gentile soldier." },
-        { q:"Who first came to the tomb?", opts:["The eleven", "Women bringing spices", "Roman guards"], correct:1, explain:"In a culture that discounted women's testimony, all four Gospels record them first." }
+        { q:"What did the torn curtain separate?", opts:["The courtyard from the street","Nothing important","The Most Holy Place"], correct:2, explain:"Torn from top to bottom: not opened from below, but from God's side." },
+        { q:"Who makes the confession at the cross?", opts:["The high priest","The Roman centurion who executed Him","A disciple"], correct:1, explain:"Mark's Gospel opened calling Jesus the Son of God; the first human to say it fully is a Gentile soldier." },
+        { q:"Who first came to the tomb?", opts:["Roman guards","The eleven","Women bringing spices"], correct:2, explain:"In a culture that discounted women's testimony, all four Gospels record them first." }
       ],
       deepDive: "Two details in the death scene carry enormous weight. The curtain \u2014 a massive woven barrier that said \u2018this far and no further\u2019 \u2014 tears from top to bottom, the direction that rules out human hands. The way to God isn't opened by climbing; it's opened from above. And the confession that Mark has been building toward for fifteen chapters comes from a Roman soldier who watched Him die, not from the disciples, who had scattered. Then Sunday: women with burial spices meeting an empty tomb and a sentence that changed history \u2014 He has risen; He is not here. Mark's fast, breathless Gospel ends with the fastest news of all." }
 ,
@@ -891,9 +891,9 @@
         { ref: "Luke 1:13", text: "Do not be afraid, Zechariah; your prayer has been heard." }
       ],
       questions: [
-        { q:"How does Luke describe his own work?", opts:["A vision he received", "A carefully investigated, orderly account from eyewitnesses", "A collection of legends"], correct:1, explain:"A physician writing history \u2014 Luke opens with his research method, unusual among the Gospels." },
-        { q:"What does Gabriel say about Zechariah's prayer?", opts:["It was too late", "\u2018Your prayer has been heard\u2019", "It was misguided"], correct:1, explain:"An old man told that a long-abandoned request was still on file." },
-        { q:"How long had it been since a prophet spoke?", opts:["Twenty years", "About four hundred years", "One generation"], correct:1, explain:"Malachi's promise of a messenger had waited four centuries; it arrives during an ordinary shift." }
+        { q:"How does Luke describe his own work?", opts:["A carefully investigated, orderly account from eyewitnesses","A vision he received","A collection of legends"], correct:0, explain:"A physician writing history \u2014 Luke opens with his research method, unusual among the Gospels." },
+        { q:"What does Gabriel say about Zechariah's prayer?", opts:["It was misguided","It was too late","\u2018Your prayer has been heard\u2019"], correct:2, explain:"An old man told that a long-abandoned request was still on file." },
+        { q:"How long had it been since a prophet spoke?", opts:["One generation","About four hundred years","Twenty years"], correct:1, explain:"Malachi's promise of a messenger had waited four centuries; it arrives during an ordinary shift." }
       ],
       deepDive: "Luke, a physician and careful historian, opens with sources and method \u2014 and then his first scene is an elderly couple's dead hope reopening. Zechariah was chosen by lot for a duty most priests performed once in a lifetime, if ever; on that particular ordinary Tuesday, the four-hundred-year silence broke. Notice the tense: \u2018your prayer has been heard,\u2019 spoken to a man far past the age of asking. God's timeline had not lost the request. And the answer arrives with a difficulty attached \u2014 nine months of silence for a man who doubted \u2014 which is Luke's way of showing that even discipline in this story is temporary and purposeful." },
     { id:268, book:"Luke", title:"Mary's song", side:"c",
@@ -902,9 +902,9 @@
         { ref: "Luke 1:38", text: "I am the Lord\u2019s servant. May your word to me be fulfilled." }
       ],
       questions: [
-        { q:"How does Mary's response differ from Zechariah's?", opts:["It doesn't", "She asks how, then submits", "She refuses"], correct:1, explain:"Both asked a question; hers ends in surrender rather than demand for proof." },
-        { q:"What is the theme of her song?", opts:["Personal comfort", "Reversal", "Political revolt"], correct:1, explain:"The Magnificat is one of Scripture's most revolutionary songs, sung by a peasant girl." },
-        { q:"What did Mary risk by saying yes?", opts:["Nothing", "Her reputation, her engagement, and possibly her life", "Only inconvenience"], correct:1, explain:"An unexplained pregnancy in that culture carried real social and physical danger." },
+        { q:"How does Mary's response differ from Zechariah's?", opts:["She refuses","It doesn't","She asks how, then submits"], correct:2, explain:"Both asked a question; hers ends in surrender rather than demand for proof." },
+        { q:"What is the theme of her song?", opts:["Reversal","Political revolt","Personal comfort"], correct:0, explain:"The Magnificat is one of Scripture's most revolutionary songs, sung by a peasant girl." },
+        { q:"What did Mary risk by saying yes?", opts:["Nothing","Her reputation, her engagement, and possibly her life","Only inconvenience"], correct:1, explain:"An unexplained pregnancy in that culture carried real social and physical danger." },
       ],
       deepDive: "Mary is probably in her early teens, from a town of no consequence, and she answers an impossible announcement with the sentence the whole Bible has been waiting for someone to say: I am the Lord's servant, let it be as you said. Then she sings, and the song is not sentimental \u2014 it's a hymn about thrones toppling and the hungry being fed while the rich leave empty. She understood that the child she carried was a rearrangement of the world's order. Luke, who throughout his Gospel gives unusual attention to women, the poor, and outsiders, puts this song near the front as a table of contents." },
     { id:269, book:"Luke", title:"No room, and shepherds", side:"l",
@@ -913,9 +913,9 @@
         { ref: "Luke 2:10\u201311", text: "I bring you good news that will cause great joy for all the people. Today in the town of David a Savior has been born to you." }
       ],
       questions: [
-        { q:"Who received the announcement first?", opts:["Kings and priests", "Shepherds", "Roman officials"], correct:1, explain:"Heaven's press release went to the people furthest from religious respectability." },
-        { q:"What sign were they given?", opts:["A palace", "A baby wrapped in cloths, lying in a feeding trough", "A star"], correct:1, explain:"The confirming sign was the very ordinariness and poverty of the setting." },
-        { q:"What did the census accomplish?", opts:["It delayed the birth", "It moved the family to Bethlehem", "Nothing"], correct:1, explain:"An emperor's tax policy served a promise made seven centuries earlier." }
+        { q:"Who received the announcement first?", opts:["Shepherds","Kings and priests","Roman officials"], correct:0, explain:"Heaven's press release went to the people furthest from religious respectability." },
+        { q:"What sign were they given?", opts:["A baby wrapped in cloths, lying in a feeding trough","A star","A palace"], correct:0, explain:"The confirming sign was the very ordinariness and poverty of the setting." },
+        { q:"What did the census accomplish?", opts:["It delayed the birth","Nothing","It moved the family to Bethlehem"], correct:2, explain:"An emperor's tax policy served a promise made seven centuries earlier." }
       ],
       deepDive: "Luke tells the nativity with two lenses at once. Wide: Caesar Augustus issues a decree, and the machinery of the world's greatest empire moves a pregnant peasant to the exact town a prophet named seven hundred years earlier. Close: no guest room, a feeding trough, and an audience of shepherds who couldn't have entered the temple's inner courts. That combination is the whole gospel's shape \u2014 cosmic sovereignty and radical lowliness in the same night. And the angel's phrasing is worth keeping: good news of great joy for all the people, born \u2018to you.\u2019 Not about you. To you." },
     { id:270, book:"Luke", title:"Rejected in his hometown", side:"r",
@@ -924,9 +924,9 @@
         { ref: "Luke 4:18", text: "The Spirit of the Lord is on me, because he has anointed me to proclaim good news to the poor." }
       ],
       questions: [
-        { q:"What did Jesus claim in the synagogue?", opts:["That Isaiah was misunderstood", "That Isaiah's passage was fulfilled", "That the scroll was damaged"], correct:1, explain:"He chose this text as His mission statement and declared it present tense." },
-        { q:"What turned admiration into fury?", opts:["A miracle", "His examples of God's mercy going to Gentiles", "His youth"], correct:1, explain:"They accepted a hometown Messiah; they rejected one whose favor extended past them." },
-        { q:"Who is the mission aimed at?", opts:["The powerful", "The poor, prisoners, blind, and oppressed", "The religious establishment"], correct:1, explain:"The same downward direction Luke traces from the Magnificat onward." }
+        { q:"What did Jesus claim in the synagogue?", opts:["That Isaiah's passage was fulfilled","That Isaiah was misunderstood","That the scroll was damaged"], correct:0, explain:"He chose this text as His mission statement and declared it present tense." },
+        { q:"What turned admiration into fury?", opts:["His youth","A miracle","His examples of God's mercy going to Gentiles"], correct:2, explain:"They accepted a hometown Messiah; they rejected one whose favor extended past them." },
+        { q:"Who is the mission aimed at?", opts:["The poor, prisoners, blind, and oppressed","The powerful","The religious establishment"], correct:0, explain:"The same downward direction Luke traces from the Magnificat onward." }
       ],
       deepDive: "Jesus launches His public ministry by picking a text and stopping mid-sentence \u2014 He reads through \u2018the year of the Lord's favor\u2019 and closes the scroll before Isaiah's next line about the day of vengeance. That editorial choice announces what this visit is for. The crowd loves it until He gives two examples of God helping foreigners, and then they try to kill him. It's a sobering pattern: people are often glad for grace until it's extended to someone they'd excluded. And Luke puts this at the start deliberately \u2014 mission statement, and first rejection, on the same afternoon." },
     { id:271, book:"Luke", title:"The woman with the alabaster jar", side:"c",
@@ -935,9 +935,9 @@
         { ref: "Luke 7:47", text: "Her many sins have been forgiven \u2014 as her great love has shown. But whoever has been forgiven little loves little." }
       ],
       questions: [
-        { q:"What was Simon's private objection?", opts:["The cost of the perfume", "That Jesus didn't know what kind of woman was touching Him", "The interruption"], correct:1, explain:"Jesus answered the thought Simon never said aloud \u2014 which itself answered the objection." },
-        { q:"What's the point of the two-debtor parable?", opts:["Debts should be repaid", "The size of the forgiveness felt determines the size of the love shown", "Both debtors were ungrateful"], correct:1, explain:"Simon's cool politeness revealed how little he thought he needed forgiving." },
-        { q:"What had Simon neglected?", opts:["Nothing", "Basic hospitality", "The food"], correct:1, explain:"The host did the minimum; the outsider did everything, and more." }
+        { q:"What was Simon's private objection?", opts:["That Jesus didn't know what kind of woman was touching Him","The cost of the perfume","The interruption"], correct:0, explain:"Jesus answered the thought Simon never said aloud \u2014 which itself answered the objection." },
+        { q:"What's the point of the two-debtor parable?", opts:["Both debtors were ungrateful","The size of the forgiveness felt determines the size of the love shown","Debts should be repaid"], correct:1, explain:"Simon's cool politeness revealed how little he thought he needed forgiving." },
+        { q:"What had Simon neglected?", opts:["Nothing","The food","Basic hospitality"], correct:2, explain:"The host did the minimum; the outsider did everything, and more." }
       ],
       deepDive: "This scene sets two people side by side and asks which one actually knows what's happening. Simon is respectable, correct, and emotionally uninvolved; the woman is disgraced, uninvited, and undone. Jesus' explanation is not that she earned forgiveness with tears \u2014 the parable makes forgiveness the cause and love the evidence. The devastating line is the last one: whoever has been forgiven little loves little. Simon's problem wasn't that he was too sinful to be forgiven but that he didn't think he needed much. Lukewarm love is almost always a symptom of an underestimated debt." },
     { id:272, book:"Luke", title:"The Good Samaritan", side:"l",
@@ -946,9 +946,9 @@
         { ref: "Luke 10:36\u201337", text: "\u201cWhich of these three do you think was a neighbor to the man who fell into the hands of robbers?\u201d\u2026 \u201cGo and do likewise.\u201d" }
       ],
       questions: [
-        { q:"Why did the man ask \u2018who is my neighbor?\u2019", opts:["Genuine curiosity", "\u2018Wanting to justify himself\u2019", "To test the crowd"], correct:1, explain:"The question was an attempt to define the circle small enough to stay inside it." },
-        { q:"How does Jesus flip the question?", opts:["He doesn't", "From \u2018who qualifies as my neighbor\u2019 to \u2018which one BECAME a neighbor\u2019", "He refuses to answer"], correct:1, explain:"The question changes from categorizing others to examining yourself." },
-        { q:"Why is the Samaritan the hero?", opts:["He was wealthy", "He was the despised outsider", "He was a priest"], correct:1, explain:"Jesus made the enemy the example, which is what makes the parable sting." }
+        { q:"Why did the man ask \u2018who is my neighbor?\u2019", opts:["\u2018Wanting to justify himself\u2019","To test the crowd","Genuine curiosity"], correct:0, explain:"The question was an attempt to define the circle small enough to stay inside it." },
+        { q:"How does Jesus flip the question?", opts:["He doesn't","From \u2018who qualifies as my neighbor\u2019 to \u2018which one BECAME a neighbor\u2019","He refuses to answer"], correct:1, explain:"The question changes from categorizing others to examining yourself." },
+        { q:"Why is the Samaritan the hero?", opts:["He was the despised outsider","He was wealthy","He was a priest"], correct:0, explain:"Jesus made the enemy the example, which is what makes the parable sting." }
       ],
       deepDive: "The parable is so familiar that we miss how offensive it was. The two who walked past were the religious professionals; the one who stopped belonged to a group this audience despised. Jesus took the listener's category of \u2018them\u2019 and made it the model of obedience. Notice also the cost: bandages, oil, wine, his own animal, two days' wages, and an open-ended promise to pay more. Mercy here isn't a feeling but a bill. And the flip of the question is the permanent lesson \u2014 stop asking who qualifies for your love, and start asking whether you're the kind of person who becomes a neighbor to whoever is in front of you." },
     { id:273, book:"Luke", title:"Mary and Martha", side:"r",
@@ -957,9 +957,9 @@
         { ref: "Luke 10:41\u201342", text: "Martha, Martha, you are worried and upset about many things, but few things are needed \u2014 or indeed only one." }
       ],
       questions: [
-        { q:"What was Mary doing?", opts:["Resting", "Sitting at Jesus' feet", "Cooking"], correct:1, explain:"Jesus was welcoming a woman into the role of disciple, which was culturally striking." },
-        { q:"What was Martha's actual problem?", opts:["Working hard", "Being worried and upset", "Poor cooking"], correct:1, explain:"Jesus never criticizes hospitality; He names the anxiety pulling her apart." },
-        { q:"How does Jesus address her?", opts:["Coldly", "\u2018Martha, Martha\u2019", "Formally"], correct:1, explain:"The repetition in Scripture usually signals affection and gentle appeal." }
+        { q:"What was Mary doing?", opts:["Cooking","Resting","Sitting at Jesus' feet"], correct:2, explain:"Jesus was welcoming a woman into the role of disciple, which was culturally striking." },
+        { q:"What was Martha's actual problem?", opts:["Poor cooking","Being worried and upset","Working hard"], correct:1, explain:"Jesus never criticizes hospitality; He names the anxiety pulling her apart." },
+        { q:"How does Jesus address her?", opts:["\u2018Martha, Martha\u2019","Formally","Coldly"], correct:0, explain:"The repetition in Scripture usually signals affection and gentle appeal." }
       ],
       deepDive: "This story gets flattened into \u2018being beats doing,\u2019 which isn't quite what happens. Martha's hospitality was genuine and needed; someone had to make dinner. What Jesus names is not her work but her state \u2014 worried, upset, pulled in many directions, and starting to resent the person who wasn't. Notice the placement right after the Good Samaritan: activity without presence, immediately following presence without activity. Luke sets them side by side because the Christian life needs both, and the ordering matters. Only one thing is needed \u2014 and it isn't the thing most of us are busy with at six o'clock." },
     { id:274, book:"Luke", title:"Lost and found", side:"c",
@@ -968,9 +968,9 @@
         { ref: "Luke 15:7", text: "There will be more rejoicing in heaven over one sinner who repents than over ninety-nine righteous persons who do not need to repent." }
       ],
       questions: [
-        { q:"What prompted these parables?", opts:["A question about the law", "Complaints that Jesus welcomed and ate with sinners", "A funeral"], correct:1, explain:"All three stories are a defense of the company He kept." },
-        { q:"What's common to the shepherd and the woman?", opts:["They gave up", "They searched until they found", "They blamed the lost item"], correct:1, explain:"Persistent seeking followed by disproportionate joy \u2014 the pattern of God's pursuit." },
-        { q:"What is heaven's reaction to one repentant person?", opts:["Mild approval", "Rejoicing", "Indifference"], correct:1, explain:"Jesus is describing God's emotional response to a single person coming home." }
+        { q:"What prompted these parables?", opts:["A question about the law","A funeral","Complaints that Jesus welcomed and ate with sinners"], correct:2, explain:"All three stories are a defense of the company He kept." },
+        { q:"What's common to the shepherd and the woman?", opts:["They searched until they found","They blamed the lost item","They gave up"], correct:0, explain:"Persistent seeking followed by disproportionate joy \u2014 the pattern of God's pursuit." },
+        { q:"What is heaven's reaction to one repentant person?", opts:["Rejoicing","Indifference","Mild approval"], correct:0, explain:"Jesus is describing God's emotional response to a single person coming home." }
       ],
       deepDive: "The Pharisees' complaint \u2014 this man welcomes sinners and eats with them \u2014 is accidentally the best summary of the gospel anyone offers in Luke. Jesus answers with two stories about a search and a party. Notice that in both, the lost thing does nothing to be found; the sheep is carried home on shoulders, the coin can't move at all. And notice how the celebration is out of proportion to the item's value \u2014 a party costing more than one coin. That's the point Jesus is making about Himself and the crowd around His table. Heaven's joy is not measured by what the found thing was worth, but by whose it was." },
     { id:275, book:"Luke", title:"The prodigal son", side:"l",
@@ -979,9 +979,9 @@
         { ref: "Luke 15:20", text: "But while he was still a long way off, his father saw him and was filled with compassion for him; he ran to his son." }
       ],
       questions: [
-        { q:"What does \u2018while he was still a long way off\u2019 imply?", opts:["The father happened to be outside", "The father had been watching the road", "The son shouted first"], correct:1, explain:"Seeing him at a distance means he had been looking, likely for a long time." },
-        { q:"What happened to the son's rehearsed speech?", opts:["It was accepted", "It was interrupted", "It was rejected"], correct:1, explain:"He never gets to offer himself as a servant; sonship is restored before he can negotiate." },
-        { q:"What is the older brother's complaint?", opts:["The cost of the feast", "Years of obedience that never earned him a party", "His brother's safety"], correct:1, explain:"He is lost inside the house, which is the half of the parable aimed at the Pharisees." }
+        { q:"What does \u2018while he was still a long way off\u2019 imply?", opts:["The father happened to be outside","The son shouted first","The father had been watching the road"], correct:2, explain:"Seeing him at a distance means he had been looking, likely for a long time." },
+        { q:"What happened to the son's rehearsed speech?", opts:["It was accepted","It was rejected","It was interrupted"], correct:2, explain:"He never gets to offer himself as a servant; sonship is restored before he can negotiate." },
+        { q:"What is the older brother's complaint?", opts:["Years of obedience that never earned him a party","His brother's safety","The cost of the feast"], correct:0, explain:"He is lost inside the house, which is the half of the parable aimed at the Pharisees." }
       ],
       deepDive: "This is the greatest short story ever told, and it has two lost sons. The younger's rebellion is obvious; the older's is subtler and closer to home for religious people \u2014 he speaks of \u2018slaving,\u2019 never claims his father as father, and refuses the party. Both sons wanted the father's things rather than the father. What holds the parable together is a man who runs \u2014 undignified in that culture for an elder \u2014 and who then leaves the celebration a second time to plead with the son standing in the yard. And Jesus leaves the ending open: we never learn whether the older brother came in. That's the question hanging over the Pharisees listening, and over anyone who has done everything right and feels quietly unrewarded." },
     { id:276, book:"Luke", title:"Zacchaeus", side:"r",
@@ -990,9 +990,9 @@
         { ref: "Luke 19:10", text: "For the Son of Man came to seek and to save the lost." }
       ],
       questions: [
-        { q:"Who initiated the encounter?", opts:["Zacchaeus, by shouting", "Jesus", "The crowd"], correct:1, explain:"Zacchaeus wanted to see; Jesus wanted to stay. He was known and named first." },
-        { q:"What was the crowd's objection?", opts:["The delay", "That Jesus was the guest of a sinner", "Zacchaeus's wealth"], correct:1, explain:"The same complaint as Luke 15 \u2014 and the same answer: seeking the lost." },
-        { q:"When did Zacchaeus announce his restitution?", opts:["Before Jesus spoke to him", "After being welcomed", "A year later"], correct:1, explain:"Acceptance came first; the fourfold repayment came out of it." }
+        { q:"Who initiated the encounter?", opts:["Zacchaeus, by shouting","The crowd","Jesus"], correct:2, explain:"Zacchaeus wanted to see; Jesus wanted to stay. He was known and named first." },
+        { q:"What was the crowd's objection?", opts:["That Jesus was the guest of a sinner","Zacchaeus's wealth","The delay"], correct:0, explain:"The same complaint as Luke 15 \u2014 and the same answer: seeking the lost." },
+        { q:"When did Zacchaeus announce his restitution?", opts:["A year later","Before Jesus spoke to him","After being welcomed"], correct:2, explain:"Acceptance came first; the fourfold repayment came out of it." }
       ],
       deepDive: "The order in this story is everything. Jesus doesn't say \u2018pay back what you stole and then I'll come over.\u2019 He invites Himself to dinner, in public, in front of a crowd that despised the man \u2014 and Zacchaeus's radical restitution comes afterward, unprompted and beyond legal requirement. That's how transformation works in Luke: welcome first, change as a result. Notice also the fourfold repayment, which was the penalty for theft under Israel's law; he sentenced himself. And Jesus' summary sentence is the thesis of the entire Gospel: the Son of Man came to seek and to save the lost. Not to wait for them to climb high enough." },
     { id:277, book:"Luke", title:"Two criminals and a promise", side:"c",
@@ -1001,9 +1001,9 @@
         { ref: "Luke 23:43", text: "Truly I tell you, today you will be with me in paradise." }
       ],
       questions: [
-        { q:"What did the criminal ask for?", opts:["Rescue from the cross", "To be remembered when Jesus came into His kingdom", "A quick death"], correct:1, explain:"A dying man's request for nothing but remembrance \u2014 and he received far more." },
-        { q:"What could he offer?", opts:["Years of service", "Nothing", "A donation"], correct:1, explain:"The clearest case in Scripture of salvation entirely apart from works." },
-        { q:"What were Jesus' first words from the cross in Luke?", opts:["A cry of abandonment", "\u2018Father, forgive them, for they do not know what they are doing\u2019", "Silence"], correct:1, explain:"Luke records forgiveness spoken over the people driving in the nails." }
+        { q:"What did the criminal ask for?", opts:["To be remembered when Jesus came into His kingdom","Rescue from the cross","A quick death"], correct:0, explain:"A dying man's request for nothing but remembrance \u2014 and he received far more." },
+        { q:"What could he offer?", opts:["A donation","Years of service","Nothing"], correct:2, explain:"The clearest case in Scripture of salvation entirely apart from works." },
+        { q:"What were Jesus' first words from the cross in Luke?", opts:["Silence","A cry of abandonment","\u2018Father, forgive them, for they do not know what they are doing\u2019"], correct:2, explain:"Luke records forgiveness spoken over the people driving in the nails." }
       ],
       deepDive: "Luke's crucifixion account is dominated by mercy. The first words are forgiveness for the executioners; the last are trust: \u2018Father, into your hands.\u2019 And in between is the most encouraging deathbed in history. The criminal had nothing to offer \u2014 no baptism, no restitution, no reformed life, no time. He simply recognized who Jesus was and asked to be remembered, and received \u2018today\u2026 with me in paradise.\u2019 Every theology of earning something from God dies on that hill. If you have ever wondered whether it's too late, or whether you have too little to bring, this man is in Scripture specifically for you." },
     { id:278, book:"Luke", title:"The road to Emmaus", side:"l",
@@ -1012,9 +1012,9 @@
         { ref: "Luke 24:32", text: "Were not our hearts burning within us while he talked with us on the road and opened the Scriptures to us?" }
       ],
       questions: [
-        { q:"What phrase captures their grief?", opts:["\u2018We never believed\u2019", "\u2018We had hoped\u2019", "\u2018We were warned\u2019"], correct:1, explain:"Disappointment stated in the past tense, while the answer walked beside them unrecognized." },
-        { q:"How did Jesus first address their confusion?", opts:["By revealing Himself", "By walking them through the Scriptures about Himself", "By performing a sign"], correct:1, explain:"The risen Christ's first move was a Bible study on the road." },
-        { q:"When did they recognize Him?", opts:["Immediately", "When He broke the bread at the table", "Never"], correct:1, explain:"A gesture they had seen before \u2014 and then He was gone, and they ran seven miles back to Jerusalem." }
+        { q:"What phrase captures their grief?", opts:["\u2018We had hoped\u2019","\u2018We never believed\u2019","\u2018We were warned\u2019"], correct:0, explain:"Disappointment stated in the past tense, while the answer walked beside them unrecognized." },
+        { q:"How did Jesus first address their confusion?", opts:["By revealing Himself","By walking them through the Scriptures about Himself","By performing a sign"], correct:1, explain:"The risen Christ's first move was a Bible study on the road." },
+        { q:"When did they recognize Him?", opts:["When He broke the bread at the table","Immediately","Never"], correct:0, explain:"A gesture they had seen before \u2014 and then He was gone, and they ran seven miles back to Jerusalem." }
       ],
       deepDive: "This is one of the most comforting resurrection scenes precisely because the two disciples are so wrong for so long. They are walking away from Jerusalem, grieving, rehearsing a hope in the past tense \u2014 and Jesus joins them without announcing Himself and asks them to explain their sadness to Him. He lets them talk. Then He gives them the whole Old Testament as a story about Himself, which is how Luke wants his readers to read Scripture. And the recognition comes at a table, over broken bread. Their hearts had already been burning; they just didn't know what to call it yet." },
     { id:279, book:"John", title:"In the beginning was the Word", side:"r",
@@ -1023,9 +1023,9 @@
         { ref: "John 1:14", text: "The Word became flesh and made his dwelling among us. We have seen his glory\u2026 full of grace and truth." }
       ],
       questions: [
-        { q:"Where does John begin his Gospel?", opts:["At the manger", "Before creation", "At the baptism"], correct:1, explain:"He deliberately echoes Genesis 1:1 and pushes back further than any other Gospel." },
-        { q:"What does \u2018the Word became flesh\u2019 claim?", opts:["God appeared to be human", "God actually became human", "A prophet was inspired"], correct:1, explain:"The scandal of Christianity in one sentence: the Creator entered creation as a body." },
-        { q:"What does \u2018made his dwelling\u2019 literally mean?", opts:["Visited briefly", "\u2018Pitched his tent\u2019", "Built a house"], correct:1, explain:"God's tent among His people again \u2014 but this time the tent was a person." }
+        { q:"Where does John begin his Gospel?", opts:["At the baptism","At the manger","Before creation"], correct:2, explain:"He deliberately echoes Genesis 1:1 and pushes back further than any other Gospel." },
+        { q:"What does \u2018the Word became flesh\u2019 claim?", opts:["God actually became human","A prophet was inspired","God appeared to be human"], correct:0, explain:"The scandal of Christianity in one sentence: the Creator entered creation as a body." },
+        { q:"What does \u2018made his dwelling\u2019 literally mean?", opts:["Built a house","\u2018Pitched his tent\u2019","Visited briefly"], correct:1, explain:"God's tent among His people again \u2014 but this time the tent was a person." }
       ],
       deepDive: "John's opening is the most theologically loaded paragraph in the Bible, and every phrase is deliberate. \u2018In the beginning\u2019 quotes Genesis; \u2018the Word was God\u2019 refuses to make Jesus a lesser being; \u2018through him all things were made\u2019 puts Him on the creating side of creation. Then verse 14 collapses the distance: the Word became flesh and pitched His tent among us. The word choice recalls the tabernacle in the wilderness \u2014 God camping with His people \u2014 except now the dwelling has a face, calluses, and a hometown. And the pairing at the end is the whole character of Christ: full of grace and truth, neither diluted by the other." },
     { id:280, book:"John", title:"Water into wine", side:"c",
@@ -1034,9 +1034,9 @@
         { ref: "John 2:11", text: "What Jesus did here in Cana of Galilee was the first of the signs through which he revealed his glory." }
       ],
       questions: [
-        { q:"What was the first miracle for?", opts:["Healing a disease", "Saving a wedding family from public embarrassment", "Feeding the poor"], correct:1, explain:"The first sign addresses joy and honor at a party \u2014 not an emergency." },
-        { q:"How much wine was produced?", opts:["A few bottles", "Roughly 120\u2013180 gallons", "Exactly enough"], correct:1, explain:"The abundance is part of the sign; God's provision here is embarrassingly generous." },
-        { q:"What did the jars normally hold?", opts:["Wine", "Water for ceremonial washing", "Grain"], correct:1, explain:"Jesus fills the vessels of old ritual and turns their contents into celebration." }
+        { q:"What was the first miracle for?", opts:["Feeding the poor","Saving a wedding family from public embarrassment","Healing a disease"], correct:1, explain:"The first sign addresses joy and honor at a party \u2014 not an emergency." },
+        { q:"How much wine was produced?", opts:["Exactly enough","Roughly 120\u2013180 gallons","A few bottles"], correct:1, explain:"The abundance is part of the sign; God's provision here is embarrassingly generous." },
+        { q:"What did the jars normally hold?", opts:["Water for ceremonial washing","Wine","Grain"], correct:0, explain:"Jesus fills the vessels of old ritual and turns their contents into celebration." }
       ],
       deepDive: "John calls the miracles \u2018signs\u2019 because they point past themselves, and it matters enormously what the first one points to. Jesus could have opened with a healing or an exorcism. Instead the inaugural sign of His glory is rescuing a wedding reception \u2014 and doing it with roughly 150 gallons of the best wine anyone had tasted. The setting says something about what He came for: joy, celebration, a family's honor preserved. And the jars say something too. They were there for ritual washing, and He filled them to the brim and turned their contents into gladness. That's a picture of the whole Gospel about to unfold." },
     { id:281, book:"John", title:"You must be born again", side:"l",
@@ -1045,9 +1045,9 @@
         { ref: "John 3:16", text: "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." }
       ],
       questions: [
-        { q:"Why is being \u2018born\u2019 the right image?", opts:["It's gradual", "Birth is something done to you, not achieved by you", "It's painless"], correct:1, explain:"Nobody arranges their own birth \u2014 which is exactly the point for a man used to achieving." },
-        { q:"What does the wind illustrate?", opts:["Unpredictable weather", "The Spirit's work", "The end of the age"], correct:1, explain:"You see the effects without commanding the source." },
-        { q:"What does John 3:16 say motivated the giving?", opts:["Duty", "Love", "Justice alone"], correct:1, explain:"The cross is presented as an act of love before it's anything else." }
+        { q:"Why is being \u2018born\u2019 the right image?", opts:["It's gradual","Birth is something done to you, not achieved by you","It's painless"], correct:1, explain:"Nobody arranges their own birth \u2014 which is exactly the point for a man used to achieving." },
+        { q:"What does the wind illustrate?", opts:["The end of the age","Unpredictable weather","The Spirit's work"], correct:2, explain:"You see the effects without commanding the source." },
+        { q:"What does John 3:16 say motivated the giving?", opts:["Justice alone","Love","Duty"], correct:1, explain:"The cross is presented as an act of love before it's anything else." }
       ],
       deepDive: "Nicodemus had the best religious credentials available and came at night, probably to protect them. Jesus' answer bypasses everything he'd built: you must be born again \u2014 an image that strips away achievement entirely, since no one contributes to their own birth. For an expert accustomed to mastering material, the requirement is to receive something he cannot produce. Then comes the verse most people can quote and few slow down over. Note its scope (\u2018the world\u2019), its cost (\u2018his one and only Son\u2019), and its entry point (\u2018whoever believes\u2019). Nicodemus appears twice more in John, the last time bringing spices for Jesus' burial \u2014 in daylight." },
     { id:282, book:"John", title:"The woman at the well", side:"r",
@@ -1056,9 +1056,9 @@
         { ref: "John 4:14", text: "Whoever drinks the water I give them will never thirst. Indeed, the water I give them will become in them a spring of water welling up to eternal life." }
       ],
       questions: [
-        { q:"What barriers did the conversation cross?", opts:["None", "Ethnic, gender, and moral", "Only language"], correct:1, explain:"Rabbis didn't speak publicly with women, and Jews avoided Samaritans entirely." },
-        { q:"Why was she at the well at noon?", opts:["It was cooler", "Likely to avoid the other women", "It was the custom"], correct:1, explain:"The detail hints at isolation, which makes the conversation and its ending more striking." },
-        { q:"Who does Jesus first tell plainly that He is the Messiah?", opts:["Peter", "This Samaritan woman", "The high priest"], correct:1, explain:"His clearest early self-disclosure in John goes to an outsider at a well." }
+        { q:"What barriers did the conversation cross?", opts:["Ethnic, gender, and moral","Only language","None"], correct:0, explain:"Rabbis didn't speak publicly with women, and Jews avoided Samaritans entirely." },
+        { q:"Why was she at the well at noon?", opts:["It was cooler","Likely to avoid the other women","It was the custom"], correct:1, explain:"The detail hints at isolation, which makes the conversation and its ending more striking." },
+        { q:"Who does Jesus first tell plainly that He is the Messiah?", opts:["The high priest","Peter","This Samaritan woman"], correct:2, explain:"His clearest early self-disclosure in John goes to an outsider at a well." }
       ],
       deepDive: "This is the longest recorded conversation Jesus has with anyone, and it's with a Samaritan woman with five failed marriages who came to draw water when nobody else would be there. He asks her for help first \u2014 a small dignity \u2014 then offers her something she can't get from a well. When He names her history, He doesn't shame her; He shows her she's fully known and still being offered living water. That combination is what she runs to tell the town about: \u2018come, see a man who told me everything I ever did.\u2019 Being completely known and not rejected is the news worth abandoning your water jar for." },
     { id:283, book:"John", title:"I am the bread of life", side:"c",
@@ -1067,9 +1067,9 @@
         { ref: "John 6:35", text: "I am the bread of life. Whoever comes to me will never go hungry, and whoever believes in me will never be thirsty." }
       ],
       questions: [
-        { q:"Why was the crowd following Him?", opts:["For the teaching", "Because they had eaten the loaves", "Out of curiosity"], correct:1, explain:"Jesus refuses to let a crowd form around free bread without naming what's happening." },
-        { q:"What happened as the teaching got harder?", opts:["The crowd grew", "Many disciples turned back and stopped following", "Nothing changed"], correct:1, explain:"John records Jesus losing followers by saying difficult things and not softening them." },
-        { q:"What was Peter's reason for staying?", opts:["Loyalty to the group", "\u2018To whom shall we go? You have the words of eternal life\u2019", "Fear"], correct:1, explain:"Not that following was easy, but that there was nowhere better to go." }
+        { q:"Why was the crowd following Him?", opts:["Because they had eaten the loaves","Out of curiosity","For the teaching"], correct:0, explain:"Jesus refuses to let a crowd form around free bread without naming what's happening." },
+        { q:"What happened as the teaching got harder?", opts:["The crowd grew","Nothing changed","Many disciples turned back and stopped following"], correct:2, explain:"John records Jesus losing followers by saying difficult things and not softening them." },
+        { q:"What was Peter's reason for staying?", opts:["Loyalty to the group","Fear","\u2018To whom shall we go? You have the words of eternal life\u2019"], correct:2, explain:"Not that following was easy, but that there was nowhere better to go." }
       ],
       deepDive: "This chapter contains the first of John's seven \u2018I am\u2019 statements, and also the most honest crowd scene in the Gospels: Jesus teaches something hard and most of the audience leaves. He doesn't chase them or restate it more palatably. Then He turns to the Twelve with a question that every believer eventually faces \u2014 \u2018you do not want to leave too, do you?\u2019 Peter's answer isn't triumphant; it's the answer of a man who has looked at the alternatives. To whom shall we go? Sometimes faith isn't enthusiasm. It's the settled conviction that nothing else on offer has the words of eternal life." },
     { id:284, book:"John", title:"Let him who is without sin", side:"l",
@@ -1078,9 +1078,9 @@
         { ref: "John 8:11", text: "Then neither do I condemn you\u2026 Go now and leave your life of sin." }
       ],
       questions: [
-        { q:"What was the accusers' real aim?", opts:["Justice", "A trap", "Protecting the community"], correct:1, explain:"John says so plainly; the woman was a means to an end, and the man is conspicuously absent." },
-        { q:"Who left first?", opts:["The youngest", "The older ones", "Nobody left"], correct:1, explain:"A quietly devastating detail about what age and honesty do to self-righteousness." },
-        { q:"What two things does Jesus say to her?", opts:["Only forgiveness", "\u2018Neither do I condemn you\u2019 AND \u2018leave your life of sin\u2019", "Only a warning"], correct:1, explain:"Grace and a call to change, held together \u2014 neither cancels the other." }
+        { q:"What was the accusers' real aim?", opts:["A trap","Justice","Protecting the community"], correct:0, explain:"John says so plainly; the woman was a means to an end, and the man is conspicuously absent." },
+        { q:"Who left first?", opts:["The older ones","Nobody left","The youngest"], correct:0, explain:"A quietly devastating detail about what age and honesty do to self-righteousness." },
+        { q:"What two things does Jesus say to her?", opts:["\u2018Neither do I condemn you\u2019 AND \u2018leave your life of sin\u2019","Only a warning","Only forgiveness"], correct:0, explain:"Grace and a call to change, held together \u2014 neither cancels the other." }
       ],
       deepDive: "The genius of this scene is that Jesus refuses both available answers. Endorse the stoning and He denies mercy; deny the law and He's discredited. So He hands the sentence back to the executioners with one condition attached, and the crowd dissolves from the oldest down. Then comes the part people flatten in both directions. He does not condemn her \u2014 the only person present entitled to throw a stone declines to. And He does not leave her where she is \u2014 \u2018go now and leave your life of sin.\u2019 Acceptance that never calls you forward isn't love, and a demand without acceptance isn't grace. Jesus gives both in two sentences." },
     { id:285, book:"John", title:"The man born blind", side:"r",
@@ -1089,9 +1089,9 @@
         { ref: "John 9:25", text: "Whether he is a sinner or not, I don\u2019t know. One thing I do know. I was blind but now I see!" }
       ],
       questions: [
-        { q:"How did Jesus answer the question about blame?", opts:["The parents sinned", "Neither", "The man sinned"], correct:1, explain:"He refuses the assumption that suffering is always someone's punishment." },
-        { q:"What was the man's testimony under pressure?", opts:["A theological argument", "\u2018I was blind but now I see\u2019", "Silence"], correct:1, explain:"He couldn't answer their questions, and didn't need to; he knew what had happened to him." },
-        { q:"What happened after he was thrown out?", opts:["Nothing", "Jesus found him", "He recanted"], correct:1, explain:"Excommunicated by the religious establishment and immediately sought out by Christ." }
+        { q:"How did Jesus answer the question about blame?", opts:["Neither","The parents sinned","The man sinned"], correct:0, explain:"He refuses the assumption that suffering is always someone's punishment." },
+        { q:"What was the man's testimony under pressure?", opts:["Silence","\u2018I was blind but now I see\u2019","A theological argument"], correct:1, explain:"He couldn't answer their questions, and didn't need to; he knew what had happened to him." },
+        { q:"What happened after he was thrown out?", opts:["Nothing","He recanted","Jesus found him"], correct:2, explain:"Excommunicated by the religious establishment and immediately sought out by Christ." }
       ],
       deepDive: "This chapter is a comedy of escalating interrogation: the more the experts investigate, the more obvious the miracle becomes and the more absurd their denials get. Meanwhile the healed man grows from calling Jesus \u2018the man they call Jesus\u2019 to \u2018a prophet\u2019 to worship. His famous line is the model for anyone who feels outmatched in an argument about faith: he doesn't win the debate, he simply reports what happened to him. And notice the ending's irony \u2014 the blind man ends up seeing everything, while the men with perfect eyesight are told they remain guilty precisely because they claim to see." },
     { id:286, book:"John", title:"I am the good shepherd", side:"c",
@@ -1100,9 +1100,9 @@
         { ref: "John 10:10\u201311", text: "I have come that they may have life, and have it to the full. I am the good shepherd. The good shepherd lays down his life for the sheep." }
       ],
       questions: [
-        { q:"What distinguishes the shepherd from the hired hand?", opts:["Experience", "Ownership", "Equipment"], correct:1, explain:"When danger comes, the difference between a job and belonging becomes visible." },
-        { q:"How far does the good shepherd go?", opts:["He fights off the wolf", "He lays down his life for the sheep", "He calls for help"], correct:1, explain:"Ezekiel 34 promised God would shepherd them Himself; this adds what Ezekiel didn't say." },
-        { q:"What does Jesus say about His own death?", opts:["It will be forced on Him", "No one takes it", "It can be avoided"], correct:1, explain:"The cross presented as a choice made in advance, not a defeat suffered." }
+        { q:"What distinguishes the shepherd from the hired hand?", opts:["Experience","Equipment","Ownership"], correct:2, explain:"When danger comes, the difference between a job and belonging becomes visible." },
+        { q:"How far does the good shepherd go?", opts:["He lays down his life for the sheep","He calls for help","He fights off the wolf"], correct:0, explain:"Ezekiel 34 promised God would shepherd them Himself; this adds what Ezekiel didn't say." },
+        { q:"What does Jesus say about His own death?", opts:["No one takes it","It can be avoided","It will be forced on Him"], correct:0, explain:"The cross presented as a choice made in advance, not a defeat suffered." }
       ],
       deepDive: "Jesus is claiming Ezekiel 34 here \u2014 the chapter where God, fed up with shepherds who fed themselves, announced \u2018I myself will search for my sheep.\u2019 By calling Himself the good shepherd, He is quietly saying the promise has arrived. Then He adds something Ezekiel never mentioned: this shepherd dies for the flock. Note the two lines people often separate. \u2018Life to the full\u2019 is not a promise of comfortable circumstances \u2014 it's said in the same breath as laying down His life. And the security offered is total: no one can snatch them out of His hand, because the hand belongs to someone who already proved what He'd pay to hold on." },
     { id:287, book:"John", title:"Lazarus, come out", side:"l",
@@ -1111,9 +1111,9 @@
         { ref: "John 11:25", text: "I am the resurrection and the life. The one who believes in me will live, even though they die." }
       ],
       questions: [
-        { q:"Why did Jesus weep?", opts:["He was afraid", "He entered the grief of people He loved, though He knew the outcome", "He regretted delaying"], correct:1, explain:"Knowing resurrection was minutes away didn't make Him dismissive of their sorrow." },
-        { q:"What claim does Jesus make to Martha?", opts:["He can perform resurrections", "He IS the resurrection and the life", "Lazarus will live again someday"], correct:1, explain:"Martha believed in a future resurrection; Jesus relocates it into Himself, present tense." },
-        { q:"What did Jesus tell the crowd to do afterward?", opts:["Nothing", "Take off the grave clothes and let him go", "Leave him alone"], correct:1, explain:"He raised the dead; the people around him removed what was still binding." }
+        { q:"Why did Jesus weep?", opts:["He regretted delaying","He entered the grief of people He loved, though He knew the outcome","He was afraid"], correct:1, explain:"Knowing resurrection was minutes away didn't make Him dismissive of their sorrow." },
+        { q:"What claim does Jesus make to Martha?", opts:["He can perform resurrections","Lazarus will live again someday","He IS the resurrection and the life"], correct:2, explain:"Martha believed in a future resurrection; Jesus relocates it into Himself, present tense." },
+        { q:"What did Jesus tell the crowd to do afterward?", opts:["Leave him alone","Nothing","Take off the grave clothes and let him go"], correct:2, explain:"He raised the dead; the people around him removed what was still binding." }
       ],
       deepDive: "The shortest verse in the Bible sits in this chapter, and it may be the most important detail in it. Jesus is about to raise this man in five minutes, and He still weeps. That destroys the idea that faith in a good outcome makes grief unnecessary or unspiritual. He doesn't tell Mary to stop crying; He cries with her. Then the claim to Martha reframes everything: resurrection isn't an event on a distant calendar, it's a person standing in front of her. And the last instruction is a lovely picture of the church \u2014 Jesus gives life, and the people nearby help take off the grave clothes." },
     { id:288, book:"John", title:"He washed their feet", side:"r",
@@ -1122,9 +1122,9 @@
         { ref: "John 13:34\u201335", text: "As I have loved you, so you must love one another. By this everyone will know that you are my disciples, if you love one another." }
       ],
       questions: [
-        { q:"What did Jesus know when He picked up the towel?", opts:["That He would be praised", "That all things were under His power", "That Peter would object"], correct:1, explain:"John frames the foot-washing as an expression of authority, not a lack of it." },
-        { q:"Whose feet did He wash?", opts:["Only the loyal ones", "All of them", "Only Peter's"], correct:1, explain:"The betrayer's feet were in the basin too." },
-        { q:"What did Jesus say would identify His disciples?", opts:["Correct doctrine", "Love for one another", "Miracles"], correct:1, explain:"The identifying mark He named is not knowledge or power but visible mutual love." }
+        { q:"What did Jesus know when He picked up the towel?", opts:["That Peter would object","That all things were under His power","That He would be praised"], correct:1, explain:"John frames the foot-washing as an expression of authority, not a lack of it." },
+        { q:"Whose feet did He wash?", opts:["All of them","Only Peter's","Only the loyal ones"], correct:0, explain:"The betrayer's feet were in the basin too." },
+        { q:"What did Jesus say would identify His disciples?", opts:["Miracles","Love for one another","Correct doctrine"], correct:1, explain:"The identifying mark He named is not knowledge or power but visible mutual love." }
       ],
       deepDive: "John's setup is deliberate: knowing He had all power and was returning to God, Jesus took a towel. Security produced service; He didn't need the room's respect, so He could kneel in it. Foot-washing was the job of the lowest servant, and nobody in that room had volunteered. Then the new command \u2014 and what makes it new is the standard: \u2018as I have loved you.\u2019 Not as you love yourself; as He does. And He attaches the church's public credential to it. Not accuracy, not size, not influence \u2014 by this everyone will know, if you love one another." },
     { id:289, book:"John", title:"The way, the vine, and the Helper", side:"c",
@@ -1133,9 +1133,9 @@
         { ref: "John 15:5", text: "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing." }
       ],
       questions: [
-        { q:"What is a branch's job?", opts:["Producing fruit by effort", "Remaining connected", "Growing longer"], correct:1, explain:"Branches don't manufacture grapes; they stay attached and the life flows through." },
-        { q:"What does \u2018apart from me you can do nothing\u2019 rule out?", opts:["All activity", "Fruitfulness on your own resources", "Prayer"], correct:1, explain:"You can do plenty apart from Him; none of it is the fruit He means." },
-        { q:"How does Jesus describe the Holy Spirit?", opts:["A force", "Another advocate", "A memory"], correct:1, explain:"\u2018Another\u2019 of the same kind \u2014 His own presence continuing with them." }
+        { q:"What is a branch's job?", opts:["Producing fruit by effort","Remaining connected","Growing longer"], correct:1, explain:"Branches don't manufacture grapes; they stay attached and the life flows through." },
+        { q:"What does \u2018apart from me you can do nothing\u2019 rule out?", opts:["All activity","Fruitfulness on your own resources","Prayer"], correct:1, explain:"You can do plenty apart from Him; none of it is the fruit He means." },
+        { q:"How does Jesus describe the Holy Spirit?", opts:["A force","Another advocate","A memory"], correct:1, explain:"\u2018Another\u2019 of the same kind \u2014 His own presence continuing with them." }
       ],
       deepDive: "These chapters are Jesus' last words to His friends before the arrest, and the tone is remarkably tender \u2014 the man hours from torture spends the evening comforting the people who will abandon Him. The vine image is the practical center: fruit is not produced by effort but by connection. Most spiritual exhaustion comes from trying to generate grapes while detached from the trunk. Notice too what abiding produces \u2014 not just productivity but joy: \u2018that my joy may be in you and that your joy may be complete.\u2019 And the promise of the Spirit answers the obvious fear: He is leaving, and He is not leaving them alone." },
     { id:290, book:"John", title:"It is finished", side:"l",
@@ -1144,9 +1144,9 @@
         { ref: "John 19:30", text: "When he had received the drink, Jesus said, \u201cIt is finished.\u201d With that, he bowed his head and gave up his spirit." }
       ],
       questions: [
-        { q:"What does \u2018it is finished\u2019 translate?", opts:["\u2018I am defeated\u2019", "A single Greek word meaning \u2018paid in full\u2019 or \u2018completed\u2019", "\u2018It is over\u2019 in despair"], correct:1, explain:"Tetelestai was written across receipts \u2014 a debt discharged, nothing outstanding." },
-        { q:"What did Jesus do from the cross for His mother?", opts:["Nothing", "Entrusted her care to the disciple He loved", "Asked her to leave"], correct:1, explain:"In agony, He arranged His mother's household provision." },
-        { q:"How does John describe the death?", opts:["His life was taken", "He gave up His spirit", "He fainted"], correct:1, explain:"John's wording keeps the cross an act of will to the last breath." }
+        { q:"What does \u2018it is finished\u2019 translate?", opts:["\u2018I am defeated\u2019","A single Greek word meaning \u2018paid in full\u2019 or \u2018completed\u2019","\u2018It is over\u2019 in despair"], correct:1, explain:"Tetelestai was written across receipts \u2014 a debt discharged, nothing outstanding." },
+        { q:"What did Jesus do from the cross for His mother?", opts:["Entrusted her care to the disciple He loved","Nothing","Asked her to leave"], correct:0, explain:"In agony, He arranged His mother's household provision." },
+        { q:"How does John describe the death?", opts:["He fainted","He gave up His spirit","His life was taken"], correct:1, explain:"John's wording keeps the cross an act of will to the last breath." }
       ],
       deepDive: "Tetelestai \u2014 one word, and the most important sentence in Christian theology. It was a commercial term stamped on a settled account: paid in full, nothing remaining. Jesus does not say \u2018I am finished\u2019 but \u2018it is finished,\u2019 which is a statement about a completed work rather than an exhausted man. Everything the sacrificial system pointed toward, everything Isaiah 53 described, everything He came for \u2014 done. And the small human detail just before it is worth noticing: with the weight of the world on Him, He made sure His mother would have a home. Cosmic and personal, in the same three minutes." },
     { id:291, book:"John", title:"Thomas, and breakfast on the beach", side:"r",
@@ -1155,9 +1155,9 @@
         { ref: "John 20:29", text: "Because you have seen me, you have believed; blessed are those who have not seen and yet have believed." }
       ],
       questions: [
-        { q:"How did Jesus treat Thomas's doubt?", opts:["He rebuked him publicly", "He came back and offered exactly the evidence Thomas asked for", "He ignored him"], correct:1, explain:"The doubt was met with an invitation, not a lecture." },
-        { q:"What detail links Peter's restoration to his denial?", opts:["The lake", "A charcoal fire", "The boat"], correct:1, explain:"John mentions charcoal only twice; Jesus rebuilt the memory at the same kind of fire." },
-        { q:"What did Jesus give Peter after the restoration?", opts:["A rebuke", "Work", "A demotion"], correct:1, explain:"Forgiveness came with a commission; the failure didn't end the calling." }
+        { q:"How did Jesus treat Thomas's doubt?", opts:["He came back and offered exactly the evidence Thomas asked for","He rebuked him publicly","He ignored him"], correct:0, explain:"The doubt was met with an invitation, not a lecture." },
+        { q:"What detail links Peter's restoration to his denial?", opts:["The boat","A charcoal fire","The lake"], correct:1, explain:"John mentions charcoal only twice; Jesus rebuilt the memory at the same kind of fire." },
+        { q:"What did Jesus give Peter after the restoration?", opts:["A demotion","Work","A rebuke"], correct:1, explain:"Forgiveness came with a commission; the failure didn't end the calling." }
       ],
       deepDive: "John ends with two people being personally repaired. Thomas gets his evidence \u2014 Jesus came back a week later specifically for one doubter \u2014 and his response becomes the highest confession in the Gospel: my Lord and my God. Then Peter. Three denials by a charcoal fire; three questions by a charcoal fire, with breakfast already cooking. Jesus doesn't rehearse the failure or extract an apology; He asks about love, and hands back the job. That's how restoration works in this Gospel. And John's stated purpose closes it: these are written that you may believe, and that by believing you may have life in his name." }
 ,
@@ -1167,9 +1167,9 @@
         { ref: "Acts 1:8", text: "But you will receive power when the Holy Spirit comes on you; and you will be my witnesses\u2026 to the ends of the earth." }
       ],
       questions: [
-        { q:"What was the disciples' final question?", opts:["How to pray", "Whether the kingdom would be restored to Israel now", "Who would lead them"], correct:1, explain:"Still hoping for a national political restoration \u2014 and Jesus doesn't answer it directly." },
-        { q:"What did Jesus give instead of a timetable?", opts:["A warning", "Power, and a mission", "A new law"], correct:1, explain:"Curiosity about dates redirected into commission." },
-        { q:"How does Acts 1:8 map the book?", opts:["It doesn't", "Jerusalem, Judea and Samaria, ends of the earth", "It's only about Jerusalem"], correct:1, explain:"The verse is a table of contents for the twenty-eight chapters that follow." }
+        { q:"What was the disciples' final question?", opts:["How to pray","Whether the kingdom would be restored to Israel now","Who would lead them"], correct:1, explain:"Still hoping for a national political restoration \u2014 and Jesus doesn't answer it directly." },
+        { q:"What did Jesus give instead of a timetable?", opts:["Power, and a mission","A new law","A warning"], correct:0, explain:"Curiosity about dates redirected into commission." },
+        { q:"How does Acts 1:8 map the book?", opts:["Jerusalem, Judea and Samaria, ends of the earth","It's only about Jerusalem","It doesn't"], correct:0, explain:"The verse is a table of contents for the twenty-eight chapters that follow." }
       ],
       deepDive: "Acts is the story of what happened next, and its opening sets the terms. The disciples want to know when God will fix their nation; Jesus tells them the schedule isn't their business and hands them a job instead. That exchange has aged well \u2014 speculation about timelines is still more popular than witness. Note the order in verse 8: power first, then witnesses. They aren't sent out to try harder, but to receive something before going anywhere. And the geography is deliberate: Samaria, the place they despised, sits in the middle of the map, which means the mission was always going to cost them their prejudices." },
     { id:293, book:"Acts", title:"Pentecost", side:"l",
@@ -1178,9 +1178,9 @@
         { ref: "Acts 2:38", text: "Repent and be baptized, every one of you, in the name of Jesus Christ for the forgiveness of your sins." }
       ],
       questions: [
-        { q:"What did the miracle of tongues accomplish?", opts:["Confusion", "Everyone heard the wonders of God in their own language", "Silence"], correct:1, explain:"Babel's scattering of languages reversed \u2014 the gospel arriving in every native tongue." },
-        { q:"What did Peter preach from?", opts:["His own experience only", "Joel and the Psalms", "Greek philosophy"], correct:1, explain:"The church's first sermon is an exposition of Scripture the crowd already had." },
-        { q:"How did the crowd respond?", opts:["They dispersed", "Cut to the heart, asking \u2018what shall we do?\u2019", "They arrested Peter"], correct:1, explain:"The same crowd that had been in the city weeks earlier at the crucifixion." }
+        { q:"What did the miracle of tongues accomplish?", opts:["Everyone heard the wonders of God in their own language","Silence","Confusion"], correct:0, explain:"Babel's scattering of languages reversed \u2014 the gospel arriving in every native tongue." },
+        { q:"What did Peter preach from?", opts:["His own experience only","Greek philosophy","Joel and the Psalms"], correct:2, explain:"The church's first sermon is an exposition of Scripture the crowd already had." },
+        { q:"How did the crowd respond?", opts:["Cut to the heart, asking \u2018what shall we do?\u2019","They arrested Peter","They dispersed"], correct:0, explain:"The same crowd that had been in the city weeks earlier at the crucifixion." }
       ],
       deepDive: "Pentecost is the reversal of Babel. At Babel, human pride produced scattered languages and division; here, the Spirit produces one message heard in every language at once. Notice who preaches: Peter, who seven weeks earlier had denied Jesus to a servant girl, now standing before thousands and naming their guilt plainly \u2014 \u2018this Jesus, whom you crucified.\u2019 Restoration by a charcoal fire produced this. And notice the response to conviction: not despair but a question, \u2018what shall we do?\u2019 The answer Peter gives is still the answer: repent, be baptized, receive the gift of the Holy Spirit \u2014 \u2018for you and your children and for all who are far off.\u2019" },
     { id:294, book:"Acts", title:"Everything in common", side:"r",
@@ -1189,9 +1189,9 @@
         { ref: "Acts 2:42", text: "They devoted themselves to the apostles\u2019 teaching and to fellowship, to the breaking of bread and to prayer." }
       ],
       questions: [
-        { q:"What four things were they devoted to?", opts:["Preaching, fasting, travel, giving", "The apostles' teaching, fellowship, breaking of bread, and prayer", "Building, singing, study, service"], correct:1, explain:"The four marks that have defined healthy church life ever since." },
-        { q:"How did they handle possessions?", opts:["A required communal system", "Voluntary selling to meet needs as they arose", "They kept everything"], correct:1, explain:"Later chapters make clear it was voluntary \u2014 Peter tells Ananias the property was his to keep." },
-        { q:"Where did they meet?", opts:["Only in a temple", "Both the temple courts and house to house", "Only in secret"], correct:1, explain:"Large gathering and small home life together \u2014 both, daily." }
+        { q:"What four things were they devoted to?", opts:["The apostles' teaching, fellowship, breaking of bread, and prayer","Preaching, fasting, travel, giving","Building, singing, study, service"], correct:0, explain:"The four marks that have defined healthy church life ever since." },
+        { q:"How did they handle possessions?", opts:["A required communal system","Voluntary selling to meet needs as they arose","They kept everything"], correct:1, explain:"Later chapters make clear it was voluntary \u2014 Peter tells Ananias the property was his to keep." },
+        { q:"Where did they meet?", opts:["Only in secret","Both the temple courts and house to house","Only in a temple"], correct:1, explain:"Large gathering and small home life together \u2014 both, daily." }
       ],
       deepDive: "This short passage has been the church's mirror for two thousand years. Four devotions \u2014 teaching, fellowship, breaking bread, prayer \u2014 and then the effects: awe, generosity that redistributed real property, daily shared meals, gladness, and growth. Notice that the sharing wasn't a program imposed from above but a response flowing out of the four devotions; when Peter confronts Ananias later, he says plainly the land was his to do with as he wished. The order matters. Communities that try to manufacture the generosity without the devotion usually get neither. And the last line credits the growth where Luke always credits it: the Lord added to their number." },
     { id:295, book:"Acts", title:"Stephen", side:"c",
@@ -1200,9 +1200,9 @@
         { ref: "Acts 7:60", text: "Lord, do not hold this sin against them." }
       ],
       questions: [
-        { q:"What did Stephen see?", opts:["An angel", "Jesus STANDING at the right hand of God", "Nothing"], correct:1, explain:"Elsewhere Jesus is described as seated; here He stands \u2014 as if rising for His witness." },
-        { q:"What were his last words?", opts:["A curse", "Forgiveness for his killers", "A defense"], correct:1, explain:"The first Christian martyr died praying almost exactly what Jesus prayed." },
-        { q:"Who is introduced at the stoning?", opts:["Peter", "Saul", "Barnabas"], correct:1, explain:"Luke plants him here on purpose; the man guarding the coats becomes the apostle to the Gentiles." }
+        { q:"What did Stephen see?", opts:["An angel","Nothing","Jesus STANDING at the right hand of God"], correct:2, explain:"Elsewhere Jesus is described as seated; here He stands \u2014 as if rising for His witness." },
+        { q:"What were his last words?", opts:["A defense","Forgiveness for his killers","A curse"], correct:1, explain:"The first Christian martyr died praying almost exactly what Jesus prayed." },
+        { q:"Who is introduced at the stoning?", opts:["Peter","Barnabas","Saul"], correct:2, explain:"Luke plants him here on purpose; the man guarding the coats becomes the apostle to the Gentiles." }
       ],
       deepDive: "Stephen's death is a hinge. His sermon is the longest in Acts, and his final vision \u2014 Jesus standing rather than seated \u2014 has struck readers for centuries as the Lord rising to receive him. His last prayer forgives the men killing him, and one of those approving is a young Pharisee named Saul, standing over the coats. It's impossible not to wonder how much of that scene was still in Paul's mind on the Damascus road. Luke's larger point comes next: the persecution that followed scattered the believers, and everywhere they scattered they preached. The church didn't grow despite the violence; it spread because of it." },
     { id:296, book:"Acts", title:"The Damascus road", side:"l",
@@ -1211,9 +1211,9 @@
         { ref: "Acts 9:4\u20135", text: "\u201cSaul, Saul, why do you persecute me?\u201d\u2026 \u201cI am Jesus, whom you are persecuting.\u201d" }
       ],
       questions: [
-        { q:"What does \u2018why do you persecute ME\u2019 reveal?", opts:["A misunderstanding", "Jesus identifies personally with His people", "Saul had met Jesus before"], correct:1, explain:"The same identification as \u2018whatever you did for one of the least of these.\u2019" },
-        { q:"Why did Ananias hesitate?", opts:["Distance", "He knew Saul's record of arresting and killing believers", "He doubted the vision"], correct:1, explain:"An entirely reasonable fear \u2014 and he obeyed anyway." },
-        { q:"What did Ananias call him?", opts:["Persecutor", "\u2018Brother Saul\u2019", "Sir"], correct:1, explain:"The first word the church's chief enemy heard from a Christian was \u2018brother.\u2019" }
+        { q:"What does \u2018why do you persecute ME\u2019 reveal?", opts:["A misunderstanding","Saul had met Jesus before","Jesus identifies personally with His people"], correct:2, explain:"The same identification as \u2018whatever you did for one of the least of these.\u2019" },
+        { q:"Why did Ananias hesitate?", opts:["Distance","He knew Saul's record of arresting and killing believers","He doubted the vision"], correct:1, explain:"An entirely reasonable fear \u2014 and he obeyed anyway." },
+        { q:"What did Ananias call him?", opts:["Sir","\u2018Brother Saul\u2019","Persecutor"], correct:1, explain:"The first word the church's chief enemy heard from a Christian was \u2018brother.\u2019" }
       ],
       deepDive: "The Damascus road is the most famous conversion in history, and two details deserve attention. First, Jesus' question: not \u2018why do you persecute my followers\u2019 but \u2018why do you persecute me.\u2019 He counts what happens to His people as happening to Him. Second, Ananias. The story could have worked without him \u2014 God had already knocked Saul flat \u2014 but the Lord sent an ordinary, frightened disciple to lay hands on the man who had come to arrest him and call him brother. If you've ever thought someone is past reach, this chapter has your name in it twice: once as Saul, and once as Ananias." },
     { id:297, book:"Acts", title:"Do not call anything impure", side:"r",
@@ -1222,9 +1222,9 @@
         { ref: "Acts 10:34\u201335", text: "I now realize how true it is that God does not show favoritism but accepts from every nation the one who fears him." }
       ],
       questions: [
-        { q:"What was the vision really about?", opts:["Diet only", "People", "Farming"], correct:1, explain:"Peter says so himself: God showed him not to call any PERSON impure." },
-        { q:"Why was entering the house significant?", opts:["It was far away", "A devout Jew didn't enter a Gentile home", "It was dangerous"], correct:1, explain:"The barrier being dismantled was social and religious, not culinary." },
-        { q:"Who received the Holy Spirit?", opts:["Only Peter", "The Gentiles listening", "Nobody"], correct:1, explain:"God acted first, which ended the argument about whether they could be included." }
+        { q:"What was the vision really about?", opts:["People","Diet only","Farming"], correct:0, explain:"Peter says so himself: God showed him not to call any PERSON impure." },
+        { q:"Why was entering the house significant?", opts:["It was far away","It was dangerous","A devout Jew didn't enter a Gentile home"], correct:2, explain:"The barrier being dismantled was social and religious, not culinary." },
+        { q:"Who received the Holy Spirit?", opts:["The Gentiles listening","Only Peter","Nobody"], correct:0, explain:"God acted first, which ended the argument about whether they could be included." }
       ],
       deepDive: "This chapter is the church's first great crisis of inclusion, and God had to work on both ends of it \u2014 a vision for the Gentile and a vision for the apostle, because Peter's prejudice was the harder problem. Notice the repetition: the sheet came down three times, matching the three denials and the three restorations, as if God knew this lesson needed to land that hard. And notice who moves first: the Holy Spirit falls on the Gentiles mid-sermon, before any ritual, which is God settling an argument the church was about to have. Peter's summary is one of the most important sentences in Acts: God does not show favoritism." },
     { id:298, book:"Acts", title:"The council at Jerusalem", side:"c",
@@ -1233,9 +1233,9 @@
         { ref: "Acts 15:11", text: "We believe it is through the grace of our Lord Jesus that we are saved, just as they are." }
       ],
       questions: [
-        { q:"What was the dispute?", opts:["Church leadership", "Whether Gentiles had to keep the law of Moses to be saved", "Meeting times"], correct:1, explain:"The most important theological question the early church faced." },
-        { q:"What was Peter's argument?", opts:["Tradition", "God gave Gentiles the same Spirit and purified their hearts by faith", "Practicality"], correct:1, explain:"He argued from what God had already visibly done, not from preference." },
-        { q:"How was the decision reached?", opts:["By decree", "Through debate, testimony, and Scripture", "By vote of the crowd"], correct:1, explain:"Acts records a genuine deliberation, which became the pattern for church councils." }
+        { q:"What was the dispute?", opts:["Church leadership","Meeting times","Whether Gentiles had to keep the law of Moses to be saved"], correct:2, explain:"The most important theological question the early church faced." },
+        { q:"What was Peter's argument?", opts:["God gave Gentiles the same Spirit and purified their hearts by faith","Practicality","Tradition"], correct:0, explain:"He argued from what God had already visibly done, not from preference." },
+        { q:"How was the decision reached?", opts:["Through debate, testimony, and Scripture","By decree","By vote of the crowd"], correct:0, explain:"Acts records a genuine deliberation, which became the pattern for church councils." }
       ],
       deepDive: "Acts 15 decided what Christianity would be. Had the council ruled the other way, the faith would have remained a sect within Judaism requiring full observance of the law. Instead Peter names the yoke honestly \u2014 neither we nor our ancestors could carry it \u2014 and lands on grace: we are saved the same way they are. Notice the direction of that sentence. He doesn't say Gentiles get in the way Jews do; he says Jews are saved the way Gentiles are, by grace. The council also modeled something durable: real disagreement, aired publicly, tested against Scripture and God's evident work, resolved in writing, with care for consciences on both sides." },
     { id:299, book:"Acts", title:"Singing at midnight", side:"l",
@@ -1244,9 +1244,9 @@
         { ref: "Acts 16:25", text: "About midnight Paul and Silas were praying and singing hymns to God, and the other prisoners were listening to them." }
       ],
       questions: [
-        { q:"Why were they arrested?", opts:["Preaching", "They cost businessmen their income by freeing the slave girl", "Theft"], correct:1, explain:"The charge was religious; the motive was money \u2014 a pattern Acts notices more than once." },
-        { q:"What were they doing at midnight?", opts:["Plotting escape", "Praying and singing", "Sleeping"], correct:1, explain:"Backs flayed, feet in stocks, and singing. Luke notes the audience deliberately." },
-        { q:"Why didn't they escape?", opts:["The doors stayed shut", "They stayed", "They were chained"], correct:1, explain:"The chains fell off and they remained; that restraint is what led to the conversion." }
+        { q:"Why were they arrested?", opts:["Preaching","Theft","They cost businessmen their income by freeing the slave girl"], correct:2, explain:"The charge was religious; the motive was money \u2014 a pattern Acts notices more than once." },
+        { q:"What were they doing at midnight?", opts:["Plotting escape","Sleeping","Praying and singing"], correct:2, explain:"Backs flayed, feet in stocks, and singing. Luke notes the audience deliberately." },
+        { q:"Why didn't they escape?", opts:["The doors stayed shut","They stayed","They were chained"], correct:1, explain:"The chains fell off and they remained; that restraint is what led to the conversion." }
       ],
       deepDive: "The detail Luke can't resist is the audience: the other prisoners were listening. Two men beaten bloody and immobilized in stocks, singing at midnight, in a dark room full of people who had no reason to hope. That's the sermon before any sermon is preached. And the earthquake is not the climax \u2014 the choice not to run is. Every door was open and every chain loose, and they stayed, because a Roman jailer who lost his prisoners was a dead man. Their staying is why he asked the question. Freedom used for someone else's rescue is the shape of the whole book." },
     { id:300, book:"Acts", title:"An unknown god in Athens", side:"r",
@@ -1255,9 +1255,9 @@
         { ref: "Acts 17:27", text: "God did this so that they would seek him and perhaps reach out for him and find him, though he is not far from any one of us." }
       ],
       questions: [
-        { q:"How did Paul open?", opts:["By condemning their idolatry", "By engaging their own altar and quoting their poets", "By quoting Moses"], correct:1, explain:"He started inside their frame of reference \u2014 while heading somewhere they hadn't been." },
-        { q:"What did he say about God and temples?", opts:["God needs them", "God doesn't live in temples built by hands or need anything from us", "Temples are essential"], correct:1, explain:"He dismantled the transactional religion the city ran on." },
-        { q:"What split the audience?", opts:["The quotation of poets", "The resurrection of the dead", "The length of the speech"], correct:1, explain:"Greeks could accept immortal souls; a raised body was the sticking point." }
+        { q:"How did Paul open?", opts:["By condemning their idolatry","By quoting Moses","By engaging their own altar and quoting their poets"], correct:2, explain:"He started inside their frame of reference \u2014 while heading somewhere they hadn't been." },
+        { q:"What did he say about God and temples?", opts:["God doesn't live in temples built by hands or need anything from us","Temples are essential","God needs them"], correct:0, explain:"He dismantled the transactional religion the city ran on." },
+        { q:"What split the audience?", opts:["The length of the speech","The resurrection of the dead","The quotation of poets"], correct:1, explain:"Greeks could accept immortal souls; a raised body was the sticking point." }
       ],
       deepDive: "Athens is the model for talking about faith with people who don't share your assumptions. Paul is genuinely disturbed by the idolatry, yet he doesn't open with attack. He walks the city, notices something, and starts there \u2014 quoting their poets rather than Scripture they'd never read. But he doesn't stay there: he lands on repentance, judgment, and a man raised from the dead, and the crowd splits over it. Note both halves. Contextualizing without compromise means beginning where people are and still saying the thing that will cost you the room. And notice verse 27's astonishing claim: history's geography exists so people would reach out and find Him." },
     { id:301, book:"Acts", title:"To Rome in chains", side:"c",
@@ -1266,9 +1266,9 @@
         { ref: "Acts 28:31", text: "He proclaimed the kingdom of God and taught about the Lord Jesus Christ \u2014 with all boldness and without hindrance." }
       ],
       questions: [
-        { q:"How did Paul finally reach Rome?", opts:["As a free missionary", "As a prisoner, after appealing to Caesar", "He never arrived"], correct:1, explain:"The gospel reached the empire's capital carried by a man in chains." },
-        { q:"What's notable about the book's ending?", opts:["It resolves everything", "It stops mid-story", "It ends with Paul's execution"], correct:1, explain:"Luke deliberately leaves the account open-ended." },
-        { q:"What is the last word of Acts in Greek?", opts:["\u2018Amen\u2019", "\u2018Unhindered\u2019", "\u2018Finished\u2019"], correct:1, explain:"A remarkable final note from a man under house arrest awaiting trial." }
+        { q:"How did Paul finally reach Rome?", opts:["He never arrived","As a free missionary","As a prisoner, after appealing to Caesar"], correct:2, explain:"The gospel reached the empire's capital carried by a man in chains." },
+        { q:"What's notable about the book's ending?", opts:["It stops mid-story","It ends with Paul's execution","It resolves everything"], correct:0, explain:"Luke deliberately leaves the account open-ended." },
+        { q:"What is the last word of Acts in Greek?", opts:["\u2018Finished\u2019","\u2018Amen\u2019","\u2018Unhindered\u2019"], correct:2, explain:"A remarkable final note from a man under house arrest awaiting trial." }
       ],
       deepDive: "Acts ends without an ending, and that's the point. There's no verdict, no martyrdom scene, no neat conclusion \u2014 just Paul under guard in a rented house, welcoming everyone who came, preaching without hindrance. The Greek word that closes the book means unstopped, unobstructed. A man in chains, and the message is the thing that's free. Luke has traced it from a Jerusalem upper room to the capital of the world, exactly as Acts 1:8 mapped, and then he lays down his pen mid-sentence, because the story isn't finished. The next chapters were going to be written by the people reading it \u2014 which now includes you." },
         { id:394, book:"Acts", title:"Ananias and Sapphira", side:"l",
@@ -1277,9 +1277,9 @@
         { ref: "Acts 5:3\u20134", text: "Why has Satan so filled your heart that you have lied to the Holy Spirit\u2026 You have not lied just to human beings but to God." }
       ],
       questions: [
-        { q:"What was Ananias and Sapphira's actual sin?", opts:["Keeping some of the money", "Pretending to give everything while secretly keeping part back", "Selling their property"], correct:1, explain:"Peter makes clear the property and proceeds were entirely theirs to keep or give; the lie was the offense." },
-        { q:"Who does Peter say they actually lied to?", opts:["Peter himself", "The Holy Spirit", "The other believers only"], correct:1, explain:"A deception aimed at appearing generous before people was, underneath, a lie told directly to God." },
-        { q:"What effect did this have on the church?", opts:["None", "Great fear seized the whole community", "It caused a schism"], correct:1, explain:"A sobering reminder that the early church's growth included moments of severe, visible holiness as well as grace." }
+        { q:"What was Ananias and Sapphira's actual sin?", opts:["Keeping some of the money","Pretending to give everything while secretly keeping part back","Selling their property"], correct:1, explain:"Peter makes clear the property and proceeds were entirely theirs to keep or give; the lie was the offense." },
+        { q:"Who does Peter say they actually lied to?", opts:["The Holy Spirit","The other believers only","Peter himself"], correct:0, explain:"A deception aimed at appearing generous before people was, underneath, a lie told directly to God." },
+        { q:"What effect did this have on the church?", opts:["It caused a schism","None","Great fear seized the whole community"], correct:2, explain:"A sobering reminder that the early church's growth included moments of severe, visible holiness as well as grace." }
       ],
       deepDive: "This episode sits uncomfortably beside the beautiful generosity of Acts 2 and 4, and it's meant to. Nobody required Ananias and Sapphira to sell their land or to give all the proceeds \u2014 Peter says so explicitly. Their sin wasn't insufficient generosity; it was performing a generosity they hadn't actually practiced, manufacturing a reputation while lying to the community and, Peter says, to God himself. In a church built on radical trust and shared life, deception about something so central struck at the community's foundation. The severity of the consequence is startling, and Luke doesn't explain it away \u2014 he simply records that great fear followed, a reminder that the same Spirit who empowered generosity also took truthfulness with total seriousness." },
     { id:395, book:"Acts", title:"The first deacons", side:"r",
@@ -1288,9 +1288,9 @@
         { ref: "Acts 6:3", text: "Choose seven men from among you who are known to be full of the Spirit and wisdom. We will turn this responsibility over to them." }
       ],
       questions: [
-        { q:"What practical problem prompted this decision?", opts:["A theological dispute", "Widows being overlooked in the daily food distribution", "A financial shortage"], correct:1, explain:"An unglamorous administrative complaint led to an important structural decision." },
-        { q:"What qualifications were required for the role?", opts:["Wealth and status", "Being full of the Spirit and wisdom", "Family connections"], correct:1, explain:"Even a logistics role required spiritual character, not just competence." },
-        { q:"What happened after this decision was made?", opts:["Nothing changed", "The word of God spread and disciples increased rapidly", "The church shrank"], correct:1, explain:"Addressing a practical, unglamorous problem well became fuel for the mission's growth, not a distraction from it." }
+        { q:"What practical problem prompted this decision?", opts:["Widows being overlooked in the daily food distribution","A financial shortage","A theological dispute"], correct:0, explain:"An unglamorous administrative complaint led to an important structural decision." },
+        { q:"What qualifications were required for the role?", opts:["Being full of the Spirit and wisdom","Family connections","Wealth and status"], correct:0, explain:"Even a logistics role required spiritual character, not just competence." },
+        { q:"What happened after this decision was made?", opts:["The word of God spread and disciples increased rapidly","The church shrank","Nothing changed"], correct:0, explain:"Addressing a practical, unglamorous problem well became fuel for the mission's growth, not a distraction from it." }
       ],
       deepDive: "This short episode is easy to skip past, but it models something churches have needed ever since: the willingness to create new structure when growth outpaces the old one. The apostles didn't dismiss the complaint about neglected widows as a distraction from 'real' ministry; they took it seriously enough to reorganize. And notice the standard for the new role \u2014 not merely administrative skill but spiritual character, full of the Spirit and wisdom, because Luke assumed even table-serving required godliness. The result wasn't incidental: solving a practical problem well directly preceded a season of rapid growth, a reminder that faithful attention to unglamorous needs is not separate from the mission but part of it." },
     { id:396, book:"Acts", title:"Philip and the Ethiopian", side:"c",
@@ -1299,9 +1299,9 @@
         { ref: "Acts 8:35", text: "Then Philip began with that very passage of Scripture and told him the good news about Jesus." }
       ],
       questions: [
-        { q:"What was the Ethiopian doing when Philip found him?", opts:["Sleeping", "Reading Isaiah 53 without understanding it", "Praying silently"], correct:1, explain:"A genuine seeker, with access to Scripture but no one to explain it \u2014 until Philip arrived at exactly the right moment." },
-        { q:"What passage did Philip start from?", opts:["A random text", "The very passage the man was already reading", "The Ten Commandments"], correct:1, explain:"Philip met the man exactly where his own curiosity already was, rather than starting somewhere unrelated." },
-        { q:"How did the man respond to hearing the gospel?", opts:["He was unmoved", "He asked to be baptized immediately and went away rejoicing", "He needed weeks to decide"], correct:1, explain:"Understanding what he'd been reading produced immediate, joyful response." }
+        { q:"What was the Ethiopian doing when Philip found him?", opts:["Praying silently","Reading Isaiah 53 without understanding it","Sleeping"], correct:1, explain:"A genuine seeker, with access to Scripture but no one to explain it \u2014 until Philip arrived at exactly the right moment." },
+        { q:"What passage did Philip start from?", opts:["The very passage the man was already reading","A random text","The Ten Commandments"], correct:0, explain:"Philip met the man exactly where his own curiosity already was, rather than starting somewhere unrelated." },
+        { q:"How did the man respond to hearing the gospel?", opts:["He was unmoved","He needed weeks to decide","He asked to be baptized immediately and went away rejoicing"], correct:2, explain:"Understanding what he'd been reading produced immediate, joyful response." }
       ],
       deepDive: "This story is a small masterclass in evangelism, and its details are easy to overlook. Philip didn't design the encounter \u2014 an angel sent him to a specific desert road at a specific time, and he found a man already reading Scripture, already hungry, already asking the right question, just without anyone to answer it. Philip's method was simple: start exactly where the person already is. He didn't redirect the Ethiopian to a different passage or a prepared script; he used the very text open in the man's lap. And the joy at the end is worth noting \u2014 not relief or obligation, but rejoicing, the response of someone who finally understood something that had been sitting right in front of him." },
     { id:397, book:"Acts", title:"Barnabas the encourager", side:"l",
@@ -1310,9 +1310,9 @@
         { ref: "Acts 11:24", text: "He was a good man, full of the Holy Spirit and faith, and a great number of people were brought to the Lord." }
       ],
       questions: [
-        { q:"What did Barnabas do when others feared the converted Saul?", opts:["Agreed with the fear", "Vouched for him personally to the apostles", "Ignored the situation"], correct:1, explain:"Barnabas's name means \u2018son of encouragement,\u2019 and here it's lived out concretely." },
-        { q:"What was Barnabas's response to seeing grace at work in Antioch?", opts:["Suspicion", "Gladness, and encouragement to remain true to the Lord", "Indifference"], correct:1, explain:"He celebrated what God was doing rather than looking for problems." },
-        { q:"What did Barnabas do once the Antioch church was thriving?", opts:["Kept the leadership for himself", "Went and got Saul to help lead it", "Left the church"], correct:1, explain:"He shared credit and responsibility rather than protecting his own position." }
+        { q:"What did Barnabas do when others feared the converted Saul?", opts:["Agreed with the fear","Ignored the situation","Vouched for him personally to the apostles"], correct:2, explain:"Barnabas's name means \u2018son of encouragement,\u2019 and here it's lived out concretely." },
+        { q:"What was Barnabas's response to seeing grace at work in Antioch?", opts:["Suspicion","Gladness, and encouragement to remain true to the Lord","Indifference"], correct:1, explain:"He celebrated what God was doing rather than looking for problems." },
+        { q:"What did Barnabas do once the Antioch church was thriving?", opts:["Went and got Saul to help lead it","Kept the leadership for himself","Left the church"], correct:0, explain:"He shared credit and responsibility rather than protecting his own position." }
       ],
       deepDive: "Barnabas appears throughout Acts as the person who makes room for others \u2014 vouching for a converted persecutor nobody else trusted, celebrating a new church's growth rather than critiquing it, and then deliberately going to find Saul to share the leadership of a flourishing ministry he could easily have kept for himself. None of these are dramatic, headline moments; they're the quiet work of someone whose gift was believing in people before their track record had fully proven it. Every church and every movement needs a Barnabas \u2014 someone willing to stake their own credibility on an unproven person, and glad rather than threatened when others succeed." },
     { id:302, book:"Romans", title:"I am not ashamed of the gospel", side:"l",
@@ -1321,9 +1321,9 @@
         { ref: "Romans 1:16", text: "I am not ashamed of the gospel, because it is the power of God that brings salvation to everyone who believes." }
       ],
       questions: [
-        { q:"What is the gospel called?", opts:["Good advice", "The POWER of God for salvation", "A philosophy"], correct:1, explain:"Paul's word is dynamis; the gospel doesn't describe rescue, it accomplishes it." },
-        { q:"Who is it for?", opts:["Jews only", "Everyone who believes", "The educated"], correct:1, explain:"The universality of the offer is stated in the letter's thesis sentence." },
-        { q:"What does creation establish, per chapter 1?", opts:["Nothing", "God's eternal power and divine nature", "That God is distant"], correct:1, explain:"Paul argues the problem isn't lack of evidence but suppression of it." }
+        { q:"What is the gospel called?", opts:["The POWER of God for salvation","A philosophy","Good advice"], correct:0, explain:"Paul's word is dynamis; the gospel doesn't describe rescue, it accomplishes it." },
+        { q:"Who is it for?", opts:["The educated","Everyone who believes","Jews only"], correct:1, explain:"The universality of the offer is stated in the letter's thesis sentence." },
+        { q:"What does creation establish, per chapter 1?", opts:["God's eternal power and divine nature","Nothing","That God is distant"], correct:0, explain:"Paul argues the problem isn't lack of evidence but suppression of it." }
       ],
       deepDive: "Romans is the most systematic thing Paul wrote, and 1:16\u201317 is the sentence the rest unpacks: the gospel is power, for everyone who believes, revealing a righteousness that is by faith from start to finish. That last phrase is what Luther seized on. And note the strange verb in chapter 1's indictment: God \u2018gave them over\u2019 \u2014 judgment described not as a lightning bolt but as God removing His restraint and letting people have exactly what they insisted on. That's a more sobering picture than fire from heaven, and it sets up everything the letter will say about needing rescue rather than improvement." },
     { id:303, book:"Romans", title:"All have sinned", side:"r",
@@ -1332,9 +1332,9 @@
         { ref: "Romans 3:23\u201324", text: "For all have sinned and fall short of the glory of God, and all are justified freely by his grace through the redemption that came by Christ Jesus." }
       ],
       questions: [
-        { q:"Who is chapter 2 aimed at?", opts:["Pagans", "Religious people who judge others while doing the same things", "Roman officials"], correct:1, explain:"Paul closes the escape hatch for anyone reading chapter 1 and nodding along." },
-        { q:"What is the law's function here?", opts:["To save", "To silence every mouth and make the whole world accountable", "To reward"], correct:1, explain:"It functions like a mirror or an X-ray \u2014 it diagnoses, it doesn't cure." },
-        { q:"What does \u2018justified freely\u2019 mean?", opts:["Declared righteous as a gift, at no cost to us", "Made slightly better", "Given a second chance to earn it"], correct:0, explain:"A legal verdict of righteous, given as a gift \u2014 though it cost Christ everything." }
+        { q:"Who is chapter 2 aimed at?", opts:["Pagans","Religious people who judge others while doing the same things","Roman officials"], correct:1, explain:"Paul closes the escape hatch for anyone reading chapter 1 and nodding along." },
+        { q:"What is the law's function here?", opts:["To save","To silence every mouth and make the whole world accountable","To reward"], correct:1, explain:"It functions like a mirror or an X-ray \u2014 it diagnoses, it doesn't cure." },
+        { q:"What does \u2018justified freely\u2019 mean?", opts:["Given a second chance to earn it","Made slightly better","Declared righteous as a gift, at no cost to us"], correct:2, explain:"A legal verdict of righteous, given as a gift \u2014 though it cost Christ everything." }
       ],
       deepDive: "Paul builds a courtroom case across three chapters, and its purpose is to leave nobody standing. Chapter 1 convicts the obviously pagan; chapter 2 turns and convicts the person who enjoyed chapter 1; chapter 3 sums up: there is no one righteous, not even one. Only then does the \u2018but now\u2019 arrive. That structure is deliberate, because grace only lands as good news on someone who knows they're guilty. \u2018Justified\u2019 is legal language \u2014 declared righteous, not made gradually better \u2014 and \u2018freely\u2019 means at no cost to the recipient. It cost God everything, which is why the next verse mentions redemption, a word about paying to set someone free." },
     { id:304, book:"Romans", title:"Peace with God", side:"c",
@@ -1343,9 +1343,9 @@
         { ref: "Romans 5:8", text: "But God demonstrates his own love for us in this: While we were still sinners, Christ died for us." }
       ],
       questions: [
-        { q:"What is the first result of justification?", opts:["Better behavior", "Peace with God", "Church membership"], correct:1, explain:"Not merely a feeling of peace but a changed status: no longer at enmity." },
-        { q:"What word in 5:8 carries the weight?", opts:["\u2018Demonstrates\u2019", "\u2018While\u2019", "\u2018Love\u2019"], correct:1, explain:"The timing rules out the idea that God waited for us to become worth saving." },
-        { q:"What does suffering produce in the chain?", opts:["Nothing", "Perseverance, then character, then hope", "Immediate relief"], correct:1, explain:"Paul says we can glory in suffering because of where it leads, not because it's pleasant." }
+        { q:"What is the first result of justification?", opts:["Better behavior","Church membership","Peace with God"], correct:2, explain:"Not merely a feeling of peace but a changed status: no longer at enmity." },
+        { q:"What word in 5:8 carries the weight?", opts:["\u2018Love\u2019","\u2018Demonstrates\u2019","\u2018While\u2019"], correct:2, explain:"The timing rules out the idea that God waited for us to become worth saving." },
+        { q:"What does suffering produce in the chain?", opts:["Immediate relief","Perseverance, then character, then hope","Nothing"], correct:1, explain:"Paul says we can glory in suffering because of where it leads, not because it's pleasant." }
       ],
       deepDive: "Romans 5 answers the question anyone asks after chapter 3: is this secure? Paul's answer runs on the word \u2018therefore.\u2019 Since you are justified \u2014 past tense, done \u2014 you have peace with God, access into grace, and hope that doesn't disappoint. Then 5:8, which is the most important word-order in the letter: while we were still sinners. Not once we cleaned up, not because God foresaw our improvement. While. Any version of Christianity in which God's love is a response to your performance dies on that word. And the suffering chain is worth carrying too: Paul isn't romanticizing pain, he's tracing where it goes when it's carried inside that love." },
     { id:305, book:"Romans", title:"Dead to sin, alive to God", side:"l",
@@ -1354,9 +1354,9 @@
         { ref: "Romans 6:14", text: "For sin shall no longer be your master, because you are not under the law, but under grace." }
       ],
       questions: [
-        { q:"What objection is Paul answering?", opts:["That grace is too costly", "That free grace licenses more sinning", "That the law is bad"], correct:1, explain:"If grace increases where sin increases, why stop? Paul says the question misunderstands what happened to you." },
-        { q:"What does baptism picture?", opts:["A public promise only", "Dying and being buried with Christ, then raised to new life", "Cleansing alone"], correct:1, explain:"Union with Christ in death and resurrection is Paul's argument against ongoing slavery to sin." },
-        { q:"What does \u2018count yourselves\u2019 mean?", opts:["Pretend", "Reckon as true what God has already made true", "Try harder"], correct:1, explain:"An accounting term: treat the reality on your books as real." }
+        { q:"What objection is Paul answering?", opts:["That free grace licenses more sinning","That grace is too costly","That the law is bad"], correct:0, explain:"If grace increases where sin increases, why stop? Paul says the question misunderstands what happened to you." },
+        { q:"What does baptism picture?", opts:["Cleansing alone","A public promise only","Dying and being buried with Christ, then raised to new life"], correct:2, explain:"Union with Christ in death and resurrection is Paul's argument against ongoing slavery to sin." },
+        { q:"What does \u2018count yourselves\u2019 mean?", opts:["Reckon as true what God has already made true","Pretend","Try harder"], correct:0, explain:"An accounting term: treat the reality on your books as real." }
       ],
       deepDive: "Chapter 6 answers the charge every generous doctrine of grace attracts: doesn't this let people off? Paul's reply isn't a new rulebook but a fact about identity \u2014 you died. Someone united to Christ's death and resurrection isn't in the same relationship to sin they used to be. That's why his repeated verb is \u2018count\u2019 or \u2018reckon\u2019: not pretend, but treat as real what God says is real. The practical instruction follows from it \u2014 offer the parts of yourself to God rather than to sin, daily and deliberately. And the promise underneath is 6:14: sin will not be your master, and the reason given is grace, not law." },
     { id:306, book:"Romans", title:"The war within", side:"r",
@@ -1365,9 +1365,9 @@
         { ref: "Romans 7:24\u201325", text: "What a wretched man I am! Who will rescue me from this body that is subject to death? Thanks be to God, who delivers me through Jesus Christ our Lord!" }
       ],
       questions: [
-        { q:"What frustration does Paul describe?", opts:["Not knowing what's right", "Knowing what's right, wanting it, and still failing to do it", "Not caring"], correct:1, explain:"The problem isn't ignorance or indifference \u2014 it's a gap between desire and ability." },
-        { q:"Is the law the problem?", opts:["Yes", "No", "The law is irrelevant"], correct:1, explain:"The law exposes the disease; it doesn't cause it and can't cure it." },
-        { q:"How does the chapter resolve?", opts:["In despair", "In gratitude", "With a technique"], correct:1, explain:"The cry \u2018who will rescue me\u2019 gets a person as the answer, not a program." }
+        { q:"What frustration does Paul describe?", opts:["Not knowing what's right","Knowing what's right, wanting it, and still failing to do it","Not caring"], correct:1, explain:"The problem isn't ignorance or indifference \u2014 it's a gap between desire and ability." },
+        { q:"Is the law the problem?", opts:["No","Yes","The law is irrelevant"], correct:0, explain:"The law exposes the disease; it doesn't cause it and can't cure it." },
+        { q:"How does the chapter resolve?", opts:["With a technique","In gratitude","In despair"], correct:1, explain:"The cry \u2018who will rescue me\u2019 gets a person as the answer, not a program." }
       ],
       deepDive: "Christians have debated for centuries whether Paul is describing his pre-conversion life or his present one, and the debate itself is a testimony to how accurately he described the experience. Either way, its usefulness is the same: the New Testament contains a passage where an apostle says he wants to do good and can't reliably manage it. That's permission to be honest about your own record. Notice what the chapter refuses to do: it never blames the law, and it never resolves with better strategy. The question is \u2018who will rescue me\u2019 \u2014 a who, not a how \u2014 and the answer arrives just before the letter's greatest chapter." },
     { id:307, book:"Romans", title:"No condemnation", side:"c",
@@ -1376,9 +1376,9 @@
         { ref: "Romans 8:1", text: "Therefore, there is now no condemnation for those who are in Christ Jesus." }
       ],
       questions: [
-        { q:"When does the \u2018no condemnation\u2019 apply?", opts:["After enough growth", "Now", "At the final judgment only"], correct:1, explain:"It follows directly from chapter 7's failure, which is the point." },
-        { q:"What does \u2018Abba\u2019 signal?", opts:["Formal address", "Intimate family language", "A title of rank"], correct:1, explain:"The same word Jesus used in Gethsemane, now on the lips of adopted children." },
-        { q:"What does 8:28 actually claim?", opts:["Everything that happens is good", "God works IN all things for good", "Suffering is unreal"], correct:1, explain:"A promise about God's work within circumstances, not a denial of their badness." }
+        { q:"When does the \u2018no condemnation\u2019 apply?", opts:["After enough growth","At the final judgment only","Now"], correct:2, explain:"It follows directly from chapter 7's failure, which is the point." },
+        { q:"What does \u2018Abba\u2019 signal?", opts:["A title of rank","Intimate family language","Formal address"], correct:1, explain:"The same word Jesus used in Gethsemane, now on the lips of adopted children." },
+        { q:"What does 8:28 actually claim?", opts:["God works IN all things for good","Suffering is unreal","Everything that happens is good"], correct:0, explain:"A promise about God's work within circumstances, not a denial of their badness." }
       ],
       deepDive: "Romans 8 is the summit of the letter and arguably of the New Testament, and its first word is \u2018therefore\u2019 \u2014 attached directly to chapter 7's exhausting failure. That placement is the mercy: no condemnation is announced not to people who have finally got it together but to people who just admitted they can't. The chapter then widens outward \u2014 adoption, the Spirit's intercession when you can't find words, creation groaning toward renewal, and God working through everything toward good. Notice 8:28's careful wording, so often misquoted: not that all things are good, but that God works in all things for good. That distinction matters enormously to anyone in the middle of something terrible." },
     { id:308, book:"Romans", title:"Nothing can separate us", side:"l",
@@ -1387,9 +1387,9 @@
         { ref: "Romans 8:38\u201339", text: "For I am convinced that neither death nor life\u2026 nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord." }
       ],
       questions: [
-        { q:"What's the argument from the cross?", opts:["God owes us nothing", "If God gave His Son, He won't withhold lesser things", "The cross was a last resort"], correct:1, explain:"An argument from greater to lesser: the hardest gift is already given." },
-        { q:"Who can bring a charge against God's chosen?", opts:["Anyone", "No one that matters", "The accuser, successfully"], correct:1, explain:"The judge has already ruled; no other court has standing." },
-        { q:"What can separate us from God's love?", opts:["Serious sin", "Nothing in all creation", "Death"], correct:1, explain:"He deliberately exhausts the categories: life, death, present, future, height, depth." }
+        { q:"What's the argument from the cross?", opts:["If God gave His Son, He won't withhold lesser things","The cross was a last resort","God owes us nothing"], correct:0, explain:"An argument from greater to lesser: the hardest gift is already given." },
+        { q:"Who can bring a charge against God's chosen?", opts:["Anyone","No one that matters","The accuser, successfully"], correct:1, explain:"The judge has already ruled; no other court has standing." },
+        { q:"What can separate us from God's love?", opts:["Nothing in all creation","Death","Serious sin"], correct:0, explain:"He deliberately exhausts the categories: life, death, present, future, height, depth." }
       ],
       deepDive: "Paul ends this section by trying to name something that could separate a believer from Christ's love, and running out of options. He goes vertical (height, depth), temporal (present, future), spiritual (angels, demons), and existential (death, life), then sweeps up the remainder: nor anything else in all creation. It's a list built to be exhaustive. Note also the phrase \u2018I am convinced\u2019 \u2014 this comes from a man who had been flogged, stoned, shipwrecked, and imprisoned, so it isn't optimism from a comfortable chair. And the logic in verse 32 is worth keeping for anxious days: the God who already gave His Son is not the kind who withholds smaller things." },
     { id:309, book:"Romans", title:"Living sacrifices", side:"r",
@@ -1398,9 +1398,9 @@
         { ref: "Romans 12:2", text: "Do not conform to the pattern of this world, but be transformed by the renewing of your mind." }
       ],
       questions: [
-        { q:"What is called \u2018true and proper worship\u2019?", opts:["Singing", "Offering your body", "Sacrificial giving"], correct:1, explain:"Worship relocated from a ceremony to a life handed over." },
-        { q:"How does transformation happen?", opts:["By trying harder", "By the renewing of your mind", "Automatically"], correct:1, explain:"Paul puts the mind at the center, which is why eleven chapters of doctrine come first." },
-        { q:"What's the qualifier on living at peace?", opts:["There is none", "\u2018If it is possible, as far as it depends on you\u2019", "Only with believers"], correct:1, explain:"Realistic: you're responsible for your side, not for the other person's response." }
+        { q:"What is called \u2018true and proper worship\u2019?", opts:["Singing","Sacrificial giving","Offering your body"], correct:2, explain:"Worship relocated from a ceremony to a life handed over." },
+        { q:"How does transformation happen?", opts:["Automatically","By trying harder","By the renewing of your mind"], correct:2, explain:"Paul puts the mind at the center, which is why eleven chapters of doctrine come first." },
+        { q:"What's the qualifier on living at peace?", opts:["\u2018If it is possible, as far as it depends on you\u2019","Only with believers","There is none"], correct:0, explain:"Realistic: you're responsible for your side, not for the other person's response." }
       ],
       deepDive: "The \u2018therefore\u2019 in Romans 12:1 is one of the most important words in the letter, because it means everything practical rests on everything doctrinal. Paul doesn't lead with behavior; he leads with mercy and then asks for a response in view of it. And the image is deliberately strange \u2014 a living sacrifice, which is the one kind that can climb off the altar, and does, daily. Note the mechanism of change: renewed thinking, not gritted teeth. What you believe about God's mercy is what reshapes how you live. And the list that follows is refreshingly ordinary: hospitality, sincere love, patience, blessing people who make life hard." }
 ,
@@ -1410,9 +1410,9 @@
         { ref: "Romans 9:2\u20133", text: "I have great sorrow and unceasing anguish in my heart. For I could wish that I myself were cursed and cut off from Christ for the sake of my people." }
       ],
       questions: [
-        { q:"What does Paul say he'd be willing to sacrifice?", opts:["Nothing", "His own standing with Christ, for the sake of his people", "His reputation only"], correct:1, explain:"An almost unthinkable statement of love for people who largely rejected his message." },
-        { q:"What privileges does he list belonging to Israel?", opts:["None remain", "Adoption, covenants, the law, worship, promises, the patriarchs, and Christ himself", "Only the land"], correct:1, explain:"He honors what was genuinely given before addressing the hard question of unbelief." },
-        { q:"What does \u2018not all who are descended from Israel are Israel\u2019 mean?", opts:["Ethnic identity is irrelevant", "Physical descent alone was never the same as belonging to the promise", "Israel no longer exists"], correct:1, explain:"Paul distinguishes ethnic lineage from the deeper covenant identity, a distinction he'll develop through the chapter." }
+        { q:"What does Paul say he'd be willing to sacrifice?", opts:["His own standing with Christ, for the sake of his people","His reputation only","Nothing"], correct:0, explain:"An almost unthinkable statement of love for people who largely rejected his message." },
+        { q:"What privileges does he list belonging to Israel?", opts:["Only the land","Adoption, covenants, the law, worship, promises, the patriarchs, and Christ himself","None remain"], correct:1, explain:"He honors what was genuinely given before addressing the hard question of unbelief." },
+        { q:"What does \u2018not all who are descended from Israel are Israel\u2019 mean?", opts:["Ethnic identity is irrelevant","Israel no longer exists","Physical descent alone was never the same as belonging to the promise"], correct:2, explain:"Paul distinguishes ethnic lineage from the deeper covenant identity, a distinction he'll develop through the chapter." }
       ],
       deepDive: "Before Paul argues anything in chapters 9\u201311, he shows you his heart, and it's important that you see it before the harder theology that follows. This is not a detached doctrinal essay about who's in and who's out \u2014 it's written by a man in anguish over his own people's rejection of the Messiah he's spent his life proclaiming. He would trade his own place with Christ to see them included, which tells you these three chapters are wrestling with something that cost Paul enormously, not settling an abstract puzzle. Whatever conclusions follow, they come from grief, not indifference." },
     { id:377, book:"Romans", title:"Not by works, but by him who calls", side:"r",
@@ -1421,9 +1421,9 @@
         { ref: "Romans 9:16", text: "It does not, therefore, depend on human desire or effort, but on God's mercy." }
       ],
       questions: [
-        { q:"What point does the Isaac/Ishmael and Jacob/Esau history make?", opts:["Birth order matters most", "God's purposes have always operated on his choice, not human merit", "Israel earned its status"], correct:1, explain:"Paul shows this pattern was present from the very beginning of the covenant family." },
-        { q:"What objection does Paul anticipate?", opts:["That God is too generous", "That this makes God unjust", "That the history is inaccurate"], correct:1, explain:"He raises the hardest question himself rather than letting readers wonder silently." },
-        { q:"What image does he use to answer it?", opts:["A judge and a courtroom", "A potter and clay", "A shepherd and sheep"], correct:1, explain:"Echoing Jeremiah 18 \u2014 the maker's right over what he has made." }
+        { q:"What point does the Isaac/Ishmael and Jacob/Esau history make?", opts:["Birth order matters most","Israel earned its status","God's purposes have always operated on his choice, not human merit"], correct:2, explain:"Paul shows this pattern was present from the very beginning of the covenant family." },
+        { q:"What objection does Paul anticipate?", opts:["That the history is inaccurate","That this makes God unjust","That God is too generous"], correct:1, explain:"He raises the hardest question himself rather than letting readers wonder silently." },
+        { q:"What image does he use to answer it?", opts:["A shepherd and sheep","A potter and clay","A judge and a courtroom"], correct:1, explain:"Echoing Jeremiah 18 \u2014 the maker's right over what he has made." }
       ],
       deepDive: "This is the hardest passage in Romans, and Paul doesn't soften it. He's addressing why some who seemed to have every covenant advantage rejected Christ, and his answer reaches back to God's sovereign choosing throughout Israel's own story \u2014 a pattern present since Isaac and Ishmael, long before anyone could claim credit. The potter image is not Paul's invention; it's borrowed from Jeremiah, where the response of the clay still mattered enormously to the story. Whatever discomfort this passage produces, Paul intends it to produce humility rather than resignation \u2014 nobody, Jew or Gentile, ever had a claim on God's mercy to begin with, which is precisely why it's mercy." },
     { id:378, book:"Romans", title:"How beautiful are the feet", side:"c",
@@ -1432,9 +1432,9 @@
         { ref: "Romans 10:14\u201315", text: "How, then, can they call on the one they have not believed in? And how can they believe in the one of whom they have not heard? How beautiful are the feet of those who bring good news!" }
       ],
       questions: [
-        { q:"Why did Israel stumble, according to Paul?", opts:["They had no zeal", "They pursued righteousness by works rather than by faith", "They lacked knowledge of Scripture"], correct:1, explain:"Genuine zeal, misdirected toward earning rather than receiving." },
-        { q:"What is Christ called in relation to the law?", opts:["Its abolisher", "Its culmination", "Irrelevant to it"], correct:1, explain:"Not opposed to the law but its fulfillment and endpoint." },
-        { q:"What chain does Paul trace back to preaching?", opts:["Calling requires believing, believing requires hearing, hearing requires a preacher", "Faith requires no message", "Belief precedes hearing"], correct:1, explain:"A logical sequence that makes ordinary preachers indispensable to the whole process." }
+        { q:"Why did Israel stumble, according to Paul?", opts:["They pursued righteousness by works rather than by faith","They had no zeal","They lacked knowledge of Scripture"], correct:0, explain:"Genuine zeal, misdirected toward earning rather than receiving." },
+        { q:"What is Christ called in relation to the law?", opts:["Irrelevant to it","Its culmination","Its abolisher"], correct:1, explain:"Not opposed to the law but its fulfillment and endpoint." },
+        { q:"What chain does Paul trace back to preaching?", opts:["Faith requires no message","Belief precedes hearing","Calling requires believing, believing requires hearing, hearing requires a preacher"], correct:0, explain:"A logical sequence that makes ordinary preachers indispensable to the whole process." }
       ],
       deepDive: "Paul's diagnosis of Israel's stumbling is precise and painful: not a lack of zeal but zeal aimed at the wrong target \u2014 earning righteousness instead of receiving it. And his solution isn't primarily an argument; it's a supply chain. Calling depends on believing, believing depends on hearing, hearing depends on someone actually going and saying something out loud. That's why he breaks into praise over ordinary feet: \u2018how beautiful are the feet of those who bring good news.\u2019 Whatever grand theology of election and mercy runs through these chapters, it still depends, in Paul's own logic, on someone being willing to show up and speak." },
     { id:379, book:"Romans", title:"Grafted into the tree", side:"l",
@@ -1443,9 +1443,9 @@
         { ref: "Romans 11:18", text: "Do not consider yourself to be superior to those other branches. If you do, consider this: You do not support the root, but the root supports you." }
       ],
       questions: [
-        { q:"What proves God hasn't rejected his people?", opts:["Nothing", "Paul himself", "A prophecy"], correct:1, explain:"His own conversion is offered as living proof the door was never fully shut." },
-        { q:"What warning does Paul give Gentile believers?", opts:["To feel guilty", "Against arrogance", "To disengage from Israel entirely"], correct:1, explain:"Grafted branches drawing life from a root they didn't grow have nothing to boast about." },
-        { q:"What possibility does Paul hold open?", opts:["None", "That broken-off branches can be grafted back in again", "Only Gentiles can ever be included"], correct:1, explain:"God's ability to re-graft keeps the door explicitly open, not closed." }
+        { q:"What proves God hasn't rejected his people?", opts:["Paul himself","Nothing","A prophecy"], correct:0, explain:"His own conversion is offered as living proof the door was never fully shut." },
+        { q:"What warning does Paul give Gentile believers?", opts:["To feel guilty","Against arrogance","To disengage from Israel entirely"], correct:1, explain:"Grafted branches drawing life from a root they didn't grow have nothing to boast about." },
+        { q:"What possibility does Paul hold open?", opts:["Only Gentiles can ever be included","None","That broken-off branches can be grafted back in again"], correct:2, explain:"God's ability to re-graft keeps the door explicitly open, not closed." }
       ],
       deepDive: "The olive tree image corrects a temptation Gentile Christians in Rome were apparently already falling into: assuming their inclusion meant Israel's permanent exclusion, and feeling superior about it. Paul dismantles that quickly. The tree is one tree, rooted in the promises to the patriarchs; some natural branches were broken off through unbelief, and wild branches were grafted in through faith \u2014 but grafted branches don't get to boast over the root that feeds them, and the door for the broken-off branches to return was never welded shut. It's a picture built to produce humility in the included and hope for the excluded, not triumphalism in either direction." },
     { id:380, book:"Romans", title:"Oh, the depth of the riches", side:"r",
@@ -1454,9 +1454,9 @@
         { ref: "Romans 11:33", text: "Oh, the depth of the riches of the wisdom and knowledge of God! How unsearchable his judgments, and his paths beyond tracing out!" }
       ],
       questions: [
-        { q:"How does Paul end his argument about Israel and the Gentiles?", opts:["With a tidy formula", "In worship", "With a warning"], correct:1, explain:"After the most difficult theological chapters he's written, he lands in praise rather than a complete system." },
-        { q:"What does \u2018his paths beyond tracing out\u2019 admit?", opts:["That Scripture is unreliable", "That some of God's ways exceed full human comprehension", "That the previous chapters were wrong"], correct:1, explain:"An honest limit on how far reasoning alone can take you into the mystery of God's purposes." },
-        { q:"What phrase summarizes everything's origin and destiny?", opts:["\u2018From chance, through effort, to nothing\u2019", "\u2018From him and through him and to him are all things\u2019", "\u2018From Israel, through the law, to Rome\u2019"], correct:1, explain:"Everything, without exception, traced back to its source and forward to its purpose in God." }
+        { q:"How does Paul end his argument about Israel and the Gentiles?", opts:["In worship","With a warning","With a tidy formula"], correct:0, explain:"After the most difficult theological chapters he's written, he lands in praise rather than a complete system." },
+        { q:"What does \u2018his paths beyond tracing out\u2019 admit?", opts:["That the previous chapters were wrong","That some of God's ways exceed full human comprehension","That Scripture is unreliable"], correct:1, explain:"An honest limit on how far reasoning alone can take you into the mystery of God's purposes." },
+        { q:"What phrase summarizes everything's origin and destiny?", opts:["\u2018From Israel, through the law, to Rome\u2019","\u2018From chance, through effort, to nothing\u2019","\u2018From him and through him and to him are all things\u2019"], correct:2, explain:"Everything, without exception, traced back to its source and forward to its purpose in God." }
       ],
       deepDive: "After three chapters of Paul's most demanding theological reasoning, the whole argument dissolves into doxology. That's instructive in itself. He doesn't close with a diagram explaining exactly how election, human choice, Jewish unbelief, and Gentile inclusion fit together into a system you could master. He closes overwhelmed \u2014 unsearchable judgments, untraceable paths, a mind he cannot fully know. For anyone who has tried to reason their way to total certainty about God's hardest purposes, Paul's own example is the corrective: understanding runs out eventually, and worship is the right response when it does, not frustration." },
     { id:310, book:"1 Corinthians", title:"The foolishness of the cross", side:"c",
@@ -1465,9 +1465,9 @@
         { ref: "1 Corinthians 1:18", text: "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God." }
       ],
       questions: [
-        { q:"What were the Corinthians fighting about?", opts:["Doctrine", "Which teacher they followed", "Money"], correct:1, explain:"Paul, Apollos, Cephas \u2014 a personality-driven church, which he treats as spiritual immaturity." },
-        { q:"Why does God choose the weak and foolish?", opts:["He has no choice", "So that no one may boast before Him", "To make things harder"], correct:1, explain:"The selection method is designed to eliminate bragging rights." },
-        { q:"What did Paul resolve to know among them?", opts:["Everything", "Nothing except Jesus Christ and him crucified", "Only ethics"], correct:1, explain:"In a city that prized rhetoric, he deliberately narrowed his subject." }
+        { q:"What were the Corinthians fighting about?", opts:["Money","Doctrine","Which teacher they followed"], correct:2, explain:"Paul, Apollos, Cephas \u2014 a personality-driven church, which he treats as spiritual immaturity." },
+        { q:"Why does God choose the weak and foolish?", opts:["So that no one may boast before Him","He has no choice","To make things harder"], correct:0, explain:"The selection method is designed to eliminate bragging rights." },
+        { q:"What did Paul resolve to know among them?", opts:["Everything","Nothing except Jesus Christ and him crucified","Only ethics"], correct:1, explain:"In a city that prized rhetoric, he deliberately narrowed his subject." }
       ],
       deepDive: "Corinth was a wealthy port city that admired eloquence and status, and the church absorbed those values wholesale \u2014 hence the celebrity factions. Paul's answer isn't a better argument but a different center: a crucified Messiah, which was an embarrassment to Greeks and a scandal to Jews. He leans into that. God's chosen method \u2014 weakness, foolishness, a cross \u2014 is calculated so that no one can take credit. That's still the letter's most useful diagnostic for any church or believer measuring itself by talent and platform: if the strategy makes room for boasting, it probably isn't the cross." },
     { id:311, book:"1 Corinthians", title:"Your body is a temple", side:"l",
@@ -1476,9 +1476,9 @@
         { ref: "1 Corinthians 6:19\u201320", text: "You are not your own; you were bought at a price. Therefore honor God with your bodies." }
       ],
       questions: [
-        { q:"What slogan does Paul quote and qualify?", opts:["\u2018God is love\u2019", "\u2018I have the right to do anything\u2019", "\u2018All are welcome\u2019"], correct:1, explain:"He grants the freedom and immediately asks what it's doing to you: not everything is beneficial." },
-        { q:"What does he say bodies are?", opts:["Unimportant", "Temples of the Holy Spirit", "Obstacles to holiness"], correct:1, explain:"Against Greek thought that dismissed the body, Paul calls it God's dwelling." },
-        { q:"What's the basis for the command?", opts:["Social respectability", "Ownership", "Health"], correct:1, explain:"Not rule-keeping but belonging: the argument is who you belong to." }
+        { q:"What slogan does Paul quote and qualify?", opts:["\u2018God is love\u2019","\u2018All are welcome\u2019","\u2018I have the right to do anything\u2019"], correct:2, explain:"He grants the freedom and immediately asks what it's doing to you: not everything is beneficial." },
+        { q:"What does he say bodies are?", opts:["Unimportant","Obstacles to holiness","Temples of the Holy Spirit"], correct:2, explain:"Against Greek thought that dismissed the body, Paul calls it God's dwelling." },
+        { q:"What's the basis for the command?", opts:["Ownership","Social respectability","Health"], correct:0, explain:"Not rule-keeping but belonging: the argument is who you belong to." }
       ],
       deepDive: "Paul's sexual ethic here doesn't run on shame or on rules for their own sake. It runs on two claims: your body is where God's Spirit lives, and you were purchased. Both are dignifying rather than demeaning \u2014 in a culture that treated bodies as either disposable or merely appetite-serving, he says yours houses God. And his qualification of their freedom slogan is worth keeping for far more than sexuality: \u2018I have the right to do anything, but I will not be mastered by anything.\u2019 Plenty of things you're permitted to do are quietly in charge of you. That's the question the chapter asks." },
     { id:312, book:"1 Corinthians", title:"One body, many parts", side:"r",
@@ -1487,9 +1487,9 @@
         { ref: "1 Corinthians 12:7", text: "Now to each one the manifestation of the Spirit is given for the common good." }
       ],
       questions: [
-        { q:"What are gifts for?", opts:["Personal fulfillment", "The common good", "Proving spirituality"], correct:1, explain:"Paul's whole correction: gifts are distributed for the body, not for status." },
-        { q:"What two attitudes does the body image address?", opts:["Only pride", "Inferiority (\u2018I don't belong\u2019) and superiority (\u2018I don't need you\u2019)", "Only laziness"], correct:1, explain:"Both are denials of the body \u2014 one by withdrawal, one by dismissal." },
-        { q:"What happens when one part suffers?", opts:["Nothing", "Every part suffers with it", "Only nearby parts"], correct:1, explain:"Interdependence means someone else's pain is not a separate matter." }
+        { q:"What are gifts for?", opts:["Proving spirituality","The common good","Personal fulfillment"], correct:1, explain:"Paul's whole correction: gifts are distributed for the body, not for status." },
+        { q:"What two attitudes does the body image address?", opts:["Only pride","Inferiority (\u2018I don't belong\u2019) and superiority (\u2018I don't need you\u2019)","Only laziness"], correct:1, explain:"Both are denials of the body \u2014 one by withdrawal, one by dismissal." },
+        { q:"What happens when one part suffers?", opts:["Only nearby parts","Every part suffers with it","Nothing"], correct:1, explain:"Interdependence means someone else's pain is not a separate matter." }
       ],
       deepDive: "The Corinthians were ranking gifts and ranking themselves accordingly, so Paul reaches for the body \u2014 an image where a hierarchy makes no sense. Two temptations get named. The foot who says \u2018I'm not a hand, so I don't belong\u2019 is the person who quietly drops out because their contribution looks unimpressive. The eye who says \u2018I don't need you\u2019 is the visible person who forgets what's holding them up. Paul's counterintuitive claim is that the seemingly weaker parts are indispensable. And the final line changes how you read a church: if one part suffers, all suffer. There is no such thing as someone else's problem in a body." },
     { id:313, book:"1 Corinthians", title:"Love is patient", side:"c",
@@ -1498,9 +1498,9 @@
         { ref: "1 Corinthians 13:4\u20137", text: "Love is patient, love is kind\u2026 It always protects, always trusts, always hopes, always perseveres." }
       ],
       questions: [
-        { q:"What is Paul without love?", opts:["Less effective", "Nothing", "Still useful"], correct:1, explain:"Even faith that moves mountains and giving everything away count for zero without it." },
-        { q:"How is love described?", opts:["As a feeling", "In verbs", "As a preference"], correct:1, explain:"Almost every phrase is an action or restraint, which makes it testable." },
-        { q:"Why is this chapter placed here?", opts:["Randomly", "Between two chapters on spiritual gifts", "As a wedding reading"], correct:1, explain:"Read in context it's a rebuke, not a romantic poem." }
+        { q:"What is Paul without love?", opts:["Still useful","Less effective","Nothing"], correct:2, explain:"Even faith that moves mountains and giving everything away count for zero without it." },
+        { q:"How is love described?", opts:["In verbs","As a preference","As a feeling"], correct:0, explain:"Almost every phrase is an action or restraint, which makes it testable." },
+        { q:"Why is this chapter placed here?", opts:["Randomly","As a wedding reading","Between two chapters on spiritual gifts"], correct:2, explain:"Read in context it's a rebuke, not a romantic poem." }
       ],
       deepDive: "This chapter is read at weddings, and it was written to a church tearing itself apart. That context is the key to using it well. Paul lists the most impressive spiritual achievements available \u2014 tongues of angels, prophecy, mountain-moving faith, giving away everything, even martyrdom \u2014 and prices them all at zero without love. Then he defines love almost entirely in verbs, which makes it something you can actually audit. A useful and painful exercise: read verses 4\u20137 substituting your own name for \u2018love,\u2019 and notice which lines you can't say honestly. That's the chapter working as intended." },
     { id:314, book:"1 Corinthians", title:"If Christ has not been raised", side:"l",
@@ -1509,9 +1509,9 @@
         { ref: "1 Corinthians 15:3\u20134", text: "Christ died for our sins according to the Scriptures, that he was buried, that he was raised on the third day." }
       ],
       questions: [
-        { q:"What does Paul say if the resurrection didn't happen?", opts:["Faith still helps", "Preaching is useless, faith is futile, and Christians are most to be pitied", "It doesn't matter much"], correct:1, explain:"He refuses to let Christianity survive as inspiring symbolism." },
-        { q:"What evidence does he cite?", opts:["Feelings", "Eyewitnesses", "Ancient texts only"], correct:1, explain:"An open invitation to verify: go talk to them." },
-        { q:"What does \u2018firstfruits\u2019 imply?", opts:["A one-off event", "The first of a harvest", "A symbol only"], correct:1, explain:"His rising guarantees the rest; it's the opening of something, not an isolated miracle." }
+        { q:"What does Paul say if the resurrection didn't happen?", opts:["It doesn't matter much","Faith still helps","Preaching is useless, faith is futile, and Christians are most to be pitied"], correct:2, explain:"He refuses to let Christianity survive as inspiring symbolism." },
+        { q:"What evidence does he cite?", opts:["Feelings","Ancient texts only","Eyewitnesses"], correct:2, explain:"An open invitation to verify: go talk to them." },
+        { q:"What does \u2018firstfruits\u2019 imply?", opts:["A symbol only","The first of a harvest","A one-off event"], correct:1, explain:"His rising guarantees the rest; it's the opening of something, not an isolated miracle." }
       ],
       deepDive: "Paul does something unusual here: he stakes the entire faith on a historical claim and openly names the consequence if it's false. Not \u2018we'd still have good ethics\u2019 \u2014 our preaching is useless, your faith is futile, you are still in your sins, and we are the most pitiable people alive. That's an honest bet, and it's why the eyewitness list matters, with the pointed note that most of the five hundred were still living. Then the turn: firstfruits. His resurrection isn't an exception to death but the beginning of its undoing, which is why the chapter ends taunting the grave." },
     { id:315, book:"1 Corinthians", title:"Stand firm", side:"r",
@@ -1520,9 +1520,9 @@
         { ref: "1 Corinthians 15:58", text: "Stand firm. Let nothing move you. Always give yourselves fully to the work of the Lord, because you know that your labor in the Lord is not in vain." }
       ],
       questions: [
-        { q:"What follows the resurrection victory?", opts:["Rest", "A \u2018therefore\u2019", "Speculation"], correct:1, explain:"Paul's response to resurrection hope is always more effort, not less." },
-        { q:"What is promised about labor?", opts:["It will be easy", "It is not in vain", "It will be rewarded on earth"], correct:1, explain:"Because death doesn't get the last word, the work isn't erased." },
-        { q:"Where does the sting of death go?", opts:["It remains", "Swallowed up in victory through Jesus Christ", "It's ignored"], correct:1, explain:"Paul quotes Hosea and Isaiah to taunt a defeated enemy." }
+        { q:"What follows the resurrection victory?", opts:["Speculation","Rest","A \u2018therefore\u2019"], correct:2, explain:"Paul's response to resurrection hope is always more effort, not less." },
+        { q:"What is promised about labor?", opts:["It will be rewarded on earth","It will be easy","It is not in vain"], correct:2, explain:"Because death doesn't get the last word, the work isn't erased." },
+        { q:"Where does the sting of death go?", opts:["Swallowed up in victory through Jesus Christ","It remains","It's ignored"], correct:0, explain:"Paul quotes Hosea and Isaiah to taunt a defeated enemy." }
       ],
       deepDive: "It's easy to miss the logic of verse 58, and it's the most practical thing in the chapter. Paul has just spent fifty-seven verses on resurrection \u2014 and his conclusion isn't \u2018so relax\u2019 or \u2018so speculate about the end times.\u2019 It's: stand firm, don't be moved, work fully, because your labor is not in vain. If death ends everything, most of what we do genuinely does evaporate. If it doesn't, the small faithful things \u2014 the unnoticed service, the years of quiet obedience \u2014 are permanent. Resurrection makes ordinary work matter, which is a stranger and more useful conclusion than most people draw from it." },
     { id:316, book:"2 Corinthians", title:"Comfort in affliction", side:"c",
@@ -1531,9 +1531,9 @@
         { ref: "2 Corinthians 1:3\u20134", text: "The God of all comfort, who comforts us in all our troubles, so that we can comfort those in any trouble." }
       ],
       questions: [
-        { q:"What is comfort given for?", opts:["Private relief only", "To be passed on", "To end all suffering"], correct:1, explain:"Comfort in Paul is a supply line, not a terminus." },
-        { q:"How does Paul describe his own experience?", opts:["Manageable", "Beyond his ability to endure", "Mildly difficult"], correct:1, explain:"The great apostle names despair without apology or spin." },
-        { q:"What was the stated purpose of that pressure?", opts:["Punishment", "So he would rely not on himself but on God who raises the dead", "No purpose"], correct:1, explain:"Self-reliance was the thing being dismantled." }
+        { q:"What is comfort given for?", opts:["To end all suffering","To be passed on","Private relief only"], correct:1, explain:"Comfort in Paul is a supply line, not a terminus." },
+        { q:"How does Paul describe his own experience?", opts:["Mildly difficult","Beyond his ability to endure","Manageable"], correct:1, explain:"The great apostle names despair without apology or spin." },
+        { q:"What was the stated purpose of that pressure?", opts:["No purpose","Punishment","So he would rely not on himself but on God who raises the dead"], correct:2, explain:"Self-reliance was the thing being dismantled." }
       ],
       deepDive: "2 Corinthians is Paul at his most exposed \u2014 defending his ministry to a church that had started doubting him \u2014 and it opens with a theology of suffering that has carried people ever since. Two things stand out. First, his honesty: beyond our ability to endure, despairing of life itself. That sentence is in Scripture, written by an apostle, which should end the idea that faith means never reaching your limit. Second, the economy of comfort: what God gives you in trouble is meant to be handed on to someone else in theirs. Your worst season is often somebody else's future lifeline." },
     { id:317, book:"2 Corinthians", title:"Treasure in jars of clay", side:"l",
@@ -1542,9 +1542,9 @@
         { ref: "2 Corinthians 4:7", text: "But we have this treasure in jars of clay to show that this all-surpassing power is from God and not from us." }
       ],
       questions: [
-        { q:"Why does God use \u2018jars of clay\u2019?", opts:["He has no better option", "So the power is obviously His and not ours", "To keep us humble by shaming us"], correct:1, explain:"Cheap, breakable containers make the contents unmistakable." },
-        { q:"What pattern runs through 4:8\u20139?", opts:["No trouble at all", "Real pressure with a limit", "Total defeat"], correct:1, explain:"Paul never denies the affliction; he denies its final power." },
-        { q:"What is happening while we \u2018waste away\u2019?", opts:["Nothing", "Inward renewal, day by day", "Only decline"], correct:1, explain:"Two processes at once, running in opposite directions." }
+        { q:"Why does God use \u2018jars of clay\u2019?", opts:["To keep us humble by shaming us","So the power is obviously His and not ours","He has no better option"], correct:1, explain:"Cheap, breakable containers make the contents unmistakable." },
+        { q:"What pattern runs through 4:8\u20139?", opts:["Real pressure with a limit","Total defeat","No trouble at all"], correct:0, explain:"Paul never denies the affliction; he denies its final power." },
+        { q:"What is happening while we \u2018waste away\u2019?", opts:["Nothing","Inward renewal, day by day","Only decline"], correct:1, explain:"Two processes at once, running in opposite directions." }
       ],
       deepDive: "Jars of clay were the disposable containers of the ancient world \u2014 cheap, common, easily broken. Paul says that's what we are, and that God chose it deliberately so nobody confuses the container with the contents. That reframes weakness: your limitations aren't disqualifying, they're the design. The four contrasts that follow are worth memorizing because each one has a hard truth and a hard limit \u2014 pressed, perplexed, persecuted, struck down, and then not crushed, not despairing, not abandoned, not destroyed. And 'light and momentary troubles' is written by a man who was flogged five times. He's not minimizing. He's comparing." },
     { id:318, book:"2 Corinthians", title:"A new creation", side:"r",
@@ -1553,9 +1553,9 @@
         { ref: "2 Corinthians 5:17", text: "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!" }
       ],
       questions: [
-        { q:"What does \u2018new creation\u2019 describe?", opts:["Self-improvement", "Something made new by God", "A fresh resolution"], correct:1, explain:"Creation language: not a renovation project but a new thing brought into being." },
-        { q:"What role are believers given?", opts:["Spectators", "Ambassadors", "Judges"], correct:1, explain:"An ambassador carries someone else's message with that person's authority." },
-        { q:"What is the great exchange in 5:21?", opts:["Nothing changes", "He became sin for us; we become God's righteousness in Him", "We earn righteousness"], correct:1, explain:"The clearest single verse on substitution in the New Testament." }
+        { q:"What does \u2018new creation\u2019 describe?", opts:["Self-improvement","A fresh resolution","Something made new by God"], correct:2, explain:"Creation language: not a renovation project but a new thing brought into being." },
+        { q:"What role are believers given?", opts:["Judges","Ambassadors","Spectators"], correct:1, explain:"An ambassador carries someone else's message with that person's authority." },
+        { q:"What is the great exchange in 5:21?", opts:["Nothing changes","We earn righteousness","He became sin for us; we become God's righteousness in Him"], correct:2, explain:"The clearest single verse on substitution in the New Testament." }
       ],
       deepDive: "This passage moves from motive to identity to mission in a few sentences. The motive is Christ's love, which \u2018compels\u2019 \u2014 the word means to press in from all sides. The identity is new creation, and the phrase is stronger than most translations suggest: not \u2018he is a new creature\u2019 but \u2018new creation \u2014 here.\u2019 Something has begun. Then the mission: ambassadors, carrying an appeal that isn't ours. And verse 21 is the engine under all of it, one of the most compressed statements of the gospel anywhere: the sinless one treated as sin, so that sinners could be counted righteous. Everything else in the paragraph rests on that trade." },
     { id:319, book:"2 Corinthians", title:"My grace is sufficient", side:"c",
@@ -1564,9 +1564,9 @@
         { ref: "2 Corinthians 12:9", text: "My grace is sufficient for you, for my power is made perfect in weakness." }
       ],
       questions: [
-        { q:"How did God answer Paul's three prayers?", opts:["He removed the thorn", "He refused, and gave sufficient grace instead", "He was silent"], correct:1, explain:"A clear no, with something better attached \u2014 which Paul then treats as the answer." },
-        { q:"What does Paul boast about?", opts:["His visions", "His weaknesses, hardships, and failures", "His converts"], correct:1, explain:"He deliberately inverts the credentials his rivals were parading." },
-        { q:"Why is weakness useful?", opts:["It isn't", "God's power is made perfect", "It earns sympathy"], correct:1, explain:"Not that weakness is good in itself, but that it's where His strength shows." }
+        { q:"How did God answer Paul's three prayers?", opts:["He refused, and gave sufficient grace instead","He removed the thorn","He was silent"], correct:0, explain:"A clear no, with something better attached \u2014 which Paul then treats as the answer." },
+        { q:"What does Paul boast about?", opts:["His weaknesses, hardships, and failures","His converts","His visions"], correct:0, explain:"He deliberately inverts the credentials his rivals were parading." },
+        { q:"Why is weakness useful?", opts:["It earns sympathy","It isn't","God's power is made perfect"], correct:2, explain:"Not that weakness is good in itself, but that it's where His strength shows." }
       ],
       deepDive: "Whatever the thorn was \u2014 Paul never says, and the guesses run from eye trouble to opposition \u2014 the important thing is that it stayed. He prayed three times, which is the same number as Gethsemane, and got a no. But the no came with a sentence that has held up millions of people since: my grace is sufficient for you. Not \u2018my grace will remove this\u2019 but \u2018my grace is enough for the version of your life that includes this.\u2019 And Paul's response is the strangest turn in his letters: he stops asking and starts boasting, because the unanswered prayer became the place God's power was most visible." },
         { id:389, book:"2 Corinthians", title:"The ministry of reconciliation", side:"c",
@@ -1575,9 +1575,9 @@
         { ref: "2 Corinthians 5:19", text: "God was reconciling the world to himself in Christ, not counting people\u2019s sins against them. And he has committed to us the message of reconciliation." }
       ],
       questions: [
-        { q:"What does it mean God is \u2018not counting people's sins against them\u2019?", opts:["Sin doesn't matter", "The debt has been dealt with elsewhere", "Everyone is automatically saved"], correct:1, explain:"The accounting has been settled through Christ, which is the basis of the reconciliation offered." },
-        { q:"What has been committed to believers?", opts:["Judgment", "The message of reconciliation", "Wealth"], correct:1, explain:"Ambassadors carrying an appeal that isn't theirs to alter." },
-        { q:"What paradoxes does Paul list about his own ministry?", opts:["None", "Sorrowful yet rejoicing, poor yet making many rich, having nothing yet possessing everything", "Only hardships"], correct:1, explain:"His life doesn't resolve into one simple category; both halves of each pair are true at once." }
+        { q:"What does it mean God is \u2018not counting people's sins against them\u2019?", opts:["Everyone is automatically saved","The debt has been dealt with elsewhere","Sin doesn't matter"], correct:1, explain:"The accounting has been settled through Christ, which is the basis of the reconciliation offered." },
+        { q:"What has been committed to believers?", opts:["Wealth","Judgment","The message of reconciliation"], correct:2, explain:"Ambassadors carrying an appeal that isn't theirs to alter." },
+        { q:"What paradoxes does Paul list about his own ministry?", opts:["Only hardships","Sorrowful yet rejoicing, poor yet making many rich, having nothing yet possessing everything","None"], correct:1, explain:"His life doesn't resolve into one simple category; both halves of each pair are true at once." }
       ],
       deepDive: "This passage names the core Christian mission in a single phrase \u2014 the ministry of reconciliation \u2014 and grounds it in something already accomplished, not something believers must achieve. God reconciled the world in Christ; the task handed to ordinary people is simply to carry that news, as ambassadors relaying someone else's completed work. And Paul's list of paradoxes at the end of the chapter is worth sitting with: it refuses to let hardship or blessing tell the whole story on their own. Sorrowful yet always rejoicing isn't contradiction \u2014 it's what a life fully invested in something larger than its circumstances actually looks like from the outside." },
     { id:390, book:"2 Corinthians", title:"God loves a cheerful giver", side:"l",
@@ -1586,9 +1586,9 @@
         { ref: "2 Corinthians 9:7", text: "Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver." }
       ],
       questions: [
-        { q:"What was remarkable about the Macedonians' giving?", opts:["Their wealth", "Extreme poverty combined with rich, overflowing generosity", "Their reluctance"], correct:1, explain:"Generosity that flowed out of hardship rather than abundance." },
-        { q:"What did the Macedonians give first?", opts:["Money", "Themselves, to the Lord", "Nothing"], correct:1, explain:"Financial giving followed a prior, deeper surrender." },
-        { q:"What example does Paul use to motivate generosity?", opts:["Guilt about wealth", "Christ, who became poor so that others might become rich", "Social pressure"], correct:1, explain:"The theology of giving is rooted in the incarnation and the cross, not obligation." }
+        { q:"What was remarkable about the Macedonians' giving?", opts:["Their reluctance","Their wealth","Extreme poverty combined with rich, overflowing generosity"], correct:2, explain:"Generosity that flowed out of hardship rather than abundance." },
+        { q:"What did the Macedonians give first?", opts:["Themselves, to the Lord","Money","Nothing"], correct:0, explain:"Financial giving followed a prior, deeper surrender." },
+        { q:"What example does Paul use to motivate generosity?", opts:["Social pressure","Guilt about wealth","Christ, who became poor so that others might become rich"], correct:2, explain:"The theology of giving is rooted in the incarnation and the cross, not obligation." }
       ],
       deepDive: "These two chapters are the New Testament's fullest teaching on giving, and their logic runs counter to almost every fundraising instinct. Paul doesn't shame the Corinthians into giving by comparing budgets; he tells a story about churches so poor they had to beg for the privilege of contributing, and about a Savior who became poor so others could become rich. Generosity here isn't extracted through guilt but modeled through grace. And the closing principle protects against manipulation entirely: give what you've decided in your heart, not reluctantly or under compulsion. A cheerful giver, not a pressured one, is what God is described as loving." },
     { id:391, book:"2 Corinthians", title:"Not by human standards", side:"r",
@@ -1597,9 +1597,9 @@
         { ref: "2 Corinthians 10:4\u20135", text: "The weapons we fight with are not the weapons of the world. On the contrary, they have divine power to demolish strongholds." }
       ],
       questions: [
-        { q:"What kind of warfare does Paul describe?", opts:["Military conquest", "Spiritual", "Political influence"], correct:1, explain:"The battlefield is the mind and its ideas, not physical territory." },
-        { q:"What is taken captive in this battle?", opts:["Enemies", "Every thought", "Cities"], correct:1, explain:"An inward, intellectual and spiritual campaign rather than an outward one." },
-        { q:"What does Paul say his weapons are not?", opts:["Effective", "Of the world", "Available to everyone"], correct:1, explain:"The source of the power is explicitly not human strategy or force." }
+        { q:"What kind of warfare does Paul describe?", opts:["Military conquest","Spiritual","Political influence"], correct:1, explain:"The battlefield is the mind and its ideas, not physical territory." },
+        { q:"What is taken captive in this battle?", opts:["Enemies","Every thought","Cities"], correct:1, explain:"An inward, intellectual and spiritual campaign rather than an outward one." },
+        { q:"What does Paul say his weapons are not?", opts:["Of the world","Available to everyone","Effective"], correct:0, explain:"The source of the power is explicitly not human strategy or force." }
       ],
       deepDive: "Paul was being measured against rivals who impressed with rhetoric, credentials, and confident presence, and his response reframes the whole contest. The real battle isn't about who seems more impressive; it's about strongholds of thought and pretension that stand against the knowledge of God, and the weapons for that fight aren't cleverness or force but something with divine power behind it. 'Taking every thought captive' has become a common phrase, and it's worth its plain meaning: examining what you actually believe and let run unchecked in your mind, and holding it up against Christ rather than assuming every thought that occurs to you deserves obedience." },
     { id:320, book:"Galatians", title:"No other gospel", side:"l",
@@ -1608,9 +1608,9 @@
         { ref: "Galatians 1:10", text: "Am I now trying to win the approval of human beings, or of God? Or am I trying to please people?" }
       ],
       questions: [
-        { q:"What was the \u2018different gospel\u2019?", opts:["Atheism", "Faith in Christ PLUS law-keeping as necessary for acceptance", "Paganism"], correct:1, explain:"Adding a requirement to grace, which Paul says destroys it entirely." },
-        { q:"How strongly does Paul react?", opts:["Mildly", "He skips his thanksgiving and pronounces a curse on any other gospel", "He suggests a compromise"], correct:1, explain:"The only letter where he omits thanksgiving; the stakes were that high." },
-        { q:"What did Paul do about Peter?", opts:["Wrote privately", "Opposed him to his face, publicly", "Ignored it"], correct:1, explain:"Peter's withdrawal from Gentile tables contradicted the gospel in practice." }
+        { q:"What was the \u2018different gospel\u2019?", opts:["Paganism","Faith in Christ PLUS law-keeping as necessary for acceptance","Atheism"], correct:1, explain:"Adding a requirement to grace, which Paul says destroys it entirely." },
+        { q:"How strongly does Paul react?", opts:["Mildly","He skips his thanksgiving and pronounces a curse on any other gospel","He suggests a compromise"], correct:1, explain:"The only letter where he omits thanksgiving; the stakes were that high." },
+        { q:"What did Paul do about Peter?", opts:["Wrote privately","Ignored it","Opposed him to his face, publicly"], correct:2, explain:"Peter's withdrawal from Gentile tables contradicted the gospel in practice." }
       ],
       deepDive: "Galatians is the angriest letter in the New Testament, and the anger is worth understanding. The false teachers weren't denying Christ \u2014 they were adding to Him. Believe in Jesus, and also do this. Paul treats that addition as fatal, because a gospel of Christ-plus-anything makes the plus the real hinge. That's why even Peter got confronted publicly: his table habits were preaching a different message than his theology. The question in 1:10 is the one to carry out of this chapter \u2014 whose approval is actually driving your decisions? Paul says you cannot serve both audiences." },
     { id:321, book:"Galatians", title:"Crucified with Christ", side:"r",
@@ -1619,9 +1619,9 @@
         { ref: "Galatians 2:20", text: "I have been crucified with Christ and I no longer live, but Christ lives in me." }
       ],
       questions: [
-        { q:"What's the logic of \u2018Christ died for nothing\u2019?", opts:["A minor point", "If law-keeping could make us righteous, the cross was unnecessary", "It's hypothetical only"], correct:1, explain:"Paul's sharpest argument: adding requirements makes the crucifixion pointless." },
-        { q:"How does Paul describe his own life?", opts:["Self-improved", "Crucified with Christ", "Unchanged"], correct:1, explain:"Not a better version of the old self but a death and a new occupant." },
-        { q:"How personal is 2:20?", opts:["Abstract", "Deeply personal", "Corporate only"], correct:1, explain:"Paul narrows the cosmic gospel to first-person singular." }
+        { q:"What's the logic of \u2018Christ died for nothing\u2019?", opts:["A minor point","It's hypothetical only","If law-keeping could make us righteous, the cross was unnecessary"], correct:2, explain:"Paul's sharpest argument: adding requirements makes the crucifixion pointless." },
+        { q:"How does Paul describe his own life?", opts:["Crucified with Christ","Unchanged","Self-improved"], correct:0, explain:"Not a better version of the old self but a death and a new occupant." },
+        { q:"How personal is 2:20?", opts:["Corporate only","Deeply personal","Abstract"], correct:1, explain:"Paul narrows the cosmic gospel to first-person singular." }
       ],
       deepDive: "Galatians 2:20 is one of the most quoted verses in the New Testament, and its two halves need each other. \u2018I have been crucified with Christ\u2019 is past tense and settled \u2014 the old self's claim to run things has been executed. \u2018Christ lives in me\u2019 is present and ongoing. And then the personal pronouns land: who loved me and gave himself for me. Paul, who persecuted the church, writes that in the singular. The chapter's closing argument is unanswerable and worth applying to any subtle legalism you carry: if you could get there by trying, the cross was a waste." },
     { id:322, book:"Galatians", title:"The fruit of the Spirit", side:"c",
@@ -1630,9 +1630,9 @@
         { ref: "Galatians 5:22\u201323", text: "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control." }
       ],
       questions: [
-        { q:"Why \u2018fruit\u2019 and not \u2018works\u2019?", opts:["Stylistic choice", "Fruit grows from life within", "It's easier"], correct:1, explain:"The contrast with \u2018acts of the flesh\u2019 is deliberate: one is done, one grows." },
-        { q:"Singular or plural?", opts:["Nine separate fruits", "Singular \u2018fruit\u2019", "Unclear"], correct:1, explain:"Not a menu to pick from; they develop as a set in a Spirit-led life." },
-        { q:"What is freedom for?", opts:["Doing whatever you want", "Serving one another humbly in love", "Avoiding all rules"], correct:1, explain:"Paul immediately guards freedom from becoming self-indulgence." }
+        { q:"Why \u2018fruit\u2019 and not \u2018works\u2019?", opts:["Fruit grows from life within","Stylistic choice","It's easier"], correct:0, explain:"The contrast with \u2018acts of the flesh\u2019 is deliberate: one is done, one grows." },
+        { q:"Singular or plural?", opts:["Nine separate fruits","Unclear","Singular \u2018fruit\u2019"], correct:2, explain:"Not a menu to pick from; they develop as a set in a Spirit-led life." },
+        { q:"What is freedom for?", opts:["Doing whatever you want","Serving one another humbly in love","Avoiding all rules"], correct:1, explain:"Paul immediately guards freedom from becoming self-indulgence." }
       ],
       deepDive: "The word choice does the teaching. Paul lists the acts of the flesh \u2014 things people do \u2014 and then the fruit of the Spirit, which is something that grows. You can't strain your way into joy or manufacture patience by effort; fruit appears where there's life, roots, and time. That's the whole letter's argument applied to character: the law can tell you what a good tree looks like, but only the Spirit grows one. Notice too that it's singular. Not nine options to specialize in \u2014 one cluster. And it ends with self-control, which quietly answers everyone who worries that grace makes people careless." },
     { id:323, book:"Ephesians", title:"Chosen before the world began", side:"l",
@@ -1641,9 +1641,9 @@
         { ref: "Ephesians 1:4", text: "For he chose us in him before the creation of the world to be holy and blameless in his sight." }
       ],
       questions: [
-        { q:"When were believers chosen?", opts:["When they believed", "Before the creation of the world", "At baptism"], correct:1, explain:"The decision predates the universe, which removes it from the realm of merit." },
-        { q:"What image describes our new status?", opts:["Employment", "Adoption to sonship", "Citizenship only"], correct:1, explain:"Roman adoption conferred permanent legal status, including inheritance." },
-        { q:"What is God's stated purpose?", opts:["Individual comfort", "To bring unity to all things in heaven and on earth under Christ", "Judgment"], correct:1, explain:"A cosmic aim \u2014 the whole fractured creation gathered under one head." }
+        { q:"When were believers chosen?", opts:["Before the creation of the world","At baptism","When they believed"], correct:0, explain:"The decision predates the universe, which removes it from the realm of merit." },
+        { q:"What image describes our new status?", opts:["Adoption to sonship","Citizenship only","Employment"], correct:0, explain:"Roman adoption conferred permanent legal status, including inheritance." },
+        { q:"What is God's stated purpose?", opts:["Individual comfort","Judgment","To bring unity to all things in heaven and on earth under Christ"], correct:2, explain:"A cosmic aim \u2014 the whole fractured creation gathered under one head." }
       ],
       deepDive: "Ephesians 1 is one sentence in Greek, and it reads like someone who started praising and couldn't find a place to stop. Its subject is what God did before you existed: chose, predestined, adopted, redeemed, forgave, made known. Every verb belongs to Him. That can feel abstract until you notice why Paul says it \u2014 he's writing to make people secure. If your standing began before creation and rests on His will rather than your performance, then your worst week doesn't destabilize it. And the horizon is enormous: not just individuals saved but all things in heaven and earth brought together under Christ." },
     { id:324, book:"Ephesians", title:"By grace, through faith", side:"r",
@@ -1652,9 +1652,9 @@
         { ref: "Ephesians 2:8\u20139", text: "For it is by grace you have been saved, through faith \u2014 and this is not from yourselves, it is the gift of God \u2014 not by works, so that no one can boast." }
       ],
       questions: [
-        { q:"What was our condition?", opts:["Sick", "Dead in transgressions", "Confused"], correct:1, explain:"Dead people don't improve; they need to be made alive, which is the point." },
-        { q:"Where do good works fit?", opts:["They save us", "They're the result", "They're irrelevant"], correct:1, explain:"Verse 10 keeps grace from becoming an excuse: saved for good works, not by them." },
-        { q:"Why is boasting excluded?", opts:["It's rude", "Nothing in salvation originated with us", "Boasting is allowed"], correct:1, explain:"The design of grace makes credit impossible." }
+        { q:"What was our condition?", opts:["Sick","Dead in transgressions","Confused"], correct:1, explain:"Dead people don't improve; they need to be made alive, which is the point." },
+        { q:"Where do good works fit?", opts:["They're the result","They save us","They're irrelevant"], correct:0, explain:"Verse 10 keeps grace from becoming an excuse: saved for good works, not by them." },
+        { q:"Why is boasting excluded?", opts:["Nothing in salvation originated with us","It's rude","Boasting is allowed"], correct:0, explain:"The design of grace makes credit impossible." }
       ],
       deepDive: "These are among the best-known verses in the New Testament, and verse 10 belongs with them. Paul draws the line hard: dead people, made alive by grace, through faith, as a gift, with no room for boasting. Then immediately: created in Christ Jesus to do good works, prepared in advance. Works aren't the root of salvation; they're the fruit of it, and they were waiting for you before you arrived. The chapter goes on to make it corporate too \u2014 Jew and Gentile made one, the dividing wall of hostility destroyed \u2014 because in Ephesians, grace doesn't just save individuals, it builds one new humanity." },
     { id:325, book:"Ephesians", title:"Rooted and established in love", side:"c",
@@ -1663,9 +1663,9 @@
         { ref: "Ephesians 3:17\u201319", text: "That you\u2026 may have power to grasp how wide and long and high and deep is the love of Christ, and to know this love that surpasses knowledge." }
       ],
       questions: [
-        { q:"What does Paul pray they'd receive power to do?", opts:["Perform miracles", "Grasp the dimensions of Christ's love", "Win arguments"], correct:1, explain:"He treats comprehending love as requiring supernatural strength \u2014 which it does." },
-        { q:"What's the paradox in \u2018know this love that surpasses knowledge\u2019?", opts:["A contradiction", "It can be truly known and never exhausted", "A translation error"], correct:1, explain:"Real knowledge of something infinitely larger than your capacity." },
-        { q:"What is God able to do?", opts:["What we ask", "Immeasurably more than all we ask or imagine", "Only what's reasonable"], correct:1, explain:"The doxology stretches past the limits of the request and the imagination." }
+        { q:"What does Paul pray they'd receive power to do?", opts:["Win arguments","Perform miracles","Grasp the dimensions of Christ's love"], correct:2, explain:"He treats comprehending love as requiring supernatural strength \u2014 which it does." },
+        { q:"What's the paradox in \u2018know this love that surpasses knowledge\u2019?", opts:["It can be truly known and never exhausted","A contradiction","A translation error"], correct:0, explain:"Real knowledge of something infinitely larger than your capacity." },
+        { q:"What is God able to do?", opts:["Only what's reasonable","Immeasurably more than all we ask or imagine","What we ask"], correct:1, explain:"The doxology stretches past the limits of the request and the imagination." }
       ],
       deepDive: "Notice what Paul asks for. Not easier circumstances, not resolved problems \u2014 inner strength to comprehend love. He seems to believe the deepest human need is to actually grasp how loved you are, and that this requires the Spirit's power because the information alone never lands. The four dimensions are a way of saying it has no measurable edge, and \u2018know this love that surpasses knowledge\u2019 is deliberately impossible: you can genuinely know it and never get to the end. If your faith has become mostly duty, this prayer is the one to pray for yourself." },
     { id:326, book:"Ephesians", title:"The armor of God", side:"l",
@@ -1674,9 +1674,9 @@
         { ref: "Ephesians 6:12", text: "For our struggle is not against flesh and blood, but against\u2026 the spiritual forces of evil in the heavenly realms." }
       ],
       questions: [
-        { q:"Who is the real opponent?", opts:["Difficult people", "Spiritual forces", "Ourselves only"], correct:1, explain:"Which reframes the person across the table as not actually the enemy." },
-        { q:"Whose armor is it?", opts:["Ours, self-made", "God's", "The church's"], correct:1, explain:"Every piece is something He supplies; the action required is putting it on." },
-        { q:"What's the one offensive weapon?", opts:["The shield", "The sword of the Spirit", "The helmet"], correct:1, explain:"Everything else protects; Scripture is what you advance with." }
+        { q:"Who is the real opponent?", opts:["Ourselves only","Difficult people","Spiritual forces"], correct:2, explain:"Which reframes the person across the table as not actually the enemy." },
+        { q:"Whose armor is it?", opts:["God's","The church's","Ours, self-made"], correct:0, explain:"Every piece is something He supplies; the action required is putting it on." },
+        { q:"What's the one offensive weapon?", opts:["The helmet","The shield","The sword of the Spirit"], correct:2, explain:"Everything else protects; Scripture is what you advance with." }
       ],
       deepDive: "Paul was likely chained to a Roman soldier while dictating this, which makes the image immediate. Two things are easy to miss. First, the armor is God's, not ours \u2014 truth, righteousness, peace, faith, salvation, and His word are all things He supplies; our part is putting them on daily rather than manufacturing them. Second, the enemy identification is pastorally enormous: your struggle is not against flesh and blood. The coworker, the family member, the person online \u2014 not the enemy. And the passage ends where it should: prayer, on all occasions, which is how any of the armor actually gets used." },
     { id:327, book:"Philippians", title:"Joy from a prison cell", side:"r",
@@ -1685,9 +1685,9 @@
         { ref: "Philippians 1:6", text: "Being confident of this, that he who began a good work in you will carry it on to completion until the day of Christ Jesus." }
       ],
       questions: [
-        { q:"Where was Paul writing from?", opts:["A comfortable home", "Prison", "A ship"], correct:1, explain:"\u2018Rejoice\u2019 and its variants appear over a dozen times in four chapters written in custody." },
-        { q:"Who completes the good work?", opts:["We do", "He who began it", "Nobody"], correct:1, explain:"The confidence is in the worker, not the material." },
-        { q:"How did Paul view rivals preaching from envy?", opts:["He shut them down", "He rejoiced that Christ was preached regardless", "He ignored them"], correct:1, explain:"His own reputation mattered less to him than the message getting out." }
+        { q:"Where was Paul writing from?", opts:["A ship","A comfortable home","Prison"], correct:2, explain:"\u2018Rejoice\u2019 and its variants appear over a dozen times in four chapters written in custody." },
+        { q:"Who completes the good work?", opts:["Nobody","He who began it","We do"], correct:1, explain:"The confidence is in the worker, not the material." },
+        { q:"How did Paul view rivals preaching from envy?", opts:["He shut them down","He ignored them","He rejoiced that Christ was preached regardless"], correct:2, explain:"His own reputation mattered less to him than the message getting out." }
       ],
       deepDive: "Philippians is the joy letter, and it was written in chains \u2014 which is what gives it authority. Paul isn't describing joy from a comfortable study; he's demonstrating that it doesn't depend on circumstances. The confidence in 1:6 has steadied countless people who feel like unfinished projects: the one who started the work is committed to finishing it, and the completion date is His, not yours. And his attitude toward rivals is a quiet rebuke to anyone protective of their platform \u2014 people preaching Christ to spite him, and he says fine, Christ is preached, I rejoice." },
     { id:328, book:"Philippians", title:"He humbled himself", side:"c",
@@ -1696,9 +1696,9 @@
         { ref: "Philippians 2:5\u20138", text: "He made himself nothing by taking the very nature of a servant\u2026 he humbled himself by becoming obedient to death \u2014 even death on a cross!" }
       ],
       questions: [
-        { q:"Why does Paul quote this hymn?", opts:["To settle a doctrinal dispute", "To fix a relational one", "As a creed only"], correct:1, explain:"The highest Christology in the New Testament is deployed to stop petty conflict." },
-        { q:"What direction does the passage move?", opts:["Upward only", "Down", "Sideways"], correct:1, explain:"A descent to the lowest point, then exaltation; the order is the argument." },
-        { q:"What did He not consider something to exploit?", opts:["His power", "Equality with God", "His reputation"], correct:1, explain:"He had every right and declined to leverage it." }
+        { q:"Why does Paul quote this hymn?", opts:["To fix a relational one","As a creed only","To settle a doctrinal dispute"], correct:0, explain:"The highest Christology in the New Testament is deployed to stop petty conflict." },
+        { q:"What direction does the passage move?", opts:["Down","Upward only","Sideways"], correct:0, explain:"A descent to the lowest point, then exaltation; the order is the argument." },
+        { q:"What did He not consider something to exploit?", opts:["His power","Equality with God","His reputation"], correct:1, explain:"He had every right and declined to leverage it." }
       ],
       deepDive: "This is probably an early Christian hymn, and it contains the loftiest statement about Christ's nature in the New Testament \u2014 which Paul quotes to solve an argument between two women in a small church. That's worth sitting with. The theology isn't decoration; it's the fix. The movement is relentlessly downward: equality with God, then nothing, then servant, then human, then obedient, then death, then \u2014 the lowest rung \u2014 a cross. Only then does God exalt Him. The pattern being described is also being prescribed: this is the mindset you're to have with each other." },
     { id:329, book:"Philippians", title:"I have learned to be content", side:"l",
@@ -1707,9 +1707,9 @@
         { ref: "Philippians 4:6\u20137", text: "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God." }
       ],
       questions: [
-        { q:"What's the alternative to anxiety?", opts:["Positive thinking", "Prayer with thanksgiving", "Distraction"], correct:1, explain:"Not suppression but transfer: the worry goes somewhere." },
-        { q:"How did Paul come by contentment?", opts:["Naturally", "He LEARNED it", "He was never in need"], correct:1, explain:"A skill acquired over time and hard circumstances, not a temperament." },
-        { q:"What does \u2018I can do all this\u2019 refer to?", opts:["Any ambition", "Being content in every circumstance", "Athletic success"], correct:1, explain:"The famous verse is about enduring plenty and hunger, not achieving whatever you want." }
+        { q:"What's the alternative to anxiety?", opts:["Prayer with thanksgiving","Positive thinking","Distraction"], correct:0, explain:"Not suppression but transfer: the worry goes somewhere." },
+        { q:"How did Paul come by contentment?", opts:["He LEARNED it","He was never in need","Naturally"], correct:0, explain:"A skill acquired over time and hard circumstances, not a temperament." },
+        { q:"What does \u2018I can do all this\u2019 refer to?", opts:["Being content in every circumstance","Athletic success","Any ambition"], correct:0, explain:"The famous verse is about enduring plenty and hunger, not achieving whatever you want." }
       ],
       deepDive: "Two of the most quoted verses in the Bible sit here, and both are usually detached from their setting. \u2018Do not be anxious\u2019 isn't a scolding \u2014 it comes with a mechanism: specific requests, with thanksgiving, handed over, followed by a peace that guards you like a garrison. And 4:13 is not a promise that you can accomplish anything you set your mind to; read the sentence before it. The \u2018all this\u2019 is contentment in hunger and in plenty, in need and in abundance. That's a far better promise than the motivational version, because it applies on the days when nothing is going your way." },
     { id:330, book:"Philippians", title:"Whatever is true", side:"r",
@@ -1718,9 +1718,9 @@
         { ref: "Philippians 4:8", text: "Whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable\u2026 think about such things." }
       ],
       questions: [
-        { q:"What does Paul do about the two women's conflict?", opts:["Ignores it", "Names them publicly and asks the church to help them reconcile", "Removes them"], correct:1, explain:"A local disagreement preserved in Scripture forever \u2014 and treated as worth the church's effort." },
-        { q:"What is 4:8 asking for?", opts:["Positive thinking", "Deliberate direction of attention", "Ignoring problems"], correct:1, explain:"A discipline of focus, not denial of reality; \u2018whatever is true\u2019 heads the list." },
-        { q:"What accompanies the call to gentleness?", opts:["A warning", "\u2018The Lord is near\u2019", "A rule"], correct:1, explain:"Nearness is the reason gentleness is possible \u2014 you're not managing alone." }
+        { q:"What does Paul do about the two women's conflict?", opts:["Removes them","Names them publicly and asks the church to help them reconcile","Ignores it"], correct:1, explain:"A local disagreement preserved in Scripture forever \u2014 and treated as worth the church's effort." },
+        { q:"What is 4:8 asking for?", opts:["Positive thinking","Ignoring problems","Deliberate direction of attention"], correct:2, explain:"A discipline of focus, not denial of reality; \u2018whatever is true\u2019 heads the list." },
+        { q:"What accompanies the call to gentleness?", opts:["A warning","A rule","\u2018The Lord is near\u2019"], correct:2, explain:"Nearness is the reason gentleness is possible \u2014 you're not managing alone." }
       ],
       deepDive: "The most striking thing in Philippians 4 is that a letter about joy and peace stops to name two arguing women. Paul doesn't treat interpersonal conflict as beneath theology; he treats it as the place theology gets tested. Then comes the attention discipline, and the first word in the list is \u2018true\u2019 \u2014 this is not wishful thinking or denial, but a decision about where the mind camps. Most people's mental default settles on the anxious, the resented, and the replayed. Paul says that's a choice, and a different one is available, especially for a mind that has just handed its anxieties over in prayer." },
     { id:331, book:"Colossians", title:"The supremacy of Christ", side:"c",
@@ -1729,9 +1729,9 @@
         { ref: "Colossians 1:16\u201317", text: "For in him all things were created\u2026 He is before all things, and in him all things hold together." }
       ],
       questions: [
-        { q:"What does \u2018image of the invisible God\u2019 claim?", opts:["A resemblance", "That looking at Christ is how the unseen God is seen", "A metaphor only"], correct:1, explain:"Not a copy but the visible expression of God's own nature." },
-        { q:"What holds creation together?", opts:["Physical laws alone", "Christ", "Nothing"], correct:1, explain:"Sustaining, not just starting: the universe is actively held." },
-        { q:"How was reconciliation made?", opts:["By teaching", "By making peace through his blood, shed on the cross", "By example"], correct:1, explain:"The cosmic claims land on a very physical event." }
+        { q:"What does \u2018image of the invisible God\u2019 claim?", opts:["That looking at Christ is how the unseen God is seen","A metaphor only","A resemblance"], correct:0, explain:"Not a copy but the visible expression of God's own nature." },
+        { q:"What holds creation together?", opts:["Christ","Nothing","Physical laws alone"], correct:0, explain:"Sustaining, not just starting: the universe is actively held." },
+        { q:"How was reconciliation made?", opts:["By making peace through his blood, shed on the cross","By teaching","By example"], correct:0, explain:"The cosmic claims land on a very physical event." }
       ],
       deepDive: "Colossians was written against teaching that made Christ one spiritual authority among many \u2014 angels, mystical experiences, dietary rules. Paul's answer is to make Him so large that nothing else can share the frame: creator of everything visible and invisible, before all things, the one in whom everything currently holds together, head of the church, the fullness of God in bodily form. If that's true, no supplement is available; you can't add to what everything already depends on. And notice where the hymn lands after all the cosmic vocabulary: blood, shed on a cross. The biggest claims in the letter are anchored to the most physical event." },
     { id:332, book:"Colossians", title:"Set your hearts on things above", side:"l",
@@ -1740,9 +1740,9 @@
         { ref: "Colossians 3:13", text: "Bear with each other and forgive one another\u2026 Forgive as the Lord forgave you." }
       ],
       questions: [
-        { q:"What's the clothing image doing?", opts:["Discussing modesty", "Character as something deliberately put on each day", "Describing baptism only"], correct:1, explain:"Take off the old set, put on the new \u2014 an act repeated daily, like dressing." },
-        { q:"What's the standard for forgiveness?", opts:["What the offense deserves", "\u2018As the Lord forgave you\u2019", "How you feel"], correct:1, explain:"The measure isn't the wrong done to you but the pardon given to you." },
-        { q:"What goes over all the virtues?", opts:["Discipline", "Love, which binds them together in perfect unity", "Knowledge"], correct:1, explain:"The outer garment holding the rest in place." }
+        { q:"What's the clothing image doing?", opts:["Discussing modesty","Character as something deliberately put on each day","Describing baptism only"], correct:1, explain:"Take off the old set, put on the new \u2014 an act repeated daily, like dressing." },
+        { q:"What's the standard for forgiveness?", opts:["\u2018As the Lord forgave you\u2019","How you feel","What the offense deserves"], correct:0, explain:"The measure isn't the wrong done to you but the pardon given to you." },
+        { q:"What goes over all the virtues?", opts:["Discipline","Knowledge","Love, which binds them together in perfect unity"], correct:2, explain:"The outer garment holding the rest in place." }
       ],
       deepDive: "Colossians 3 is one of the most practical chapters in Paul, and the clothing metaphor is why it's usable. Character isn't a mood you wait for; it's a set of clothes you put on, deliberately, again today. Take off anger, malice, slander, filthy language. Put on compassion, kindness, humility, gentleness, patience. Then the hardest line: forgive as the Lord forgave you \u2014 which sets the bar at total, undeserved, and first. Most of us forgive proportionally to the offense. Paul says the measuring stick is what you received, not what they did." },
     { id:333, book:"Colossians", title:"Whatever you do", side:"r",
@@ -1751,9 +1751,9 @@
         { ref: "Colossians 3:23", text: "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." }
       ],
       questions: [
-        { q:"What scope does \u2018whatever you do\u2019 cover?", opts:["Religious activity", "Everything", "Only work"], correct:1, explain:"Paul erases the line between spiritual and everyday activity." },
-        { q:"Who was the work instruction originally addressed to?", opts:["Business owners", "Slaves", "Priests"], correct:1, explain:"Which makes it apply to anyone whose job feels unseen or unrewarded." },
-        { q:"Who is the real employer?", opts:["The visible boss", "The Lord Christ", "Yourself"], correct:1, explain:"A reframing that changes the meaning of unnoticed effort." }
+        { q:"What scope does \u2018whatever you do\u2019 cover?", opts:["Only work","Religious activity","Everything"], correct:2, explain:"Paul erases the line between spiritual and everyday activity." },
+        { q:"Who was the work instruction originally addressed to?", opts:["Slaves","Priests","Business owners"], correct:0, explain:"Which makes it apply to anyone whose job feels unseen or unrewarded." },
+        { q:"Who is the real employer?", opts:["The visible boss","The Lord Christ","Yourself"], correct:1, explain:"A reframing that changes the meaning of unnoticed effort." }
       ],
       deepDive: "This is the passage that dignifies ordinary work, and its original audience makes it stronger: Paul addresses slaves, people whose labor was compelled and uncredited, and tells them the real audience for it is Christ. If that was true of their work, it's true of a spreadsheet, a shift, or a load of laundry. \u2018Whatever you do, in word or deed\u2019 removes the category of activity too small to matter. Combined with the earlier instruction to let Christ's message dwell in you richly, the picture is of a life where worship isn't a scheduled event but the character of everything in the day." }
 ,
@@ -1763,9 +1763,9 @@
         { ref: "1 Thessalonians 2:8", text: "We were delighted to share with you not only the gospel of God but our lives as well, because you had become so dear to us." }
       ],
       questions: [
-        { q:"What three things does Paul commend?", opts:["Money, size, buildings", "Work from faith, labor from love, endurance from hope", "Knowledge, zeal, order"], correct:1, explain:"Each virtue paired with what it produces \u2014 faith works, love labors, hope endures." },
-        { q:"How does Paul describe his ministry among them?", opts:["Professional distance", "Like a nursing mother", "Authoritative command"], correct:1, explain:"Gentleness and personal investment, from the same man who wrote Galatians." },
-        { q:"What had they turned from and to?", opts:["Poverty to wealth", "Idols, to serve the living and true God", "One temple to another"], correct:1, explain:"A clean break, in a city full of civic religion, with real social cost." }
+        { q:"What three things does Paul commend?", opts:["Money, size, buildings","Knowledge, zeal, order","Work from faith, labor from love, endurance from hope"], correct:2, explain:"Each virtue paired with what it produces \u2014 faith works, love labors, hope endures." },
+        { q:"How does Paul describe his ministry among them?", opts:["Authoritative command","Like a nursing mother","Professional distance"], correct:1, explain:"Gentleness and personal investment, from the same man who wrote Galatians." },
+        { q:"What had they turned from and to?", opts:["Poverty to wealth","Idols, to serve the living and true God","One temple to another"], correct:1, explain:"A clean break, in a city full of civic religion, with real social cost." }
       ],
       deepDive: "This is possibly Paul's earliest letter, written to a church only months old, and its warmth is striking. The triad in chapter 1 has shaped Christian teaching ever since: faith, love, and hope, each identified by what it produces \u2014 faith that works, love that labors, hope that endures. And chapter 2 shows what discipleship actually costs: not just delivering content but sharing your life. Paul uses a nursing mother as the image, which is about as far from professional detachment as you can get. People rarely receive a message from someone unwilling to be known." },
     { id:335, book:"1 Thessalonians", title:"The Lord will come down", side:"l",
@@ -1774,9 +1774,9 @@
         { ref: "1 Thessalonians 4:13", text: "We do not want you to be uninformed about those who sleep in death, so that you do not grieve like the rest of mankind, who have no hope." }
       ],
       questions: [
-        { q:"Does Paul tell them not to grieve?", opts:["Yes, grief is forbidden", "No", "He doesn't mention grief"], correct:1, explain:"Christian grief is real; what changes is the horizon it's felt against." },
-        { q:"What's the stated purpose of the teaching?", opts:["Predicting dates", "\u2018Therefore encourage one another with these words\u2019", "Winning debates"], correct:1, explain:"Paul's end-times teaching here is pastoral comfort, not a timeline." },
-        { q:"What's the final promise?", opts:["A reward", "\u2018And so we will be with the Lord forever\u2019", "A new city"], correct:1, explain:"The point of the whole passage is presence \u2014 together, with Him, permanently." }
+        { q:"Does Paul tell them not to grieve?", opts:["No","He doesn't mention grief","Yes, grief is forbidden"], correct:0, explain:"Christian grief is real; what changes is the horizon it's felt against." },
+        { q:"What's the stated purpose of the teaching?", opts:["Predicting dates","Winning debates","\u2018Therefore encourage one another with these words\u2019"], correct:2, explain:"Paul's end-times teaching here is pastoral comfort, not a timeline." },
+        { q:"What's the final promise?", opts:["A new city","\u2018And so we will be with the Lord forever\u2019","A reward"], correct:1, explain:"The point of the whole passage is presence \u2014 together, with Him, permanently." }
       ],
       deepDive: "This passage gets mined for end-times charts, which misses what Paul is doing. A young church was frightened that their dead had somehow missed out, and he writes to comfort them \u2014 which is why the paragraph ends \u2018encourage one another with these words\u2019 rather than \u2018calculate the date.\u2019 Notice the careful phrasing about grief. He doesn't say don't grieve; he says don't grieve like those with no hope. Christians cry at funerals, and should. What differs is that the sorrow has an end in view: and so we will be with the Lord forever." },
     { id:336, book:"2 Thessalonians", title:"Keep working", side:"r",
@@ -1785,9 +1785,9 @@
         { ref: "2 Thessalonians 3:13", text: "And as for you, brothers and sisters, never tire of doing what is good." }
       ],
       questions: [
-        { q:"What error was circulating?", opts:["Christ would never return", "That the day of the Lord had already come", "That work saves"], correct:1, explain:"Bad eschatology producing bad economics, which Paul addresses in both directions." },
-        { q:"How does Paul address idleness?", opts:["Gently ignores it", "Bluntly", "By providing charity"], correct:1, explain:"Note the wording: unwilling, not unable. It's about refusal, not hardship." },
-        { q:"What's the closing encouragement?", opts:["Wait passively", "Never tire of doing what is good", "Withdraw from society"], correct:1, explain:"Expectation of Christ's return should produce diligence, not paralysis." }
+        { q:"What error was circulating?", opts:["Christ would never return","That the day of the Lord had already come","That work saves"], correct:1, explain:"Bad eschatology producing bad economics, which Paul addresses in both directions." },
+        { q:"How does Paul address idleness?", opts:["By providing charity","Gently ignores it","Bluntly"], correct:2, explain:"Note the wording: unwilling, not unable. It's about refusal, not hardship." },
+        { q:"What's the closing encouragement?", opts:["Wait passively","Never tire of doing what is good","Withdraw from society"], correct:1, explain:"Expectation of Christ's return should produce diligence, not paralysis." }
       ],
       deepDive: "This short letter answers a live question: how should believing that Jesus will return change today? Some Thessalonians answered by quitting their jobs, and Paul's reply is brisk. Anticipating the end doesn't excuse you from ordinary responsibility; it dignifies it. Note his careful wording \u2014 the unwilling to work, not the unable \u2014 which distinguishes freeloading from genuine need, something the early church took seriously in both directions. And the closing line is for anyone worn down by doing right with no visible result: never tire of doing what is good." },
     { id:337, book:"1 Timothy", title:"The worst of sinners", side:"c",
@@ -1796,9 +1796,9 @@
         { ref: "1 Timothy 1:15", text: "Christ Jesus came into the world to save sinners \u2014 of whom I am the worst." }
       ],
       questions: [
-        { q:"What tense does Paul use \u2014 \u2018was\u2019 or \u2018am\u2019 the worst?", opts:["\u2018Was\u2019", "\u2018Am\u2019", "Neither"], correct:1, explain:"Growing in grace made him more aware of his need, not less." },
-        { q:"Why was he shown mercy, per his own account?", opts:["He deserved a second chance", "As an example", "Because he was useful"], correct:1, explain:"His story is placed in Scripture as a limit case: if him, then anyone." },
-        { q:"How many mediators are there?", opts:["Many", "One", "None needed"], correct:1, explain:"A single point of access, available to everyone, which is why prayer for all people follows." }
+        { q:"What tense does Paul use \u2014 \u2018was\u2019 or \u2018am\u2019 the worst?", opts:["Neither","\u2018Am\u2019","\u2018Was\u2019"], correct:1, explain:"Growing in grace made him more aware of his need, not less." },
+        { q:"Why was he shown mercy, per his own account?", opts:["As an example","Because he was useful","He deserved a second chance"], correct:0, explain:"His story is placed in Scripture as a limit case: if him, then anyone." },
+        { q:"How many mediators are there?", opts:["One","Many","None needed"], correct:0, explain:"A single point of access, available to everyone, which is why prayer for all people follows." }
       ],
       deepDive: "Paul had approved a murder and hunted believers house to house, and he never got over being forgiven \u2014 note the present tense, \u2018of whom I am the worst,\u2019 written near the end of his life. That's the opposite of the usual religious trajectory, where people grow more confident of their own decency over time. The purpose he gives is the encouraging part: he was made an example precisely so nobody after him could claim to be beyond reach. If Christ's patience covered the man holding the coats at Stephen's stoning, the argument that you're too far gone doesn't hold." },
     { id:338, book:"1 Timothy", title:"Contentment and godliness", side:"l",
@@ -1807,9 +1807,9 @@
         { ref: "1 Timothy 6:6\u20137", text: "But godliness with contentment is great gain. For we brought nothing into the world, and we can take nothing out of it." }
       ],
       questions: [
-        { q:"What exactly is \u2018a root of all kinds of evil\u2019?", opts:["Money", "The LOVE of money", "Poverty"], correct:1, explain:"The common misquote drops the crucial word; the problem is the affection, not the currency." },
-        { q:"What does Paul tell the rich?", opts:["To give everything away", "Not to be arrogant or hope in wealth, but to be generous and rich in good deeds", "To feel guilty"], correct:1, explain:"He addresses them directly rather than dismissing them \u2014 with a redirected hope." },
-        { q:"What is \u2018great gain\u2019?", opts:["Wealth", "Godliness with contentment", "Reputation"], correct:1, explain:"He borrows the profit language of the false teachers and redefines the asset." }
+        { q:"What exactly is \u2018a root of all kinds of evil\u2019?", opts:["The LOVE of money","Poverty","Money"], correct:0, explain:"The common misquote drops the crucial word; the problem is the affection, not the currency." },
+        { q:"What does Paul tell the rich?", opts:["To feel guilty","To give everything away","Not to be arrogant or hope in wealth, but to be generous and rich in good deeds"], correct:2, explain:"He addresses them directly rather than dismissing them \u2014 with a redirected hope." },
+        { q:"What is \u2018great gain\u2019?", opts:["Reputation","Godliness with contentment","Wealth"], correct:1, explain:"He borrows the profit language of the false teachers and redefines the asset." }
       ],
       deepDive: "Paul is confronting teachers who treated faith as a wealth strategy, and his response is to redefine profit: godliness with contentment is the real gain. The reasoning is starkly simple \u2014 you arrived with nothing and leave with nothing, so the accumulation between those two points can't be the point. The famous line about money deserves precision: it's the love of it, and Paul says people eager for it have \u2018pierced themselves\u2019 with griefs, an image of self-inflicted wounds. And his word to the wealthy is notably not condemnation but reassignment: put your hope elsewhere, and become rich in a different currency." },
     { id:339, book:"2 Timothy", title:"All Scripture is God-breathed", side:"r",
@@ -1818,9 +1818,9 @@
         { ref: "2 Timothy 3:16\u201317", text: "All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness." }
       ],
       questions: [
-        { q:"What does \u2018God-breathed\u2019 claim?", opts:["Human inspiration", "That Scripture originates in God's own breath", "Historical accuracy only"], correct:1, explain:"The same breath language as Genesis 2 and the Spirit \u2014 origin, not merely quality." },
-        { q:"What four uses are named?", opts:["Comfort, ritual, art, law", "Teaching, rebuking, correcting, training in righteousness", "Prophecy, history, poetry, law"], correct:1, explain:"Two constructive, two corrective \u2014 Scripture is meant to unsettle as well as instruct." },
-        { q:"Where did Timothy's faith come from?", opts:["A school", "His grandmother Lois and mother Eunice", "A vision"], correct:1, explain:"Paul names two women whose ordinary faithfulness produced a New Testament leader." }
+        { q:"What does \u2018God-breathed\u2019 claim?", opts:["Historical accuracy only","Human inspiration","That Scripture originates in God's own breath"], correct:2, explain:"The same breath language as Genesis 2 and the Spirit \u2014 origin, not merely quality." },
+        { q:"What four uses are named?", opts:["Prophecy, history, poetry, law","Comfort, ritual, art, law","Teaching, rebuking, correcting, training in righteousness"], correct:2, explain:"Two constructive, two corrective \u2014 Scripture is meant to unsettle as well as instruct." },
+        { q:"Where did Timothy's faith come from?", opts:["A school","A vision","His grandmother Lois and mother Eunice"], correct:2, explain:"Paul names two women whose ordinary faithfulness produced a New Testament leader." }
       ],
       deepDive: "2 Timothy is Paul's last letter, written from a cold cell with execution near, and it reads like a handoff. The Scripture passage is its most quoted, and the four uses are worth noticing in pairs: teaching and training build up; rebuking and correcting tear down what shouldn't be there. A Bible that only ever comforts you isn't being used as designed. And the small detail about Lois and Eunice is a quiet encouragement to anyone doing unglamorous work: a grandmother and a mother in a provincial town raised a boy who became Paul's most trusted colleague." },
     { id:340, book:"2 Timothy", title:"I have finished the race", side:"c",
@@ -1829,9 +1829,9 @@
         { ref: "2 Timothy 4:7", text: "I have fought the good fight, I have finished the race, I have kept the faith." }
       ],
       questions: [
-        { q:"How does Paul assess his life?", opts:["With regret", "Fought, finished, kept", "With uncertainty"], correct:1, explain:"Not \u2018I won everything\u2019 but \u2018I finished\u2019 \u2014 completion is his measure." },
-        { q:"Who gets the crown?", opts:["Only Paul", "All who have longed for his appearing", "The most successful"], correct:1, explain:"He immediately widens it past himself to ordinary believers who love Christ's return." },
-        { q:"What happened at his first defense?", opts:["He was acquitted", "Everyone deserted him", "He was silent"], correct:1, explain:"Abandonment named honestly, and God's presence named alongside it." }
+        { q:"How does Paul assess his life?", opts:["With uncertainty","Fought, finished, kept","With regret"], correct:1, explain:"Not \u2018I won everything\u2019 but \u2018I finished\u2019 \u2014 completion is his measure." },
+        { q:"Who gets the crown?", opts:["The most successful","All who have longed for his appearing","Only Paul"], correct:1, explain:"He immediately widens it past himself to ordinary believers who love Christ's return." },
+        { q:"What happened at his first defense?", opts:["Everyone deserted him","He was silent","He was acquitted"], correct:0, explain:"Abandonment named honestly, and God's presence named alongside it." }
       ],
       deepDive: "These are among the last recorded words of the man who wrote a third of the New Testament, and they're remarkable for their ordinariness alongside their grandeur. He assesses a life \u2014 fought, finished, kept \u2014 and then asks for his coat, because Roman prisons were cold, and for his scrolls, because he still wanted to read. Note the crown isn't reserved for apostles: it goes to all who have longed for His appearing. And the loneliest sentence in his letters, \u2018everyone deserted me,\u2019 sits right beside the steadiest: but the Lord stood at my side." },
     { id:341, book:"Titus", title:"Grace that teaches", side:"l",
@@ -1840,9 +1840,9 @@
         { ref: "Titus 2:11\u201312", text: "For the grace of God has appeared that offers salvation to all people. It teaches us to say \u201cNo\u201d to ungodliness." }
       ],
       questions: [
-        { q:"What does grace do besides save?", opts:["Nothing else", "It teaches", "It removes all standards"], correct:1, explain:"Grace is a tutor in this passage, not a permission slip." },
-        { q:"Why were we saved?", opts:["Because of righteous things we'd done", "Because of His mercy", "Because of potential"], correct:1, explain:"Paul rules out our contribution explicitly." },
-        { q:"What are believers waiting for?", opts:["Nothing specific", "The blessed hope", "Better circumstances"], correct:1, explain:"Present self-control is framed between grace that appeared and glory that will." }
+        { q:"What does grace do besides save?", opts:["It removes all standards","Nothing else","It teaches"], correct:2, explain:"Grace is a tutor in this passage, not a permission slip." },
+        { q:"Why were we saved?", opts:["Because of potential","Because of righteous things we'd done","Because of His mercy"], correct:2, explain:"Paul rules out our contribution explicitly." },
+        { q:"What are believers waiting for?", opts:["Better circumstances","The blessed hope","Nothing specific"], correct:1, explain:"Present self-control is framed between grace that appeared and glory that will." }
       ],
       deepDive: "Titus answers the accusation that grace makes people lax, and it does so in one sentence: grace teaches us to say no. It isn't merely the pardon at the start of the Christian life; it's the instructor for the rest of it. That reframes obedience entirely \u2014 the same grace that saved you is the thing training you, which means holiness isn't a return to earning but the ongoing work of the gift. And the framing is elegant: grace has appeared, glory will appear, and the present age is lived in between, self-controlled and upright, because of both." },
     { id:342, book:"Philemon", title:"No longer a slave", side:"r",
@@ -1851,9 +1851,9 @@
         { ref: "Philemon 1:16", text: "No longer as a slave, but better than a slave, as a dear brother." }
       ],
       questions: [
-        { q:"What does Paul offer to do about the debt?", opts:["Nothing", "Charge it to his own account", "Demand forgiveness"], correct:1, explain:"He puts himself financially between the wronged party and the offender." },
-        { q:"How does Paul make his appeal?", opts:["By command", "On the basis of love", "Anonymously"], correct:1, explain:"He deliberately declines to use authority he acknowledges having." },
-        { q:"What relationship does he ask for?", opts:["Leniency only", "Brotherhood", "Manumission by law"], correct:1, explain:"He asks for a category change that the surrounding culture had no room for." }
+        { q:"What does Paul offer to do about the debt?", opts:["Demand forgiveness","Charge it to his own account","Nothing"], correct:1, explain:"He puts himself financially between the wronged party and the offender." },
+        { q:"How does Paul make his appeal?", opts:["Anonymously","On the basis of love","By command"], correct:1, explain:"He deliberately declines to use authority he acknowledges having." },
+        { q:"What relationship does he ask for?", opts:["Leniency only","Brotherhood","Manumission by law"], correct:1, explain:"He asks for a category change that the surrounding culture had no room for." }
       ],
       deepDive: "This one-page letter quietly dismantles an institution from the inside. Paul doesn't issue a decree about slavery; he asks a slave owner to receive his runaway as a brother, and points out that he could command it and won't. The most striking line is the offer to pay: charge it to me \u2014 a small picture of what Christ does with our debts. And notice the pressure Paul applies without applying it: the letter was meant to be read aloud to the church meeting in Philemon's house. Two thousand years later we still don't know what he decided, but the letter survived, which suggests we do." },
     { id:343, book:"Hebrews", title:"God has spoken by his Son", side:"c",
@@ -1862,9 +1862,9 @@
         { ref: "Hebrews 1:3", text: "The Son is the radiance of God\u2019s glory and the exact representation of his being, sustaining all things by his powerful word." }
       ],
       questions: [
-        { q:"How is the Son's revelation different?", opts:["Clearer wording", "God spoke THROUGH prophets, but has spoken BY his Son", "It's shorter"], correct:1, explain:"Previous revelation came in fragments; this one comes in a person." },
-        { q:"What does \u2018exact representation\u2019 mean?", opts:["A close copy", "The precise imprint of God's being", "A symbol"], correct:1, explain:"The word describes an engraved stamp reproducing the original exactly." },
-        { q:"Who wrote Hebrews?", opts:["Paul, certainly", "Unknown", "Peter"], correct:1, explain:"One of Scripture's finest arguments, from an author history didn't record." }
+        { q:"How is the Son's revelation different?", opts:["Clearer wording","God spoke THROUGH prophets, but has spoken BY his Son","It's shorter"], correct:1, explain:"Previous revelation came in fragments; this one comes in a person." },
+        { q:"What does \u2018exact representation\u2019 mean?", opts:["A symbol","A close copy","The precise imprint of God's being"], correct:2, explain:"The word describes an engraved stamp reproducing the original exactly." },
+        { q:"Who wrote Hebrews?", opts:["Peter","Unknown","Paul, certainly"], correct:1, explain:"One of Scripture's finest arguments, from an author history didn't record." }
       ],
       deepDive: "Hebrews was written to Jewish believers tempted to drift back to a familiar system under pressure, and its whole strategy is comparison: whatever you're considering returning to, this is better. It opens by making the Son the final word \u2014 not another prophet with another message but the exact imprint of God's being, the one through whom the universe was made and by whom it's held together. And the recurring warnings throughout the letter aren't decorative. This is a book written to people at risk of walking away, which is why it keeps saying: hold on, and look at who you'd be leaving." },
     { id:344, book:"Hebrews", title:"A high priest who understands", side:"l",
@@ -1873,9 +1873,9 @@
         { ref: "Hebrews 4:15\u201316", text: "We do not have a high priest who is unable to empathize with our weaknesses\u2026 Let us then approach God\u2019s throne of grace with confidence." }
       ],
       questions: [
-        { q:"What does the Word do?", opts:["Comforts only", "Penetrates and judges the thoughts and attitudes of the heart", "Describes history"], correct:1, explain:"Alive and active \u2014 it reads you as much as you read it." },
-        { q:"Why can Jesus empathize?", opts:["He observed humanity", "He was tempted in every way, as we are", "He is compassionate by nature only"], correct:1, explain:"Experience, not merely disposition; He knows the pull from the inside." },
-        { q:"How should we approach the throne?", opts:["Cautiously", "With confidence", "Only when doing well"], correct:1, explain:"Boldness is commanded precisely for the moment of need, not after recovery." }
+        { q:"What does the Word do?", opts:["Comforts only","Penetrates and judges the thoughts and attitudes of the heart","Describes history"], correct:1, explain:"Alive and active \u2014 it reads you as much as you read it." },
+        { q:"Why can Jesus empathize?", opts:["He observed humanity","He is compassionate by nature only","He was tempted in every way, as we are"], correct:2, explain:"Experience, not merely disposition; He knows the pull from the inside." },
+        { q:"How should we approach the throne?", opts:["Cautiously","With confidence","Only when doing well"], correct:1, explain:"Boldness is commanded precisely for the moment of need, not after recovery." }
       ],
       deepDive: "The sequence here is the pastoral genius of Hebrews. First, total exposure: a word that divides soul and spirit and judges the heart's motives, with nothing hidden. That should send anyone running. And then, immediately, the reason not to: the one you're exposed before is a high priest who has been tempted in every way you have. The invitation that follows isn't to approach cautiously once you've cleaned up, but with confidence, in your time of need. Being fully known and still welcomed is the same combination the woman at the well found, stated here in courtroom terms." },
     { id:345, book:"Hebrews", title:"Once for all", side:"r",
@@ -1884,9 +1884,9 @@
         { ref: "Hebrews 10:12", text: "But when this priest had offered for all time one sacrifice for sins, he sat down at the right hand of God." }
       ],
       questions: [
-        { q:"Why does \u2018he sat down\u2019 matter?", opts:["He was tired", "Priests always stood", "It shows authority only"], correct:1, explain:"There were no chairs in the tabernacle, because the sacrificing never ended." },
-        { q:"How many times was the sacrifice offered?", opts:["Yearly", "Once for all", "Daily"], correct:1, explain:"The repetition of the old system proved its insufficiency." },
-        { q:"What's the effect on those being made holy?", opts:["Partial cleansing", "Made perfect forever", "Temporary covering"], correct:1, explain:"Positional completeness alongside ongoing growth \u2014 both in one sentence." }
+        { q:"Why does \u2018he sat down\u2019 matter?", opts:["It shows authority only","He was tired","Priests always stood"], correct:2, explain:"There were no chairs in the tabernacle, because the sacrificing never ended." },
+        { q:"How many times was the sacrifice offered?", opts:["Once for all","Yearly","Daily"], correct:0, explain:"The repetition of the old system proved its insufficiency." },
+        { q:"What's the effect on those being made holy?", opts:["Made perfect forever","Partial cleansing","Temporary covering"], correct:0, explain:"Positional completeness alongside ongoing growth \u2014 both in one sentence." }
       ],
       deepDive: "The detail that carries this passage is furniture. The tabernacle had no chair, because a priest's work was never finished \u2014 there was always another sacrifice tomorrow. So when Hebrews says Christ \u2018sat down,\u2019 it's making a statement about completion, not posture. Nothing remains to be offered. That single image answers the anxiety underneath most religious effort: the sense that the account is never quite settled. And notice the two tenses held together \u2014 made perfect forever, and being made holy. Your standing is finished; your growth is in progress." },
     { id:346, book:"Hebrews", title:"Faith is confidence", side:"c",
@@ -1895,9 +1895,9 @@
         { ref: "Hebrews 11:1", text: "Now faith is confidence in what we hope for and assurance about what we do not see." }
       ],
       questions: [
-        { q:"What two outcomes appear in the chapter?", opts:["Only victories", "Deliverance AND torture", "Only suffering"], correct:1, explain:"Verses 33\u201338 place those who escaped and those who didn't in the same hall of faith." },
-        { q:"What did most of them receive in their lifetime?", opts:["Everything promised", "None of them received what had been promised", "Wealth"], correct:1, explain:"They died still believing, which the chapter treats as the achievement." },
-        { q:"What characterized Abraham's obedience?", opts:["Full information", "He went without knowing where he was going", "A detailed map"], correct:1, explain:"Faith moving before the route was clear." }
+        { q:"What two outcomes appear in the chapter?", opts:["Only victories","Only suffering","Deliverance AND torture"], correct:2, explain:"Verses 33\u201338 place those who escaped and those who didn't in the same hall of faith." },
+        { q:"What did most of them receive in their lifetime?", opts:["Wealth","None of them received what had been promised","Everything promised"], correct:1, explain:"They died still believing, which the chapter treats as the achievement." },
+        { q:"What characterized Abraham's obedience?", opts:["A detailed map","He went without knowing where he was going","Full information"], correct:1, explain:"Faith moving before the route was clear." }
       ],
       deepDive: "Hebrews 11 is often read as a highlight reel of spiritual success, and the second half corrects that. The same chapter that credits people who shut lions' mouths credits people who were sawed in two, and calls both faith. That's important for anyone whose faithfulness hasn't produced rescue: the list makes no distinction in honor between those delivered and those not. And the summary line is the hardest and most bracing \u2014 none of them received what had been promised. They died still waiting, still trusting, and Scripture calls that a life well lived." },
     { id:347, book:"Hebrews", title:"Run with perseverance", side:"l",
@@ -1906,9 +1906,9 @@
         { ref: "Hebrews 12:1\u20132", text: "Let us run with perseverance the race marked out for us, fixing our eyes on Jesus, the pioneer and perfecter of faith." }
       ],
       questions: [
-        { q:"What's thrown off before running?", opts:["Only sin", "Everything that hinders AND the entangling sin", "Nothing"], correct:1, explain:"Two categories: sins, and weights that aren't sins but slow you down." },
-        { q:"What sustained Jesus through the cross?", opts:["Duty", "The joy set before him", "Anger"], correct:1, explain:"Endurance fueled by anticipated joy, not grim willpower." },
-        { q:"Whose race is it?", opts:["A shared identical course", "\u2018The race marked out for us\u2019", "Optional"], correct:1, explain:"Comparison is ruled out; your course was marked for you." }
+        { q:"What's thrown off before running?", opts:["Only sin","Nothing","Everything that hinders AND the entangling sin"], correct:2, explain:"Two categories: sins, and weights that aren't sins but slow you down." },
+        { q:"What sustained Jesus through the cross?", opts:["Anger","The joy set before him","Duty"], correct:1, explain:"Endurance fueled by anticipated joy, not grim willpower." },
+        { q:"Whose race is it?", opts:["A shared identical course","Optional","\u2018The race marked out for us\u2019"], correct:2, explain:"Comparison is ruled out; your course was marked for you." }
       ],
       deepDive: "After the roll call of chapter 11, chapter 12 turns to the reader: they ran theirs, now run yours. Two details are worth carrying. First, the two things to throw off \u2014 sin, obviously, but also \u2018everything that hinders,\u2019 which covers perfectly permissible weights that make the running harder. Runners strip down not because clothing is evil but because it's heavy. Second, the fuel: Jesus endured for the joy set before Him. Endurance in the New Testament runs on anticipation, not gritted teeth \u2014 which means the practical question is what joy you have in view." },
     { id:348, book:"Hebrews", title:"The same yesterday and today", side:"r",
@@ -1917,9 +1917,9 @@
         { ref: "Hebrews 13:8", text: "Jesus Christ is the same yesterday and today and forever." }
       ],
       questions: [
-        { q:"What's the stated basis for contentment?", opts:["Having enough", "God's promise: never will I leave you; never will I forsake you", "Low expectations"], correct:1, explain:"Contentment grounded in presence rather than in the size of the account." },
-        { q:"How are believers told to treat prisoners?", opts:["Pray from a distance", "Remember them as if in prison with them", "Avoid association"], correct:1, explain:"Costly identification with people in trouble, which was risky then and now." },
-        { q:"What does 13:8 anchor?", opts:["A doctrine only", "Everything", "A prophecy"], correct:1, explain:"The one fixed point for readers considering abandoning the faith under pressure." }
+        { q:"What's the stated basis for contentment?", opts:["God's promise: never will I leave you; never will I forsake you","Having enough","Low expectations"], correct:0, explain:"Contentment grounded in presence rather than in the size of the account." },
+        { q:"How are believers told to treat prisoners?", opts:["Pray from a distance","Avoid association","Remember them as if in prison with them"], correct:2, explain:"Costly identification with people in trouble, which was risky then and now." },
+        { q:"What does 13:8 anchor?", opts:["A prophecy","Everything","A doctrine only"], correct:1, explain:"The one fixed point for readers considering abandoning the faith under pressure." }
       ],
       deepDive: "Hebrews closes by translating high theology into ordinary practice: love each other, welcome strangers, remember people in prison, keep your marriage, don't love money. Notice the reason attached to contentment \u2014 not \u2018because greed is bad\u2019 but because God said He'd never leave. The remedy for grasping is presence. And the letter's most quoted line lands where it's needed most: written to people whose religious world had been upended and who were tempted to go back, \u2018Jesus Christ is the same yesterday and today and forever\u2019 is not a slogan. It's the only stable object in the room." },
         { id:392, book:"Hebrews", title:"A priest like Melchizedek", side:"c",
@@ -1928,9 +1928,9 @@
         { ref: "Hebrews 7:24\u201325", text: "Because Jesus lives forever, he has a permanent priesthood. Therefore he is able to save completely those who come to God through him, because he always lives to intercede for them." }
       ],
       questions: [
-        { q:"What made Melchizedek's priesthood different from the Levites'?", opts:["He was more powerful", "It wasn't based on ancestry or lineage", "He served longer"], correct:1, explain:"An order of priesthood outside and prior to the whole Levitical system." },
-        { q:"Why does this matter for Jesus, who wasn't from the priestly tribe of Levi?", opts:["It doesn't", "It establishes a legitimate priesthood not dependent on Levitical descent", "It disqualifies him"], correct:1, explain:"Jesus was from Judah, not Levi \u2014 Melchizedek's order provides the theological basis for his priesthood anyway." },
-        { q:"What does \u2018he always lives to intercede\u2019 mean practically?", opts:["A one-time prayer", "Ongoing, permanent representation before God on believers' behalf", "A historical event only"], correct:1, explain:"Not a completed transaction alone but continuous advocacy, right now, for anyone who comes to God through him." }
+        { q:"What made Melchizedek's priesthood different from the Levites'?", opts:["It wasn't based on ancestry or lineage","He served longer","He was more powerful"], correct:0, explain:"An order of priesthood outside and prior to the whole Levitical system." },
+        { q:"Why does this matter for Jesus, who wasn't from the priestly tribe of Levi?", opts:["It establishes a legitimate priesthood not dependent on Levitical descent","It doesn't","It disqualifies him"], correct:0, explain:"Jesus was from Judah, not Levi \u2014 Melchizedek's order provides the theological basis for his priesthood anyway." },
+        { q:"What does \u2018he always lives to intercede\u2019 mean practically?", opts:["Ongoing, permanent representation before God on believers' behalf","A one-time prayer","A historical event only"], correct:0, explain:"Not a completed transaction alone but continuous advocacy, right now, for anyone who comes to God through him." }
       ],
       deepDive: "This is one of the more obscure arguments in the New Testament, and its point is worth untangling. Jesus wasn't from the tribe of Levi, which under the old system should have disqualified him from priesthood entirely. Hebrews solves this by reaching back to Melchizedek, a mysterious pre-Levitical priest-king who blessed Abraham himself \u2014 establishing that a legitimate priesthood existed outside the Levitical line, greater than it even, since Abraham paid tithes to Melchizedek rather than the reverse. The payoff is enormous: because this priesthood runs on an indestructible life rather than genealogy, and because Jesus never dies, his intercession never has to be handed off to a successor. He is always, right now, interceding for anyone who comes to God through him." },
     { id:393, book:"Hebrews", title:"A better covenant", side:"l",
@@ -1939,9 +1939,9 @@
         { ref: "Hebrews 8:13", text: "By calling this covenant \u201cnew,\u201d he has made the first one obsolete; and what is obsolete and outdated will soon disappear." }
       ],
       questions: [
-        { q:"What could the old sacrificial system never fully do?", opts:["Impress people", "Take away sins or truly cleanse the conscience", "Follow proper ritual"], correct:1, explain:"It provided an annual reminder of sin rather than a permanent removal of it." },
-        { q:"What does quoting Jeremiah's new covenant accomplish in this argument?", opts:["Nothing new", "It shows the old covenant itself predicted its own replacement", "It contradicts the old covenant"], correct:1, explain:"The prophecy of something new was embedded in Scripture centuries before Christ arrived." },
-        { q:"What happens to something declared \u2018obsolete\u2019?", opts:["It's strengthened", "It's on its way to disappearing", "Nothing changes"], correct:1, explain:"Hebrews treats the temple system as already fading even while it was technically still standing when this was written." }
+        { q:"What could the old sacrificial system never fully do?", opts:["Take away sins or truly cleanse the conscience","Follow proper ritual","Impress people"], correct:0, explain:"It provided an annual reminder of sin rather than a permanent removal of it." },
+        { q:"What does quoting Jeremiah's new covenant accomplish in this argument?", opts:["It contradicts the old covenant","Nothing new","It shows the old covenant itself predicted its own replacement"], correct:2, explain:"The prophecy of something new was embedded in Scripture centuries before Christ arrived." },
+        { q:"What happens to something declared \u2018obsolete\u2019?", opts:["It's strengthened","Nothing changes","It's on its way to disappearing"], correct:2, explain:"Hebrews treats the temple system as already fading even while it was technically still standing when this was written." }
       ],
       deepDive: "This chapter makes an argument that would have been startling to its original Jewish-Christian audience: the temple system, still functioning when Hebrews was likely written, was already obsolete \u2014 not because it was fraudulent, but because it had done its job of pointing forward and that job was complete. The proof text is remarkable: Jeremiah, writing centuries earlier, had already promised a covenant that would work differently, written on hearts rather than tablets, with sins actually forgotten rather than annually remembered. Hebrews' argument isn't that the old system failed through some defect; it's that it succeeded at being exactly what it was designed to be \u2014 a shadow pointing toward something it could never itself provide." },
     { id:349, book:"James", title:"Faith that works", side:"c",
@@ -1950,9 +1950,9 @@
         { ref: "James 2:17", text: "In the same way, faith by itself, if it is not accompanied by action, is dead." }
       ],
       questions: [
-        { q:"What's the mirror illustration about?", opts:["Vanity", "Hearing the word and doing nothing", "Self-esteem"], correct:1, explain:"Information that changes nothing is the same as never having looked." },
-        { q:"Does James contradict Paul on faith and works?", opts:["Yes, flatly", "No", "They discuss different gods"], correct:1, explain:"Both agree living faith produces action; they're answering different errors." },
-        { q:"How does God give wisdom?", opts:["Sparingly", "Generously to all, without finding fault", "Only to leaders"], correct:1, explain:"No lecture attached to the asking \u2014 a striking description of God's generosity." }
+        { q:"What's the mirror illustration about?", opts:["Vanity","Self-esteem","Hearing the word and doing nothing"], correct:2, explain:"Information that changes nothing is the same as never having looked." },
+        { q:"Does James contradict Paul on faith and works?", opts:["No","Yes, flatly","They discuss different gods"], correct:0, explain:"Both agree living faith produces action; they're answering different errors." },
+        { q:"How does God give wisdom?", opts:["Sparingly","Only to leaders","Generously to all, without finding fault"], correct:2, explain:"No lecture attached to the asking \u2014 a striking description of God's generosity." }
       ],
       deepDive: "James reads like Proverbs with a Christian accent \u2014 short, concrete, uninterested in theory. His famous claim about faith and works has been misread as a fight with Paul, but they're answering different questions. Paul asks how a person is accepted by God: by faith, not works. James asks how you can tell that faith is real: by what it does. His test is deliberately unspiritual \u2014 someone cold and hungry in front of you, and words instead of a coat. The mirror image is his sharpest: reading Scripture and changing nothing is like forgetting your own face the moment you turn away." },
     { id:350, book:"James", title:"Taming the tongue", side:"l",
@@ -1961,9 +1961,9 @@
         { ref: "James 1:19", text: "Everyone should be quick to listen, slow to speak and slow to become angry." }
       ],
       questions: [
-        { q:"What do the bit and rudder illustrate?", opts:["Weakness", "Small things steering something much larger", "Complexity"], correct:1, explain:"The tongue's size is disproportionate to its influence over a life." },
-        { q:"Can the tongue be tamed by effort?", opts:["Easily", "James says no human being can tame it", "Only by the wise"], correct:1, explain:"Which points past technique toward a changed heart and God's help." },
-        { q:"What inconsistency does he name?", opts:["Praying and doubting", "Praising God and cursing people made in His likeness, from the same mouth", "Giving and hoarding"], correct:1, explain:"The people you speak about carelessly bear God's image." }
+        { q:"What do the bit and rudder illustrate?", opts:["Small things steering something much larger","Weakness","Complexity"], correct:0, explain:"The tongue's size is disproportionate to its influence over a life." },
+        { q:"Can the tongue be tamed by effort?", opts:["James says no human being can tame it","Only by the wise","Easily"], correct:0, explain:"Which points past technique toward a changed heart and God's help." },
+        { q:"What inconsistency does he name?", opts:["Praying and doubting","Giving and hoarding","Praising God and cursing people made in His likeness, from the same mouth"], correct:2, explain:"The people you speak about carelessly bear God's image." }
       ],
       deepDive: "James's teaching on speech is the most sustained in the New Testament, and its images escalate deliberately: a bit, a rudder, then a forest fire. Small, controlling, and then catastrophic. His conclusion is bracing \u2014 no human being can tame the tongue \u2014 which rules out white-knuckle self-improvement and points to the heart behind the words. The argument's sharpest turn is theological: cursing people is inconsistent with praising God, because those people bear His likeness. How you talk about someone is a statement about their Maker. \u2018Quick to listen, slow to speak\u2019 remains the most practically useful sentence in the letter." },
     { id:351, book:"James", title:"Humble yourselves", side:"r",
@@ -1972,9 +1972,9 @@
         { ref: "James 4:10", text: "Humble yourselves before the Lord, and he will lift you up." }
       ],
       questions: [
-        { q:"Where do quarrels originate, per James?", opts:["Other people", "Desires battling within you", "Circumstances"], correct:1, explain:"He relocates conflict from the other party to your own wanting." },
-        { q:"What blunt reason does he give for lacking?", opts:["Bad luck", "\u2018You do not have because you do not ask God\u2019", "God's refusal"], correct:1, explain:"Followed immediately by the caution that motive matters when asking." },
-        { q:"What does he say about planning?", opts:["Never plan", "Plan while acknowledging life's brevity", "Plans always fail"], correct:1, explain:"Not against planning, against the arrogance of assuming tomorrow." }
+        { q:"Where do quarrels originate, per James?", opts:["Desires battling within you","Circumstances","Other people"], correct:0, explain:"He relocates conflict from the other party to your own wanting." },
+        { q:"What blunt reason does he give for lacking?", opts:["God's refusal","Bad luck","\u2018You do not have because you do not ask God\u2019"], correct:2, explain:"Followed immediately by the caution that motive matters when asking." },
+        { q:"What does he say about planning?", opts:["Plan while acknowledging life's brevity","Never plan","Plans always fail"], correct:0, explain:"Not against planning, against the arrogance of assuming tomorrow." }
       ],
       deepDive: "James does something uncomfortable with conflict: he takes it out of the realm of who was right and puts it in the realm of what you wanted. Fights come from desires battling within \u2014 which means the honest question in most disputes is what you were craving that you didn't get. Then the promise that reorders everything: God opposes the proud and gives grace to the humble. Note who is doing the lifting. Humbling yourself isn't self-erasure; it's declining to promote yourself because Someone better positioned is handling that. And the mist image keeps the whole thing in scale." },
     { id:352, book:"James", title:"Patient until the harvest", side:"c",
@@ -1983,9 +1983,9 @@
         { ref: "James 5:7", text: "Be patient, then, brothers and sisters, until the Lord\u2019s coming. See how the farmer waits for the land to yield its valuable crop." }
       ],
       questions: [
-        { q:"What image teaches patience?", opts:["A soldier", "A farmer waiting through the seasons for a crop", "A judge"], correct:1, explain:"Patience with a reason: the waiting is productive, not empty." },
-        { q:"Who does James rebuke sharply?", opts:["The poor", "Rich oppressors who withheld workers' wages", "Church leaders"], correct:1, explain:"Unpaid wages are described as crying out to God \u2014 an echo of the prophets." },
-        { q:"What practice does he prescribe for healing?", opts:["Solitude", "Confession to one another and prayer for each other", "Silence"], correct:1, explain:"Mutual, spoken, communal \u2014 not private management of your failures." }
+        { q:"What image teaches patience?", opts:["A farmer waiting through the seasons for a crop","A soldier","A judge"], correct:0, explain:"Patience with a reason: the waiting is productive, not empty." },
+        { q:"Who does James rebuke sharply?", opts:["Rich oppressors who withheld workers' wages","The poor","Church leaders"], correct:0, explain:"Unpaid wages are described as crying out to God \u2014 an echo of the prophets." },
+        { q:"What practice does he prescribe for healing?", opts:["Solitude","Silence","Confession to one another and prayer for each other"], correct:2, explain:"Mutual, spoken, communal \u2014 not private management of your failures." }
       ],
       deepDive: "James ends where the prophets did: with wages, patience, and prayer. His rebuke of employers who withheld pay is startlingly direct, and it treats economic injustice as an audible cry reaching God. Then his counsel to the wronged isn't passivity but the farmer's patience \u2014 waiting that knows a harvest is coming and works accordingly. And the closing instruction is one the church has often quietly dropped: confess your sins to each other. Not just to God, privately, where nothing is risked. To each other, so that you may be healed." },
     { id:353, book:"1 Peter", title:"A living hope", side:"l",
@@ -1994,9 +1994,9 @@
         { ref: "1 Peter 1:3", text: "In his great mercy he has given us new birth into a living hope through the resurrection of Jesus Christ from the dead." }
       ],
       questions: [
-        { q:"What makes the hope \u2018living\u2019?", opts:["Optimism", "It rests on the resurrection", "Positive circumstances"], correct:1, explain:"Hope with a foundation outside itself, which is why Peter calls it alive." },
-        { q:"What is the inheritance like?", opts:["Fragile", "Imperishable, unspoiled, unfading", "Conditional"], correct:1, explain:"Three negatives ruling out every way earthly inheritances are lost." },
-        { q:"What is trial compared to?", opts:["Punishment", "Fire refining gold", "Random misfortune"], correct:1, explain:"The purpose is demonstration and purification, not destruction." }
+        { q:"What makes the hope \u2018living\u2019?", opts:["Optimism","It rests on the resurrection","Positive circumstances"], correct:1, explain:"Hope with a foundation outside itself, which is why Peter calls it alive." },
+        { q:"What is the inheritance like?", opts:["Imperishable, unspoiled, unfading","Conditional","Fragile"], correct:0, explain:"Three negatives ruling out every way earthly inheritances are lost." },
+        { q:"What is trial compared to?", opts:["Fire refining gold","Random misfortune","Punishment"], correct:0, explain:"The purpose is demonstration and purification, not destruction." }
       ],
       deepDive: "Peter writes to Christians already suffering for their faith, and he opens with an inheritance no one can take: imperishable, unspoiled, unfading, and \u2014 crucially \u2014 kept somewhere they can't reach it. That's a deliberate contrast with everything they were losing. The refining image is honest about trials without romanticizing them: fire is not pleasant, and it does prove what's real. And the line about loving someone you've never seen is remarkable coming from Peter, who had seen Him \u2014 he's telling readers that their secondhand faith is no lesser thing, and that it comes with inexpressible joy." },
     { id:354, book:"1 Peter", title:"Always be prepared", side:"r",
@@ -2005,9 +2005,9 @@
         { ref: "1 Peter 3:15", text: "Always be prepared to give an answer to everyone who asks you to give the reason for the hope that you have." }
       ],
       questions: [
-        { q:"What prompts the question we're to answer?", opts:["Our arguments", "A visible hope people notice and ask about", "Advertising"], correct:1, explain:"The assumption is a life odd enough that someone inquires." },
-        { q:"How is the answer to be given?", opts:["Forcefully", "With gentleness and respect", "Only when safe"], correct:1, explain:"Peter attaches a manner to the mandate; tone is part of the witness." },
-        { q:"What identity does Peter give ordinary believers?", opts:["Servants only", "A chosen people, royal priesthood, holy nation, God's special possession", "Outsiders"], correct:1, explain:"Titles once reserved for Israel applied to scattered, suffering churches." }
+        { q:"What prompts the question we're to answer?", opts:["Advertising","A visible hope people notice and ask about","Our arguments"], correct:1, explain:"The assumption is a life odd enough that someone inquires." },
+        { q:"How is the answer to be given?", opts:["Only when safe","With gentleness and respect","Forcefully"], correct:1, explain:"Peter attaches a manner to the mandate; tone is part of the witness." },
+        { q:"What identity does Peter give ordinary believers?", opts:["A chosen people, royal priesthood, holy nation, God's special possession","Servants only","Outsiders"], correct:0, explain:"Titles once reserved for Israel applied to scattered, suffering churches." }
       ],
       deepDive: "This verse is often used as a call to master arguments, and the context adjusts that. The question comes because someone noticed your hope \u2014 which assumes a life visibly anchored in something. The answer is required, and so is the manner: gentleness and respect, addressed to people who were being slandered and mistreated. Peter had once cut off a man's ear defending Jesus; he now writes that Christ, insulted, did not retaliate. That's a man who learned something. Being ready with an answer and being gentle with it are the same instruction here, not competing ones." },
     { id:355, book:"1 Peter", title:"Cast your anxiety on him", side:"c",
@@ -2016,9 +2016,9 @@
         { ref: "1 Peter 5:7", text: "Cast all your anxiety on him because he cares for you." }
       ],
       questions: [
-        { q:"What does \u2018cast\u2019 suggest?", opts:["Gradual release", "Throwing it", "Ignoring it"], correct:1, explain:"The word describes flinging something off yourself onto something else." },
-        { q:"What's the reason given?", opts:["Anxiety is unproductive", "\u2018Because he cares for you\u2019", "It's commanded"], correct:1, explain:"The motive is His concern, not merely the uselessness of worry." },
-        { q:"How are leaders told to lead?", opts:["By command and control", "Willingly, not lording it over people, but as examples", "From a distance"], correct:1, explain:"Peter, an apostle, calls himself a fellow elder while writing it." }
+        { q:"What does \u2018cast\u2019 suggest?", opts:["Ignoring it","Throwing it","Gradual release"], correct:1, explain:"The word describes flinging something off yourself onto something else." },
+        { q:"What's the reason given?", opts:["Anxiety is unproductive","\u2018Because he cares for you\u2019","It's commanded"], correct:1, explain:"The motive is His concern, not merely the uselessness of worry." },
+        { q:"How are leaders told to lead?", opts:["Willingly, not lording it over people, but as examples","From a distance","By command and control"], correct:0, explain:"Peter, an apostle, calls himself a fellow elder while writing it." }
       ],
       deepDive: "Verse 7 is grammatically attached to verse 6 \u2014 humbling yourself and casting your anxiety are the same movement. That connection is easy to miss and worth keeping: much anxiety is the weight of trying to control outcomes that were never yours, so handing it over is an act of humility, not just relief. The verb is forceful \u2014 throw it, not set it down gently and pick it back up. And the reason given isn't that worry accomplishes nothing, true as that is. It's that He cares for you, which is a claim about His attention rather than your competence." },
     { id:356, book:"2 Peter", title:"He is patient with you", side:"l",
@@ -2027,9 +2027,9 @@
         { ref: "2 Peter 3:9", text: "The Lord is not slow in keeping his promise\u2026 Instead he is patient with you, not wanting anyone to perish." }
       ],
       questions: [
-        { q:"How does Peter explain the delay?", opts:["The promise failed", "Patience", "God forgot"], correct:1, explain:"What looks like slowness is mercy operating on a different clock." },
-        { q:"What does the thousand-years line address?", opts:["Prophecy math", "God's relationship to time", "The age of the earth"], correct:1, explain:"A caution against measuring divine faithfulness by human impatience." },
-        { q:"What response does Peter urge?", opts:["Speculation about dates", "Growth in grace and knowledge, and blameless living", "Withdrawal"], correct:1, explain:"His eschatology always terminates in how you live now." }
+        { q:"How does Peter explain the delay?", opts:["God forgot","Patience","The promise failed"], correct:1, explain:"What looks like slowness is mercy operating on a different clock." },
+        { q:"What does the thousand-years line address?", opts:["God's relationship to time","Prophecy math","The age of the earth"], correct:0, explain:"A caution against measuring divine faithfulness by human impatience." },
+        { q:"What response does Peter urge?", opts:["Withdrawal","Growth in grace and knowledge, and blameless living","Speculation about dates"], correct:1, explain:"His eschatology always terminates in how you live now." }
       ],
       deepDive: "The scoffers' question \u2014 where is this coming he promised? \u2014 is asked in every generation, including by believers who wouldn't say it aloud. Peter's answer is one of the most pastorally useful in Scripture: the delay isn't indifference or failure, it's patience, and its purpose is that more people get time. That reframes waiting entirely. Every day the return is delayed is a day someone else can still come. And notice where he lands \u2014 not on charts and dates, but on the kind of person you should be while waiting: growing, blameless, at peace." },
     { id:357, book:"1 John", title:"Walking in the light", side:"r",
@@ -2038,9 +2038,9 @@
         { ref: "1 John 1:9", text: "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness." }
       ],
       questions: [
-        { q:"What does \u2018walking in the light\u2019 mean?", opts:["Sinlessness", "Living honestly before God", "Constant happiness"], correct:1, explain:"The next verses assume ongoing sin; light is about openness, not perfection." },
-        { q:"Why is God called \u2018faithful and just\u2019 to forgive?", opts:["He's lenient", "The debt has been paid", "He overlooks it"], correct:1, explain:"Not mercy against justice, but mercy satisfying it through the cross." },
-        { q:"What does claiming sinlessness do?", opts:["Pleases God", "Deceives ourselves and makes God out to be a liar", "Shows maturity"], correct:1, explain:"John treats denial as the real danger, not the sin itself." }
+        { q:"What does \u2018walking in the light\u2019 mean?", opts:["Sinlessness","Living honestly before God","Constant happiness"], correct:1, explain:"The next verses assume ongoing sin; light is about openness, not perfection." },
+        { q:"Why is God called \u2018faithful and just\u2019 to forgive?", opts:["The debt has been paid","He overlooks it","He's lenient"], correct:0, explain:"Not mercy against justice, but mercy satisfying it through the cross." },
+        { q:"What does claiming sinlessness do?", opts:["Pleases God","Shows maturity","Deceives ourselves and makes God out to be a liar"], correct:2, explain:"John treats denial as the real danger, not the sin itself." }
       ],
       deepDive: "1 John is written with enormous warmth and no tolerance for pretending. Its opening claim is physical \u2014 we heard, saw, touched \u2014 against teachers who made Christ a spiritual idea. Then the light image, which is frequently misread: walking in the light isn't being sinless, it's living out in the open where sin gets exposed rather than managed in the dark. That's why verse 9 follows so naturally. And the word \u2018just\u2019 is doing heavy lifting: God isn't bending the rules to forgive you. The bill was paid, so forgiveness is the just outcome, not an exception to it." },
     { id:358, book:"1 John", title:"God is love", side:"c",
@@ -2049,9 +2049,9 @@
         { ref: "1 John 4:10", text: "This is love: not that we loved God, but that he loved us and sent his Son as an atoning sacrifice for our sins." }
       ],
       questions: [
-        { q:"How does John define love?", opts:["By feeling", "By an event", "By intention"], correct:1, explain:"He anchors the definition to something that happened, not to sentiment." },
-        { q:"Who loved first?", opts:["We did", "God", "It was mutual"], correct:1, explain:"The direction of the love is the whole point; ours is always a response." },
-        { q:"What does perfect love do to fear?", opts:["Increases it", "Drives it out", "Ignores it"], correct:1, explain:"Confidence before God grows as love is understood, not as performance improves." }
+        { q:"How does John define love?", opts:["By feeling","By intention","By an event"], correct:2, explain:"He anchors the definition to something that happened, not to sentiment." },
+        { q:"Who loved first?", opts:["We did","God","It was mutual"], correct:1, explain:"The direction of the love is the whole point; ours is always a response." },
+        { q:"What does perfect love do to fear?", opts:["Ignores it","Increases it","Drives it out"], correct:2, explain:"Confidence before God grows as love is understood, not as performance improves." }
       ],
       deepDive: "\u2018God is love\u2019 is one of the most quoted and most abused sentences in the Bible, and John guards it in the same paragraph by defining his terms. Love isn't a mood or a general benevolence; \u2018this is love\u2019 \u2014 and he points at the cross. That anchoring keeps the sentence from becoming an excuse for anything anyone wants to call loving. Two other lines deserve attention. \u2018And that is what we are\u2019 \u2014 John seems unable to say \u2018children of God\u2019 without stopping to insist it's actually true. And perfect love driving out fear, which is why growing in this understanding is the antidote to religious anxiety." },
     { id:359, book:"1 John", title:"That you may know", side:"l",
@@ -2060,9 +2060,9 @@
         { ref: "1 John 5:13", text: "I write these things to you who believe in the name of the Son of God so that you may know that you have eternal life." }
       ],
       questions: [
-        { q:"What's John's stated purpose?", opts:["To frighten", "That believers may KNOW they have eternal life", "To settle a legal dispute"], correct:1, explain:"Assurance, not anxiety, is the letter's goal." },
-        { q:"How should love be expressed?", opts:["With words and speech", "With actions and in truth", "Privately"], correct:1, explain:"John, the apostle of love, insists it be verifiable." },
-        { q:"What tests does he offer?", opts:["Emotional intensity", "Obedience, love for others, and confessing Christ came in the flesh", "Church attendance"], correct:1, explain:"Behavioral, relational, and doctrinal \u2014 three angles on the same reality." }
+        { q:"What's John's stated purpose?", opts:["To settle a legal dispute","To frighten","That believers may KNOW they have eternal life"], correct:2, explain:"Assurance, not anxiety, is the letter's goal." },
+        { q:"How should love be expressed?", opts:["With words and speech","With actions and in truth","Privately"], correct:1, explain:"John, the apostle of love, insists it be verifiable." },
+        { q:"What tests does he offer?", opts:["Church attendance","Emotional intensity","Obedience, love for others, and confessing Christ came in the flesh"], correct:2, explain:"Behavioral, relational, and doctrinal \u2014 three angles on the same reality." }
       ],
       deepDive: "It's worth noticing what John wants for his readers: not that they might hope, or try harder, but that they may know. The tests he provides are not designed to torment sensitive consciences; they're offered as evidence for people under pressure from teachers claiming they'd missed something. And his most practical line cuts through a great deal of religious talk: let us not love with words or speech but with actions and in truth. The apostle most associated with love is also the one least willing to let it stay verbal." },
         { id:385, book:"1 John", title:"An advocate with the Father", side:"r",
@@ -2071,9 +2071,9 @@
         { ref: "1 John 2:1\u20132", text: "If anybody does sin, we have an advocate with the Father \u2014 Jesus Christ, the Righteous One." }
       ],
       questions: [
-        { q:"Why does John write \u2018so that you will not sin\u2019 and then immediately address sinning?", opts:["A contradiction", "The goal is holiness, and the provision for failure is real", "He changed his mind"], correct:1, explain:"John holds a high standard and real grace together without letting either cancel the other." },
-        { q:"What word describes Jesus' role before the Father?", opts:["Judge", "Advocate", "Witness against you"], correct:1, explain:"A legal term for someone who pleads your case, not one who prosecutes it." },
-        { q:"What test does John give for really knowing Christ?", opts:["Emotional experience", "Obedience", "Correct doctrine alone"], correct:1, explain:"Claiming to know him without obeying is called, bluntly, a lie." }
+        { q:"Why does John write \u2018so that you will not sin\u2019 and then immediately address sinning?", opts:["The goal is holiness, and the provision for failure is real","A contradiction","He changed his mind"], correct:0, explain:"John holds a high standard and real grace together without letting either cancel the other." },
+        { q:"What word describes Jesus' role before the Father?", opts:["Advocate","Judge","Witness against you"], correct:0, explain:"A legal term for someone who pleads your case, not one who prosecutes it." },
+        { q:"What test does John give for really knowing Christ?", opts:["Emotional experience","Correct doctrine alone","Obedience"], correct:2, explain:"Claiming to know him without obeying is called, bluntly, a lie." }
       ],
       deepDive: "John's pastoral balance shows up immediately: he writes so that his readers won't sin, and in the very next breath provides for what happens when they do anyway. That's not a loophole \u2014 it's realism. And the word 'advocate' matters enormously; it pictures Christ not accusing you before the Father but representing you, the way a defense attorney stands beside a client. Then John gives a test that keeps the whole letter from becoming purely theoretical: knowing Christ shows up in obedience, or the claim to know him is simply false, however sincerely felt." },
     { id:386, book:"1 John", title:"Do not love the world", side:"l",
@@ -2082,9 +2082,9 @@
         { ref: "1 John 2:17", text: "The world and its desires pass away, but whoever does the will of God lives forever." }
       ],
       questions: [
-        { q:"What three things characterize \u2018the world\u2019 here?", opts:["Nations and governments", "The lust of the flesh, the lust of the eyes, and the pride of life", "Nature and creation"], correct:1, explain:"John isn't condemning the physical world God made, but a system of disordered desire and status." },
-        { q:"What is the ultimate case against loving the world?", opts:["It's forbidden arbitrarily", "It passes away", "It's expensive"], correct:1, explain:"The argument is about permanence, not merely rule-keeping." },
-        { q:"What does John say about those who left the church?", opts:["They were forced out", "Their leaving revealed they never truly belonged", "Nothing significant"], correct:1, explain:"Departure, in his reading, exposed something that was already true rather than creating something new." }
+        { q:"What three things characterize \u2018the world\u2019 here?", opts:["The lust of the flesh, the lust of the eyes, and the pride of life","Nature and creation","Nations and governments"], correct:0, explain:"John isn't condemning the physical world God made, but a system of disordered desire and status." },
+        { q:"What is the ultimate case against loving the world?", opts:["It's expensive","It's forbidden arbitrarily","It passes away"], correct:2, explain:"The argument is about permanence, not merely rule-keeping." },
+        { q:"What does John say about those who left the church?", opts:["Nothing significant","They were forced out","Their leaving revealed they never truly belonged"], correct:2, explain:"Departure, in his reading, exposed something that was already true rather than creating something new." }
       ],
       deepDive: "John's warning against loving the world isn't anti-creation \u2014 he's not condemning sunsets or friendship or food. He's naming a specific triad: craving what the body wants without limit, craving what the eyes covet, and pride in status and possessions. What ties all three together is that they're built on something that doesn't last. His argument isn't merely 'this is against the rules' but 'this is a bad investment' \u2014 you're pouring yourself into something with an expiration date. And his comment about those who departed is worth remembering without cruelty: sometimes leaving reveals a belonging that was never really there, which is sad rather than surprising." },
     { id:387, book:"1 John", title:"See what great love", side:"c",
@@ -2093,9 +2093,9 @@
         { ref: "1 John 3:2", text: "Dear friends, now we are children of God, and what we will be has not yet been made known. But we know that when Christ appears, we shall be like him." }
       ],
       questions: [
-        { q:"What word describes how the Father gave his love?", opts:["Sparingly", "Lavished", "Reluctantly"], correct:1, explain:"Not a careful, measured gift but one poured out generously." },
-        { q:"What don't we yet fully know about our future?", opts:["Nothing is certain", "What we will be", "Whether we'll be saved"], correct:1, explain:"Present identity is certain; future glory exceeds current description." },
-        { q:"What does hoping for that future produce now?", opts:["Passivity", "Purification", "Fear"], correct:1, explain:"Future hope shapes present behavior, rather than being disconnected from it." }
+        { q:"What word describes how the Father gave his love?", opts:["Sparingly","Lavished","Reluctantly"], correct:1, explain:"Not a careful, measured gift but one poured out generously." },
+        { q:"What don't we yet fully know about our future?", opts:["Nothing is certain","What we will be","Whether we'll be saved"], correct:1, explain:"Present identity is certain; future glory exceeds current description." },
+        { q:"What does hoping for that future produce now?", opts:["Purification","Fear","Passivity"], correct:0, explain:"Future hope shapes present behavior, rather than being disconnected from it." }
       ],
       deepDive: "John seems almost unable to state 'children of God' without stopping to marvel at it \u2014 'and that is what we are!' is practically an interruption in his own sentence, as if he needs to insist on it before moving on. Then he does something remarkable with the future: he admits he doesn't know exactly what it holds, only that it involves becoming like Christ, seeing him as he actually is. That combination \u2014 confident about identity now, humble about the details of glory later \u2014 is a healthy shape for hope to take. And notice what hope produces: not escapism, but purification, present-tense effort shaped by a future not yet fully seen." },
     { id:388, book:"1 John", title:"Test the spirits", side:"r",
@@ -2104,9 +2104,9 @@
         { ref: "1 John 4:4", text: "You, dear children, are from God and have overcome them, because the one who is in you is greater than the one who is in the world." }
       ],
       questions: [
-        { q:"What does John instruct believers to do with spiritual claims?", opts:["Accept them all", "Test them", "Ignore them entirely"], correct:1, explain:"Discernment is commanded, not assumed to be unnecessary among believers." },
-        { q:"What is the specific test given?", opts:["Miraculous power", "Whether the teaching acknowledges Jesus Christ came in the flesh", "Popularity"], correct:1, explain:"A doctrinal anchor \u2014 denying the incarnation disqualifies a teaching regardless of its other claims." },
-        { q:"What confidence does John give believers facing false teaching?", opts:["They're on their own", "The one in them is greater than the one in the world", "They should avoid all conflict"], correct:1, explain:"Not a call to fear opposition but a reminder of whose power actually indwells them." }
+        { q:"What does John instruct believers to do with spiritual claims?", opts:["Ignore them entirely","Accept them all","Test them"], correct:2, explain:"Discernment is commanded, not assumed to be unnecessary among believers." },
+        { q:"What is the specific test given?", opts:["Miraculous power","Whether the teaching acknowledges Jesus Christ came in the flesh","Popularity"], correct:1, explain:"A doctrinal anchor \u2014 denying the incarnation disqualifies a teaching regardless of its other claims." },
+        { q:"What confidence does John give believers facing false teaching?", opts:["They should avoid all conflict","The one in them is greater than the one in the world","They're on their own"], correct:1, explain:"Not a call to fear opposition but a reminder of whose power actually indwells them." }
       ],
       deepDive: "This passage answers a real problem the early church faced: competing voices, all claiming spiritual authority, not all of them trustworthy. John doesn't respond with either naive acceptance or blanket suspicion \u2014 he gives a test. And the test is specific rather than vague: does the teaching hold that Jesus Christ actually came in the flesh, a real body, real suffering, real death? That single doctrinal anchor was enough to filter out the early denials of the incarnation. And John's closing reassurance is worth carrying into any season of confusing spiritual noise: greater is he who is in you than he who is in the world. Confidence, not anxiety, is the posture he recommends." },
     { id:360, book:"2 John", title:"Truth and love together", side:"r",
@@ -2115,9 +2115,9 @@
         { ref: "2 John 1:6", text: "And this is love: that we walk in obedience to his commands." }
       ],
       questions: [
-        { q:"What two things are held together?", opts:["Truth and power", "Truth and love", "Love and tolerance"], correct:1, explain:"The whole letter refuses to let either one exist without the other." },
-        { q:"What was the false teaching?", opts:["That Jesus was only human", "Denying that Jesus Christ came in the flesh", "That the law still applied"], correct:1, explain:"An early denial of the incarnation, which John treats as disqualifying." },
-        { q:"Why does John prefer to visit?", opts:["It's cheaper", "Face to face, so that their joy may be complete", "To inspect them"], correct:1, explain:"Even an apostle prefers presence to correspondence." }
+        { q:"What two things are held together?", opts:["Truth and power","Truth and love","Love and tolerance"], correct:1, explain:"The whole letter refuses to let either one exist without the other." },
+        { q:"What was the false teaching?", opts:["That the law still applied","Denying that Jesus Christ came in the flesh","That Jesus was only human"], correct:1, explain:"An early denial of the incarnation, which John treats as disqualifying." },
+        { q:"Why does John prefer to visit?", opts:["To inspect them","Face to face, so that their joy may be complete","It's cheaper"], correct:1, explain:"Even an apostle prefers presence to correspondence." }
       ],
       deepDive: "This one-page letter is a corrective to two opposite instincts. To people who think love means accepting any teaching, John says some things are disqualifying and shouldn't be given a platform. To people who think guarding truth licenses coldness, he opens and closes with love and joy and a longing to be together in person. Truth without love turns cruel; love without truth turns meaningless. And his definition of love is characteristically concrete: walking in obedience to His commands \u2014 not a feeling to summon but a path to walk." },
     { id:361, book:"3 John", title:"Working together for the truth", side:"c",
@@ -2126,9 +2126,9 @@
         { ref: "3 John 1:4", text: "I have no greater joy than to hear that my children are walking in the truth." }
       ],
       questions: [
-        { q:"What is Gaius commended for?", opts:["Preaching", "Hospitality", "Wealth"], correct:1, explain:"Practical support of others' ministry treated as \u2018working together for the truth.\u2019" },
-        { q:"What's wrong with Diotrephes?", opts:["False doctrine", "He loves to be first", "Laziness"], correct:1, explain:"No heresy is named; the problem is a man who wants preeminence." },
-        { q:"What's the closing instruction?", opts:["Avoid all conflict", "Do not imitate what is evil but what is good", "Leave the church"], correct:1, explain:"A simple standard, given after two live examples to compare." }
+        { q:"What is Gaius commended for?", opts:["Hospitality","Wealth","Preaching"], correct:0, explain:"Practical support of others' ministry treated as \u2018working together for the truth.\u2019" },
+        { q:"What's wrong with Diotrephes?", opts:["He loves to be first","Laziness","False doctrine"], correct:0, explain:"No heresy is named; the problem is a man who wants preeminence." },
+        { q:"What's the closing instruction?", opts:["Avoid all conflict","Leave the church","Do not imitate what is evil but what is good"], correct:2, explain:"A simple standard, given after two live examples to compare." }
       ],
       deepDive: "The shortest book in the New Testament preserves a very ordinary church problem: a man who loves being first. Diotrephes isn't accused of false teaching \u2014 just ego, gossip about John, refusing hospitality, and pushing out those who offer it. That such a small, human failure made it into Scripture is itself instructive about how much damage it does. Against him stand Gaius and Demetrius, remembered for hospitality and a good reputation. And John's line about joy is worth holding if you've invested in anyone's faith: no greater joy than hearing they're walking in the truth." },
     { id:362, book:"Jude", title:"Contend for the faith", side:"l",
@@ -2137,9 +2137,9 @@
         { ref: "Jude 1:24", text: "To him who is able to keep you from stumbling and to present you before his glorious presence without fault and with great joy." }
       ],
       questions: [
-        { q:"What error is Jude confronting?", opts:["Legalism", "Turning grace into a license for immorality", "Denial of the resurrection"], correct:1, explain:"The opposite error from Galatians \u2014 grace abused rather than diluted." },
-        { q:"How are doubters to be treated?", opts:["Expelled", "With mercy", "Ignored"], correct:1, explain:"Contending for the faith doesn't mean hardness toward the uncertain." },
-        { q:"Who keeps believers from falling?", opts:["Their own vigilance", "God", "Church leaders"], correct:1, explain:"After a letter about danger, it ends by naming who does the holding." }
+        { q:"What error is Jude confronting?", opts:["Denial of the resurrection","Legalism","Turning grace into a license for immorality"], correct:2, explain:"The opposite error from Galatians \u2014 grace abused rather than diluted." },
+        { q:"How are doubters to be treated?", opts:["Ignored","Expelled","With mercy"], correct:2, explain:"Contending for the faith doesn't mean hardness toward the uncertain." },
+        { q:"Who keeps believers from falling?", opts:["Their own vigilance","Church leaders","God"], correct:2, explain:"After a letter about danger, it ends by naming who does the holding." }
       ],
       deepDive: "Jude is a single page of urgency. He planned a different letter and abandoned it because something was going wrong: people were using grace as cover for whatever they wanted. His response is to contend \u2014 an athletic word, meaning strain and effort \u2014 for a faith \u2018once for all entrusted,\u2019 which means it isn't ours to renovate. But the letter's tone is not merely combative. In the middle of it: be merciful to those who doubt. And the closing doxology is one of Scripture's most reassuring, because after all that warning about falling, the one keeping you upright is God." },
     { id:363, book:"Revelation", title:"The one who was, and is, and is to come", side:"r",
@@ -2148,9 +2148,9 @@
         { ref: "Revelation 1:17\u201318", text: "Do not be afraid. I am the First and the Last. I am the Living One; I was dead, and now look, I am alive for ever and ever!" }
       ],
       questions: [
-        { q:"Where is Christ standing in the vision?", opts:["Far off", "Among the lampstands", "In a temple"], correct:1, explain:"Before any judgment or prophecy, He is pictured present with them." },
-        { q:"What did John do on seeing Him?", opts:["Took notes", "Fell as though dead", "Ran"], correct:1, explain:"Terror answered by a hand on the shoulder." },
-        { q:"What does holding \u2018the keys of death\u2019 mean?", opts:["A metaphor for wisdom", "Authority over death itself", "Control of a building"], correct:1, explain:"Spoken to Christians facing execution, this is the most practical claim in the book." }
+        { q:"Where is Christ standing in the vision?", opts:["Far off","Among the lampstands","In a temple"], correct:1, explain:"Before any judgment or prophecy, He is pictured present with them." },
+        { q:"What did John do on seeing Him?", opts:["Took notes","Fell as though dead","Ran"], correct:1, explain:"Terror answered by a hand on the shoulder." },
+        { q:"What does holding \u2018the keys of death\u2019 mean?", opts:["Authority over death itself","Control of a building","A metaphor for wisdom"], correct:0, explain:"Spoken to Christians facing execution, this is the most practical claim in the book." }
       ],
       deepDive: "Revelation was written to churches under real pressure, and it opens by showing them who is actually in charge. The imagery is overwhelming \u2014 blazing eyes, a voice like a waterfall \u2014 and then the gesture that makes the whole book bearable: a hand on a terrified man's shoulder, and \u2018do not be afraid.\u2019 Two details anchor everything that follows. Christ is walking among the lampstands, which means He is present in struggling churches rather than watching from a distance. And He holds the keys of death, which for readers facing martyrdom was the most relevant sentence imaginable." },
     { id:364, book:"Revelation", title:"Letters to the churches", side:"c",
@@ -2159,9 +2159,9 @@
         { ref: "Revelation 3:20", text: "Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with them." }
       ],
       questions: [
-        { q:"What was wrong at Ephesus?", opts:["False doctrine", "They had forsaken their first love while still working hard", "Laziness"], correct:1, explain:"Correct, hardworking, enduring \u2014 and the affection had gone out of it." },
-        { q:"What was Laodicea's problem?", opts:["Poverty", "Self-sufficiency", "Persecution"], correct:1, explain:"The gap between their self-assessment and reality was total." },
-        { q:"Who is Jesus knocking to get in to?", opts:["Unbelievers only", "A church", "A city"], correct:1, explain:"Often used evangelistically, but originally addressed to Laodicea." }
+        { q:"What was wrong at Ephesus?", opts:["They had forsaken their first love while still working hard","False doctrine","Laziness"], correct:0, explain:"Correct, hardworking, enduring \u2014 and the affection had gone out of it." },
+        { q:"What was Laodicea's problem?", opts:["Persecution","Self-sufficiency","Poverty"], correct:1, explain:"The gap between their self-assessment and reality was total." },
+        { q:"Who is Jesus knocking to get in to?", opts:["Unbelievers only","A church","A city"], correct:1, explain:"Often used evangelistically, but originally addressed to Laodicea." }
       ],
       deepDive: "These seven letters are the most searching self-examination material in the New Testament, because each church's problem is different and several look fine from outside. Ephesus is doctrinally sound, hardworking, and has lost its love \u2014 an entirely possible condition for a busy Christian. Sardis has a great reputation and is dead. Laodicea is rich and thinks it needs nothing. And the famous knocking verse is aimed at a church, not an outsider: Jesus standing outside His own people's door, asking to be let back in for a meal. That's a gentler picture than the rebuke preceding it deserved." },
     { id:365, book:"Revelation", title:"Worthy is the Lamb", side:"l",
@@ -2170,9 +2170,9 @@
         { ref: "Revelation 5:12", text: "Worthy is the Lamb, who was slain, to receive power and wealth and wisdom and strength and honor and glory and praise!" }
       ],
       questions: [
-        { q:"What does John hear announced, and what does he see?", opts:["Both a lion", "He hears \u2018Lion\u2019 and sees a slain Lamb", "Both a lamb"], correct:1, explain:"The central image reversal of the book: the conquering Lion conquers as a slaughtered Lamb." },
-        { q:"Why is the Lamb worthy?", opts:["Because of strength", "Because he was slain and purchased people from every tribe and nation", "By appointment"], correct:1, explain:"The worthiness is grounded in the sacrifice, not in power alone." },
-        { q:"Who is redeemed in the song?", opts:["One nation", "People from every tribe, language, people and nation", "Only the faithful few"], correct:1, explain:"The global scope Abraham was promised, sung as accomplished." }
+        { q:"What does John hear announced, and what does he see?", opts:["He hears \u2018Lion\u2019 and sees a slain Lamb","Both a lamb","Both a lion"], correct:0, explain:"The central image reversal of the book: the conquering Lion conquers as a slaughtered Lamb." },
+        { q:"Why is the Lamb worthy?", opts:["Because he was slain and purchased people from every tribe and nation","By appointment","Because of strength"], correct:0, explain:"The worthiness is grounded in the sacrifice, not in power alone." },
+        { q:"Who is redeemed in the song?", opts:["People from every tribe, language, people and nation","Only the faithful few","One nation"], correct:0, explain:"The global scope Abraham was promised, sung as accomplished." }
       ],
       deepDive: "This is the theological heart of Revelation. John hears an announcement of a Lion and turns to look \u2014 and sees a Lamb bearing the marks of slaughter. Heaven's definition of victory is a cross. That single moment governs how everything else in the book should be read: whatever conquering means here, it looks like self-giving, not domination. And the song names who was purchased \u2014 every tribe, language, people, and nation \u2014 which is the promise to Abraham finally sung in the past tense. Notice, too, that the Lamb is standing, though slain." },
     { id:366, book:"Revelation", title:"Every tear wiped away", side:"r",
@@ -2181,9 +2181,9 @@
         { ref: "Revelation 21:3\u20134", text: "God\u2019s dwelling place is now among the people\u2026 He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain." }
       ],
       questions: [
-        { q:"Which direction does the city travel?", opts:["Up, as people escape earth", "Down", "Sideways"], correct:1, explain:"The Bible's hope isn't evacuation but God coming to dwell here." },
-        { q:"What is the central promise?", opts:["Golden streets", "God dwelling with His people", "Rest from work"], correct:1, explain:"The same promise as Eden, the tabernacle, and Immanuel, finally permanent." },
-        { q:"What does \u2018making everything new\u2019 mean?", opts:["Replacing with different things", "Renewing what exists", "Starting over from nothing"], correct:1, explain:"Restoration language: the world healed rather than scrapped." }
+        { q:"Which direction does the city travel?", opts:["Sideways","Up, as people escape earth","Down"], correct:2, explain:"The Bible's hope isn't evacuation but God coming to dwell here." },
+        { q:"What is the central promise?", opts:["Golden streets","Rest from work","God dwelling with His people"], correct:2, explain:"The same promise as Eden, the tabernacle, and Immanuel, finally permanent." },
+        { q:"What does \u2018making everything new\u2019 mean?", opts:["Renewing what exists","Replacing with different things","Starting over from nothing"], correct:0, explain:"Restoration language: the world healed rather than scrapped." }
       ],
       deepDive: "After all the strange imagery, Revelation lands somewhere remarkably concrete and tender: a God who wipes tears off faces with His own hand. Notice the direction \u2014 the city comes down. The Christian hope has never been escaping earth for a disembodied elsewhere but God coming to dwell here permanently. And notice what is finally, specifically abolished: death, mourning, crying, pain. Not vague improvement but the removal of exactly the things that make human life ache. Isaiah 65 promised this, and Revelation quotes it nearly word for word." },
     { id:367, book:"Revelation", title:"The river and the tree", side:"c",
@@ -2192,9 +2192,9 @@
         { ref: "Revelation 22:2", text: "On each side of the river stood the tree of life\u2026 And the leaves of the tree are for the healing of the nations." }
       ],
       questions: [
-        { q:"What returns from Genesis?", opts:["Nothing", "The tree of life and a river", "The serpent"], correct:1, explain:"The Bible ends by reopening what was closed in Eden's third chapter." },
-        { q:"Why is there no temple?", opts:["It was destroyed", "God and the Lamb are its temple", "It's elsewhere"], correct:1, explain:"The whole point of a temple was access; access is now unmediated." },
-        { q:"What do the leaves do?", opts:["Provide shade", "Heal the nations", "Nothing"], correct:1, explain:"Ezekiel 47's river reappears, with the same healing leaves." }
+        { q:"What returns from Genesis?", opts:["The tree of life and a river","Nothing","The serpent"], correct:0, explain:"The Bible ends by reopening what was closed in Eden's third chapter." },
+        { q:"Why is there no temple?", opts:["It's elsewhere","It was destroyed","God and the Lamb are its temple"], correct:2, explain:"The whole point of a temple was access; access is now unmediated." },
+        { q:"What do the leaves do?", opts:["Provide shade","Heal the nations","Nothing"], correct:1, explain:"Ezekiel 47's river reappears, with the same healing leaves." }
       ],
       deepDive: "The Bible's last chapter deliberately reopens its first. A river, a tree of life, and no curse \u2014 everything sealed off in Genesis 3 is restored and improved, because now it's a city full of nations rather than a garden with two people. Ezekiel's river from the temple flows here too, healing leaves included. And the greatest promise is the quietest: they will see his face. Moses asked for that and was told no one could survive it. The whole story from Eden to Patmos has been moving toward that sentence." },
     { id:368, book:"Revelation", title:"Come, Lord Jesus", side:"l",
@@ -2203,9 +2203,9 @@
         { ref: "Revelation 22:17", text: "Let the one who is thirsty come; and let the one who wishes take the free gift of the water of life." }
       ],
       questions: [
-        { q:"How does the Bible end?", opts:["With a warning", "With an invitation and a prayer", "With a genealogy"], correct:1, explain:"The last movement is longing and welcome, not judgment." },
-        { q:"What's the cost of the water of life?", opts:["A lifetime of service", "Free", "A pledge"], correct:1, explain:"The same open offer as Isaiah 55, repeated on the Bible's last page." },
-        { q:"Who is invited?", opts:["The qualified", "Anyone thirsty, anyone who wishes", "Only the seven churches"], correct:1, explain:"The final invitation in Scripture has the widest possible door." }
+        { q:"How does the Bible end?", opts:["With a genealogy","With an invitation and a prayer","With a warning"], correct:1, explain:"The last movement is longing and welcome, not judgment." },
+        { q:"What's the cost of the water of life?", opts:["A pledge","A lifetime of service","Free"], correct:2, explain:"The same open offer as Isaiah 55, repeated on the Bible's last page." },
+        { q:"Who is invited?", opts:["Only the seven churches","Anyone thirsty, anyone who wishes","The qualified"], correct:1, explain:"The final invitation in Scripture has the widest possible door." }
       ],
       deepDive: "For a book famous for its terrors, Revelation ends astonishingly gently: an invitation, a thirst, a free gift, and a church praying for her Lord to come. The Spirit and the bride say come \u2014 and then anyone who hears is invited to join the inviting. That's the church's whole job in one line. And the last exchange in the Bible is a promise and a response: \u2018Yes, I am coming soon.\u2019 \u2018Amen. Come, Lord Jesus.\u2019 The story that began with God walking in a garden ends with His people asking Him to hurry back \u2014 and with grace, which is the last word Scripture leaves you holding." },
     { id:401, book:"Revelation", title:"Seals, trumpets, and a great multitude", side:"r",
@@ -2214,9 +2214,9 @@
         { ref: "Revelation 7:9\u201314", text: "These are they who have come out of the great tribulation; they have washed their robes and made them white in the blood of the Lamb." }
       ],
       questions: [
-        { q:"What do the martyrs under the altar cry out?", opts:["Nothing", "How long until God judges and avenges their blood?", "A prayer for their persecutors"], correct:1, explain:"Real anguish over unresolved injustice, given voice rather than suppressed." },
-        { q:"How does God answer their cry?", opts:["Immediate justice", "Wait a little longer", "Silence"], correct:1, explain:"Not indifference, but a timeline that isn't yet complete." },
-        { q:"Who makes up the great multitude in white robes?", opts:["A single nation", "Every nation, tribe, people, and language", "Only the twelve tribes"], correct:1, explain:"A global, uncountable gathering \u2014 the promise to Abraham fully realized." }
+        { q:"What do the martyrs under the altar cry out?", opts:["A prayer for their persecutors","How long until God judges and avenges their blood?","Nothing"], correct:1, explain:"Real anguish over unresolved injustice, given voice rather than suppressed." },
+        { q:"How does God answer their cry?", opts:["Wait a little longer","Silence","Immediate justice"], correct:0, explain:"Not indifference, but a timeline that isn't yet complete." },
+        { q:"Who makes up the great multitude in white robes?", opts:["Only the twelve tribes","A single nation","Every nation, tribe, people, and language"], correct:2, explain:"A global, uncountable gathering \u2014 the promise to Abraham fully realized." }
       ],
       deepDive: "This chapter holds together two things that seem to pull apart: real, unanswered suffering and certain, ultimate victory. The martyrs' question \u2014 how long? \u2014 is not scolded or dismissed; it's an honest cry that Revelation preserves rather than edits out, alongside an honest answer that more time is needed before it's resolved. And then, breaking through the upheaval, the vision of the great multitude: uncountable, from every corner of the earth, robes washed white specifically in blood \u2014 a striking image where the very thing that stains becomes, through the Lamb, the means of being made clean. Suffering and glory sit side by side in this chapter without either one canceling the other out." },
     { id:402, book:"Revelation", title:"The woman, the dragon, and the accuser thrown down", side:"l",
@@ -2225,9 +2225,9 @@
         { ref: "Revelation 12:11", text: "They triumphed over him by the blood of the Lamb and by the word of their testimony; they did not love their lives so much as to shrink from death." }
       ],
       questions: [
-        { q:"What happens to the dragon's attempt to devour the child?", opts:["It succeeds", "The child is snatched up to God's throne, out of reach", "The dragon gives up first"], correct:1, explain:"Every attempt to destroy God's purposes in this vision ultimately fails." },
-        { q:"Who is identified as the great dragon?", opts:["A foreign king", "The ancient serpent, the devil, Satan, who deceives the world", "A symbol of Rome only"], correct:1, explain:"The cosmic enemy behind every earthly opposition to God's people is named directly." },
-        { q:"How do believers triumph over the accuser?", opts:["Their own strength", "The blood of the Lamb, their testimony, and not loving their lives more than faithfulness", "Political power"], correct:1, explain:"Three things named as the means of victory, none of them military force." }
+        { q:"What happens to the dragon's attempt to devour the child?", opts:["It succeeds","The child is snatched up to God's throne, out of reach","The dragon gives up first"], correct:1, explain:"Every attempt to destroy God's purposes in this vision ultimately fails." },
+        { q:"Who is identified as the great dragon?", opts:["A symbol of Rome only","A foreign king","The ancient serpent, the devil, Satan, who deceives the world"], correct:2, explain:"The cosmic enemy behind every earthly opposition to God's people is named directly." },
+        { q:"How do believers triumph over the accuser?", opts:["Political power","Their own strength","The blood of the Lamb, their testimony, and not loving their lives more than faithfulness"], correct:2, explain:"Three things named as the means of victory, none of them military force." }
       ],
       deepDive: "This vision pulls the camera back to show the cosmic conflict behind Revelation's earthly scenes \u2014 not just Rome persecuting Christians, but an ancient enmity stretching back to Eden's serpent, now cast down and furious because his time is short. And yet even this terrifying chapter turns on a note of triumph rather than despair: believers overcome the accuser not through superior force but through three specific things \u2014 the blood of the Lamb (what Christ accomplished), the word of their testimony (what they said about it), and a willingness to hold faithfulness above even survival itself. That's a sobering, steadying combination for anyone facing real cost for their faith: the outcome was never really in doubt, and the means of victory were never violence." },
     { id:403, book:"Revelation", title:"The beast, the mark, and patient endurance", side:"c",
@@ -2236,9 +2236,9 @@
         { ref: "Revelation 14:12\u201313", text: "This calls for patient endurance and faithfulness on the part of God\u2019s people\u2026 Blessed are the dead who die in the Lord." }
       ],
       questions: [
-        { q:"What economic pressure does the mark of the beast create?", opts:["None", "No one can buy or sell without it", "Only the wealthy are affected"], correct:1, explain:"A vision of total economic coercion aimed at forcing conformity." },
-        { q:"What does John say this situation calls for?", opts:["Retaliation", "Patient endurance and faithfulness", "Despair"], correct:1, explain:"Not passivity, but active perseverance under real pressure." },
-        { q:"What blessing is pronounced over those who die faithful?", opts:["Nothing specific", "Rest from their labor, their deeds following them", "Forgetting"], correct:1, explain:"Faithful death, even under this pressure, is met with rest and lasting significance, not erasure." }
+        { q:"What economic pressure does the mark of the beast create?", opts:["No one can buy or sell without it","Only the wealthy are affected","None"], correct:0, explain:"A vision of total economic coercion aimed at forcing conformity." },
+        { q:"What does John say this situation calls for?", opts:["Despair","Patient endurance and faithfulness","Retaliation"], correct:1, explain:"Not passivity, but active perseverance under real pressure." },
+        { q:"What blessing is pronounced over those who die faithful?", opts:["Rest from their labor, their deeds following them","Nothing specific","Forgetting"], correct:0, explain:"Faithful death, even under this pressure, is met with rest and lasting significance, not erasure." }
       ],
       deepDive: "Whatever the precise historical or future reference of the beasts and the mark, the pastoral function of this chapter is clear: it was written to steady people facing genuine economic and social pressure to conform, where faithfulness could cost your livelihood or your life. Revelation's answer isn't a strategy for resistance or escape \u2014 it's a call to patient endurance, the long, unglamorous discipline of simply not giving in over time. And the blessing pronounced over those who die faithful is worth carrying into any season of costly obedience: rest, and deeds that follow rather than vanish. Nothing done in faithfulness under pressure, in this vision, is ultimately wasted." },
     { id:404, book:"Revelation", title:"Babylon has fallen", side:"r",
@@ -2247,9 +2247,9 @@
         { ref: "Revelation 19:7", text: "Let us rejoice and be glad and give him glory! For the wedding of the Lamb has come, and his bride has made herself ready." }
       ],
       questions: [
-        { q:"How is Babylon's fall announced?", opts:["As a distant future possibility", "As already accomplished", "Uncertainly"], correct:1, explain:"Prophetic certainty spoken as if the event had already happened." },
-        { q:"Who weeps over Babylon's fall, and why?", opts:["The saints", "The merchants", "No one"], correct:1, explain:"Grief tied to lost profit, not to genuine mourning for what Babylon represented." },
-        { q:"What follows the fall of Babylon?", opts:["More judgment only", "The wedding of the Lamb", "Silence"], correct:1, explain:"Destruction of what opposed God's purposes clears the way for the celebration that was always coming." }
+        { q:"How is Babylon's fall announced?", opts:["As already accomplished","As a distant future possibility","Uncertainly"], correct:0, explain:"Prophetic certainty spoken as if the event had already happened." },
+        { q:"Who weeps over Babylon's fall, and why?", opts:["The saints","The merchants","No one"], correct:1, explain:"Grief tied to lost profit, not to genuine mourning for what Babylon represented." },
+        { q:"What follows the fall of Babylon?", opts:["The wedding of the Lamb","Silence","More judgment only"], correct:0, explain:"Destruction of what opposed God's purposes clears the way for the celebration that was always coming." }
       ],
       deepDive: "Babylon in Revelation represents every system built on exploitation, luxury purchased at others' expense, and idolatry dressed up as glamour \u2014 and its fall is announced with startling confidence, as an accomplished fact rather than a hoped-for possibility. The contrast Revelation draws is pointed: the merchants who profited from Babylon weep over lost income, while heaven rejoices because injustice has finally been answered. And right after the ashes settle, the tone flips entirely \u2014 not to more judgment, but to a wedding. The image of the Lamb's bride making herself ready is one of Scripture's tenderest pictures of what all the judgment was clearing space for: not an empty aftermath, but a celebration." }
   
