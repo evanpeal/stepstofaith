@@ -2628,6 +2628,8 @@
     const [roomNameDraft, setRoomNameDraft] = React.useState('');
     const [roomDescDraft, setRoomDescDraft] = React.useState('');
     const [confirmDelete, setConfirmDelete] = React.useState(false);
+    const [confirmDeleteAccount, setConfirmDeleteAccount] = React.useState(false);
+    const [deletingAccount, setDeletingAccount] = React.useState(false);
     const [roomIconDraft, setRoomIconDraft] = React.useState('');
     const [reactions, setReactions] = React.useState([]);
     const [assignDone, setAssignDone] = React.useState([]);
@@ -3693,6 +3695,24 @@
       if (!sb) return;
       await sb.auth.signOut();
       load(null);
+    }
+
+    async function deleteAccount(){
+      if (!sb || !user) return;
+      setDeletingAccount(true);
+      try {
+        const { error } = await sb.rpc('delete_user');
+        if (error) throw error;
+        try { localStorage.removeItem(KEY); } catch (ex) {}
+        await sb.auth.signOut();
+        setConfirmDeleteAccount(false);
+        setState({ ...DEFAULT_STATE });
+        load(null);
+        alert('Your account has been deleted.');
+      } catch (ex) {
+        alert('Could not delete your account: ' + (ex && ex.message ? ex.message : 'unknown error') + '. Please try again.');
+      }
+      setDeletingAccount(false);
     }
 
     function renderAuthModal(){
@@ -5493,6 +5513,16 @@
                 e('button', {className:'dl-account-btn', onClick: ()=>{ setAuthMode('signup'); setAuthError(''); setAuthOpen(true); }, key:'in'}, 'Sign in / Create account')
               ]
         ),
+        user ? (confirmDeleteAccount
+          ? e('div', {className:'dl-delete-account-confirm', key:'delconfirm'}, [
+              e('div', {className:'dl-delete-account-text', key:'t'}, 'This will permanently delete your account and all your progress. This can\u2019t be undone.'),
+              e('div', {className:'dl-delete-account-actions', key:'a'}, [
+                e('button', {className:'dl-account-btn', onClick:()=>setConfirmDeleteAccount(false), disabled: deletingAccount, key:'c'}, 'Cancel'),
+                e('button', {className:'dl-account-btn dl-delete-account-btn', onClick: deleteAccount, disabled: deletingAccount, key:'d'}, deletingAccount ? 'Deleting\u2026' : 'Delete forever')
+              ])
+            ])
+          : e('button', {className:'dl-delete-account-link', onClick:()=>setConfirmDeleteAccount(true), key:'dellink'}, 'Delete account')
+        ) : null,
         e('button', {className:'dl-about-link', onClick:()=>setShowWelcome(true), key:'about'}, 'What is Steps to Faith?'),
 
         e('div', {className:'dl-hero-streak', key:'hero'}, [

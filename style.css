@@ -328,6 +328,11 @@
 .dl-profile-verse { position: relative; z-index: 1; font-size: 12px; font-weight: 700; color: rgba(255,255,255,0.8); letter-spacing: 0.2px; margin-top: 4px; max-width: 260px; text-align: center; font-style: italic; }
 .dl-profile-edit-btn { position: relative; z-index: 1; background: rgba(255,255,255,0.22); color: #fff; border: none; padding: 7px 16px; border-radius: 20px; font-size: 12px; font-weight: 800; margin-top: 10px; cursor: pointer; }
 .dl-account-row { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; gap: 10px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 14px; padding: 12px 14px; margin: 18px 0 -4px; }
+.dl-delete-account-link { position: relative; z-index: 1; display: block; margin: 12px auto 0; background: none; border: none; color: rgba(255,120,120,0.9); font-size: 12px; font-weight: 700; text-decoration: underline; cursor: pointer; }
+.dl-delete-account-confirm { position: relative; z-index: 1; background: rgba(255,80,80,0.12); border: 1px solid rgba(255,100,100,0.4); border-radius: 14px; padding: 12px 14px; margin: 14px 0 0; }
+.dl-delete-account-text { font-size: 12.5px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+.dl-delete-account-actions { display: flex; gap: 8px; justify-content: flex-end; }
+.dl-delete-account-btn { background: #e5484d; }
 .dl-account-text { font-size: 12.5px; font-weight: 700; color: rgba(255,255,255,0.85); }
 .dl-account-btn { background: var(--purple); color: #fff; border: none; padding: 8px 14px; border-radius: 20px; font-size: 12px; font-weight: 800; cursor: pointer; white-space: nowrap; }
 .dl-auth-error { font-size: 12.5px; font-weight: 700; color: var(--red-dark); background: #ffe6e6; border-radius: 10px; padding: 8px 12px; margin-top: 6px; }
