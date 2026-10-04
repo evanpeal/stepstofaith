@@ -3711,22 +3711,10 @@
 
     async function signUp(){
       if (!sb) return;
-      const first = authFirst.trim(), last = authLast.trim();
-      if (first.length < 2) { setAuthError('Please enter your first name.'); return; }
-      if (last.length < 1) { setAuthError('Please enter your last name.'); return; }
-      const fullName = first + ' ' + last;
       setAuthError(''); setAuthLoading(true);
       const { data, error } = await sb.auth.signUp({ email: authEmail, password: authPassword });
       setAuthLoading(false);
       if (error) { setAuthError(error.message); return; }
-      // Save the name straight into their progress so it shows everywhere
-      try {
-        const base = state || { ...DEFAULT_STATE };
-        const next = { ...base, profile: { ...(base.profile || {}), name: fullName, church: authChurch.trim(), phone: authPhone.trim() } };
-        setState(next);
-        try { localStorage.setItem(KEY, JSON.stringify(next)); } catch (ex) {}
-        setPendingSignupName(fullName);
-      } catch (ex) {}
       if (data && data.session) {
         setAuthOpen(false); setAuthEmail(''); setAuthPassword(''); setAuthFirst(''); setAuthLast(''); setAuthPhone(''); setAuthChurch(''); setAuthError('');
         return;
@@ -3776,7 +3764,7 @@
             e('div', {className:'dl-auth-modal-sub', key:'sub'}, authMode === 'signup' ? 'Save your progress across every device' : 'Log in to pick up where you left off')
           ]),
           e('div', {className:'dl-auth-modal-body', key:'body'}, [
-            authMode === 'signup' ? e('div', {className:'dl-name-row', key:'namerow'}, [
+            (false && authMode === 'signup') ? e('div', {className:'dl-name-row', key:'namerow'}, [
               e('div', {className:'dl-edit-field', style:{flex:1}, key:'f'}, [
                 e('label', {key:'l'}, 'First name'),
                 e('input', {value:authFirst, onChange: ev=>setAuthFirst(ev.target.value), placeholder:'First', key:'i'})
@@ -3786,12 +3774,12 @@
                 e('input', {value:authLast, onChange: ev=>setAuthLast(ev.target.value), placeholder:'Last', key:'i'})
               ])
             ]) : null,
-            authMode === 'signup' ? e('div', {className:'dl-edit-field', key:'phonefield'}, [
+            (false && authMode === 'signup') ? e('div', {className:'dl-edit-field', key:'phonefield'}, [
               e('label', {key:'l'}, 'Phone number'),
               e('input', {type:'tel', value:authPhone, onChange: ev=>setAuthPhone(ev.target.value), placeholder:'(555) 123-4567', key:'i'}),
               e('div', {className:'dl-edit-hint', key:'h'}, 'Lets friends who have your number find you. Stored scrambled \u2014 never shown to anyone.')
             ]) : null,
-            authMode === 'signup' ? e('div', {className:'dl-edit-field', key:'churchfield'}, [
+            (false && authMode === 'signup') ? e('div', {className:'dl-edit-field', key:'churchfield'}, [
               e('label', {key:'l'}, 'Church (optional)'),
               e('input', {value:authChurch, onChange: ev=>{ setAuthChurch(ev.target.value); loadChurchOptions(ev.target.value); }, placeholder:'Start typing your church\u2026', key:'i'}),
               churchOptions.length ? e('div', {className:'dl-church-opts', key:'opts'}, churchOptions.map(ch =>
@@ -3808,7 +3796,7 @@
               e('input', {type:'password', value:authPassword, onChange: ev=>setAuthPassword(ev.target.value), placeholder:'At least 6 characters', key:'i'})
             ]),
             authError ? e('div', {className:'dl-auth-error', key:'err'}, authError) : null,
-            e('button', {className:'dl-auth-submit', disabled: authLoading || !authEmail.trim() || !authPassword.trim() || (authMode === 'signup' && (!authFirst.trim() || !authLast.trim())), onClick: authMode === 'signup' ? signUp : signIn, key:'go'}, authLoading ? '...' : (authMode === 'signup' ? 'Create account' : 'Log in')),
+            e('button', {className:'dl-auth-submit', disabled: authLoading || !authEmail.trim() || !authPassword.trim(), onClick: authMode === 'signup' ? signUp : signIn, key:'go'}, authLoading ? '...' : (authMode === 'signup' ? 'Create account' : 'Log in')),
             e('button', {className:'dl-auth-cancel', onClick:()=>setAuthOpen(false), key:'cancel'}, 'Cancel'),
             e('button', {className:'dl-auth-switch', onClick:()=>{ setAuthMode(authMode === 'signup' ? 'login' : 'signup'); setAuthError(''); }, key:'switch'},
               authMode === 'signup' ? 'Already have an account? Log in' : "Don't have an account? Sign up")
