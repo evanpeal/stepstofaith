@@ -1332,3 +1332,9 @@ to { opacity: 1; transform: none; }
 .dl-seo h2{font-family:'Baloo 2',sans-serif;font-size:19px;margin-top:22px}
 .dl-seo p,.dl-seo li{line-height:1.6;font-size:15px;color:#55566a}
 .dl-seo-load{color:#a56cf0;font-weight:700;margin-top:20px}
+
+.dl-legal-links { position: relative; z-index: 1; text-align: center; font-size: 11.5px; font-weight: 700; color: rgba(255,255,255,0.55); margin: 8px 0 0; }
+.dl-legal-links a { color: rgba(255,255,255,0.7); text-decoration: underline; }
+.dl-scripture-credit { position: relative; z-index: 1; text-align: center; font-size: 10px; line-height: 1.4; color: rgba(255,255,255,0.45); margin: 6px auto 0; max-width: 420px; padding: 0 12px; }
+.dl-msg-row.grouped .dl-msg-time.has-actions { display: flex; }
+.dl-prayer-mini + .dl-prayer-mini { margin-left: 8px; }

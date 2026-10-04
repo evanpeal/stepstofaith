@@ -2646,6 +2646,7 @@
     const [askAnon, setAskAnon] = React.useState(true);
     const [whoDoneFor, setWhoDoneFor] = React.useState(null);
     const [feed, setFeed] = React.useState([]);
+    const [blockedIds, setBlockedIds] = React.useState([]);
     const [feedPrayers, setFeedPrayers] = React.useState([]);
     const [postDraft, setPostDraft] = React.useState('');
     const [postKind, setPostKind] = React.useState('prayer');
@@ -2815,7 +2816,7 @@
     }, [state === null]);
 
     function tourSpot(){
-      const order = [null, 'path', 'library', 'library', 'community', 'profile'];
+      const order = [null, 'path', 'library', 'library', 'library', 'profile'];
       return order[Math.min(tourStep, order.length - 1)];
     }
 
@@ -2829,6 +2830,7 @@
       if (!sb || !user || !state) return;
       syncPublicProfile(state);
       loadFriends();
+      loadBlocks();
       loadRequests();
       loadGroups();
       loadPublicGroups();
@@ -3114,10 +3116,10 @@
           const alreadyIn = myGroups.some(x => x.id === g.id);
           if (full && !alreadyIn) {
             setSocialMsg('That room is full.');
-            setTab('community');
+            setTab('path');
           } else {
             await joinGroupDirect(g.id);
-            setTab('community');
+            setTab('path');
           }
           try { window.history.replaceState({}, '', window.location.pathname); } catch (ex) {}
         } catch (ex) {}
@@ -3142,7 +3144,7 @@
             { onConflict: 'from_id,to_id' }
           );
           setSocialMsg('Friend request sent to ' + inviter.display_name + '!');
-          setTab('community');
+          setTab('path');
           loadRequests();
           try { window.history.replaceState({}, '', window.location.pathname); } catch (ex) {}
         } catch (ex) {}
@@ -3166,6 +3168,7 @@
 
     async function createPost(){
       if (!sb || !user || !postDraft.trim()) return;
+      if (!agreeToCommunityRules()) return;
       try {
         await sb.from('friend_posts').insert({ user_id: user.id, kind: postKind, body: postDraft.trim() });
         setPostDraft('');
@@ -3199,6 +3202,52 @@
         await sb.from('friend_posts').delete().eq('id', postId).eq('user_id', user.id);
         loadFeed();
       } catch (ex) {}
+    }
+
+    async function loadBlocks(){
+      if (!sb || !user) return;
+      try {
+        const { data } = await sb.from('user_blocks').select('blocked_id').eq('blocker_id', user.id);
+        setBlockedIds((data || []).map(b => b.blocked_id));
+      } catch (ex) {}
+    }
+
+    function agreeToCommunityRules(){
+      const KEYR = 'stf_community_rules_ok';
+      try { if (localStorage.getItem(KEYR) === '1') return true; } catch (ex) {}
+      const ok = window.confirm('Community rules\n\nBy posting in Steps to Faith you agree to our Terms (stepstofaith.com/terms.html). There is no tolerance for objectionable content or abusive users. Anything can be reported, any user can be blocked, and reported content is reviewed within 24 hours and removed if it breaks the rules.\n\nTap OK to agree.');
+      if (ok) { try { localStorage.setItem(KEYR, '1'); } catch (ex) {} }
+      return ok;
+    }
+
+    async function reportContent(contentType, contentId, authorId, body){
+      if (!sb || !user) return;
+      if (!window.confirm('Report this for objectionable or abusive content? We review every report within 24 hours.')) return;
+      try {
+        const { error } = await sb.from('content_reports').insert({
+          reporter_id: user.id, content_type: contentType, content_id: String(contentId),
+          reported_user_id: authorId || null, body: (body || '').slice(0, 2000)
+        });
+        if (error) throw error;
+        alert('Thanks for reporting. We will review it within 24 hours. You can also block this person so you no longer see their posts.');
+      } catch (ex) {
+        alert('Could not send report: ' + (ex && ex.message ? ex.message : 'unknown') + '. You can also email stepstofaithapp@gmail.com.');
+      }
+    }
+
+    async function blockUser(otherId, name){
+      if (!sb || !user || !otherId || otherId === user.id) return;
+      if (!window.confirm('Block ' + (name || 'this person') + '? You will no longer see their messages or posts, and they will be removed from your friends.')) return;
+      try {
+        const { error } = await sb.from('user_blocks').upsert({ blocker_id: user.id, blocked_id: otherId }, { onConflict: 'blocker_id,blocked_id' });
+        if (error) throw error;
+        setBlockedIds(prev => prev.includes(otherId) ? prev : [...prev, otherId]);
+        try { await sb.from('friendships').delete().or('and(user_id.eq.' + user.id + ',friend_id.eq.' + otherId + '),and(user_id.eq.' + otherId + ',friend_id.eq.' + user.id + ')'); } catch (ex) {}
+        loadFriends();
+        alert((name || 'This person') + ' has been blocked.');
+      } catch (ex) {
+        alert('Could not block: ' + (ex && ex.message ? ex.message : 'unknown'));
+      }
     }
 
     async function loadSuggested(){
@@ -3553,6 +3602,7 @@
 
     async function postPrompt(groupId, text, kind, anon){
       if (!sb || !user || !text.trim()) return;
+      if (!agreeToCommunityRules()) return;
       try {
         await sb.from('group_messages').insert({
           group_id: groupId, user_id: user.id, body: text.trim(),
@@ -3567,6 +3617,7 @@
       if (!sb || !user) return;
       const text = (answerDrafts[msgId] || '').trim();
       if (!text) return;
+      if (!agreeToCommunityRules()) return;
       try {
         await sb.from('message_answers').upsert(
           { message_id: msgId, user_id: user.id, body: text },
@@ -3618,6 +3669,7 @@
 
     async function sendMessage(groupId, body, kind){
       if (!sb || !user || !body.trim()) return;
+      if (!agreeToCommunityRules()) return;
       const text = body.trim();
       setChatDraft('');
       // Show it immediately, then let the server confirm
@@ -4828,7 +4880,7 @@
         )) : null
       ]) : null,
 
-      tab === 'community' ? e('div', {className:'dl-forest', key:'community'}, [
+      (false && tab === 'community') ? e('div', {className:'dl-forest', key:'community'}, [
         e('div', {className:'dl-forest-scene', key:'scene', dangerouslySetInnerHTML:{__html:
           '<svg viewBox="0 0 400 700" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">' +
             '<defs>' +
@@ -5111,6 +5163,7 @@
                       const out = [];
                       let lastDay = '';
                       chatMessages.forEach((m, idx) => {
+                        if (blockedIds.includes(m.user_id)) return;
                         const author = chatAuthors[m.user_id];
                         const mine = m.user_id === user.id;
                         const isPrayer = m.kind === 'prayer';
@@ -5201,11 +5254,16 @@
                                     mine ? 'Update my answer' : 'Post my answer'),
                                   locked
                                     ? e('div', {className:'dl-locked-answers', key:'lk'}, [String.fromCodePoint(0x1F512), ' ' + all.length + ' hidden until you answer'])
-                                    : e('div', {className:'dl-answers', key:'ans'}, all.map(a => {
+                                    : e('div', {className:'dl-answers', key:'ans'}, all.filter(a => !blockedIds.includes(a.user_id)).map(a => {
                                         const who = chatAuthors[a.user_id] || groupMembers.find(x => x.id === a.user_id);
+                                        const theirs = a.user_id !== user.id;
                                         return e('div', {className:'dl-answer', key:a.id}, [
                                           e('div', {className:'dl-answer-who', key:'w'}, (who && who.display_name) || 'Someone'),
-                                          e('div', {key:'b'}, a.body)
+                                          e('div', {key:'b'}, a.body),
+                                          theirs ? e('div', {className:'dl-msg-time', key:'act'}, [
+                                            e('button', {className:'dl-msg-del', onClick:()=>reportContent('message_answer', a.id, a.user_id, a.body), key:'rp'}, 'Report'),
+                                            e('button', {className:'dl-msg-del', onClick:()=>blockUser(a.user_id, (who && who.display_name) || ''), key:'bl'}, 'Block')
+                                          ]) : null
                                         ]);
                                       }))
                                 ]);
@@ -5227,9 +5285,11 @@
                               !m.pending ? e('button', {className:'dl-rx add', onClick:()=>toggleReaction(m.id, String.fromCodePoint(0x1F64F), g.id), key:'add'}, String.fromCodePoint(0x1F64F)) : null
                             ]);
                           })(),
-                            e('div', {className:'dl-msg-time', key:'t'}, [
+                            e('div', {className:'dl-msg-time' + ((!mine && !m.pending) ? ' has-actions' : ''), key:'t'}, [
                               formatMsgTime(m.created_at),
-                              mine ? e('button', {className:'dl-msg-del', onClick:()=>deleteMessage(m.id, g.id), key:'d'}, 'Delete') : null
+                              mine ? e('button', {className:'dl-msg-del', onClick:()=>deleteMessage(m.id, g.id), key:'d'}, 'Delete') : null,
+                              (!mine && !m.pending) ? e('button', {className:'dl-msg-del', onClick:()=>reportContent('group_message', m.id, m.user_id, m.body), key:'rp'}, 'Report') : null,
+                              (!mine && !m.pending) ? e('button', {className:'dl-msg-del', onClick:()=>blockUser(m.user_id, (author && !m.is_anonymous && author.display_name) || ''), key:'bl'}, 'Block') : null
                             ])
                           ])
                         ]));
@@ -5331,7 +5391,7 @@
                 ]),
                 feed.length === 0
                   ? e('div', {className:'dl-empty-note', key:'none'}, friends.length ? 'Nothing yet. Be the first to share something.' : 'Add a friend and their prayer requests show up here.')
-                  : e('div', {className:'dl-feed-scroll', key:'list'}, feed.map(p => {
+                  : e('div', {className:'dl-feed-scroll', key:'list'}, feed.filter(p => !blockedIds.includes(p.user_id)).map(p => {
                       const who = p.user_id === user.id ? { display_name:'You', avatar:(state.profile&&state.profile.avatar) } : friends.find(f => f.id === p.user_id);
                       const prayCount = feedPrayers.filter(x => x.post_id === p.id).length;
                       const iPrayed = feedPrayers.some(x => x.post_id === p.id && x.user_id === user.id);
@@ -5350,7 +5410,9 @@
                             [String.fromCodePoint(0x1F64F), ' ', iPrayed ? 'Praying' : 'Pray']),
                           prayCount > 0 ? e('span', {className:'dl-pray-count', key:'c'}, prayCount + ' praying') : null,
                           (mine && !p.answered && p.kind === 'prayer') ? e('button', {className:'dl-prayer-mini', onClick:()=>markPostAnswered(p.id), key:'a'}, 'Mark answered') : null,
-                          mine ? e('button', {className:'dl-prayer-mini', onClick:()=>deletePost(p.id), key:'d'}, 'Delete') : null
+                          mine ? e('button', {className:'dl-prayer-mini', onClick:()=>deletePost(p.id), key:'d'}, 'Delete') : null,
+                          !mine ? e('button', {className:'dl-prayer-mini', onClick:()=>reportContent('friend_post', p.id, p.user_id, p.body), key:'rp'}, 'Report') : null,
+                          !mine ? e('button', {className:'dl-prayer-mini', onClick:()=>blockUser(p.user_id, (who && who.display_name) || ''), key:'bl'}, 'Block') : null
                         ])
                       ]);
                     }))
@@ -5483,7 +5545,7 @@
           e('div', {className:'dl-profile-verse', key:'verse'}, '\u201c' + (state.profile.verse || DEFAULT_VERSE) + '\u201d'),
           e('button', {className:'dl-profile-edit-btn', onClick: openEditProfile, key:'edit'}, 'Edit profile')
         ]),
-        (!needsDisplayName() && state.profile && (!state.profile.church || !state.profile.phone)) ? e('div', {className:'dl-setname-nudge', onClick: openEditProfile, key:'completeprofile'}, [
+        (false && !needsDisplayName() && state.profile && (!state.profile.church || !state.profile.phone)) ? e('div', {className:'dl-setname-nudge', onClick: openEditProfile, key:'completeprofile'}, [
           e('span', {className:'dl-setname-icon', key:'i'}, String.fromCodePoint(0x1F91D)),
           e('div', {style:{flex:1}, key:'t'}, [
             e('div', {className:'dl-setname-title', key:'a'}, 'Connect with more people'),
@@ -5497,7 +5559,7 @@
           e('span', {className:'dl-setname-icon', key:'i'}, String.fromCodePoint(0x1F44B)),
           e('div', {style:{flex:1}, key:'t'}, [
             e('div', {className:'dl-setname-title', key:'a'}, 'Add your name'),
-            e('div', {className:'dl-setname-sub', key:'b'}, 'Friends search by name \u2014 set yours so they can find you.')
+            e('div', {className:'dl-setname-sub', key:'b'}, 'Make your profile yours.')
           ]),
           e('span', {className:'dl-setname-cta', key:'c'}, 'Set')
         ]) : null,
@@ -5524,6 +5586,12 @@
           : e('button', {className:'dl-delete-account-link', onClick:()=>setConfirmDeleteAccount(true), key:'dellink'}, 'Delete account')
         ) : null,
         e('button', {className:'dl-about-link', onClick:()=>setShowWelcome(true), key:'about'}, 'What is Steps to Faith?'),
+        e('div', {className:'dl-legal-links', key:'legal'}, [
+          e('a', {href:'https://stepstofaith.com/privacy.html', target:'_blank', rel:'noopener', key:'p'}, 'Privacy'),
+          ' \u00b7 ',
+          e('a', {href:'mailto:stepstofaithapp@gmail.com', key:'c'}, 'Contact')
+        ]),
+        e('div', {className:'dl-scripture-credit', key:'credit'}, 'Scripture quotations taken from The Holy Bible, New International Version\u00ae NIV\u00ae. Copyright \u00a9 1973, 1978, 1984, 2011 by Biblica, Inc.\u2122 Used by permission. All rights reserved worldwide.'),
 
         e('div', {className:'dl-hero-streak', key:'hero'}, [
           e('div', {className:'dl-hero-flame', key:'flame'}, String.fromCodePoint(0x1F525)),
@@ -5611,7 +5679,7 @@
         ])
       ]) : null,
 
-      newFriendMsg ? e('div', {className:'dl-toast', key:'toast'}, [
+      (false && newFriendMsg) ? e('div', {className:'dl-toast', key:'toast'}, [
         e('span', {className:'dl-toast-icon', key:'i'}, String.fromCodePoint(0x1F389)),
         e('span', {key:'t'}, newFriendMsg)
       ]) : null,
@@ -5619,7 +5687,6 @@
       e('div', {className:'dl-tabs' + (showTour ? ' tourlift' : ''), key:'tabs'}, [
         e('button', {className:'dl-tab' + (tab==='path'?' active':'') + (showTour && tourSpot()==='path' ? ' tourspot' : ''), onClick:()=>setTab('path'), key:'p'}, [e('span',{className:'dl-tab-icon', key:'i'}, String.fromCodePoint(0x1F463)), 'Path']),
         e('button', {className:'dl-tab' + ((tab==='library'||tab==='daily'||tab==='search'||tab==='callings')?' active':'') + (showTour && tourSpot()==='library' ? ' tourspot' : ''), onClick:()=>setTab('library'), key:'l'}, [e('span',{className:'dl-tab-icon', key:'i'}, String.fromCodePoint(0x1F4DA)), 'Library']),
-        e('button', {className:'dl-tab' + (tab==='community'?' active':'') + (showTour && tourSpot()==='community' ? ' tourspot' : ''), onClick:()=>{setTab('community'); setViewingProfile(null);}, key:'u'}, [e('span',{className:'dl-tab-icon', key:'i'}, String.fromCodePoint(0x1F54A)), 'Upper Room']),
         e('button', {className:'dl-tab' + (tab==='profile'?' active':'') + (showTour && tourSpot()==='profile' ? ' tourspot' : ''), onClick:()=>setTab('profile'), key:'pr'}, [
           e('span',{className:'dl-tab-icon', key:'i'}, String.fromCodePoint(0x1F464)), 'Profile',
           incomingReqs.length > 0 ? e('span', {className:'dl-tab-dot', key:'d'}, incomingReqs.length) : null
@@ -5633,7 +5700,6 @@
           { icon:'\u2600\ufe0f', title:'Check in daily', text:'A new verse and devotional each morning, a streak to keep you going, Bible trivia, and a word game. All of it refreshes at midnight.', tab:'daily', spot:'daily' },
           { icon:'\ud83e\udded', title:'Explore', text:'Search by how you\u2019re feeling \u2014 anxious, grieving, thankful. There\u2019s also a full Bible timeline, character studies, and guided tracks for kids and adults.', tab:'search', spot:'search' },
           { icon:'\ud83d\udcdc', title:'Reading plans', text:'Follow a plan at whatever pace suits you, with a short reflection at the end of each day. Slower is completely fine.', tab:'callings', spot:'callings' },
-          { icon:'\ud83d\udc65', title:'Community', text:'Add friends and see how they\u2019re getting on. Create a private room and share the code with people you choose \u2014 for prayer requests and encouragement.', tab:'community', spot:'community' },
           { icon:'\ud83d\udc64', title:'Your profile', text:'Streak, trophies, badges, favourites and reflections all live here. That\u2019s everything \u2014 start wherever you like.', tab:'profile', spot:'profile' }
         ];
         const st = steps[Math.min(tourStep, steps.length - 1)];
@@ -5671,7 +5737,7 @@
           e('div', {className:'dl-gate-perks', key:'p'}, [
             e('div', {className:'dl-gate-perk', key:'1'}, [String.fromCodePoint(0x1F4D6), ' Save your place in every book']),
             e('div', {className:'dl-gate-perk', key:'2'}, [String.fromCodePoint(0x1F525), ' Build a daily streak']),
-            e('div', {className:'dl-gate-perk', key:'3'}, [String.fromCodePoint(0x1F465), ' Add friends and join rooms'])
+            e('div', {className:'dl-gate-perk', key:'3'}, [String.fromCodePoint(0x1F4F1), ' Pick up on any device'])
           ]),
           e('button', {className:'dl-continue', style:{maxWidth:'280px', marginTop:'6px'}, onClick:()=>{
             setGatePrompt(''); setAuthMode('signup'); setAuthError(''); setAuthOpen(true);
@@ -5844,7 +5910,7 @@
             e('label', {key:'l'}, 'Your verse'),
             e('input', {value:editVerse, onChange: ev=>setEditVerse(ev.target.value), placeholder:'A verse that means something to you', key:'i'})
           ]),
-          e('div', {className:'dl-edit-field', key:'echurch'}, [
+          false && e('div', {className:'dl-edit-field', key:'echurch'}, [
             e('label', {key:'l'}, 'Church (optional)'),
             e('input', {value:editChurch, onChange: ev=>{ setEditChurch(ev.target.value); loadChurchOptions(ev.target.value); }, placeholder:'Start typing your church\u2026', key:'i'}),
             churchOptions.length ? e('div', {className:'dl-church-opts', key:'opts'}, churchOptions.map(ch =>
@@ -5852,7 +5918,7 @@
             )) : null,
             e('div', {className:'dl-edit-hint', key:'h'}, 'Connects you with others from your church.')
           ]),
-          e('div', {className:'dl-edit-field', key:'ephone'}, [
+          false && e('div', {className:'dl-edit-field', key:'ephone'}, [
             e('label', {key:'l'}, 'Phone number'),
             e('input', {type:'tel', value:editPhone, onChange: ev=>setEditPhone(ev.target.value), placeholder:'(555) 123-4567', key:'i'}),
             e('div', {className:'dl-edit-hint', key:'h'}, 'Lets friends who have your number find you. Stored scrambled \u2014 never shown to anyone.')
