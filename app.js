@@ -2763,6 +2763,7 @@
       try {
         const standalone = (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true;
         if (standalone) return;
+        if (window.Capacitor && (typeof window.Capacitor.isNativePlatform === 'function' ? window.Capacitor.isNativePlatform() : true)) return;
         if (localStorage.getItem('stf-install-dismissed')) return;
         const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
         if (isIOS) { setInstallIsIOS(true); setShowInstallBanner(true); return; }
@@ -3813,9 +3814,9 @@
 
     // Guests can look around, but anything that saves progress needs an account.
     function requireAccount(what){
-      if (user) return false;
-      setGatePrompt(what || 'save your progress');
-      return true;
+      // Everything is open to guests. Progress saves on this device;
+      // an account is only needed to keep it safe across devices.
+      return false;
     }
 
     function startTest(test){
@@ -4353,7 +4354,7 @@
       tab === 'path' ? e('div', {key:'path'}, [
         !user ? e('button', {className:'dl-guest-banner', onClick:()=>{ setAuthMode('signup'); setAuthError(''); setAuthOpen(true); }, key:'guest'}, [
           e('span', {key:'i'}, String.fromCodePoint(0x1F440)),
-          e('span', {style:{flex:1, textAlign:'left'}, key:'t'}, 'You\u2019re just looking around \u2014 create a free account to save your progress.'),
+          e('span', {style:{flex:1, textAlign:'left'}, key:'t'}, 'Your progress is saved on this phone. Create a free account to keep it safe and use it on any device.'),
           e('span', {className:'dl-guest-cta', key:'c'}, 'Sign up')
         ]) : null,
         e('div', {className:'dl-book-picker', key:'picker'}, booksForward.reduce((out, book, i) => {
@@ -4745,7 +4746,7 @@
               e('div', {className:'dl-trackcard-tag', key:'g'}, tr.tag),
               e('div', {className:'dl-trackcard-name', key:'n'}, tr.name),
               e('div', {className:'dl-trackcard-blurb', key:'b'}, tr.blurb),
-              !user ? e('div', {className:'dl-lockrow', key:'lk'}, [String.fromCodePoint(0x1F512), ' Sign up to open']) : null
+              false ? e('div', {className:'dl-lockrow', key:'lk'}, [String.fromCodePoint(0x1F512), ' Sign up to open']) : null
             ]))
           ]
         ) : null,
@@ -4805,7 +4806,7 @@
                 e('div', {className:'dl-char-card-icon', key:'i'}, ch.icon),
                 e('div', {className:'dl-char-card-name', key:'n'}, ch.name),
                 e('div', {className:'dl-char-card-tag', key:'t'}, ch.tag),
-                !user ? e('span', {className:'dl-lockdot', key:'lk'}, String.fromCodePoint(0x1F512)) : null
+                false ? e('span', {className:'dl-lockdot', key:'lk'}, String.fromCodePoint(0x1F512)) : null
               ])
             ))
           ]
@@ -4863,7 +4864,7 @@
           e('button', {className:'dl-topic-card', onClick:()=>{ if (requireAccount('open topic studies')) return; setOpenTopic(t.id); }, key:t.id}, [
             e('div', {className:'dl-topic-card-icon', key:'i'}, t.icon),
             e('div', {className:'dl-topic-card-label', key:'l'}, t.label),
-            !user ? e('span', {className:'dl-lockdot', key:'lk'}, String.fromCodePoint(0x1F512)) : null
+            false ? e('span', {className:'dl-lockdot', key:'lk'}, String.fromCodePoint(0x1F512)) : null
           ])
         )) : null
       ]) : null,

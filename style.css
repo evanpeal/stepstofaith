@@ -42,6 +42,7 @@
     min-height: 100vh;
     box-sizing: border-box;
     padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+    padding-top: env(safe-area-inset-top, 0px);
   }
 #dl-root * { box-sizing: border-box; }
 #dl-root h1, #dl-root h2, #dl-root h3, #dl-root button { font-family: 'Baloo 2', 'Nunito', sans-serif; }
@@ -1338,3 +1339,6 @@ to { opacity: 1; transform: none; }
 .dl-scripture-credit { position: relative; z-index: 1; text-align: center; font-size: 10px; line-height: 1.4; color: rgba(255,255,255,0.45); margin: 6px auto 0; max-width: 420px; padding: 0 12px; }
 .dl-msg-row.grouped .dl-msg-time.has-actions { display: flex; }
 .dl-prayer-mini + .dl-prayer-mini { margin-left: 8px; }
+
+/* Keep full-screen screens clear of the iPhone status bar / notch */
+.dl-modal-bg, .dl-dc-modal-bg, .dl-welcome { padding-top: env(safe-area-inset-top, 0px); }
